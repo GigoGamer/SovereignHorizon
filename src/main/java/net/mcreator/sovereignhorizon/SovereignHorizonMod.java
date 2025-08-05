@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.sovereignhorizon.init.SovereignHorizonModTabs;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModItems;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModBlocks;
 
@@ -43,6 +44,8 @@ public class SovereignHorizonMod {
 		SovereignHorizonModBlocks.REGISTRY.register(bus);
 
 		SovereignHorizonModItems.REGISTRY.register(bus);
+
+		SovereignHorizonModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

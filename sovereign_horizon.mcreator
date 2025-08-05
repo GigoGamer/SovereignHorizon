@@ -15,6 +15,28 @@
           "src/main/resources/assets/sovereign_horizon/models/block/test.json"
         ]
       }
+    },
+    {
+      "name": "SoverignHorizon",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soverign_horizon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/blockstates/soverign_horizon_portal.json",
+          "src/main/java/net/mcreator/sovereignhorizon/world/teleporter/SoverignHorizonPortalShape.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/soverign_horizon_portal_ew.json",
+          "src/main/java/net/mcreator/sovereignhorizon/world/teleporter/SoverignHorizonTeleporter.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/soverign_horizon.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/SoverignHorizonPortalBlock.java",
+          "src/main/java/net/mcreator/sovereignhorizon/item/SoverignHorizonItem.java",
+          "src/main/resources/data/sovereign_horizon/dimension_type/soverign_horizon.json",
+          "src/main/java/net/mcreator/sovereignhorizon/world/dimension/SoverignHorizonDimension.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/soverign_horizon_portal_ns.json",
+          "src/main/resources/data/sovereign_horizon/dimension/soverign_horizon.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -22,12 +44,16 @@
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Test"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Test"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.sovereign_horizon.test": "Test"
+      "block.sovereign_horizon.test": "Test",
+      "item.sovereign_horizon.soverign_horizon": "Soverign Horizon Portal Igniter"
     }
   },
   "foldersRoot": {

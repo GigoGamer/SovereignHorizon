@@ -11,11 +11,13 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.sovereignhorizon.block.TestBlock;
+import net.mcreator.sovereignhorizon.block.SoverignHorizonPortalBlock;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
 public class SovereignHorizonModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, SovereignHorizonMod.MODID);
 	public static final RegistryObject<Block> TEST = REGISTRY.register("test", () -> new TestBlock());
+	public static final RegistryObject<Block> SOVERIGN_HORIZON_PORTAL = REGISTRY.register("soverign_horizon_portal", () -> new SoverignHorizonPortalBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

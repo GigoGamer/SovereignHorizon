@@ -12,11 +12,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.sovereignhorizon.item.SoverignHorizonItem;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
 public class SovereignHorizonModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, SovereignHorizonMod.MODID);
 	public static final RegistryObject<Item> TEST = block(SovereignHorizonModBlocks.TEST);
+	public static final RegistryObject<Item> SOVERIGN_HORIZON = REGISTRY.register("soverign_horizon", () -> new SoverignHorizonItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
