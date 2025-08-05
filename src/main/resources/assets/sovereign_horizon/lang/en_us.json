@@ -1,19 +1,12 @@
 {
-  "block.sovereign_horizon.sodalite_stairs": "Sodalite Stairs",
-  "block.sovereign_horizon.deep_lichen_covered_sodalite": "Deep Lichen Covered Sodalite",
   "death.attack.pressure.item": "%1$s was squashed by %2$s using %3$s",
   "advancements.sh_enter.title": "A Sovereign Horizon",
-  "block.sovereign_horizon.sodalite_slab": "Sodalite Slab",
   "block.sovereign_horizon.test": "Test",
-  "block.sovereign_horizon.sodalite_pressure_plate": "Sodalite Pressure Plate",
-  "block.sovereign_horizon.sodalite": "Sodalite",
+  "death.attack.pressure": "%1$s imploded",
+  "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
+  "death.attack.pressure.player": "%1$s imploded whilst trying to escape %2$s",
   "item.sovereign_horizon.soverign_horizon": "Soverign Horizon Portal Igniter",
   "enchantment.sovereign_horizon.resilience": "Resilience",
   "advancements.sh_enter.descr": "Enter the Sovereign Horizon",
-  "item_group.sovereign_horizon.sovereign_horizon": "Sovereign Horizon",
-  "block.sovereign_horizon.sparse_deep_lichen_covered_sodalite": "Spare Deep Lichen Covered Sodalite",
-  "block.sovereign_horizon.sodalite_wall": "Sodalite Wall",
-  "death.attack.pressure": "%1$s imploded",
-  "death.attack.pressure.player": "%1$s imploded whilst trying to escape %2$s",
-  "block.sovereign_horizon.sodalite_button": "Sodalite Button"
+  "entity.sovereign_horizon.catechism": "Catechism"
 }

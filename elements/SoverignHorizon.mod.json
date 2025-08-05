@@ -4,7 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "desert"
+        "value": "roofed_forest"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -14,7 +14,7 @@
     "fluidBlock": {
       "value": "CUSTOM:Test"
     },
-    "seaLevel": 63,
+    "seaLevel": 250,
     "generateOreVeins": false,
     "generateAquifers": false,
     "horizontalNoiseSize": 1,
