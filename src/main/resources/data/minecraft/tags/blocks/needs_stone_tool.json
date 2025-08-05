@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "sovereign_horizon:deep_lichen_covered_sodalite",
+    "sovereign_horizon:sparse_deep_lichen_covered_sodalite",
+    "sovereign_horizon:sodalite_wall",
+    "sovereign_horizon:sodalite_pressure_plate",
+    "sovereign_horizon:sodalite_button",
+    "sovereign_horizon:sodalite_stairs",
+    "sovereign_horizon:sodalite_slab",
+    "sovereign_horizon:sodalite"
+  ]
+}
