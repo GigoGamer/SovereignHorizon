@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModTabs;
+import net.mcreator.sovereignhorizon.init.SovereignHorizonModSounds;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModItems;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEntities;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEnchantments;
@@ -42,7 +43,7 @@ public class SovereignHorizonMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		SovereignHorizonModSounds.REGISTRY.register(bus);
 		SovereignHorizonModBlocks.REGISTRY.register(bus);
 
 		SovereignHorizonModItems.REGISTRY.register(bus);

@@ -1,0 +1,11 @@
+{
+  "music.sh.sodalitewastes": {
+    "subtitle": "subtitles.music.sh.sodalitewastes",
+    "sounds": [
+      {
+        "name": "sovereign_horizon:droplet20-20deep20space202025-07-282018_16",
+        "stream": true
+      }
+    ]
+  }
+}

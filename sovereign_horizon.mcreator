@@ -155,13 +155,38 @@
         ]
       },
       "path": "~/Entities"
+    },
+    {
+      "name": "SodaliteWastes",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_wastes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/biome/sodalite_wastes.json"
+        ]
+      },
+      "path": "~/Biomes"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "music.sh.sodalitewastes",
+      "files": [
+        "droplet20-20deep20space202025-07-282018_16"
+      ],
+      "category": "music",
+      "subtitle": "Music"
+    }
+  ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Test"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:SodaliteWastes"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~CUSTOM:Test"
@@ -173,13 +198,15 @@
       "death.attack.pressure.item": "%1$s was squashed by %2$s using %3$s",
       "advancements.sh_enter.title": "A Sovereign Horizon",
       "block.sovereign_horizon.test": "Test",
-      "death.attack.pressure": "%1$s imploded",
-      "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
-      "death.attack.pressure.player": "%1$s imploded whilst trying to escape %2$s",
       "item.sovereign_horizon.soverign_horizon": "Soverign Horizon Portal Igniter",
       "enchantment.sovereign_horizon.resilience": "Resilience",
       "advancements.sh_enter.descr": "Enter the Sovereign Horizon",
-      "entity.sovereign_horizon.catechism": "Catechism"
+      "entity.sovereign_horizon.catechism": "Catechism",
+      "subtitles.music.sh.sodalitewastes": "Music",
+      "death.attack.pressure": "%1$s imploded",
+      "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
+      "death.attack.pressure.player": "%1$s imploded whilst trying to escape %2$s",
+      "biome.sovereign_horizon.sodalite_wastes": "Sodalite Wastes"
     }
   },
   "foldersRoot": {
@@ -211,6 +238,10 @@
       },
       {
         "name": "Other",
+        "children": []
+      },
+      {
+        "name": "Biomes",
         "children": []
       }
     ]
