@@ -1,0 +1,12 @@
+{
+  "_fv": 77,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 1.0,
+    "scaling": "always",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s imploded",
+    "itemDeathMessage": "%1$s was squashed by %2$s using %3$s",
+    "playerDeathMessage": "%1$s imploded whilst trying to escape %2$s"
+  }
+}

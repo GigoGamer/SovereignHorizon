@@ -50,6 +50,18 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "Pressure",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pressure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/damage_type/pressure.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -65,8 +77,11 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "death.attack.pressure.item": "%1$s was squashed by %2$s using %3$s",
       "advancements.sh_enter.title": "A Sovereign Horizon",
       "block.sovereign_horizon.test": "Test",
+      "death.attack.pressure": "%1$s imploded",
+      "death.attack.pressure.player": "%1$s imploded whilst trying to escape %2$s",
       "item.sovereign_horizon.soverign_horizon": "Soverign Horizon Portal Igniter",
       "advancements.sh_enter.descr": "Enter the Sovereign Horizon"
     }
@@ -76,6 +91,26 @@
     "children": [
       {
         "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Enchants",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Blocks",
         "children": []
       }
     ]
