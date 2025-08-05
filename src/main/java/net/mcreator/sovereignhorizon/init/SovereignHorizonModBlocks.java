@@ -18,6 +18,14 @@ public class SovereignHorizonModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, SovereignHorizonMod.MODID);
 	public static final RegistryObject<Block> TEST = REGISTRY.register("test", () -> new TestBlock());
 	public static final RegistryObject<Block> SOVERIGN_HORIZON_PORTAL = REGISTRY.register("soverign_horizon_portal", () -> new SoverignHorizonPortalBlock());
+	public static final RegistryObject<Block> SODALITE = REGISTRY.register("sodalite", () -> new SodaliteBlock());
+	public static final RegistryObject<Block> SODALITE_SLAB = REGISTRY.register("sodalite_slab", () -> new SodaliteSlabBlock());
+	public static final RegistryObject<Block> SODALITE_STAIRS = REGISTRY.register("sodalite_stairs", () -> new SodaliteStairsBlock());
+	public static final RegistryObject<Block> SODALITE_BUTTON = REGISTRY.register("sodalite_button", () -> new SodaliteButtonBlock());
+	public static final RegistryObject<Block> SODALITE_PRESSURE_PLATE = REGISTRY.register("sodalite_pressure_plate", () -> new SodalitePressurePlateBlock());
+	public static final RegistryObject<Block> SODALITE_WALL = REGISTRY.register("sodalite_wall", () -> new SodaliteWallBlock());
+	public static final RegistryObject<Block> SPARSE_DEEP_LICHEN_COVERED_SODALITE = REGISTRY.register("sparse_deep_lichen_covered_sodalite", () -> new SparseDeepLichenCoveredSodaliteBlock());
+	public static final RegistryObject<Block> DEEP_LICHEN_COVERED_SODALITE = REGISTRY.register("deep_lichen_covered_sodalite", () -> new DeepLichenCoveredSodaliteBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
