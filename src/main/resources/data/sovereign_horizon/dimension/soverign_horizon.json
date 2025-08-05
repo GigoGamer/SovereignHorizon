@@ -6,7 +6,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "desert",
+          "biome": "dark_forest",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -21,7 +21,7 @@
     },
     "settings": {
       "name": "sovereign_horizon:soverign_horizon",
-      "sea_level": 63,
+      "sea_level": 250,
       "legacy_random_source": false,
       "disable_mob_generation": false,
       "aquifers_enabled": true,
@@ -360,7 +360,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "desert"
+                "dark_forest"
               ]
             },
             "then_run": {
@@ -394,7 +394,10 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:sand"
+                              "Name": "minecraft:grass_block",
+                              "Properties": {
+                                "snowy": "false"
+                              }
                             }
                           }
                         },
@@ -419,7 +422,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:sand"
+                        "Name": "minecraft:dirt"
                       }
                     }
                   }

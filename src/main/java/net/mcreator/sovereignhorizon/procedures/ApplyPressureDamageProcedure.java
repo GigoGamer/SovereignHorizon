@@ -39,21 +39,21 @@ public class ApplyPressureDamageProcedure {
 			return;
 		if (entity.getPersistentData().getBoolean("inSH") == true) {
 			if (entity.getY() < 32) {
-				if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getEnchantmentLevel(SovereignHorizonModEnchantments.RESILIENCE.get()) >= 3)) {
+				if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getEnchantmentLevel(SovereignHorizonModEnchantments.RESILIENCE.get()) >= 3)) {
 					if (Mth.nextInt(RandomSource.create(), 1, 5) == 1) {
 						entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("sovereign_horizon:pressure")))), 2);
 					}
 				}
 			} else {
 				if (entity.getY() < 128) {
-					if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getEnchantmentLevel(SovereignHorizonModEnchantments.RESILIENCE.get()) >= 2)) {
+					if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getEnchantmentLevel(SovereignHorizonModEnchantments.RESILIENCE.get()) >= 2)) {
 						if (Mth.nextInt(RandomSource.create(), 1, 5) == 1) {
 							entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("sovereign_horizon:pressure")))), (float) 1.5);
 						}
 					}
 				} else {
 					if (entity.getY() < 224) {
-						if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getEnchantmentLevel(SovereignHorizonModEnchantments.RESILIENCE.get()) >= 1)) {
+						if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getEnchantmentLevel(SovereignHorizonModEnchantments.RESILIENCE.get()) >= 1)) {
 							if (Mth.nextInt(RandomSource.create(), 1, 5) == 1) {
 								entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("sovereign_horizon:pressure")))), 1);
 							}
