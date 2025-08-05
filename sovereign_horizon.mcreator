@@ -1,11 +1,34 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/block/TestBlock.java",
+          "src/main/resources/assets/sovereign_horizon/blockstates/test.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/test.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/test.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/test.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Test"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.sovereign_horizon.test": "Test"
+    }
   },
   "foldersRoot": {
     "name": "~",
