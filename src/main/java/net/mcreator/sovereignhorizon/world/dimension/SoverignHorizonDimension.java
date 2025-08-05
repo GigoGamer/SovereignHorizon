@@ -21,12 +21,12 @@ public class SoverignHorizonDimension {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(192f, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return color;
+					return new Vec3(0, 0, 0.4);
 				}
 
 				@Override
 				public boolean isFoggyAt(int x, int y) {
-					return false;
+					return true;
 				}
 			};
 			event.register(new ResourceLocation("sovereign_horizon:soverign_horizon"), customEffect);

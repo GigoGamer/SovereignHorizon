@@ -37,6 +37,19 @@
           "src/main/resources/data/sovereign_horizon/dimension/soverign_horizon.json"
         ]
       }
+    },
+    {
+      "name": "ShEnter",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sh_enter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/sh_enter.json"
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -52,13 +65,20 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "advancements.sh_enter.title": "A Sovereign Horizon",
       "block.sovereign_horizon.test": "Test",
-      "item.sovereign_horizon.soverign_horizon": "Soverign Horizon Portal Igniter"
+      "item.sovereign_horizon.soverign_horizon": "Soverign Horizon Portal Igniter",
+      "advancements.sh_enter.descr": "Enter the Sovereign Horizon"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Advancements",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "sovereign_horizon",

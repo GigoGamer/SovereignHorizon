@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "sovereign_horizon:test"
+    },
+    "title": {
+      "translate": "advancements.sh_enter.title"
+    },
+    "description": {
+      "translate": "advancements.sh_enter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sh_enter_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "sovereign_horizon:soverign_horizon"
+      }
+    }
+  }
+}

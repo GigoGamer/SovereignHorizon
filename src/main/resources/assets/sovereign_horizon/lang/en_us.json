@@ -1,4 +1,6 @@
 {
+  "advancements.sh_enter.title": "A Sovereign Horizon",
   "block.sovereign_horizon.test": "Test",
-  "item.sovereign_horizon.soverign_horizon": "Soverign Horizon Portal Igniter"
+  "item.sovereign_horizon.soverign_horizon": "Soverign Horizon Portal Igniter",
+  "advancements.sh_enter.descr": "Enter the Sovereign Horizon"
 }
