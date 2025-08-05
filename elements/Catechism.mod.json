@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Catechism",
     "mobLabel": "",
-    "mobModelName": "catechism",
+    "mobModelName": "ModelCustomModel",
     "mobModelTexture": "catechism.png",
     "transparentModelCondition": {
       "fixedValue": false
@@ -23,8 +23,8 @@
     },
     "modelLayers": [],
     "animations": [],
-    "modelWidth": 0.4,
-    "modelHeight": 0.8,
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
@@ -84,7 +84,7 @@
     "flyingMob": true,
     "inventorySize": 1,
     "inventoryStackSize": 64,
-    "disableCollisions": true,
+    "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,

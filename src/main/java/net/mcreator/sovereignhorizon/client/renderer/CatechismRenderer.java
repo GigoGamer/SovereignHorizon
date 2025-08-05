@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.sovereignhorizon.entity.CatechismEntity;
-import net.mcreator.sovereignhorizon.client.model.catechism;
+import net.mcreator.sovereignhorizon.client.model.ModelCustomModel;
 
-public class CatechismRenderer extends MobRenderer<CatechismEntity, catechism<CatechismEntity>> {
+public class CatechismRenderer extends MobRenderer<CatechismEntity, ModelCustomModel<CatechismEntity>> {
 	public CatechismRenderer(EntityRendererProvider.Context context) {
-		super(context, new catechism<CatechismEntity>(context.bakeLayer(catechism.LAYER_LOCATION)), 0.5f);
+		super(context, new ModelCustomModel<CatechismEntity>(context.bakeLayer(ModelCustomModel.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

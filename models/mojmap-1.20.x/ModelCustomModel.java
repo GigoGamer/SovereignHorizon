@@ -70,5 +70,9 @@ public class ModelCustomModel<T extends Entity> extends EntityModel<T> {
 			float headPitch) {
 		this.head.yRot = netHeadYaw / (180F / (float) Math.PI);
 		this.head.xRot = headPitch / (180F / (float) Math.PI);
+		this.rightArm.xRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
+		this.leftArm.xRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
+		this.leftWing.xRot = (Mth.sin(ageInTicks * 0.6F + 3) * 0.6F);
+		this.rightWing.xRot = (Mth.sin(ageInTicks * 0.6F) * 0.6F);
 	}
 }

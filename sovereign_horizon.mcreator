@@ -143,7 +143,7 @@
     {
       "name": "Catechism",
       "type": "livingentity",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "catechism",
       "metadata": {
