@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModTabs;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModItems;
+import net.mcreator.sovereignhorizon.init.SovereignHorizonModEnchantments;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModBlocks;
 
 import java.util.function.Supplier;
@@ -45,6 +46,7 @@ public class SovereignHorizonMod {
 
 		SovereignHorizonModItems.REGISTRY.register(bus);
 
+		SovereignHorizonModEnchantments.REGISTRY.register(bus);
 		SovereignHorizonModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init

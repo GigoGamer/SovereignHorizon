@@ -45,6 +45,12 @@
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 10,
     "monsterSpawnBlockLightLimit": 10,
+    "onPlayerEntersDimension": {
+      "name": "SoverignHorizonPlayerEntersDimension"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "SoverignHorizonPlayerLeavesDimension"
+    },
     "portalFrame": {
       "value": "CUSTOM:Test"
     },
