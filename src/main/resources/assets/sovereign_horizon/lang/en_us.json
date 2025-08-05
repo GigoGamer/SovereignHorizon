@@ -3,8 +3,10 @@
   "advancements.sh_enter.title": "A Sovereign Horizon",
   "block.sovereign_horizon.test": "Test",
   "death.attack.pressure": "%1$s imploded",
+  "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
   "death.attack.pressure.player": "%1$s imploded whilst trying to escape %2$s",
   "item.sovereign_horizon.soverign_horizon": "Soverign Horizon Portal Igniter",
   "enchantment.sovereign_horizon.resilience": "Resilience",
-  "advancements.sh_enter.descr": "Enter the Sovereign Horizon"
+  "advancements.sh_enter.descr": "Enter the Sovereign Horizon",
+  "entity.sovereign_horizon.catechism": "Catechism"
 }

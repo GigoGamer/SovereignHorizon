@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "sovereign_horizon:catechism",
+    "weight": 20,
+    "minCount": 2,
+    "maxCount": 5
+  }
+}

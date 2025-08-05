@@ -1,0 +1,20 @@
+
+package net.mcreator.sovereignhorizon.client.renderer;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+
+import net.mcreator.sovereignhorizon.entity.CatechismEntity;
+import net.mcreator.sovereignhorizon.client.model.catechism;
+
+public class CatechismRenderer extends MobRenderer<CatechismEntity, catechism<CatechismEntity>> {
+	public CatechismRenderer(EntityRendererProvider.Context context) {
+		super(context, new catechism<CatechismEntity>(context.bakeLayer(catechism.LAYER_LOCATION)), 0.5f);
+	}
+
+	@Override
+	public ResourceLocation getTextureLocation(CatechismEntity entity) {
+		return new ResourceLocation("sovereign_horizon:textures/entities/catechism.png");
+	}
+}

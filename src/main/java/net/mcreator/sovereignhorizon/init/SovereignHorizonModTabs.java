@@ -23,6 +23,8 @@ public class SovereignHorizonModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(SovereignHorizonModItems.SOVERIGN_HORIZON.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(SovereignHorizonModItems.CATECHISM_SPAWN_EGG.get());
 		}
 	}
 }
