@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:cobbled_sodalite_wall",
     "sovereign_horizon:sodalite_wall"
   ]
 }

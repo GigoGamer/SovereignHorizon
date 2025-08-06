@@ -29,6 +29,10 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> SODALITE_BUTTON = block(SovereignHorizonModBlocks.SODALITE_BUTTON);
 	public static final RegistryObject<Item> SPARSE_DEEP_LICHEN_COVERED_SODALITE = block(SovereignHorizonModBlocks.SPARSE_DEEP_LICHEN_COVERED_SODALITE);
 	public static final RegistryObject<Item> DEEP_LICHEN_COVERED_SODALITE = block(SovereignHorizonModBlocks.DEEP_LICHEN_COVERED_SODALITE);
+	public static final RegistryObject<Item> COBBLED_SODALITE = block(SovereignHorizonModBlocks.COBBLED_SODALITE);
+	public static final RegistryObject<Item> COBBLED_SODALITE_STAIRS = block(SovereignHorizonModBlocks.COBBLED_SODALITE_STAIRS);
+	public static final RegistryObject<Item> COBBLED_SODALITE_SLAB = block(SovereignHorizonModBlocks.COBBLED_SODALITE_SLAB);
+	public static final RegistryObject<Item> COBBLED_SODALITE_WALL = block(SovereignHorizonModBlocks.COBBLED_SODALITE_WALL);
 
 	// Start of user code block custom items
 	// End of user code block custom items

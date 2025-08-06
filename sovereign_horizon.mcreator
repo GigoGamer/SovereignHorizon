@@ -455,6 +455,185 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "CobbledSodalite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_sodalite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/blockstates/cobbled_sodalite.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/CobbledSodaliteBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/cobbled_sodalite.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cobbled_sodalite.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite"
+    },
+    {
+      "name": "SodaliteDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite"
+    },
+    {
+      "name": "SodaliteSmelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/sodalite_smelt.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CobbledSodaliteStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_sodalite_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/cobbled_sodalite_stairs.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/CobbledSodaliteStairsBlock.java",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cobbled_sodalite_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_stairs_inner.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/cobbled_sodalite_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite"
+    },
+    {
+      "name": "CobbledSodaliteSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_sodalite_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_slab_top.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/cobbled_sodalite_slab.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/CobbledSodaliteSlabBlock.java",
+          "src/main/resources/assets/sovereign_horizon/blockstates/cobbled_sodalite_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_slab_full.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_slab.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cobbled_sodalite_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite"
+    },
+    {
+      "name": "CobbledSodaliteWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_sodalite_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/blockstates/cobbled_sodalite_wall.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cobbled_sodalite_wall.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/CobbledSodaliteWallBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_wall_side_tall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_wall_post.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_wall_inventory.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/cobbled_sodalite_wall.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite"
+    },
+    {
+      "name": "CobbledSodaliteStairsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_sodalite_stairs_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/cobbled_sodalite_stairs_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CobbledSodaliteStairsStonecutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_sodalite_stairs_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/cobbled_sodalite_stairs_stonecutting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CobbledSodaliteSlabCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_sodalite_slab_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/cobbled_sodalite_slab_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CobbledSodaliteSlabStonecutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_sodalite_slab_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/cobbled_sodalite_slab_stonecutting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CobbledSodaliteWallCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_sodalite_wall_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/cobbled_sodalite_wall_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CobbledSodaliteWallStonecutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_sodalite_wall_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/cobbled_sodalite_wall_stonecutting.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -470,6 +649,10 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CobbledSodaliteWall",
+      "~CUSTOM:CobbledSodaliteSlab",
+      "~CUSTOM:CobbledSodaliteStairs",
+      "~CUSTOM:CobbledSodalite",
       "~CUSTOM:DeepLichenCoveredSodalite",
       "~CUSTOM:SparseDeepLichenCoveredSodalite",
       "~CUSTOM:SodaliteButton",
@@ -484,9 +667,14 @@
       "~CUSTOM:SodaliteWastes"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:CobbledSodaliteSlab",
       "~CUSTOM:SodaliteSlab"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:CobbledSodaliteWall",
+      "~CUSTOM:CobbledSodaliteSlab",
+      "~CUSTOM:CobbledSodaliteStairs",
+      "~CUSTOM:CobbledSodalite",
       "~CUSTOM:DeepLichenCoveredSodalite",
       "~CUSTOM:SparseDeepLichenCoveredSodalite",
       "~CUSTOM:SodaliteButton",
@@ -497,9 +685,11 @@
       "~CUSTOM:Sodalite"
     ],
     "BLOCKS:minecraft:walls": [
+      "~CUSTOM:CobbledSodaliteWall",
       "~CUSTOM:SodaliteWall"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:CobbledSodaliteStairs",
       "~CUSTOM:SodaliteStairs"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
@@ -509,26 +699,30 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.sovereign_horizon.sodalite_stairs": "Sodalite Stairs",
       "block.sovereign_horizon.deep_lichen_covered_sodalite": "Deep Lichen Covered Sodalite",
       "death.attack.pressure.item": "%1$s was squashed by %2$s using %3$s",
       "advancements.sh_enter.title": "A Sovereign Horizon",
-      "block.sovereign_horizon.sodalite_slab": "Sodalite Slab",
       "block.sovereign_horizon.test": "Test",
       "block.sovereign_horizon.sodalite_pressure_plate": "Sodalite Pressure Plate",
       "block.sovereign_horizon.sodalite": "Sodalite",
-      "item.sovereign_horizon.soverign_horizon": "Soverign Horizon Portal Igniter",
       "enchantment.sovereign_horizon.resilience": "Resilience",
       "advancements.sh_enter.descr": "Enter the Sovereign Horizon",
-      "entity.sovereign_horizon.catechism": "Catechism",
-      "block.sovereign_horizon.sparse_deep_lichen_covered_sodalite": "Sparse Deep Lichen Covered Sodalite",
       "block.sovereign_horizon.sodalite_wall": "Sodalite Wall",
+      "block.sovereign_horizon.cobbled_sodalite_wall": "Cobbled Sodalite Wall",
       "subtitles.music.sh.sodalitewastes": "Music",
       "death.attack.pressure": "%1$s imploded",
       "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
       "death.attack.pressure.player": "%1$s imploded whilst trying to escape %2$s",
-      "biome.sovereign_horizon.sodalite_wastes": "Sodalite Wastes",
-      "block.sovereign_horizon.sodalite_button": "Sodalite Button"
+      "block.sovereign_horizon.sodalite_button": "Sodalite Button",
+      "block.sovereign_horizon.sodalite_stairs": "Sodalite Stairs",
+      "block.sovereign_horizon.sodalite_slab": "Sodalite Slab",
+      "block.sovereign_horizon.cobbled_sodalite_slab": "Cobbled Sodalite Slab",
+      "item.sovereign_horizon.soverign_horizon": "Soverign Horizon Portal Igniter",
+      "entity.sovereign_horizon.catechism": "Catechism",
+      "block.sovereign_horizon.cobbled_sodalite_stairs": "Cobbled Sodalite Stairs",
+      "block.sovereign_horizon.sparse_deep_lichen_covered_sodalite": "Sparse Deep Lichen Covered Sodalite",
+      "block.sovereign_horizon.cobbled_sodalite": "Cobbled Sodalite",
+      "biome.sovereign_horizon.sodalite_wastes": "Sodalite Wastes"
     }
   },
   "foldersRoot": {

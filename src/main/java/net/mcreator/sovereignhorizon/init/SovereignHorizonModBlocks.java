@@ -20,6 +20,10 @@ import net.mcreator.sovereignhorizon.block.SodalitePressurePlateBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteButtonBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteBlock;
 import net.mcreator.sovereignhorizon.block.DeepLichenCoveredSodaliteBlock;
+import net.mcreator.sovereignhorizon.block.CobbledSodaliteWallBlock;
+import net.mcreator.sovereignhorizon.block.CobbledSodaliteStairsBlock;
+import net.mcreator.sovereignhorizon.block.CobbledSodaliteSlabBlock;
+import net.mcreator.sovereignhorizon.block.CobbledSodaliteBlock;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
 public class SovereignHorizonModBlocks {
@@ -34,6 +38,10 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> SODALITE_BUTTON = REGISTRY.register("sodalite_button", () -> new SodaliteButtonBlock());
 	public static final RegistryObject<Block> SPARSE_DEEP_LICHEN_COVERED_SODALITE = REGISTRY.register("sparse_deep_lichen_covered_sodalite", () -> new SparseDeepLichenCoveredSodaliteBlock());
 	public static final RegistryObject<Block> DEEP_LICHEN_COVERED_SODALITE = REGISTRY.register("deep_lichen_covered_sodalite", () -> new DeepLichenCoveredSodaliteBlock());
+	public static final RegistryObject<Block> COBBLED_SODALITE = REGISTRY.register("cobbled_sodalite", () -> new CobbledSodaliteBlock());
+	public static final RegistryObject<Block> COBBLED_SODALITE_STAIRS = REGISTRY.register("cobbled_sodalite_stairs", () -> new CobbledSodaliteStairsBlock());
+	public static final RegistryObject<Block> COBBLED_SODALITE_SLAB = REGISTRY.register("cobbled_sodalite_slab", () -> new CobbledSodaliteSlabBlock());
+	public static final RegistryObject<Block> COBBLED_SODALITE_WALL = REGISTRY.register("cobbled_sodalite_wall", () -> new CobbledSodaliteWallBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

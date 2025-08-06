@@ -14,7 +14,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:SparseDeepLichenCoveredSodalite"
+              "value": "CUSTOM:Sodalite"
             },
             "weight": 1,
             "minCount": 1,
@@ -42,7 +42,7 @@
         ]
       }
     ],
-    "name": "blocks/sparse_deep_lichen_covered_sodalite",
+    "name": "blocks/sodalite",
     "namespace": "mod"
   }
 }

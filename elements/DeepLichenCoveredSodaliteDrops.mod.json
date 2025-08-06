@@ -28,7 +28,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Sodalite"
+              "value": "CUSTOM:CobbledSodalite"
             },
             "weight": 1,
             "minCount": 1,

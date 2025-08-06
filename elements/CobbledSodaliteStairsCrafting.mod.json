@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "cobbled_sodalite_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CobbledSodalite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CobbledSodalite"
+      },
+      {
+        "value": "CUSTOM:CobbledSodalite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CobbledSodalite"
+      },
+      {
+        "value": "CUSTOM:CobbledSodalite"
+      },
+      {
+        "value": "CUSTOM:CobbledSodalite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CobbledSodaliteStairs"
+    },
+    "name": "cobbled_sodalite_stairs_crafting",
+    "namespace": "mod"
+  }
+}
