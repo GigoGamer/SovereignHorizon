@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "sodalite_slab",
+  "count": 2,
+  "ingredient": {
+    "item": "sovereign_horizon:sodalite"
+  },
+  "result": "sovereign_horizon:sodalite_slab"
+}

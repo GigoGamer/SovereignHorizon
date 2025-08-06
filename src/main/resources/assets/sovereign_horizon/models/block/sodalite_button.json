@@ -1,0 +1,8 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "particle": "sovereign_horizon:block/sodalite",
+    "texture": "sovereign_horizon:block/sodalite"
+  },
+  "render_type": "solid"
+}

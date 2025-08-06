@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "sovereign_horizon:block/sodalite",
+    "bottom": "sovereign_horizon:block/sodalite",
+    "top": "sovereign_horizon:block/sodalite",
+    "side": "sovereign_horizon:block/sodalite"
+  },
+  "render_type": "solid"
+}

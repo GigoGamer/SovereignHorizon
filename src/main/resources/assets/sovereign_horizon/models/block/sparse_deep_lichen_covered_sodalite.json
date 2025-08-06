@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sovereign_horizon:block/sodalite",
+    "up": "sovereign_horizon:block/sparse_deep_lichen_covered_sodalite",
+    "north": "sovereign_horizon:block/deep_lichen_covered_sodalite_side",
+    "east": "sovereign_horizon:block/deep_lichen_covered_sodalite_side",
+    "south": "sovereign_horizon:block/deep_lichen_covered_sodalite_side",
+    "west": "sovereign_horizon:block/deep_lichen_covered_sodalite_side",
+    "particle": "sovereign_horizon:block/sodalite"
+  },
+  "render_type": "solid"
+}

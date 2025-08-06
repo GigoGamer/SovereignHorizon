@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "sodalite_wall",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:Sodalite"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:SodaliteWall"
+    },
+    "name": "sodalite_wall_stonecutting",
+    "namespace": "mod"
+  }
+}

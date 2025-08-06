@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sodalite_button",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "sovereign_horizon:sodalite"
+    }
+  ],
+  "result": {
+    "item": "sovereign_horizon:sodalite_button",
+    "count": 1
+  }
+}
