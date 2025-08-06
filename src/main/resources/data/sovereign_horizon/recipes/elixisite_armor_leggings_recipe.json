@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "sovereign_horizon:deleted_mod_element"
+  },
+  "base": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "addition": {
+    "item": "sovereign_horizon:elixis"
+  },
+  "result": {
+    "item": "sovereign_horizon:deleted_mod_element_leggings"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "sovereign_horizon:elixisite_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "addition": {
+    "item": "sovereign_horizon:elixis"
+  },
+  "result": {
+    "item": "sovereign_horizon:elixite_armor_chestplate"
+  }
+}

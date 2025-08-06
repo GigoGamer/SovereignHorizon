@@ -14,6 +14,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.sovereignhorizon.item.SoverignHorizonItem;
+import net.mcreator.sovereignhorizon.item.ElixiteArmorItem;
+import net.mcreator.sovereignhorizon.item.ElixisUpgradeSmithingTemplateItem;
+import net.mcreator.sovereignhorizon.item.ElixisShardItem;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
 public class SovereignHorizonModItems {
@@ -47,6 +50,12 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> SODALITE_TILE_SLAB = block(SovereignHorizonModBlocks.SODALITE_TILE_SLAB);
 	public static final RegistryObject<Item> SODALITE_TILE_WALL = block(SovereignHorizonModBlocks.SODALITE_TILE_WALL);
 	public static final RegistryObject<Item> CRACKED_SODALITE_TILES = block(SovereignHorizonModBlocks.CRACKED_SODALITE_TILES);
+	public static final RegistryObject<Item> ELIXIS_SHARD = REGISTRY.register("elixis_shard", () -> new ElixisShardItem());
+	public static final RegistryObject<Item> ELIXIS_UPGRADE_SMITHING_TEMPLATE = REGISTRY.register("elixis_upgrade_smithing_template", () -> new ElixisUpgradeSmithingTemplateItem());
+	public static final RegistryObject<Item> ELIXITE_ARMOR_HELMET = REGISTRY.register("elixite_armor_helmet", () -> new ElixiteArmorItem.Helmet());
+	public static final RegistryObject<Item> ELIXITE_ARMOR_CHESTPLATE = REGISTRY.register("elixite_armor_chestplate", () -> new ElixiteArmorItem.Chestplate());
+	public static final RegistryObject<Item> ELIXITE_ARMOR_LEGGINGS = REGISTRY.register("elixite_armor_leggings", () -> new ElixiteArmorItem.Leggings());
+	public static final RegistryObject<Item> ELIXITE_ARMOR_BOOTS = REGISTRY.register("elixite_armor_boots", () -> new ElixiteArmorItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items
