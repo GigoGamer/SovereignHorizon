@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "sodalite_brick_wall",
+  "count": 1,
+  "ingredient": {
+    "item": "sovereign_horizon:sodalite_bricks"
+  },
+  "result": "sovereign_horizon:sodalite_brick_wall"
+}

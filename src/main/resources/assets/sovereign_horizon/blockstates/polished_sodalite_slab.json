@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sovereign_horizon:block/polished_sodalite_slab"
+    },
+    "type=top": {
+      "model": "sovereign_horizon:block/polished_sodalite_slab_top"
+    },
+    "type=double": {
+      "model": "sovereign_horizon:block/polished_sodalite_slab_full"
+    }
+  }
+}

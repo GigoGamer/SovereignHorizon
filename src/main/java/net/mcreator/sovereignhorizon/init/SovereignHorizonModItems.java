@@ -33,6 +33,14 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> COBBLED_SODALITE_STAIRS = block(SovereignHorizonModBlocks.COBBLED_SODALITE_STAIRS);
 	public static final RegistryObject<Item> COBBLED_SODALITE_SLAB = block(SovereignHorizonModBlocks.COBBLED_SODALITE_SLAB);
 	public static final RegistryObject<Item> COBBLED_SODALITE_WALL = block(SovereignHorizonModBlocks.COBBLED_SODALITE_WALL);
+	public static final RegistryObject<Item> POLISHED_SODALITE = block(SovereignHorizonModBlocks.POLISHED_SODALITE);
+	public static final RegistryObject<Item> POLISHED_SODALITE_STAIRS = block(SovereignHorizonModBlocks.POLISHED_SODALITE_STAIRS);
+	public static final RegistryObject<Item> POLISHED_SODALITE_SLAB = block(SovereignHorizonModBlocks.POLISHED_SODALITE_SLAB);
+	public static final RegistryObject<Item> POLISHED_SODALITE_WALL = block(SovereignHorizonModBlocks.POLISHED_SODALITE_WALL);
+	public static final RegistryObject<Item> SODALITE_BRICKS = block(SovereignHorizonModBlocks.SODALITE_BRICKS);
+	public static final RegistryObject<Item> SODALITE_BRICK_STAIRS = block(SovereignHorizonModBlocks.SODALITE_BRICK_STAIRS);
+	public static final RegistryObject<Item> SODALITE_BRICK_SLAB = block(SovereignHorizonModBlocks.SODALITE_BRICK_SLAB);
+	public static final RegistryObject<Item> SODALITE_BRICK_WALL = block(SovereignHorizonModBlocks.SODALITE_BRICK_WALL);
 
 	// Start of user code block custom items
 	// End of user code block custom items

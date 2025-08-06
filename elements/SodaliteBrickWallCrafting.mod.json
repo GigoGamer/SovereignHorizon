@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "sodalite_brick_wall",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SodaliteBricks"
+      },
+      {
+        "value": "CUSTOM:SodaliteBricks"
+      },
+      {
+        "value": "CUSTOM:SodaliteBricks"
+      },
+      {
+        "value": "CUSTOM:SodaliteBricks"
+      },
+      {
+        "value": "CUSTOM:SodaliteBricks"
+      },
+      {
+        "value": "CUSTOM:SodaliteBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SodaliteBrickWall"
+    },
+    "name": "sodalite_brick_wall_crafting",
+    "namespace": "mod"
+  }
+}

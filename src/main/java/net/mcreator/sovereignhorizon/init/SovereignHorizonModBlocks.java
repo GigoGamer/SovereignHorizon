@@ -18,7 +18,15 @@ import net.mcreator.sovereignhorizon.block.SodaliteStairsBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteSlabBlock;
 import net.mcreator.sovereignhorizon.block.SodalitePressurePlateBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteButtonBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteBricksBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteBrickWallBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteBrickStairsBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteBrickSlabBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteBlock;
+import net.mcreator.sovereignhorizon.block.PolishedSodaliteWallBlock;
+import net.mcreator.sovereignhorizon.block.PolishedSodaliteStairsBlock;
+import net.mcreator.sovereignhorizon.block.PolishedSodaliteSlabBlock;
+import net.mcreator.sovereignhorizon.block.PolishedSodaliteBlock;
 import net.mcreator.sovereignhorizon.block.DeepLichenCoveredSodaliteBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteWallBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteStairsBlock;
@@ -42,6 +50,14 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> COBBLED_SODALITE_STAIRS = REGISTRY.register("cobbled_sodalite_stairs", () -> new CobbledSodaliteStairsBlock());
 	public static final RegistryObject<Block> COBBLED_SODALITE_SLAB = REGISTRY.register("cobbled_sodalite_slab", () -> new CobbledSodaliteSlabBlock());
 	public static final RegistryObject<Block> COBBLED_SODALITE_WALL = REGISTRY.register("cobbled_sodalite_wall", () -> new CobbledSodaliteWallBlock());
+	public static final RegistryObject<Block> POLISHED_SODALITE = REGISTRY.register("polished_sodalite", () -> new PolishedSodaliteBlock());
+	public static final RegistryObject<Block> POLISHED_SODALITE_STAIRS = REGISTRY.register("polished_sodalite_stairs", () -> new PolishedSodaliteStairsBlock());
+	public static final RegistryObject<Block> POLISHED_SODALITE_SLAB = REGISTRY.register("polished_sodalite_slab", () -> new PolishedSodaliteSlabBlock());
+	public static final RegistryObject<Block> POLISHED_SODALITE_WALL = REGISTRY.register("polished_sodalite_wall", () -> new PolishedSodaliteWallBlock());
+	public static final RegistryObject<Block> SODALITE_BRICKS = REGISTRY.register("sodalite_bricks", () -> new SodaliteBricksBlock());
+	public static final RegistryObject<Block> SODALITE_BRICK_STAIRS = REGISTRY.register("sodalite_brick_stairs", () -> new SodaliteBrickStairsBlock());
+	public static final RegistryObject<Block> SODALITE_BRICK_SLAB = REGISTRY.register("sodalite_brick_slab", () -> new SodaliteBrickSlabBlock());
+	public static final RegistryObject<Block> SODALITE_BRICK_WALL = REGISTRY.register("sodalite_brick_wall", () -> new SodaliteBrickWallBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

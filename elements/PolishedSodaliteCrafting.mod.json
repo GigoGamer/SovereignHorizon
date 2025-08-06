@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "polished_sodalite",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CobbledSodalite"
+      },
+      {
+        "value": "CUSTOM:CobbledSodalite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CobbledSodalite"
+      },
+      {
+        "value": "CUSTOM:CobbledSodalite"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedSodalite"
+    },
+    "name": "polished_sodalite_crafting",
+    "namespace": "mod"
+  }
+}

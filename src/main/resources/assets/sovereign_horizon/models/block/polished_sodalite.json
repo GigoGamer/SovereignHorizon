@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sovereign_horizon:block/polished_sodalite",
+    "particle": "sovereign_horizon:block/polished_sodalite"
+  },
+  "render_type": "solid"
+}

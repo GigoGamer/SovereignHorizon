@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "polished_sodalite",
+  "count": 1,
+  "ingredient": {
+    "item": "sovereign_horizon:cobbled_sodalite"
+  },
+  "result": "sovereign_horizon:polished_sodalite"
+}

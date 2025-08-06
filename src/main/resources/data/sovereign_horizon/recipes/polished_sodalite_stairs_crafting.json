@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "polished_sodalite_stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:polished_sodalite"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:polished_sodalite_stairs",
+    "count": 4
+  }
+}

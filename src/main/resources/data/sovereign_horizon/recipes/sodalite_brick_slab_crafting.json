@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sodalite_brick_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:sodalite_bricks"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:sodalite_brick_slab",
+    "count": 6
+  }
+}

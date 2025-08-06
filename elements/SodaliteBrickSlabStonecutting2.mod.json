@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 2,
+    "group": "sodalite_brick_slab",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:SodaliteBricks"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:SodaliteBrickSlab"
+    },
+    "name": "sodalite_brick_slab_stonecutting_2",
+    "namespace": "mod"
+  }
+}
