@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:cracked_sodalite_tiles",
+    "sovereign_horizon:sodalite_tile_wall",
+    "sovereign_horizon:sodalite_tile_slab",
+    "sovereign_horizon:sodalite_tile_stairs",
+    "sovereign_horizon:sodalite_tiles",
+    "sovereign_horizon:cracked_sodalite_bricks",
     "sovereign_horizon:sodalite_brick_wall",
     "sovereign_horizon:sodalite_brick_slab",
     "sovereign_horizon:sodalite_brick_stairs",

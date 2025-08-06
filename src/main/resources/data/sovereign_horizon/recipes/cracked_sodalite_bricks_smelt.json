@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "cracked_sodalite_bricks",
+  "category": "blocks",
+  "experience": 0.1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "sovereign_horizon:sodalite_bricks"
+  },
+  "result": "sovereign_horizon:cracked_sodalite_bricks"
+}

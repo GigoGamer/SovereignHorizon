@@ -41,6 +41,12 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> SODALITE_BRICK_STAIRS = block(SovereignHorizonModBlocks.SODALITE_BRICK_STAIRS);
 	public static final RegistryObject<Item> SODALITE_BRICK_SLAB = block(SovereignHorizonModBlocks.SODALITE_BRICK_SLAB);
 	public static final RegistryObject<Item> SODALITE_BRICK_WALL = block(SovereignHorizonModBlocks.SODALITE_BRICK_WALL);
+	public static final RegistryObject<Item> CRACKED_SODALITE_BRICKS = block(SovereignHorizonModBlocks.CRACKED_SODALITE_BRICKS);
+	public static final RegistryObject<Item> SODALITE_TILES = block(SovereignHorizonModBlocks.SODALITE_TILES);
+	public static final RegistryObject<Item> SODALITE_TILE_STAIRS = block(SovereignHorizonModBlocks.SODALITE_TILE_STAIRS);
+	public static final RegistryObject<Item> SODALITE_TILE_SLAB = block(SovereignHorizonModBlocks.SODALITE_TILE_SLAB);
+	public static final RegistryObject<Item> SODALITE_TILE_WALL = block(SovereignHorizonModBlocks.SODALITE_TILE_WALL);
+	public static final RegistryObject<Item> CRACKED_SODALITE_TILES = block(SovereignHorizonModBlocks.CRACKED_SODALITE_TILES);
 
 	// Start of user code block custom items
 	// End of user code block custom items

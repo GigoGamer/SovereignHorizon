@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "cracked_sodalite_tiles",
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 0.1,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SodaliteTiles"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CrackedSodaliteTiles"
+    },
+    "name": "cracked_sodalite_tiles_smelt",
+    "namespace": "mod"
+  }
+}
