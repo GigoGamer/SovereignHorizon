@@ -1403,6 +1403,57 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "InfusionTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusion_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/infusion_table.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/infusion_table.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/infusion_table.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/InfusionTableBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/infusion_table.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "InfusionTableGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusion_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/network/InfusionTableGUISlotMessage.java",
+          "src/main/java/net/mcreator/sovereignhorizon/world/inventory/InfusionTableGUIMenu.java",
+          "src/main/java/net/mcreator/sovereignhorizon/client/gui/InfusionTableGUIScreen.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "InfusionTableInfuse",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusion_table_infuse",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/InfusionTableInfuseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
@@ -1418,6 +1469,7 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:InfusionTable",
       "~CUSTOM:CrackedSodaliteTiles",
       "~CUSTOM:SodaliteTileWall",
       "~CUSTOM:SodaliteTileSlab",
@@ -1522,6 +1574,7 @@
       "block.sovereign_horizon.cobbled_sodalite_wall": "Cobbled Sodalite Wall",
       "death.attack.pressure": "%1$s imploded",
       "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
+      "block.sovereign_horizon.infusion_table": "Infusion Table",
       "item.sovereign_horizon.elixis_upgrade_smithing_template": "Smithing Template",
       "item.sovereign_horizon.soverign_horizon": "Soverign Horizon Portal Igniter",
       "block.sovereign_horizon.polished_sodalite_stairs": "Polished Sodalite Stairs",
@@ -1543,6 +1596,7 @@
       "block.sovereign_horizon.sodalite_brick_wall": "Sodalite Brick Wall",
       "block.sovereign_horizon.sodalite_slab": "Sodalite Slab",
       "block.sovereign_horizon.cobbled_sodalite_slab": "Cobbled Sodalite Slab",
+      "gui.sovereign_horizon.infusion_table_gui.label_infusion_table": "Infusion Table",
       "entity.sovereign_horizon.catechism": "Catechism",
       "block.sovereign_horizon.sodalite_brick_slab": "Sodalite Brick Slab",
       "item.sovereign_horizon.elixis_shard": "Elixis Shard",

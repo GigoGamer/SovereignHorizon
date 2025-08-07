@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModSounds;
+import net.mcreator.sovereignhorizon.init.SovereignHorizonModMenus;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModItems;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEntities;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEnchantments;
@@ -49,6 +50,8 @@ public class SovereignHorizonMod {
 		SovereignHorizonModEntities.REGISTRY.register(bus);
 		SovereignHorizonModEnchantments.REGISTRY.register(bus);
 		SovereignHorizonModTabs.REGISTRY.register(bus);
+
+		SovereignHorizonModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
