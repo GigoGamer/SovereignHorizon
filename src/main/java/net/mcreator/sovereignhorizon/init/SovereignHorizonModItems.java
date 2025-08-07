@@ -17,6 +17,7 @@ import net.mcreator.sovereignhorizon.item.SoverignHorizonItem;
 import net.mcreator.sovereignhorizon.item.ElixiteArmorItem;
 import net.mcreator.sovereignhorizon.item.ElixisUpgradeSmithingTemplateItem;
 import net.mcreator.sovereignhorizon.item.ElixisShardItem;
+import net.mcreator.sovereignhorizon.item.CatechismWingItem;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
 public class SovereignHorizonModItems {
@@ -57,6 +58,7 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> ELIXITE_ARMOR_LEGGINGS = REGISTRY.register("elixite_armor_leggings", () -> new ElixiteArmorItem.Leggings());
 	public static final RegistryObject<Item> ELIXITE_ARMOR_BOOTS = REGISTRY.register("elixite_armor_boots", () -> new ElixiteArmorItem.Boots());
 	public static final RegistryObject<Item> INFUSION_TABLE = block(SovereignHorizonModBlocks.INFUSION_TABLE);
+	public static final RegistryObject<Item> CATECHISM_WING = REGISTRY.register("catechism_wing", () -> new CatechismWingItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
