@@ -1366,45 +1366,6 @@
       "path": "~/Other"
     },
     {
-      "name": "ElixiteArmorChestplateRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "elixite_armor_chestplate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sovereign_horizon/recipes/elixite_armor_chestplate_recipe.json"
-        ]
-      },
-      "path": "~/Other"
-    },
-    {
-      "name": "ElixiteArmorLeggingsRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "elixite_armor_leggings_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sovereign_horizon/recipes/elixite_armor_leggings_recipe.json"
-        ]
-      },
-      "path": "~/Other"
-    },
-    {
-      "name": "ElixiteArmorBootsRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "elixite_armor_boots_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sovereign_horizon/recipes/elixite_armor_boots_recipe.json"
-        ]
-      },
-      "path": "~/Other"
-    },
-    {
       "name": "InfusionTable",
       "type": "block",
       "compiles": true,
@@ -1450,6 +1411,65 @@
           {
             "name": "entity",
             "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "ElixiteArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/elixite_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "ElixiteArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/elixite_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "ElixiteArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/elixite_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "LimitToPotions",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limit_to_potions",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/LimitToPotionsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       },
