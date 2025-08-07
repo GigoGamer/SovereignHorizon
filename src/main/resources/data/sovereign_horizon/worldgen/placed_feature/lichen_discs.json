@@ -1,0 +1,12 @@
+{
+  "feature": "sovereign_horizon:lichen_discs",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    }
+  ]
+}

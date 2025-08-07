@@ -4,13 +4,13 @@
   "definition": {
     "name": "Sodalite Wastes",
     "groundBlock": {
-      "value": "CUSTOM:Test"
+      "value": "CUSTOM:Sodalite"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:Test"
+      "value": "CUSTOM:Sodalite"
     },
     "underwaterBlock": {
-      "value": "CUSTOM:Test"
+      "value": "CUSTOM:Sodalite"
     },
     "grassColor": {
       "value": -16777156,

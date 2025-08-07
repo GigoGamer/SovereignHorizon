@@ -21,7 +21,7 @@
     },
     "settings": {
       "name": "sovereign_horizon:sovererign_horizon",
-      "sea_level": 225,
+      "sea_level": 32,
       "legacy_random_source": false,
       "disable_mob_generation": false,
       "aquifers_enabled": true,
@@ -40,7 +40,7 @@
         "min_y": -64,
         "height": 384,
         "size_horizontal": 1,
-        "size_vertical": 2
+        "size_vertical": 4
       },
       "noise_router": {
         "barrier": 0,
@@ -397,14 +397,14 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "sovereign_horizon:test"
+                              "Name": "sovereign_horizon:sodalite"
                             }
                           }
                         },
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "sovereign_horizon:test"
+                            "Name": "sovereign_horizon:sodalite"
                           }
                         }
                       ]
@@ -422,7 +422,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "sovereign_horizon:test"
+                        "Name": "sovereign_horizon:sodalite"
                       }
                     }
                   }

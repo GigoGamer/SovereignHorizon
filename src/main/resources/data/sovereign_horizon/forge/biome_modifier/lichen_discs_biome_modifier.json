@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "sovereign_horizon:sodalite_wastes",
+  "features": "sovereign_horizon:lichen_discs",
+  "step": "top_layer_modification"
+}

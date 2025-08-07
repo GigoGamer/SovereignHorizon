@@ -14,11 +14,11 @@
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"
     },
-    "seaLevel": 225,
+    "seaLevel": 32,
     "generateOreVeins": false,
     "generateAquifers": false,
     "horizontalNoiseSize": 1,
-    "verticalNoiseSize": 2,
+    "verticalNoiseSize": 4,
     "defaultEffects": "overworld",
     "useCustomEffects": true,
     "hasClouds": true,
