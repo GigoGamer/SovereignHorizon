@@ -12,7 +12,7 @@
     "textureBoots": "elixite_boots",
     "creativeTabs": [
       {
-        "value": "CUSTOM:SovereignHorizon"
+        "value": "CUSTOM:SovereignHorizonsTab"
       }
     ],
     "armorTextureFile": "elixite",

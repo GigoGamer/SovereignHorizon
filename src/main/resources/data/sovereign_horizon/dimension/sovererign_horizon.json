@@ -1,12 +1,12 @@
 {
-  "type": "sovereign_horizon:soverign_horizon",
+  "type": "sovereign_horizon:sovererign_horizon",
   "generator": {
     "type": "minecraft:noise",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "dark_forest",
+          "biome": "sovereign_horizon:sodalite_wastes",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -20,17 +20,20 @@
       ]
     },
     "settings": {
-      "name": "sovereign_horizon:soverign_horizon",
-      "sea_level": 250,
+      "name": "sovereign_horizon:sovererign_horizon",
+      "sea_level": 225,
       "legacy_random_source": false,
       "disable_mob_generation": false,
       "aquifers_enabled": true,
       "ore_veins_enabled": false,
       "default_block": {
-        "Name": "sovereign_horizon:test"
+        "Name": "sovereign_horizon:sodalite"
       },
       "default_fluid": {
-        "Name": "sovereign_horizon:test"
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
       },
       "spawn_target": [],
       "noise": {
@@ -360,7 +363,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "dark_forest"
+                "sovereign_horizon:sodalite_wastes"
               ]
             },
             "then_run": {
@@ -394,17 +397,14 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:grass_block",
-                              "Properties": {
-                                "snowy": "false"
-                              }
+                              "Name": "sovereign_horizon:test"
                             }
                           }
                         },
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:gravel"
+                            "Name": "sovereign_horizon:test"
                           }
                         }
                       ]
@@ -422,7 +422,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:dirt"
+                        "Name": "sovereign_horizon:test"
                       }
                     }
                   }

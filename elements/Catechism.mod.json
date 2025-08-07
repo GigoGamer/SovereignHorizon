@@ -38,7 +38,7 @@
     },
     "creativeTabs": [
       {
-        "value": "MISC"
+        "value": "CUSTOM:SovereignHorizonsTab"
       }
     ],
     "isBoss": false,

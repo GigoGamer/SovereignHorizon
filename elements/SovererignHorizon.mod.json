@@ -4,17 +4,17 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "roofed_forest"
+        "value": "CUSTOM:SodaliteWastes"
       }
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:Test"
+      "value": "CUSTOM:Sodalite"
     },
     "fluidBlock": {
-      "value": "CUSTOM:Test"
+      "value": "Blocks.FLOWING_WATER"
     },
-    "seaLevel": 250,
+    "seaLevel": 225,
     "generateOreVeins": false,
     "generateAquifers": false,
     "horizontalNoiseSize": 1,
@@ -22,20 +22,16 @@
     "defaultEffects": "overworld",
     "useCustomEffects": true,
     "hasClouds": true,
-    "cloudHeight": 192.0,
+    "cloudHeight": 240.0,
     "skyType": "NONE",
-    "airColor": {
-      "value": -16777114,
-      "falpha": 0.0
-    },
     "sunHeightAffectsFog": false,
-    "canRespawnHere": true,
-    "hasFog": true,
-    "ambientLight": 0.09999999999999999,
+    "canRespawnHere": false,
+    "hasFog": false,
+    "ambientLight": 0.05,
     "doesWaterVaporize": false,
     "hasFixedTime": false,
     "fixedTimeValue": 0,
-    "coordinateScale": 1.0,
+    "coordinateScale": 16.0,
     "infiniburnTag": "minecraft:infiniburn_overworld",
     "bedWorks": false,
     "hasSkyLight": false,
@@ -45,14 +41,8 @@
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 10,
     "monsterSpawnBlockLightLimit": 10,
-    "onPlayerEntersDimension": {
-      "name": "SoverignHorizonPlayerEntersDimension"
-    },
-    "onPlayerLeavesDimension": {
-      "name": "SoverignHorizonPlayerLeavesDimension"
-    },
     "portalFrame": {
-      "value": "CUSTOM:Test"
+      "value": ""
     },
     "portalParticles": {
       "value": "PORTAL"
@@ -62,7 +52,7 @@
       "value": "block.portal.ambient"
     },
     "enableIgniter": true,
-    "igniterName": "Soverign Horizon Portal Igniter",
+    "igniterName": "Sovererign Horizon Portal Igniter",
     "igniterRarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
@@ -72,8 +62,8 @@
         "value": "TOOLS"
       }
     ],
-    "texture": "minecraft:barrier",
-    "portalTexture": "test",
-    "enablePortal": true
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
   }
 }
