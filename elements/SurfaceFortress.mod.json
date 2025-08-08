@@ -50,6 +50,36 @@
             "structure": "surface_fortress_fourway",
             "projection": "rigid",
             "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "surface_fortress_conversion_hall",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "interior_hallway",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 3,
+            "structure": "surface_fortress_interior_hall",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 2,
+            "structure": "surface_fortress_interior_corner",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "surface_fortress_interior_fourway",
+            "projection": "rigid",
+            "ignoredBlocks": []
           }
         ]
       }

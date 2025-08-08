@@ -1615,6 +1615,7 @@
       "registry_name": "surface_fortress",
       "metadata": {
         "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_fortress_interior_hallway.json",
           "src/main/resources/data/sovereign_horizon/worldgen/structure_set/surface_fortress.json",
           "src/main/resources/data/sovereign_horizon/worldgen/structure/surface_fortress.json",
           "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_fortress.json",
@@ -1650,6 +1651,21 @@
         "files": []
       },
       "path": "~/Other"
+    },
+    {
+      "name": "LarimarGeode",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "larimar_geode",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/larimar_geode.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/larimar_geode_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/larimar_geode.json"
+        ]
+      },
+      "path": "~/Features"
     }
   ],
   "variable_elements": [],
@@ -1762,11 +1778,11 @@
       "advancements.sh_enter.title": "A Sovereign Horizon",
       "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
       "block.sovereign_horizon.polished_sodalite_wall": "Polished Sodalite Wall",
-      "block.sovereign_horizon.sodalite_pressure_plate": "Sodalite Pressure Plate",
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
+      "block.sovereign_horizon.sodalite_pressure_plate": "Sodalite Pressure Plate",
       "item.sovereign_horizon.elixite_armor_boots": "Elixite Boots",
-      "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
       "enchantment.sovereign_horizon.resilience": "Resilience",
+      "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
       "advancements.sh_enter.descr": "Enter the Sovereign Horizon",
       "block.sovereign_horizon.sodalite_bricks": "Sodalite Bricks",
       "block.sovereign_horizon.polished_sodalite_slab": "Polished Sodalite Slab",
