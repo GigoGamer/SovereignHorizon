@@ -1,6 +1,6 @@
 package net.mcreator.sovereignhorizon.procedures;
 
-import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.eventbus.api.Event;
 
 public class ElixiteArmorSpecialInformationProcedure {
 	public static String execute(ItemStack itemstack) {

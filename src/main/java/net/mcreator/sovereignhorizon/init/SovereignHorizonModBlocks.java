@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.sovereignhorizon.block.TestBlock;
 import net.mcreator.sovereignhorizon.block.SparseDeepLichenCoveredSodaliteBlock;
+import net.mcreator.sovereignhorizon.block.SoverignHorizonPortalBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteWallBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteTilesBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteTileWallBlock;
@@ -43,6 +44,7 @@ import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 public class SovereignHorizonModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, SovereignHorizonMod.MODID);
 	public static final RegistryObject<Block> TEST = REGISTRY.register("test", () -> new TestBlock());
+	public static final RegistryObject<Block> SOVERIGN_HORIZON_PORTAL = REGISTRY.register("soverign_horizon_portal", () -> new SoverignHorizonPortalBlock());
 	public static final RegistryObject<Block> SODALITE = REGISTRY.register("sodalite", () -> new SodaliteBlock());
 	public static final RegistryObject<Block> SODALITE_STAIRS = REGISTRY.register("sodalite_stairs", () -> new SodaliteStairsBlock());
 	public static final RegistryObject<Block> SODALITE_SLAB = REGISTRY.register("sodalite_slab", () -> new SodaliteSlabBlock());
