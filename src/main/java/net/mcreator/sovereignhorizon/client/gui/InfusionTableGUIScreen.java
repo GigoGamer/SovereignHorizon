@@ -1,13 +1,27 @@
 package net.mcreator.sovereignhorizon.client.gui;
 
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.GuiGraphics;
+
+import net.mcreator.sovereignhorizon.world.inventory.InfusionTableGUIMenu;
+import net.mcreator.sovereignhorizon.network.InfusionTableGUIButtonMessage;
+import net.mcreator.sovereignhorizon.SovereignHorizonMod;
+
+import java.util.HashMap;
+
+import com.mojang.blaze3d.systems.RenderSystem;
+
 public class InfusionTableGUIScreen extends AbstractContainerScreen<InfusionTableGUIMenu> {
-
 	private final static HashMap<String, Object> guistate = InfusionTableGUIMenu.guistate;
-
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-
 	Button button_infuse;
 
 	public InfusionTableGUIScreen(InfusionTableGUIMenu container, Inventory inventory, Component text) {
@@ -26,11 +40,8 @@ public class InfusionTableGUIScreen extends AbstractContainerScreen<InfusionTabl
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
-
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
-
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
-
 	}
 
 	@Override
@@ -38,7 +49,6 @@ public class InfusionTableGUIScreen extends AbstractContainerScreen<InfusionTabl
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		guiGraphics.blit(new ResourceLocation("sovereign_horizon:textures/screens/icon_potion.png"), this.leftPos + 59, this.topPos + 39, 0, 0, 16, 16, 16, 16);
@@ -56,7 +66,6 @@ public class InfusionTableGUIScreen extends AbstractContainerScreen<InfusionTabl
 			this.minecraft.player.closeContainer();
 			return true;
 		}
-
 		return super.keyPressed(key, b, c);
 	}
 
@@ -68,17 +77,13 @@ public class InfusionTableGUIScreen extends AbstractContainerScreen<InfusionTabl
 	@Override
 	public void init() {
 		super.init();
-
 		button_infuse = Button.builder(Component.translatable("gui.sovereign_horizon.infusion_table_gui.button_infuse"), e -> {
 			if (true) {
 				SovereignHorizonMod.PACKET_HANDLER.sendToServer(new InfusionTableGUIButtonMessage(0, x, y, z));
 				InfusionTableGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 121, this.topPos + 39, 36, 20).build();
-
 		guistate.put("button:button_infuse", button_infuse);
 		this.addRenderableWidget(button_infuse);
-
 	}
-
 }

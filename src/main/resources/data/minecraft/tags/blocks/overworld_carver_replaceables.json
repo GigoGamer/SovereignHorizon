@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "sovereign_horizon:sparse_deep_lichen_covered_sodalite",
-    "sovereign_horizon:sodalite",
-    "sovereign_horizon:test"
+    "sovereign_horizon:sodalite"
   ]
 }

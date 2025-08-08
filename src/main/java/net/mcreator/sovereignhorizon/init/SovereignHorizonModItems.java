@@ -55,8 +55,9 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> ELIXITE_ARMOR_CHESTPLATE = REGISTRY.register("elixite_armor_chestplate", () -> new ElixiteArmorItem.Chestplate());
 	public static final RegistryObject<Item> ELIXITE_ARMOR_LEGGINGS = REGISTRY.register("elixite_armor_leggings", () -> new ElixiteArmorItem.Leggings());
 	public static final RegistryObject<Item> ELIXITE_ARMOR_BOOTS = REGISTRY.register("elixite_armor_boots", () -> new ElixiteArmorItem.Boots());
-	public static final RegistryObject<Item> INFUSION_TABLE = block(SovereignHorizonModBlocks.INFUSION_TABLE);
 	public static final RegistryObject<Item> CATECHISM_WING = REGISTRY.register("catechism_wing", () -> new CatechismWingItem());
+	public static final RegistryObject<Item> INFUSION_TABLE = block(SovereignHorizonModBlocks.INFUSION_TABLE);
+	public static final RegistryObject<Item> LARIMAR = block(SovereignHorizonModBlocks.LARIMAR);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,6 +1,10 @@
 package net.mcreator.sovereignhorizon.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
 
 public class ElixiteArmorTickEventProcedure {
 	public static void execute(Entity entity, ItemStack itemstack) {
