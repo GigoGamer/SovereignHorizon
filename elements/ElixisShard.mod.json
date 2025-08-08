@@ -9,7 +9,11 @@
     "states": [],
     "name": "Elixis Shard",
     "rarity": "RARE",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SovereignHorizon"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

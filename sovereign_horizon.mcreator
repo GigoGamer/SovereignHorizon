@@ -25,17 +25,17 @@
       "registry_name": "soverign_horizon",
       "metadata": {
         "files": [
+          "src/main/resources/data/sovereign_horizon/dimension/soverign_horizon.json",
           "src/main/resources/assets/sovereign_horizon/blockstates/soverign_horizon_portal.json",
-          "src/main/java/net/mcreator/sovereignhorizon/world/teleporter/SoverignHorizonPortalShape.java",
           "src/main/resources/assets/sovereign_horizon/models/block/soverign_horizon_portal_ew.json",
-          "src/main/java/net/mcreator/sovereignhorizon/world/teleporter/SoverignHorizonTeleporter.java",
-          "src/main/resources/assets/sovereign_horizon/models/item/soverign_horizon.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/SoverignHorizonPortalBlock.java",
+          "src/main/java/net/mcreator/sovereignhorizon/world/teleporter/SoverignHorizonPortalShape.java",
           "src/main/java/net/mcreator/sovereignhorizon/item/SoverignHorizonItem.java",
-          "src/main/resources/data/sovereign_horizon/dimension_type/soverign_horizon.json",
-          "src/main/java/net/mcreator/sovereignhorizon/world/dimension/SoverignHorizonDimension.java",
           "src/main/resources/assets/sovereign_horizon/models/block/soverign_horizon_portal_ns.json",
-          "src/main/resources/data/sovereign_horizon/dimension/soverign_horizon.json"
+          "src/main/java/net/mcreator/sovereignhorizon/block/SoverignHorizonPortalBlock.java",
+          "src/main/resources/data/sovereign_horizon/dimension_type/soverign_horizon.json",
+          "src/main/java/net/mcreator/sovereignhorizon/world/teleporter/SoverignHorizonTeleporter.java",
+          "src/main/java/net/mcreator/sovereignhorizon/world/dimension/SoverignHorizonDimension.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/soverign_horizon.json"
         ]
       },
       "path": "~/Other"
@@ -154,7 +154,7 @@
     {
       "name": "Catechism",
       "type": "livingentity",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "catechism",
       "metadata": {
@@ -1403,6 +1403,64 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "ElixisUpgradeSmithingTemplateCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixis_upgrade_smithing_template_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/elixis_upgrade_smithing_template_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Bounding",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bounding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/enchantment/BoundingEnchantment.java"
+        ]
+      },
+      "path": "~/Enchants/Bounding"
+    },
+    {
+      "name": "EnchantmentAbility",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchantment_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/network/EnchantmentAbilityMessage.java"
+        ]
+      },
+      "path": "~/Enchants/Bounding"
+    },
+    {
+      "name": "EnchantmentAbilityOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchantment_ability_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/EnchantmentAbilityOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchants/Bounding"
     }
   ],
   "variable_elements": [],
@@ -1510,6 +1568,7 @@
       "death.attack.pressure.item": "%1$s was squashed by %2$s using %3$s",
       "block.sovereign_horizon.cracked_sodalite_bricks": "Cracked Sodalite Bricks",
       "item.sovereign_horizon.elixite_armor_chestplate": "Elixite Chestplate",
+      "key.sovereign_horizon.enchantment_ability": "Enchantment Ability",
       "advancements.sh_enter.title": "A Sovereign Horizon",
       "block.sovereign_horizon.polished_sodalite_wall": "Polished Sodalite Wall",
       "block.sovereign_horizon.sodalite_pressure_plate": "Sodalite Pressure Plate",
@@ -1548,6 +1607,7 @@
       "item.sovereign_horizon.elixis_shard": "Elixis Shard",
       "block.sovereign_horizon.sparse_deep_lichen_covered_sodalite": "Sparse Deep Lichen Covered Sodalite",
       "block.sovereign_horizon.cracked_sodalite_tiles": "Cracked Sodalite Tiles",
+      "enchantment.sovereign_horizon.bounding": "Bounding",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_5": " §9Elixis Shard",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_4": "Ingredients:",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_3": " §9Diamond Equipment",
@@ -1562,7 +1622,12 @@
     "children": [
       {
         "name": "Enchants",
-        "children": []
+        "children": [
+          {
+            "name": "Bounding",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Recipes",
