@@ -25,6 +25,7 @@ import net.mcreator.sovereignhorizon.init.SovereignHorizonModItems;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEntities;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEnchantments;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModBlocks;
+import net.mcreator.sovereignhorizon.init.SovereignHorizonModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -47,7 +48,7 @@ public class SovereignHorizonMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		SovereignHorizonModSounds.REGISTRY.register(bus);
 		SovereignHorizonModBlocks.REGISTRY.register(bus);
-
+		SovereignHorizonModBlockEntities.REGISTRY.register(bus);
 		SovereignHorizonModItems.REGISTRY.register(bus);
 		SovereignHorizonModEntities.REGISTRY.register(bus);
 		SovereignHorizonModEnchantments.REGISTRY.register(bus);

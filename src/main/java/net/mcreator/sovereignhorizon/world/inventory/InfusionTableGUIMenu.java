@@ -19,9 +19,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.sovereignhorizon.network.InfusionTableGUISlotMessage;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModMenus;
-import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -79,29 +77,17 @@ public class InfusionTableGUIMenu extends AbstractContainerMenu implements Suppl
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 38) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 23, 17) {
 			private final int slot = 0;
 			private int x = InfusionTableGUIMenu.this.x;
 			private int y = InfusionTableGUIMenu.this.y;
-
-			@Override
-			public void setChanged() {
-				super.setChanged();
-				slotChanged(0, 0, 0);
-			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 61, 38) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 59, 17) {
 			private final int slot = 1;
 			private int x = InfusionTableGUIMenu.this.x;
 			private int y = InfusionTableGUIMenu.this.y;
-
-			@Override
-			public void setChanged() {
-				super.setChanged();
-				slotChanged(1, 0, 0);
-			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 132, 38) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 131, 17) {
 			private final int slot = 2;
 			private int x = InfusionTableGUIMenu.this.x;
 			private int y = InfusionTableGUIMenu.this.y;
@@ -113,9 +99,9 @@ public class InfusionTableGUIMenu extends AbstractContainerMenu implements Suppl
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, -1 + 8 + sj * 18, -1 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, -2 + 8 + sj * 18, -17 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, -1 + 8 + si * 18, -1 + 142));
+			this.addSlot(new Slot(inv, si, -2 + 8 + si * 18, -17 + 142));
 	}
 
 	@Override
@@ -252,13 +238,6 @@ public class InfusionTableGUIMenu extends AbstractContainerMenu implements Suppl
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}
 			}
-		}
-	}
-
-	private void slotChanged(int slotid, int ctype, int meta) {
-		if (this.world != null && this.world.isClientSide()) {
-			SovereignHorizonMod.PACKET_HANDLER.sendToServer(new InfusionTableGUISlotMessage(slotid, x, y, z, ctype, meta));
-			InfusionTableGUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 		}
 	}
 

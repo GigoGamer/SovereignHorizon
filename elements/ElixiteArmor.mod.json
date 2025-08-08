@@ -10,6 +10,18 @@
     "textureLeggings": "elixite_leggings",
     "enableBoots": true,
     "textureBoots": "elixite_boots",
+    "onHelmetTick": {
+      "name": "ElixiteArmorTickEvent"
+    },
+    "onBodyTick": {
+      "name": "ElixiteArmorTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "ElixiteArmorTickEvent"
+    },
+    "onBootsTick": {
+      "name": "ElixiteArmorTickEvent"
+    },
     "creativeTabs": [
       {
         "value": "CUSTOM:SovereignHorizonsTab"
@@ -21,16 +33,20 @@
     "leggingsName": "Elixite Leggings",
     "bootsName": "Elixite Boots",
     "helmetSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [],
+      "name": "ElixiteArmorSpecialInformation"
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [],
+      "name": "ElixiteArmorSpecialInformation"
     },
     "leggingsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [],
+      "name": "ElixiteArmorSpecialInformation"
     },
     "bootsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [],
+      "name": "ElixiteArmorSpecialInformation"
     },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",

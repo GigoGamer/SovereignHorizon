@@ -11,14 +11,31 @@
     "half_height": 1,
     "target": {
       "type": "minecraft:matching_blocks",
-      "blocks": "#sovereign_horizons:sodalite_replaceables"
+      "blocks": "#sovereign_horizon:sodalite_replaceables"
     },
     "state_provider": {
       "fallback": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-          "Name": "sovereign_horizon:sparse_deep_lichen_covered_sodalite"
-        }
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "data": {
+              "Name": "sovereign_horizon:sparse_deep_lichen_covered_sodalite"
+            },
+            "weight": 5
+          },
+          {
+            "data": {
+              "Name": "sovereign_horizon:deep_lichen_covered_sodalite"
+            },
+            "weight": 3
+          },
+          {
+            "data": {
+              "Name": "sovereign_horizon:sodalite"
+            },
+            "weight": 3
+          }
+        ]
       },
       "rules": []
     }

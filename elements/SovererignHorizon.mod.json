@@ -23,7 +23,7 @@
     "useCustomEffects": true,
     "hasClouds": true,
     "cloudHeight": 240.0,
-    "skyType": "NONE",
+    "skyType": "END",
     "sunHeightAffectsFog": false,
     "canRespawnHere": false,
     "hasFog": false,
@@ -41,6 +41,12 @@
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 10,
     "monsterSpawnBlockLightLimit": 10,
+    "onPlayerEntersDimension": {
+      "name": "SoverignHorizonPlayerEntersDimension"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "SoverignHorizonPlayerLeavesDimension"
+    },
     "portalFrame": {
       "value": ""
     },

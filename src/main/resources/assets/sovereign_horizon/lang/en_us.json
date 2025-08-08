@@ -29,6 +29,7 @@
   "block.sovereign_horizon.test": "Test",
   "item.sovereign_horizon.elixite_armor_leggings": "Elixite Leggings",
   "block.sovereign_horizon.sodalite": "Sodalite",
+  "gui.sovereign_horizon.infusion_table_gui.button_infuse": "Infuse",
   "item.sovereign_horizon.elixite_armor_helmet": "Elixite Helmet",
   "block.sovereign_horizon.sodalite_tiles": "Sodalite Tiles",
   "block.sovereign_horizon.sodalite_wall": "Sodalite Wall",

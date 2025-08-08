@@ -1340,6 +1340,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/sovereign_horizon/models/block/infusion_table.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/entity/InfusionTableBlockEntity.java",
           "src/main/resources/data/sovereign_horizon/loot_tables/blocks/infusion_table.json",
           "src/main/resources/assets/sovereign_horizon/blockstates/infusion_table.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/InfusionTableBlock.java",
@@ -1356,7 +1357,7 @@
       "registry_name": "infusion_table_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/network/InfusionTableGUISlotMessage.java",
+          "src/main/java/net/mcreator/sovereignhorizon/network/InfusionTableGUIButtonMessage.java",
           "src/main/java/net/mcreator/sovereignhorizon/world/inventory/InfusionTableGUIMenu.java",
           "src/main/java/net/mcreator/sovereignhorizon/client/gui/InfusionTableGUIScreen.java"
         ]
@@ -1377,6 +1378,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -1417,26 +1434,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/sovereign_horizon/recipes/elixite_armor_boots_recipe.json"
-        ]
-      },
-      "path": "~/Other"
-    },
-    {
-      "name": "LimitToPotions",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "limit_to_potions",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/procedures/LimitToPotionsProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
         ]
       },
       "path": "~/Other"
@@ -1519,6 +1516,49 @@
         ]
       },
       "path": "~/Features"
+    },
+    {
+      "name": "ElixiteArmorTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixite_armor_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/ElixiteArmorTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "ElixiteArmorSpecialInformation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixite_armor_special_information",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/ElixiteArmorSpecialInformationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
@@ -1659,6 +1699,7 @@
       "block.sovereign_horizon.test": "Test",
       "item.sovereign_horizon.elixite_armor_leggings": "Elixite Leggings",
       "block.sovereign_horizon.sodalite": "Sodalite",
+      "gui.sovereign_horizon.infusion_table_gui.button_infuse": "Infuse",
       "item.sovereign_horizon.elixite_armor_helmet": "Elixite Helmet",
       "block.sovereign_horizon.sodalite_tiles": "Sodalite Tiles",
       "block.sovereign_horizon.sodalite_wall": "Sodalite Wall",
