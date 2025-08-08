@@ -49,6 +49,10 @@ public class InfusionTableInfuseProcedure {
 				unacceptedPotion = true;
 			} else if ((potionID).equals("sovereign_horizon:levitation")) {
 				potionID = "minecraft:levitation";
+			} else if ((potionID).equals("minecraft:swiftness")) {
+				potionID = "minecraft:speed";
+			} else if ((potionID).equals("minecraft:leaping")) {
+				potionID = "minecraft:jump_boost";
 			}
 			if (unacceptedPotion) {
 				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {

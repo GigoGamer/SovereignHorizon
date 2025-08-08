@@ -1503,12 +1503,12 @@
       "type": "dimension",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sovererign_horizon",
+      "registry_name": "sovereign_horizon",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/dimension_type/sovererign_horizon.json",
-          "src/main/resources/data/sovereign_horizon/dimension/sovererign_horizon.json",
-          "src/main/java/net/mcreator/sovereignhorizon/world/dimension/SovererignHorizonDimension.java"
+          "src/main/resources/data/sovereign_horizon/dimension_type/sovereign_horizon.json",
+          "src/main/java/net/mcreator/sovereignhorizon/world/dimension/SovererignHorizonDimension.java",
+          "src/main/resources/data/sovereign_horizon/dimension/sovereign_horizon.json"
         ]
       },
       "path": "~/Other"
@@ -1666,6 +1666,64 @@
         ]
       },
       "path": "~/Features"
+    },
+    {
+      "name": "TopLayerCover",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "top_layer_cover",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/top_layer_cover_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/top_layer_cover.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/top_layer_cover.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "MiddleLayerCover",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "middle_layer_cover",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/middle_layer_cover_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/middle_layer_cover.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/middle_layer_cover.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "BottomLayerCover",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottom_layer_cover",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/bottom_layer_cover.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/bottom_layer_cover.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/bottom_layer_cover_biome_modifier.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "SurfaceFortressLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surface_fortress_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/gameplay/surface_fortress.json"
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
@@ -1719,6 +1777,9 @@
       "~CUSTOM:PolishedSodaliteSlab",
       "~CUSTOM:CobbledSodaliteSlab",
       "~CUSTOM:SodaliteSlab"
+    ],
+    "BIOMES:mod:is_sh": [
+      "CUSTOM:SodaliteWastes"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:CrackedSodaliteTiles",

@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 3,
+      "weight": 6,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "sovereign_horizon:surface_fortress_hall",
@@ -14,7 +14,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "sovereign_horizon:surface_fortress_corner",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "sovereign_horizon:surface_fortress_fourway",
@@ -40,6 +40,28 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "sovereign_horizon:surface_fortress_conversion_hall",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sovereign_horizon:surface_fortress_spawner",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sovereign_horizon:surface_fortress_spawner",
         "projection": "rigid",
         "processors": {
           "processors": []

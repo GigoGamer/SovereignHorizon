@@ -19,7 +19,7 @@
     "sh_enter_0": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
-        "to": "sovereign_horizon:sovererign_horizon"
+        "to": "sovereign_horizon:sovereign_horizon"
       }
     }
   }

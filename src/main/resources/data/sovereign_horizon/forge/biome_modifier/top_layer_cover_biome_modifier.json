@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#sovereign_horizon:is_sh",
+  "features": "sovereign_horizon:top_layer_cover",
+  "step": "raw_generation"
+}

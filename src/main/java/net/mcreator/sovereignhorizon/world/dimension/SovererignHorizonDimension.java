@@ -37,7 +37,7 @@ public class SovererignHorizonDimension {
 					return false;
 				}
 			};
-			event.register(new ResourceLocation("sovereign_horizon:sovererign_horizon"), customEffect);
+			event.register(new ResourceLocation("sovereign_horizon:sovereign_horizon"), customEffect);
 		}
 	}
 
@@ -48,10 +48,10 @@ public class SovererignHorizonDimension {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		if (event.getFrom() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("sovereign_horizon:sovererign_horizon"))) {
+		if (event.getFrom() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("sovereign_horizon:sovereign_horizon"))) {
 			SoverignHorizonPlayerLeavesDimensionProcedure.execute(entity);
 		}
-		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("sovereign_horizon:sovererign_horizon"))) {
+		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("sovereign_horizon:sovereign_horizon"))) {
 			SoverignHorizonPlayerEntersDimensionProcedure.execute(entity);
 		}
 	}
