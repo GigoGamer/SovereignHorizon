@@ -10,9 +10,21 @@
     "textureLeggings": "elixite_leggings",
     "enableBoots": true,
     "textureBoots": "elixite_boots",
+    "onHelmetTick": {
+      "name": "ElixiteArmorTickEvent"
+    },
+    "onBodyTick": {
+      "name": "ElixiteArmorTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "ElixiteArmorTickEvent"
+    },
+    "onBootsTick": {
+      "name": "ElixiteArmorTickEvent"
+    },
     "creativeTabs": [
       {
-        "value": "COMBAT"
+        "value": "CUSTOM:SovereignHorizonsTab"
       }
     ],
     "armorTextureFile": "elixite",
@@ -21,16 +33,20 @@
     "leggingsName": "Elixite Leggings",
     "bootsName": "Elixite Boots",
     "helmetSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [],
+      "name": "ElixiteArmorSpecialInformation"
     },
     "bodySpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [],
+      "name": "ElixiteArmorSpecialInformation"
     },
     "leggingsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [],
+      "name": "ElixiteArmorSpecialInformation"
     },
     "bootsSpecialInformation": {
-      "fixedValue": []
+      "fixedValue": [],
+      "name": "ElixiteArmorSpecialInformation"
     },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
@@ -86,15 +102,19 @@
     },
     "maxDamage": 23,
     "damageValueHelmet": 3,
-    "damageValueBody": 9,
-    "damageValueLeggings": 8,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
     "damageValueBoots": 3,
-    "enchantability": 14,
-    "toughness": 0.0,
+    "enchantability": 12,
+    "toughness": 2.5,
     "knockbackResistance": 0.0,
     "equipSound": {
       "value": "item.armor.equip_diamond"
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:ElixisShard"
+      }
+    ]
   }
 }

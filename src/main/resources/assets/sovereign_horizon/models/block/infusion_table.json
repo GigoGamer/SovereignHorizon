@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sovereign_horizon:block/sodalite_tiles",
+    "up": "sovereign_horizon:block/infusion_table_top",
+    "north": "sovereign_horizon:block/infusion_table",
+    "east": "sovereign_horizon:block/infusion_table",
+    "south": "sovereign_horizon:block/infusion_table",
+    "west": "sovereign_horizon:block/infusion_table",
+    "particle": "sovereign_horizon:block/sodalite_tiles"
+  },
+  "render_type": "solid"
+}

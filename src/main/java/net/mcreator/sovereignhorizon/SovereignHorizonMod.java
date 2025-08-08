@@ -18,10 +18,13 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModSounds;
+import net.mcreator.sovereignhorizon.init.SovereignHorizonModPotions;
+import net.mcreator.sovereignhorizon.init.SovereignHorizonModMenus;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModItems;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEntities;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEnchantments;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModBlocks;
+import net.mcreator.sovereignhorizon.init.SovereignHorizonModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,11 +47,15 @@ public class SovereignHorizonMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		SovereignHorizonModSounds.REGISTRY.register(bus);
 		SovereignHorizonModBlocks.REGISTRY.register(bus);
-
+		SovereignHorizonModBlockEntities.REGISTRY.register(bus);
 		SovereignHorizonModItems.REGISTRY.register(bus);
 		SovereignHorizonModEntities.REGISTRY.register(bus);
 		SovereignHorizonModEnchantments.REGISTRY.register(bus);
 		SovereignHorizonModTabs.REGISTRY.register(bus);
+
+		SovereignHorizonModPotions.REGISTRY.register(bus);
+
+		SovereignHorizonModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

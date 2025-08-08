@@ -1,11 +1,8 @@
 
 package net.mcreator.sovereignhorizon.enchantment;
 
-import net.minecraft.world.item.enchantment.EnchantmentCategory;
-import net.minecraft.world.item.enchantment.Enchantment;
-import net.minecraft.world.entity.EquipmentSlot;
-
 public class BoundingEnchantment extends Enchantment {
+
 	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.ARMOR_FEET;
 
 	public BoundingEnchantment() {
@@ -41,4 +38,5 @@ public class BoundingEnchantment extends Enchantment {
 	public boolean isTradeable() {
 		return false;
 	}
+
 }

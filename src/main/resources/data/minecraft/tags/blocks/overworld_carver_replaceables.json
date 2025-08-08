@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:sodalite",
     "sovereign_horizon:test"
   ]
 }

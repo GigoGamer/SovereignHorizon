@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "radius": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      }
+    },
+    "half_height": 1,
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "#sovereign_horizon:sodalite_replaceables"
+    },
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "data": {
+              "Name": "sovereign_horizon:sparse_deep_lichen_covered_sodalite"
+            },
+            "weight": 5
+          },
+          {
+            "data": {
+              "Name": "sovereign_horizon:deep_lichen_covered_sodalite"
+            },
+            "weight": 3
+          },
+          {
+            "data": {
+              "Name": "sovereign_horizon:sodalite"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      "rules": []
+    }
+  }
+}

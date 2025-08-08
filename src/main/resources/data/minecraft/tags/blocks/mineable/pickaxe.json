@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:infusion_table",
     "sovereign_horizon:cracked_sodalite_tiles",
     "sovereign_horizon:sodalite_tile_wall",
     "sovereign_horizon:sodalite_tile_slab",

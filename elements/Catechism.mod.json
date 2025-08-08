@@ -38,7 +38,7 @@
     },
     "creativeTabs": [
       {
-        "value": "MISC"
+        "value": "CUSTOM:SovereignHorizonsTab"
       }
     ],
     "isBoss": false,
@@ -102,7 +102,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:CatechismWing"
     },
     "livingSound": {
       "value": "entity.vex.ambient"
