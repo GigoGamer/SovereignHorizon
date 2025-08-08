@@ -1559,6 +1559,22 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "SurfaceFortress",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surface_fortress",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/structure_set/surface_fortress.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/structure/surface_fortress.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_fortress.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_fortress_hallway.json"
+        ]
+      },
+      "path": "~/Structures"
     }
   ],
   "variable_elements": [],

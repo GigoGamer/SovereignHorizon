@@ -1,0 +1,58 @@
+{
+  "_fv": 77,
+  "_type": "structure",
+  "definition": {
+    "structure": "surface_fortress_fourway",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.JIGSAW"
+      }
+    ],
+    "spacing": 5,
+    "separation": 2,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SodaliteWastes"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 7,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "hallway",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 3,
+            "structure": "surface_fortress_hall",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 2,
+            "structure": "surface_fortress_corner",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "surface_fortress_fourway",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

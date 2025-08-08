@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sovereign_horizon:block/turquoise",
+    "up": "sovereign_horizon:block/turquoise",
+    "north": "sovereign_horizon:block/turquoise",
+    "east": "sovereign_horizon:block/turquoise",
+    "south": "sovereign_horizon:block/turquoise",
+    "west": "sovereign_horizon:block/turquoise",
+    "particle": "sovereign_horizon:block/turquoise"
+  },
+  "render_type": "solid"
+}
