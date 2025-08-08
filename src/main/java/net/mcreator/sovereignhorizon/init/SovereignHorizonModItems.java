@@ -13,7 +13,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.sovereignhorizon.item.SoverignHorizonItem;
 import net.mcreator.sovereignhorizon.item.ElixiteArmorItem;
 import net.mcreator.sovereignhorizon.item.ElixisUpgradeSmithingTemplateItem;
 import net.mcreator.sovereignhorizon.item.ElixisShardItem;
@@ -23,7 +22,6 @@ import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 public class SovereignHorizonModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, SovereignHorizonMod.MODID);
 	public static final RegistryObject<Item> TEST = block(SovereignHorizonModBlocks.TEST);
-	public static final RegistryObject<Item> SOVERIGN_HORIZON = REGISTRY.register("soverign_horizon", () -> new SoverignHorizonItem());
 	public static final RegistryObject<Item> CATECHISM_SPAWN_EGG = REGISTRY.register("catechism_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.CATECHISM, -10092442, -65281, new Item.Properties()));
 	public static final RegistryObject<Item> SODALITE = block(SovereignHorizonModBlocks.SODALITE);
 	public static final RegistryObject<Item> SODALITE_STAIRS = block(SovereignHorizonModBlocks.SODALITE_STAIRS);
@@ -57,8 +55,8 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> ELIXITE_ARMOR_CHESTPLATE = REGISTRY.register("elixite_armor_chestplate", () -> new ElixiteArmorItem.Chestplate());
 	public static final RegistryObject<Item> ELIXITE_ARMOR_LEGGINGS = REGISTRY.register("elixite_armor_leggings", () -> new ElixiteArmorItem.Leggings());
 	public static final RegistryObject<Item> ELIXITE_ARMOR_BOOTS = REGISTRY.register("elixite_armor_boots", () -> new ElixiteArmorItem.Boots());
-	public static final RegistryObject<Item> CATECHISM_WING = REGISTRY.register("catechism_wing", () -> new CatechismWingItem());
 	public static final RegistryObject<Item> INFUSION_TABLE = block(SovereignHorizonModBlocks.INFUSION_TABLE);
+	public static final RegistryObject<Item> CATECHISM_WING = REGISTRY.register("catechism_wing", () -> new CatechismWingItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
