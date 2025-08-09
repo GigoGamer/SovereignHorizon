@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "sovereign_horizon:surface_ruin",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 234
+    },
+    "max_inclusive": {
+      "absolute": 236
+    }
+  },
+  "biomes": "sovereign_horizon:sodalite_wastes",
+  "use_expansion_hack": false
+}

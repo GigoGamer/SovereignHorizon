@@ -1,5 +1,5 @@
 {
-  "type": "sovereign_horizon:sovererign_horizon",
+  "type": "sovereign_horizon:sovereign_horizon",
   "generator": {
     "type": "minecraft:noise",
     "biome_source": {
@@ -20,7 +20,7 @@
       ]
     },
     "settings": {
-      "name": "sovereign_horizon:sovererign_horizon",
+      "name": "sovereign_horizon:sovereign_horizon",
       "sea_level": 32,
       "legacy_random_source": false,
       "disable_mob_generation": false,
@@ -40,7 +40,7 @@
         "min_y": -64,
         "height": 384,
         "size_horizontal": 1,
-        "size_vertical": 4
+        "size_vertical": 1
       },
       "noise_router": {
         "barrier": 0,

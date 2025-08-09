@@ -1,6 +1,24 @@
 
 package net.mcreator.sovereignhorizon.world.dimension;
 
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
+import net.minecraftforge.client.event.RegisterDimensionSpecialEffectsEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.client.renderer.DimensionSpecialEffects;
+
+import net.mcreator.sovereignhorizon.procedures.SoverignHorizonPlayerLeavesDimensionProcedure;
+import net.mcreator.sovereignhorizon.procedures.SoverignHorizonPlayerEntersDimensionProcedure;
+
 @Mod.EventBusSubscriber
 public class SovererignHorizonDimension {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -19,7 +37,7 @@ public class SovererignHorizonDimension {
 					return false;
 				}
 			};
-			event.register(new ResourceLocation("sovereign_horizon:sovererign_horizon"), customEffect);
+			event.register(new ResourceLocation("sovereign_horizon:sovereign_horizon"), customEffect);
 		}
 	}
 
@@ -30,10 +48,10 @@ public class SovererignHorizonDimension {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		if (event.getFrom() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("sovereign_horizon:sovererign_horizon"))) {
+		if (event.getFrom() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("sovereign_horizon:sovereign_horizon"))) {
 			SoverignHorizonPlayerLeavesDimensionProcedure.execute(entity);
 		}
-		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("sovereign_horizon:sovererign_horizon"))) {
+		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("sovereign_horizon:sovereign_horizon"))) {
 			SoverignHorizonPlayerEntersDimensionProcedure.execute(entity);
 		}
 	}

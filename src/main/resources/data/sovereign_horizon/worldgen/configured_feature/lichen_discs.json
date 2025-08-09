@@ -5,7 +5,7 @@
       "type": "uniform",
       "value": {
         "min_inclusive": 2,
-        "max_inclusive": 3
+        "max_inclusive": 5
       }
     },
     "half_height": 1,
@@ -33,7 +33,7 @@
             "data": {
               "Name": "sovereign_horizon:sodalite"
             },
-            "weight": 3
+            "weight": 2
           }
         ]
       },

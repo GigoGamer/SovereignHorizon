@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "sovereign_horizon:sodalite_wastes",
+  "features": "sovereign_horizon:larimar_geode",
+  "step": "underground_decoration"
+}

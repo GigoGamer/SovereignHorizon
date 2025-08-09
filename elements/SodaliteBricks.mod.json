@@ -44,7 +44,7 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "CUSTOM:SovereignHorizonsTab"
+        "value": "CUSTOM:SovereignHorizon"
       }
     ],
     "destroyTool": "pickaxe",

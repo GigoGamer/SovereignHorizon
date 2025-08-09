@@ -1,0 +1,24 @@
+{
+  "feature": "sovereign_horizon:top_layer_cover",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 25
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": {
+          "absolute": 230
+        },
+        "max_inclusive": {
+          "absolute": 234
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    }
+  ]
+}

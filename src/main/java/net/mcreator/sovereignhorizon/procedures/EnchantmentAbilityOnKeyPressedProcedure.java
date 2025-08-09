@@ -1,6 +1,7 @@
 package net.mcreator.sovereignhorizon.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.entity.Entity;
 
 public class EnchantmentAbilityOnKeyPressedProcedure {
 	public static void execute(Entity entity) {

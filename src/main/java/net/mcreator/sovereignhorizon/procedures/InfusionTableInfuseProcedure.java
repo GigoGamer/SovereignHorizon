@@ -1,6 +1,21 @@
 package net.mcreator.sovereignhorizon.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.item.PotionItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LightningBolt;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.sovereignhorizon.init.SovereignHorizonModItems;
+
+import java.util.function.Supplier;
+import java.util.Map;
 
 public class InfusionTableInfuseProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -34,6 +49,10 @@ public class InfusionTableInfuseProcedure {
 				unacceptedPotion = true;
 			} else if ((potionID).equals("sovereign_horizon:levitation")) {
 				potionID = "minecraft:levitation";
+			} else if ((potionID).equals("minecraft:swiftness")) {
+				potionID = "minecraft:speed";
+			} else if ((potionID).equals("minecraft:leaping")) {
+				potionID = "minecraft:jump_boost";
 			}
 			if (unacceptedPotion) {
 				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {

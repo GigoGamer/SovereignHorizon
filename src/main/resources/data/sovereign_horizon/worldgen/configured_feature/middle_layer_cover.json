@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "radius": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 6,
+        "max_inclusive": 8
+      }
+    },
+    "half_height": 2,
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:cave_air",
+        "minecraft:air"
+      ]
+    },
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "sovereign_horizon:sodalite"
+        }
+      },
+      "rules": []
+    }
+  }
+}
