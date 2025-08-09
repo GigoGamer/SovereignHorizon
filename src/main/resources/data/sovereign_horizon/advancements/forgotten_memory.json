@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "sovereign_horizon:test"
+    },
+    "title": {
+      "translate": "advancements.forgotten_memory.title"
+    },
+    "description": {
+      "translate": "advancements.forgotten_memory.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "forgotten_memory_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sovereign_horizon:test"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "sovereign_horizon:sh_enter"
+}

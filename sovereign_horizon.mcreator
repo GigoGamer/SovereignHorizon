@@ -4582,6 +4582,149 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "ForgottenMemory",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgotten_memory",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/forgotten_memory.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "LiquidVoidMobplayerCollidesBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_void_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/LiquidVoidMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MineralCollector",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineral_collector",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/mineral_collector.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Boing",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/boing.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "LiquidVoid",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_void",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/fluid/LiquidVoidFluid.java",
+          "src/main/resources/assets/sovereign_horizon/blockstates/liquid_void.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/liquid_void.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/LiquidVoidBlock.java",
+          "src/main/java/net/mcreator/sovereignhorizon/fluid/types/LiquidVoidFluidType.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/liquid_void_bucket.json",
+          "src/main/java/net/mcreator/sovereignhorizon/item/LiquidVoidItem.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CorruptedWell",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_well",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/structure/corrupted_well.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/structure_set/corrupted_well.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/corrupted_well.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "TearInTheFabricofReality",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tear_in_the_fabricof_reality",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/tear_in_the_fabricof_reality.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "UnderPressure",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "under_pressure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/under_pressure.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "EnrichedOres",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enriched_ores",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/enriched_ores.json"
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -4605,6 +4748,9 @@
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:BlockofElixisShards"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:LiquidVoid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:RawMarbleTiles",

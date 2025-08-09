@@ -10,8 +10,8 @@
     "radius": {
       "type": "uniform",
       "value": {
-        "min_inclusive": 7,
-        "max_inclusive": 12
+        "min_inclusive": 2,
+        "max_inclusive": 3
       }
     }
   }

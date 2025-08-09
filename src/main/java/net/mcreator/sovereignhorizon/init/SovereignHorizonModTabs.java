@@ -103,5 +103,6 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModBlocks.MARBLE_BRICKS.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.CRACKED_MARBLE_BRICKS.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.RAW_MARBLE_TILES.get().asItem());
+				tabData.accept(SovereignHorizonModItems.LIQUID_VOID_BUCKET.get());
 			}).build());
 }

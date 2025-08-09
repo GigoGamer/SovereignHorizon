@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.sovereignhorizon.item.LiquidVoidItem;
 import net.mcreator.sovereignhorizon.item.ElixiteArmorItem;
 import net.mcreator.sovereignhorizon.item.ElixisUpgradeSmithingTemplateItem;
 import net.mcreator.sovereignhorizon.item.ElixisShardItem;
@@ -108,6 +109,7 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> MARBLE_BRICKS = block(SovereignHorizonModBlocks.MARBLE_BRICKS);
 	public static final RegistryObject<Item> CRACKED_MARBLE_BRICKS = block(SovereignHorizonModBlocks.CRACKED_MARBLE_BRICKS);
 	public static final RegistryObject<Item> RAW_MARBLE_TILES = block(SovereignHorizonModBlocks.RAW_MARBLE_TILES);
+	public static final RegistryObject<Item> LIQUID_VOID_BUCKET = REGISTRY.register("liquid_void_bucket", () -> new LiquidVoidItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
