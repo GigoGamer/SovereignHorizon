@@ -3,28 +3,28 @@
   "pools": [
     {
       "rolls": {
-        "min": 2,
-        "max": 4
+        "min": 3,
+        "max": 5
       },
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "sovereign_horizon:elixis_upgrade_smithing_template",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "sovereign_horizon:cobbled_sodalite",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 2,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "sovereign_horizon:sodalite",
-          "weight": 7,
+          "weight": 10,
           "functions": [
             {
               "function": "set_count",
@@ -37,42 +37,14 @@
         },
         {
           "type": "minecraft:item",
-          "name": "sovereign_horizon:catechism_wing",
-          "weight": 5,
+          "name": "minecraft:redstone",
+          "weight": 12,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "sovereign_horizon:larimar",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:glow_lichen",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 4
+                "min": 3,
+                "max": 12
               }
             }
           ]
@@ -80,70 +52,42 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lapis_lazuli",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
           "weight": 5,
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:quartz",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 6,
-                "max": 10
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:written_book",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 21
+                "max": 1
               }
             },
             {
               "function": "enchant_with_levels",
               "treasure": true,
               "levels": {
-                "min": 8,
-                "max": 10
+                "min": 10,
+                "max": 20
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_sword",
+          "name": "minecraft:diamond_pickaxe",
           "weight": 2,
           "functions": [
             {
@@ -157,8 +101,50 @@
               "function": "enchant_with_levels",
               "treasure": true,
               "levels": {
-                "min": 3,
-                "max": 10
+                "min": 10,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sovereign_horizon:ash",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sovereign_horizon:catechism_wing",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
               }
             }
           ]
@@ -166,5 +152,5 @@
       ]
     }
   ],
-  "random_sequence": "sovereign_horizon:gameplay/surface_fortress"
+  "random_sequence": "sovereign_horizon:gameplay/middle_tower"
 }
