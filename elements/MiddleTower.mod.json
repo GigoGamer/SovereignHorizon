@@ -1,0 +1,85 @@
+{
+  "_fv": 77,
+  "_type": "structure",
+  "definition": {
+    "structure": "middle_tower_base",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 11,
+    "separation": 10,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AshField"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 134,
+    "startHeightMax": 136,
+    "size": 4,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "floor",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 9,
+            "structure": "middle_tower_ash_floor",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 9,
+            "structure": "middle_tower_brewing_floor",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 15,
+            "structure": "middle_tower_loot_floor",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 9,
+            "structure": "middle_tower_ore_floor",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 6,
+            "structure": "middle_tower_portal_floor",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 1,
+            "structure": "middle_tower_sus_floor",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 9,
+            "structure": "middle_tower_work_floor",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 9,
+            "structure": "middle_tower_top",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

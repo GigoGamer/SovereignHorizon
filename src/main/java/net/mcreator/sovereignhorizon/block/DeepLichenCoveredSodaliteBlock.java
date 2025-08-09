@@ -1,6 +1,8 @@
 
 package net.mcreator.sovereignhorizon.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraftforge.common.IPlantable;
 
 import net.minecraft.world.level.block.state.BlockState;
@@ -13,7 +15,7 @@ import net.minecraft.core.BlockPos;
 
 public class DeepLichenCoveredSodaliteBlock extends Block {
 	public DeepLichenCoveredSodaliteBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(4.75f, 9f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(4.75f, 9f).lightLevel(s -> 3).requiresCorrectToolForDrops());
 	}
 
 	@Override
