@@ -3,7 +3,7 @@
   "group": "polished_marble_slab",
   "count": 2,
   "ingredient": {
-    "item": "sovereign_horizon:deleted_mod_element"
+    "item": "sovereign_horizon:marble"
   },
-  "result": "sovereign_horizon:deleted_mod_element"
+  "result": "sovereign_horizon:polished_marble_slab"
 }

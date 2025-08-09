@@ -3,7 +3,7 @@
   "group": "marble_brick_stairs",
   "count": 1,
   "ingredient": {
-    "item": "sovereign_horizon:deleted_mod_element"
+    "item": "sovereign_horizon:polished_marble"
   },
-  "result": "sovereign_horizon:deleted_mod_element"
+  "result": "sovereign_horizon:marble_brick_stairs"
 }

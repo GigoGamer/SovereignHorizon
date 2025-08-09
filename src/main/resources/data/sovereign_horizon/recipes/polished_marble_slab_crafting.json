@@ -7,11 +7,11 @@
   ],
   "key": {
     "a": {
-      "item": "sovereign_horizon:deleted_mod_element"
+      "item": "sovereign_horizon:polished_marble"
     }
   },
   "result": {
-    "item": "sovereign_horizon:deleted_mod_element",
+    "item": "sovereign_horizon:polished_marble_slab",
     "count": 6
   }
 }

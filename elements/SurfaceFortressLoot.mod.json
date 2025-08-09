@@ -131,7 +131,7 @@
             "weight": 3,
             "minCount": 1,
             "maxCount": 21,
-            "minEnchantmentLevel": 3,
+            "minEnchantmentLevel": 8,
             "maxEnchantmentLevel": 10,
             "affectedByFortune": false,
             "explosionDecay": false,
