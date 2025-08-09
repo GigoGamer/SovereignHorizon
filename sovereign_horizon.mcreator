@@ -1769,6 +1769,51 @@
         ]
       },
       "path": "~/Features"
+    },
+    {
+      "name": "LepidolitePile",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lepidolite_pile",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/lepidolite_pile_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/lepidolite_pile.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/lepidolite_pile.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "SurfaceShrine",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surface_shrine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_shrine.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/structure/surface_shrine.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/structure_set/surface_shrine.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "SurfaceRuin",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surface_ruin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/structure/surface_ruin.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/structure_set/surface_ruin.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_ruin.json"
+        ]
+      },
+      "path": "~/Structures"
     }
   ],
   "variable_elements": [],

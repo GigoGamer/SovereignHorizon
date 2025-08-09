@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:CobbledSodalite"
             },
-            "weight": 10,
+            "weight": 8,
             "minCount": 2,
             "maxCount": 5,
             "minEnchantmentLevel": 0,
@@ -30,7 +30,7 @@
             "item": {
               "value": "CUSTOM:Sodalite"
             },
-            "weight": 5,
+            "weight": 7,
             "minCount": 1,
             "maxCount": 5,
             "minEnchantmentLevel": 0,
@@ -103,6 +103,20 @@
             "weight": 4,
             "minCount": 1,
             "maxCount": 4,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.IRON_NUGGET"
+            },
+            "weight": 5,
+            "minCount": 6,
+            "maxCount": 10,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

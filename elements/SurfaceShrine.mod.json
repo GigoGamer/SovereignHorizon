@@ -1,0 +1,30 @@
+{
+  "_fv": 77,
+  "_type": "structure",
+  "definition": {
+    "structure": "surface_shrine",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 25,
+    "separation": 20,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SodaliteWastes"
+      }
+    ],
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 234,
+    "startHeightMax": 236,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "sovereign_horizon:surface_shrine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 20,
+    "salt": 1546743539
+  }
+}
