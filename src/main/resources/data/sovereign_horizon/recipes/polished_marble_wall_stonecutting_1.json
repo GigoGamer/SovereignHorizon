@@ -3,7 +3,7 @@
   "group": "polished_marble_wall",
   "count": 1,
   "ingredient": {
-    "item": "sovereign_horizon:deleted_mod_element"
+    "item": "sovereign_horizon:marble"
   },
   "result": "sovereign_horizon:polished_marble_wall"
 }

@@ -7,11 +7,11 @@
   ],
   "key": {
     "a": {
-      "item": "sovereign_horizon:deleted_mod_element"
+      "item": "sovereign_horizon:raw_marble_tiles"
     }
   },
   "result": {
-    "item": "sovereign_horizon:deleted_mod_element",
+    "item": "sovereign_horizon:raw_marble_tile_slab",
     "count": 6
   }
 }

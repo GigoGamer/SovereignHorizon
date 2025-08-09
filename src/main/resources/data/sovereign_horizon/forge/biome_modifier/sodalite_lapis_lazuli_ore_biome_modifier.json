@@ -1,6 +1,9 @@
 {
   "type": "forge:add_features",
-  "biomes": "sovereign_horizon:sodalite_wastes",
+  "biomes": [
+    "sovereign_horizon:sodalite_wastes",
+    "sovereign_horizon:ash_field"
+  ],
   "features": "sovereign_horizon:sodalite_lapis_lazuli_ore",
   "step": "underground_ores"
 }

@@ -128,6 +128,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:SodaliteWastes"
+      },
+      {
+        "value": "CUSTOM:AshField"
       }
     ],
     "blocksToReplace": [
@@ -136,9 +139,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 8,
+    "frequencyPerChunks": 10,
     "frequencyOnChunk": 12,
     "minGenerateHeight": -64,
-    "maxGenerateHeight": 128
+    "maxGenerateHeight": 320
   }
 }

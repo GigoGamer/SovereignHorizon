@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "advancements.boing.title"
+    },
+    "description": {
+      "translate": "advancements.boing.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "boing_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "sovereign_horizon:sh_enter"
+}

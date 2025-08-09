@@ -8,10 +8,10 @@
       "registry_name": "test",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/blockstates/test.json",
-          "src/main/resources/assets/sovereign_horizon/models/item/test.json",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/test.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/TestBlock.java",
+          "src/main/resources/assets/sovereign_horizon/blockstates/test.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/test.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/test.json",
           "src/main/resources/assets/sovereign_horizon/models/block/test.json"
         ]
       },
@@ -125,8 +125,8 @@
       "registry_name": "catechism",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/entity/CatechismEntity.java",
           "src/main/resources/data/sovereign_horizon/forge/biome_modifier/catechism_biome_modifier.json",
+          "src/main/java/net/mcreator/sovereignhorizon/entity/CatechismEntity.java",
           "src/main/resources/assets/sovereign_horizon/models/item/catechism_spawn_egg.json",
           "src/main/java/net/mcreator/sovereignhorizon/client/renderer/CatechismRenderer.java"
         ]
@@ -154,9 +154,9 @@
       "registry_name": "sodalite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite.json",
           "src/main/resources/assets/sovereign_horizon/models/block/sodalite.json",
           "src/main/resources/assets/sovereign_horizon/models/item/sodalite.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteBlock.java"
         ]
       },
@@ -170,13 +170,13 @@
       "registry_name": "sodalite_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_stairs_outer.json",
           "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_stairs.json",
           "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_stairs.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_stairs.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_stairs_inner.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteStairsBlock.java",
           "src/main/resources/assets/sovereign_horizon/models/item/sodalite_stairs.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_stairs_outer.json"
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_stairs_inner.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -189,13 +189,13 @@
       "registry_name": "sodalite_slab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_slab_top.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_slab.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_slab.json",
           "src/main/resources/assets/sovereign_horizon/models/block/sodalite_slab_full.json",
           "src/main/resources/assets/sovereign_horizon/models/item/sodalite_slab.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteSlabBlock.java",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_slab.json",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_slab.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_slab_top.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_slab.json"
+          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteSlabBlock.java"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -208,14 +208,14 @@
       "registry_name": "sodalite_wall",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteWallBlock.java",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_wall_post.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_wall.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_wall.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_wall_side_tall.json",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_wall.json",
           "src/main/resources/assets/sovereign_horizon/models/item/sodalite_wall.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_wall_inventory.json"
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_wall_post.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteWallBlock.java",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_wall_side_tall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_wall_inventory.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_wall.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -228,12 +228,12 @@
       "registry_name": "sodalite_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_pressure_plate.json",
           "src/main/resources/assets/sovereign_horizon/models/item/sodalite_pressure_plate.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_pressure_plate_down.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_pressure_plate.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/SodalitePressurePlateBlock.java",
           "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_pressure_plate.json",
           "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_pressure_plate.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/SodalitePressurePlateBlock.java"
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_pressure_plate_down.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -246,13 +246,13 @@
       "registry_name": "sodalite_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_button_pressed.json",
           "src/main/resources/assets/sovereign_horizon/models/item/sodalite_button.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteButtonBlock.java",
-          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_button.json",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_button.json",
           "src/main/resources/assets/sovereign_horizon/models/block/sodalite_button_inventory.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_button.json"
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_button.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_button.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_button.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_button_pressed.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -267,8 +267,8 @@
         "files": [
           "src/main/resources/assets/sovereign_horizon/models/item/sparse_deep_lichen_covered_sodalite.json",
           "src/main/resources/assets/sovereign_horizon/blockstates/sparse_deep_lichen_covered_sodalite.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sparse_deep_lichen_covered_sodalite.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/SparseDeepLichenCoveredSodaliteBlock.java"
+          "src/main/java/net/mcreator/sovereignhorizon/block/SparseDeepLichenCoveredSodaliteBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/sparse_deep_lichen_covered_sodalite.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -281,10 +281,10 @@
       "registry_name": "deep_lichen_covered_sodalite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/models/item/deep_lichen_covered_sodalite.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/deep_lichen_covered_sodalite.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/deep_lichen_covered_sodalite.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/DeepLichenCoveredSodaliteBlock.java",
-          "src/main/resources/assets/sovereign_horizon/blockstates/deep_lichen_covered_sodalite.json"
+          "src/main/resources/assets/sovereign_horizon/models/item/deep_lichen_covered_sodalite.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/deep_lichen_covered_sodalite.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -427,11 +427,11 @@
       "registry_name": "cobbled_sodalite",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cobbled_sodalite.json",
-          "src/main/resources/assets/sovereign_horizon/models/item/cobbled_sodalite.json",
           "src/main/resources/assets/sovereign_horizon/blockstates/cobbled_sodalite.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/CobbledSodaliteBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/cobbled_sodalite.json",
           "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/CobbledSodaliteBlock.java"
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cobbled_sodalite.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -471,12 +471,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/sovereign_horizon/models/item/cobbled_sodalite_stairs.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_stairs.json",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cobbled_sodalite_stairs.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/cobbled_sodalite_stairs.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_stairs_outer.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/CobbledSodaliteStairsBlock.java",
-          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_stairs_inner.json"
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cobbled_sodalite_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_stairs_inner.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/cobbled_sodalite_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_stairs_outer.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -489,13 +489,13 @@
       "registry_name": "cobbled_sodalite_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/blockstates/cobbled_sodalite_slab.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/CobbledSodaliteSlabBlock.java",
-          "src/main/resources/assets/sovereign_horizon/models/item/cobbled_sodalite_slab.json",
           "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_slab_top.json",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cobbled_sodalite_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/cobbled_sodalite_slab.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/CobbledSodaliteSlabBlock.java",
+          "src/main/resources/assets/sovereign_horizon/blockstates/cobbled_sodalite_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_slab_full.json",
           "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_slab.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_slab_full.json"
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cobbled_sodalite_slab.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -508,14 +508,14 @@
       "registry_name": "cobbled_sodalite_wall",
       "metadata": {
         "files": [
+          "src/main/resources/assets/sovereign_horizon/blockstates/cobbled_sodalite_wall.json",
           "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cobbled_sodalite_wall.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/CobbledSodaliteWallBlock.java",
           "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_wall.json",
           "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_wall_side_tall.json",
-          "src/main/resources/assets/sovereign_horizon/models/item/cobbled_sodalite_wall.json",
           "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_wall_post.json",
           "src/main/resources/assets/sovereign_horizon/models/block/cobbled_sodalite_wall_inventory.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/CobbledSodaliteWallBlock.java",
-          "src/main/resources/assets/sovereign_horizon/blockstates/cobbled_sodalite_wall.json"
+          "src/main/resources/assets/sovereign_horizon/models/item/cobbled_sodalite_wall.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -606,11 +606,11 @@
       "registry_name": "polished_sodalite",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_sodalite.json",
-          "src/main/resources/assets/sovereign_horizon/models/item/polished_sodalite.json",
           "src/main/resources/assets/sovereign_horizon/blockstates/polished_sodalite.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/polished_sodalite.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/PolishedSodaliteBlock.java",
-          "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite.json"
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_sodalite.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -649,13 +649,13 @@
       "registry_name": "polished_sodalite_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_stairs_inner.json",
           "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_stairs.json",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_sodalite_stairs.json",
-          "src/main/resources/assets/sovereign_horizon/models/item/polished_sodalite_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_stairs_inner.json",
           "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_stairs_outer.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/polished_sodalite_stairs.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/PolishedSodaliteStairsBlock.java"
+          "src/main/resources/assets/sovereign_horizon/models/item/polished_sodalite_stairs.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/PolishedSodaliteStairsBlock.java",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_sodalite_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/polished_sodalite_stairs.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -668,13 +668,13 @@
       "registry_name": "polished_sodalite_slab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/block/PolishedSodaliteSlabBlock.java",
-          "src/main/resources/assets/sovereign_horizon/models/item/polished_sodalite_slab.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/polished_sodalite_slab.json",
           "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_slab_top.json",
           "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_slab_full.json",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_sodalite_slab.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/polished_sodalite_slab.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_slab.json"
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_slab.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/PolishedSodaliteSlabBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/polished_sodalite_slab.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_sodalite_slab.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -687,14 +687,14 @@
       "registry_name": "polished_sodalite_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/blockstates/polished_sodalite_wall.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_wall_inventory.json",
           "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_wall_post.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_wall_side_tall.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/polished_sodalite_wall.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/polished_sodalite_wall.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/PolishedSodaliteWallBlock.java",
           "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_sodalite_wall.json",
-          "src/main/resources/assets/sovereign_horizon/models/item/polished_sodalite_wall.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_wall_side_tall.json"
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_sodalite_wall_inventory.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -785,11 +785,11 @@
       "registry_name": "sodalite_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_bricks.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_bricks.json",
           "src/main/resources/assets/sovereign_horizon/models/item/sodalite_bricks.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_bricks.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_bricks.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteBricksBlock.java",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_bricks.json"
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_bricks.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -804,11 +804,11 @@
         "files": [
           "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteBrickStairsBlock.java",
           "src/main/resources/assets/sovereign_horizon/models/item/sodalite_brick_stairs.json",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_brick_stairs.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_brick_stairs.json",
           "src/main/resources/assets/sovereign_horizon/models/block/sodalite_brick_stairs_outer.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_brick_stairs.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_brick_stairs_inner.json"
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_brick_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_brick_stairs_inner.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_brick_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_brick_stairs.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -822,12 +822,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/sovereign_horizon/models/block/sodalite_brick_slab_full.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_brick_slab.json",
           "src/main/resources/assets/sovereign_horizon/models/block/sodalite_brick_slab_top.json",
           "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_brick_slab.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteBrickSlabBlock.java",
-          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_brick_slab.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_brick_slab.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_brick_slab.json"
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_brick_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_brick_slab.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -840,14 +840,14 @@
       "registry_name": "sodalite_brick_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_brick_wall.json",
           "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_brick_wall.json",
           "src/main/resources/assets/sovereign_horizon/models/block/sodalite_brick_wall.json",
           "src/main/resources/assets/sovereign_horizon/models/block/sodalite_brick_wall_post.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteBrickWallBlock.java",
-          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_brick_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_brick_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_brick_wall_inventory.json",
           "src/main/resources/assets/sovereign_horizon/models/block/sodalite_brick_wall_side_tall.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_brick_wall_inventory.json"
+          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteBrickWallBlock.java",
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_brick_wall.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -1003,11 +1003,11 @@
       "registry_name": "cracked_sodalite_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cracked_sodalite_bricks.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/cracked_sodalite_bricks.json",
-          "src/main/resources/assets/sovereign_horizon/models/item/cracked_sodalite_bricks.json",
           "src/main/resources/assets/sovereign_horizon/blockstates/cracked_sodalite_bricks.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/CrackedSodaliteBricksBlock.java"
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cracked_sodalite_bricks.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/cracked_sodalite_bricks.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/CrackedSodaliteBricksBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/cracked_sodalite_bricks.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -1020,11 +1020,11 @@
       "registry_name": "sodalite_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_tiles.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteTilesBlock.java",
           "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_tiles.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tiles.json",
           "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_tiles.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteTilesBlock.java"
+          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_tiles.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tiles.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -1037,12 +1037,12 @@
       "registry_name": "sodalite_tile_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_stairs_inner.json",
           "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_tile_stairs.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteTileStairsBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_stairs_outer.json",
           "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_tile_stairs.json",
           "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_stairs.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_stairs_outer.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_stairs_inner.json",
           "src/main/resources/assets/sovereign_horizon/models/item/sodalite_tile_stairs.json"
         ]
       },
@@ -1056,13 +1056,13 @@
       "registry_name": "sodalite_tile_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_tile_slab.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_slab_top.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_tile_slab.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_slab.json",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_tile_slab.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteTileSlabBlock.java",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_slab_full.json"
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_tile_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_slab_top.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_slab_full.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_tile_slab.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_tile_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_slab.json"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -1075,14 +1075,14 @@
       "registry_name": "sodalite_tile_wall",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteTileWallBlock.java",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_tile_wall.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_wall.json",
-          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_tile_wall.json",
           "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_wall_post.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_tile_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_tile_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_wall.json",
           "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_wall_side_tall.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_tile_wall.json",
           "src/main/resources/assets/sovereign_horizon/models/block/sodalite_tile_wall_inventory.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_tile_wall.json"
+          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteTileWallBlock.java"
         ]
       },
       "path": "~/Blocks/Sodalite"
@@ -1095,10 +1095,10 @@
       "registry_name": "cracked_sodalite_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/models/block/cracked_sodalite_tiles.json",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cracked_sodalite_tiles.json",
-          "src/main/resources/assets/sovereign_horizon/models/item/cracked_sodalite_tiles.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/CrackedSodaliteTilesBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/cracked_sodalite_tiles.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cracked_sodalite_tiles.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cracked_sodalite_tiles.json",
           "src/main/resources/assets/sovereign_horizon/blockstates/cracked_sodalite_tiles.json"
         ]
       },
@@ -1309,11 +1309,11 @@
       "registry_name": "elixite_armor",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/item/ElixiteArmorItem.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/elixite_armor_helmet.json",
           "src/main/resources/assets/sovereign_horizon/models/item/elixite_armor_chestplate.json",
           "src/main/resources/assets/sovereign_horizon/models/item/elixite_armor_leggings.json",
-          "src/main/resources/assets/sovereign_horizon/models/item/elixite_armor_boots.json",
-          "src/main/resources/assets/sovereign_horizon/models/item/elixite_armor_helmet.json",
-          "src/main/java/net/mcreator/sovereignhorizon/item/ElixiteArmorItem.java"
+          "src/main/resources/assets/sovereign_horizon/models/item/elixite_armor_boots.json"
         ]
       },
       "path": "~/Other"
@@ -1465,12 +1465,12 @@
       "registry_name": "infusion_table",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/models/block/infusion_table.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/entity/InfusionTableBlockEntity.java",
           "src/main/resources/data/sovereign_horizon/loot_tables/blocks/infusion_table.json",
           "src/main/resources/assets/sovereign_horizon/blockstates/infusion_table.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/infusion_table.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/InfusionTableBlock.java",
-          "src/main/resources/assets/sovereign_horizon/models/item/infusion_table.json"
+          "src/main/resources/assets/sovereign_horizon/models/item/infusion_table.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/entity/InfusionTableBlockEntity.java"
         ]
       },
       "path": "~/Blocks"
@@ -1580,8 +1580,8 @@
       "registry_name": "lichen_discs",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/lichen_discs.json",
           "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/lichen_discs.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/lichen_discs.json",
           "src/main/resources/data/sovereign_horizon/forge/biome_modifier/lichen_discs_biome_modifier.json"
         ]
       },
@@ -1615,11 +1615,11 @@
       "registry_name": "surface_fortress",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_fortress_interior_hallway.json",
-          "src/main/resources/data/sovereign_horizon/worldgen/structure_set/surface_fortress.json",
           "src/main/resources/data/sovereign_horizon/worldgen/structure/surface_fortress.json",
-          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_fortress.json",
-          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_fortress_hallway.json"
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_fortress_hallway.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/structure_set/surface_fortress.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_fortress_interior_hallway.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_fortress.json"
         ]
       },
       "path": "~/Structures"
@@ -1632,11 +1632,11 @@
       "registry_name": "larimar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/models/block/larimar.json",
           "src/main/resources/data/sovereign_horizon/loot_tables/blocks/larimar.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/larimar.json",
           "src/main/java/net/mcreator/sovereignhorizon/block/LarimarBlock.java",
-          "src/main/resources/assets/sovereign_horizon/models/item/larimar.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/larimar.json"
+          "src/main/resources/assets/sovereign_horizon/blockstates/larimar.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/larimar.json"
         ]
       },
       "path": "~/Blocks/Larimar"
@@ -1660,8 +1660,8 @@
       "registry_name": "larimar_geode",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/larimar_geode.json",
           "src/main/resources/data/sovereign_horizon/forge/biome_modifier/larimar_geode_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/larimar_geode.json",
           "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/larimar_geode.json"
         ]
       },
@@ -1690,8 +1690,8 @@
       "registry_name": "middle_layer_cover",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/middle_layer_cover_biome_modifier.json",
           "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/middle_layer_cover.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/middle_layer_cover_biome_modifier.json",
           "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/middle_layer_cover.json"
         ]
       },
@@ -1705,9 +1705,9 @@
       "registry_name": "bottom_layer_cover",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/bottom_layer_cover.json",
           "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/bottom_layer_cover.json",
-          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/bottom_layer_cover_biome_modifier.json"
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/bottom_layer_cover_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/bottom_layer_cover.json"
         ]
       },
       "path": "~/Features"
@@ -1747,10 +1747,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/sovereign_horizon/models/item/lepidolite.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/lepidolite.json",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/lepidolite.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/LepidoliteBlock.java",
           "src/main/resources/assets/sovereign_horizon/models/block/lepidolite.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/LepidoliteBlock.java"
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/lepidolite.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/lepidolite.json"
         ]
       },
       "path": "~/Blocks"
@@ -1779,8 +1779,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/sovereign_horizon/forge/biome_modifier/lepidolite_pile_biome_modifier.json",
-          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/lepidolite_pile.json",
-          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/lepidolite_pile.json"
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/lepidolite_pile.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/lepidolite_pile.json"
         ]
       },
       "path": "~/Features"
@@ -1793,8 +1793,8 @@
       "registry_name": "surface_shrine",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_shrine.json",
           "src/main/resources/data/sovereign_horizon/worldgen/structure/surface_shrine.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_shrine.json",
           "src/main/resources/data/sovereign_horizon/worldgen/structure_set/surface_shrine.json"
         ]
       },
@@ -1809,8 +1809,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/sovereign_horizon/worldgen/structure/surface_ruin.json",
-          "src/main/resources/data/sovereign_horizon/worldgen/structure_set/surface_ruin.json",
-          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_ruin.json"
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/surface_ruin.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/structure_set/surface_ruin.json"
         ]
       },
       "path": "~/Structures"
@@ -4553,6 +4553,71 @@
         ]
       },
       "path": "~/Features"
+    },
+    {
+      "name": "UnderPressure",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "under_pressure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/under_pressure.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Boing",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/boing.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MineralCollector",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineral_collector",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/mineral_collector.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ForgottenMemory",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgotten_memory",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/forgotten_memory.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "EnrichedOres",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enriched_ores",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/enriched_ores.json"
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -4731,43 +4796,161 @@
       "~CUSTOM:SodaliteStairs"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Ash",
       "~CUSTOM:Sodalite"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:SovereignHorizon": [
+      "DeepLichenCoveredSodalite",
+      "SparseDeepLichenCoveredSodalite",
+      "Sodalite",
+      "SodaliteStairs",
+      "SodaliteSlab",
+      "SodaliteWall",
+      "SodalitePressurePlate",
+      "SodaliteButton",
+      "CobbledSodalite",
+      "CobbledSodaliteStairs",
+      "CobbledSodaliteSlab",
+      "CobbledSodaliteWall",
+      "PolishedSodalite",
+      "PolishedSodaliteStairs",
+      "PolishedSodaliteSlab",
+      "PolishedSodaliteWall",
+      "SodaliteBricks",
+      "CrackedSodaliteBricks",
+      "SodaliteBrickStairs",
+      "SodaliteBrickSlab",
+      "SodaliteBrickWall",
+      "SodaliteTiles",
+      "CrackedSodaliteTiles",
+      "SodaliteTileStairs",
+      "SodaliteTileSlab",
+      "SodaliteTileWall",
+      "SodaliteEmeraldOre",
+      "SodaliteDiamondOre",
+      "SodaliteLapisLazuliOre",
+      "SodaliteRedstoneOre",
+      "SodaliteQuartzOre",
+      "Lepidolite",
+      "Thulite",
+      "Larimar",
+      "Ash",
+      "InfusionTable",
+      "ElixisShard",
+      "BlockofElixisShards",
+      "ElixisUpgradeSmithingTemplate",
+      "ElixiteArmor",
+      "CatechismWing",
+      "Blueskin",
+      "Marble",
+      "MarbleStairs",
+      "MarbleSlab",
+      "MarbleWall",
+      "PolishedMarble",
+      "PolishedMarbleStairs",
+      "PolishedMarbleSlab",
+      "PolishedMarbleWall",
+      "MarbleBricks",
+      "CrackedMarbleBricks",
+      "MarbleBrickStairs",
+      "MarbleBrickSlab",
+      "MarbleBrickWall",
+      "MarbleTiles",
+      "CrackedMarbleTiles",
+      "MarbleTileStairs",
+      "MarbleTileSlab",
+      "MarbleTileWall",
+      "MarblePillar",
+      "RawMarble",
+      "RawMarbleStairs",
+      "RawMarbleSlab",
+      "RawMarbleWall",
+      "PolishedRawMarble",
+      "PolishedRawMarbleStairs",
+      "PolishedRawMarbleSlab",
+      "PolishedRawMarbleWall",
+      "RawMarbleBricks",
+      "CrackedRawMarbleBricks",
+      "RawMarbleBrickStairs",
+      "RawMarbleBrickSlab",
+      "RawMarbleBrickWall",
+      "RawMarbleTiles",
+      "CrackedRawMarbleTiles",
+      "RawMarbleTileStairs",
+      "RawMarbleTileSlab",
+      "RawMarbleTileWall",
+      "RawMarblePillar",
+      "Catechism",
+      "RivedGhast"
+    ]
+  },
   "language_map": {
     "en_us": {
       "block.sovereign_horizon.deep_lichen_covered_sodalite": "Deep Lichen Covered Sodalite",
-      "item.sovereign_horizon.elixite_armor_chestplate": "Elixite Chestplate",
+      "block.sovereign_horizon.marble_tile_stairs": "Marble Tile Stairs",
+      "biome.sovereign_horizon.ash_field": "Ash Field",
       "key.sovereign_horizon.enchantment_ability": "Enchantment Ability",
+      "item.sovereign_horizon.elixite_armor_chestplate": "Elixite Chestplate",
+      "advancements.forgotten_memory.descr": "Obtain the mythical test block (Its one of a kind!)",
       "advancements.sh_enter.title": "A Sovereign Horizon",
+      "block.sovereign_horizon.marble": "Marble",
+      "block.sovereign_horizon.marble_tile_slab": "Marble Tile Slab",
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "item.sovereign_horizon.elixite_armor_boots": "Elixite Boots",
       "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
+      "block.sovereign_horizon.raw_marble_brick_slab": "Raw Marble Brick Slab",
       "advancements.carbonated_rock.descr": "Find sodalite",
+      "item.sovereign_horizon.rived_ghast_spawn_egg": "Rived Ghast Spawn Egg",
       "block.sovereign_horizon.polished_sodalite_slab": "Polished Sodalite Slab",
-      "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
+      "block.sovereign_horizon.marble_brick_wall": "Marble Brick Wall",
+      "advancements.enriched_ores.title": "Enriched Ores",
       "block.sovereign_horizon.sodalite_diamond_ore": "Sodalite Diamond Ore",
+      "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
+      "block.sovereign_horizon.polished_raw_marble_slab": "Polished Raw Marble Slab",
       "block.sovereign_horizon.sodalite_lapis_lazuli_ore": "Sodalite Lapis Lazuli Ore",
       "item.sovereign_horizon.elixis_upgrade_smithing_template": "Smithing Template",
+      "advancements.boing.title": "Boing!",
+      "block.sovereign_horizon.polished_raw_marble": "Polished Raw Marble",
+      "block.sovereign_horizon.polished_marble": "Polished Marble",
+      "block.sovereign_horizon.raw_marble_slab": "Raw Marble Slab",
+      "block.sovereign_horizon.cracked_marble_bricks": "Cracked Marble Bricks",
       "item.minecraft.lingering_potion.effect.levitation": "Lingering Potion of Levitation",
+      "block.sovereign_horizon.raw_marble_pillar": "Raw Marble Pillar",
+      "block.sovereign_horizon.marble_tiles": "Marble Tiles",
       "biome.sovereign_horizon.sodalite_wastes": "Sodalite Wastes",
-      "block.sovereign_horizon.test": "Test",
+      "block.sovereign_horizon.marble_stairs": "Marble Stairs",
+      "entity.sovereign_horizon.rived_ghast": "Rived Ghast",
+      "advancements.mineral_collector.title": "Mineral Collector",
       "block.sovereign_horizon.sodalite_redstone_ore": "Sodalite Redstone Ore",
+      "block.sovereign_horizon.test": "Test",
       "item.sovereign_horizon.elixite_armor_leggings": "Elixite Leggings",
+      "block.sovereign_horizon.marble_bricks": "Marble Bricks",
       "block.sovereign_horizon.sodalite_emerald_ore": "Sodalite Emerald Ore",
       "block.sovereign_horizon.sodalite": "Sodalite",
       "item.sovereign_horizon.elixite_armor_helmet": "Elixite Helmet",
       "block.sovereign_horizon.sodalite_tiles": "Sodalite Tiles",
       "block.sovereign_horizon.sodalite_wall": "Sodalite Wall",
+      "block.sovereign_horizon.raw_marble_tile_wall": "Raw Marble Tile Wall",
       "item.sovereign_horizon.catechism_wing": "Catechism Wing",
+      "block.sovereign_horizon.thulite": "Thulite",
+      "block.sovereign_horizon.marble_wall": "Marble Wall",
+      "block.sovereign_horizon.polished_marble_slab": "Polished Marble Slab",
+      "block.sovereign_horizon.polished_marble_stairs": "Polished Marble Stairs",
+      "block.sovereign_horizon.raw_marble_tiles": "Raw Marble Tiles",
+      "advancements.boing.descr": "Use the bounding enchantment to double jump",
+      "advancements.enriched_ores.descr": "Mine a sodalite diamond (or emerald) ore and get more valuables than normal",
       "entity.sovereign_horizon.catechism": "Catechism",
       "block.sovereign_horizon.blockof_elixis_shards": "Block of Elixis Shards",
       "item_group.sovereign_horizon.sovereign_horizon": "Sovereign Horizon",
       "block.sovereign_horizon.sodalite_brick_slab": "Sodalite Brick Slab",
       "item.sovereign_horizon.elixis_shard": "Elixis Shard",
+      "block.sovereign_horizon.cracked_raw_marble_bricks": "Cracked Raw Marble Bricks",
       "block.sovereign_horizon.sparse_deep_lichen_covered_sodalite": "Sparse Deep Lichen Covered Sodalite",
       "block.sovereign_horizon.cracked_sodalite_tiles": "Cracked Sodalite Tiles",
+      "block.sovereign_horizon.raw_marble_bricks": "Raw Marble Bricks",
+      "block.sovereign_horizon.raw_marble_brick_stairs": "Raw Marble Brick Stairs",
       "block.sovereign_horizon.sodalite_tile_slab": "Sodalite Tile Slab",
       "block.sovereign_horizon.sodalite_brick_stairs": "Sodalite Brick Stairs",
       "death.attack.pressure.item": "%1$s was squashed by %2$s using %3$s",
@@ -4776,35 +4959,59 @@
       "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
       "block.sovereign_horizon.polished_sodalite_wall": "Polished Sodalite Wall",
       "block.sovereign_horizon.sodalite_pressure_plate": "Sodalite Pressure Plate",
-      "block.sovereign_horizon.sodalite_quartz_ore": "Sodalite Quartz Ore",
+      "block.sovereign_horizon.marble_tile_wall": "Marble Tile Wall",
       "enchantment.sovereign_horizon.resilience": "Resilience",
+      "block.sovereign_horizon.sodalite_quartz_ore": "Sodalite Quartz Ore",
       "block.sovereign_horizon.sodalite_bricks": "Sodalite Bricks",
       "advancements.sh_enter.descr": "Enter the Sovereign Horizon",
+      "block.sovereign_horizon.cracked_marble_tiles": "Cracked Marble Tiles",
+      "block.sovereign_horizon.ash": "Ash",
       "block.sovereign_horizon.cobbled_sodalite_wall": "Cobbled Sodalite Wall",
+      "block.sovereign_horizon.raw_marble_stairs": "Raw Marble Stairs",
       "death.attack.pressure": "%1$s imploded",
+      "advancements.forgotten_memory.title": "Forgotten Memory",
       "block.sovereign_horizon.infusion_table": "Infusion Table",
+      "block.sovereign_horizon.raw_marble_brick_wall": "Raw Marble Brick Wall",
+      "block.sovereign_horizon.raw_marble_wall": "Raw Marble Wall",
+      "block.sovereign_horizon.marble_brick_slab": "Marble Brick Slab",
       "block.sovereign_horizon.polished_sodalite_stairs": "Polished Sodalite Stairs",
       "block.sovereign_horizon.polished_sodalite": "Polished Sodalite",
+      "block.sovereign_horizon.cracked_raw_marble_tiles": "Cracked Raw Marble Tiles",
       "block.sovereign_horizon.cobbled_sodalite_stairs": "Cobbled Sodalite Stairs",
+      "block.sovereign_horizon.polished_raw_marble_wall": "Polished Raw Marble Wall",
       "block.sovereign_horizon.cobbled_sodalite": "Cobbled Sodalite",
+      "advancements.how_riveding.descr": "Kill a rived ghast",
+      "advancements.under_pressure.title": "Under Pressure",
+      "block.sovereign_horizon.raw_marble_tile_slab": "Raw Marble Tile Slab",
+      "advancements.under_pressure.descr": "Take damage due to not having adequate equipment for deep, underground travel in the Sovereign Horizon",
       "block.sovereign_horizon.larimar": "Larimar",
+      "block.sovereign_horizon.raw_marble_tile_stairs": "Raw Marble Tile Stairs",
       "gui.sovereign_horizon.infusion_table_gui.button_infuse": "Infuse",
+      "block.sovereign_horizon.marble_pillar": "Marble Pillar",
+      "block.sovereign_horizon.marble_brick_stairs": "Marble Brick Stairs",
       "subtitles.music.sh.sodalitewastes": "Music",
       "block.sovereign_horizon.sodalite_tile_stairs": "Sodalite Tile Stairs",
       "death.attack.pressure.player": "%1$s imploded whilst trying to escape %2$s",
+      "block.sovereign_horizon.raw_marble": "Raw Marble",
+      "item.sovereign_horizon.blueskin": "Blueskin",
+      "block.sovereign_horizon.marble_slab": "Marble Slab",
       "block.sovereign_horizon.sodalite_button": "Sodalite Button",
       "block.sovereign_horizon.sodalite_stairs": "Sodalite Stairs",
       "block.sovereign_horizon.sodalite_brick_wall": "Sodalite Brick Wall",
       "block.sovereign_horizon.sodalite_slab": "Sodalite Slab",
       "block.sovereign_horizon.cobbled_sodalite_slab": "Cobbled Sodalite Slab",
       "block.sovereign_horizon.lepidolite": "Lepidolite",
+      "block.sovereign_horizon.polished_raw_marble_stairs": "Polished Raw Marble Stairs",
       "gui.sovereign_horizon.infusion_table_gui.label_infusion_table": "Infusion Table",
+      "advancements.mineral_collector.descr": "Collect every special mineral from the Sovereign Horizon",
+      "advancements.how_riveding.title": "How Rived-ing",
       "enchantment.sovereign_horizon.bounding": "Bounding",
       "item.minecraft.splash_potion.effect.levitation": "Splash Potion of Levitation",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_5": " §9Elixis Shard",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_4": "Ingredients:",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_3": " §9Diamond Equipment",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_2": "Applies to:",
+      "block.sovereign_horizon.polished_marble_wall": "Polished Marble Wall",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_1": "",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_0": "Elixis Upgrade"
     }

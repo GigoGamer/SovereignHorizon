@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sovereign_horizon:deleted_mod_element",
+          "name": "sovereign_horizon:blueskin",
           "weight": 5,
           "functions": [
             {
@@ -23,7 +23,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "sovereign_horizon:deleted_mod_element",
+          "name": "sovereign_horizon:thulite",
           "weight": 1,
           "functions": [
             {

@@ -1,6 +1,6 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
+    "background": "sovereign_horizon:textures/screens/sovereign_horizon_advancement_background.png",
     "icon": {
       "item": "sovereign_horizon:larimar"
     },

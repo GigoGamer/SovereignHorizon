@@ -13,9 +13,12 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
 
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEnchantments;
 
@@ -42,6 +45,14 @@ public class ApplyPressureDamageProcedure {
 				if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getEnchantmentLevel(SovereignHorizonModEnchantments.RESILIENCE.get()) >= 3)) {
 					if (Mth.nextInt(RandomSource.create(), 1, 5) == 1) {
 						entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("sovereign_horizon:pressure")))), 2);
+						if (entity instanceof ServerPlayer _player) {
+							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("sovereign_horizon:under_pressure"));
+							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+							if (!_ap.isDone()) {
+								for (String criteria : _ap.getRemainingCriteria())
+									_player.getAdvancements().award(_adv, criteria);
+							}
+						}
 					}
 				}
 			} else {
@@ -49,6 +60,14 @@ public class ApplyPressureDamageProcedure {
 					if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getEnchantmentLevel(SovereignHorizonModEnchantments.RESILIENCE.get()) >= 2)) {
 						if (Mth.nextInt(RandomSource.create(), 1, 5) == 1) {
 							entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("sovereign_horizon:pressure")))), (float) 1.5);
+							if (entity instanceof ServerPlayer _player) {
+								Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("sovereign_horizon:under_pressure"));
+								AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+								if (!_ap.isDone()) {
+									for (String criteria : _ap.getRemainingCriteria())
+										_player.getAdvancements().award(_adv, criteria);
+								}
+							}
 						}
 					}
 				} else {
@@ -56,6 +75,14 @@ public class ApplyPressureDamageProcedure {
 						if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getEnchantmentLevel(SovereignHorizonModEnchantments.RESILIENCE.get()) >= 1)) {
 							if (Mth.nextInt(RandomSource.create(), 1, 5) == 1) {
 								entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("sovereign_horizon:pressure")))), 1);
+								if (entity instanceof ServerPlayer _player) {
+									Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("sovereign_horizon:under_pressure"));
+									AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+									if (!_ap.isDone()) {
+										for (String criteria : _ap.getRemainingCriteria())
+											_player.getAdvancements().award(_adv, criteria);
+									}
+								}
 							}
 						}
 					}
