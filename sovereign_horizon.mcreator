@@ -120,7 +120,7 @@
     {
       "name": "Catechism",
       "type": "livingentity",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "catechism",
       "metadata": {
@@ -1276,7 +1276,7 @@
     {
       "name": "ElixisShard",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "elixis_shard",
       "metadata": {
@@ -1290,7 +1290,7 @@
     {
       "name": "ElixisUpgradeSmithingTemplate",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "elixis_upgrade_smithing_template",
       "metadata": {
@@ -1373,7 +1373,7 @@
     {
       "name": "Bounding",
       "type": "enchantment",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "bounding",
       "metadata": {
@@ -1399,7 +1399,7 @@
     {
       "name": "EnchantmentAbilityOnKeyPressed",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "enchantment_ability_on_key_pressed",
       "metadata": {
@@ -1418,7 +1418,7 @@
     {
       "name": "EnchantmentAbility",
       "type": "keybind",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "enchantment_ability",
       "metadata": {
@@ -1431,7 +1431,7 @@
     {
       "name": "CatechismWing",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "catechism_wing",
       "metadata": {
@@ -1445,7 +1445,7 @@
     {
       "name": "InfusionTableGUI",
       "type": "gui",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "infusion_table_gui",
       "metadata": {
@@ -1478,7 +1478,7 @@
     {
       "name": "ElixiteArmorTickEvent",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "elixite_armor_tick_event",
       "metadata": {
@@ -1501,7 +1501,7 @@
     {
       "name": "SovererignHorizon",
       "type": "dimension",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "sovereign_horizon",
       "metadata": {
@@ -1527,7 +1527,7 @@
     {
       "name": "LevitationRecipe",
       "type": "recipe",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "levitation_recipe",
       "metadata": {
@@ -1540,7 +1540,7 @@
     {
       "name": "InfusionTableInfuse",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "infusion_table_infuse",
       "metadata": {
@@ -1590,7 +1590,7 @@
     {
       "name": "ElixiteArmorSpecialInformation",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "elixite_armor_special_information",
       "metadata": {
@@ -1814,6 +1814,349 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "SodaliteEmeraldOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_emerald_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_emerald_ore.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteEmeraldOreBlock.java",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/sodalite_emerald_ore.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/sodalite_emerald_ore.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/sodalite_emerald_ore_biome_modifier.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_emerald_ore.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_emerald_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite Ores"
+    },
+    {
+      "name": "SodaliteEmeraldOreDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_emerald_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_emerald_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite Ores"
+    },
+    {
+      "name": "SodaliteDiamondOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_diamond_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_diamond_ore.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_diamond_ore.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteDiamondOreBlock.java",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/sodalite_diamond_ore_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/sodalite_diamond_ore.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_diamond_ore.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/sodalite_diamond_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite Ores"
+    },
+    {
+      "name": "SodaliteDiamondOreDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_diamond_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_diamond_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite Ores"
+    },
+    {
+      "name": "SodaliteLapisLazuliOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_lapis_lazuli_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/sodalite_lapis_lazuli_ore.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/sodalite_lapis_lazuli_ore_biome_modifier.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_lapis_lazuli_ore.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteLapisLazuliOreBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_lapis_lazuli_ore.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/sodalite_lapis_lazuli_ore.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_lapis_lazuli_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite Ores"
+    },
+    {
+      "name": "SodaliteRedstoneOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_redstone_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_redstone_ore.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteRedstoneOreBlock.java",
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_redstone_ore.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/sodalite_redstone_ore_biome_modifier.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_redstone_ore.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/sodalite_redstone_ore.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/sodalite_redstone_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite Ores"
+    },
+    {
+      "name": "SodaliteRedstoneOreDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_redstone_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_redstone_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite Ores"
+    },
+    {
+      "name": "SodaliteLapisLazuliOreDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_lapis_lazuli_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_lapis_lazuli_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite Ores"
+    },
+    {
+      "name": "SodaliteQuartzOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_quartz_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodalite_quartz_ore.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodalite_quartz_ore.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteQuartzOreBlock.java",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/sodalite_quartz_ore.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/sodalite_quartz_ore.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/sodalite_quartz_ore_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/sodalite_quartz_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite Ores"
+    },
+    {
+      "name": "SodaliteQuartzOreDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_quartz_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodalite_quartz_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Sodalite Ores"
+    },
+    {
+      "name": "BlockofElixisShards",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockof_elixis_shards",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/blockof_elixis_shards.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/BlockofElixisShardsBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/blockof_elixis_shards.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/blockof_elixis_shards.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/blockof_elixis_shards.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BlockofElixisShardsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockof_elixis_shards_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/block_of_elixis_shards_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ElixisShardCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixis_shard_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/elixis_shard_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SodaliteEmeraldOreDestroyed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_emerald_ore_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/SodaliteEmeraldOreDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Sodalite Ores"
+    },
+    {
+      "name": "SodaliteDiamondOreDestroyed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_diamond_ore_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/SodaliteDiamondOreDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Sodalite Ores"
+    },
+    {
+      "name": "SodaliteRedstoneOreDestroyed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_redstone_ore_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/SodaliteRedstoneOreDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Sodalite Ores"
+    },
+    {
+      "name": "SodaliteQuartzOreDestroyed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodalite_quartz_ore_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/SodaliteQuartzOreDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Sodalite Ores"
     }
   ],
   "variable_elements": [],
@@ -1828,7 +2171,23 @@
     }
   ],
   "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:SodaliteQuartzOre",
+      "~CUSTOM:SodaliteRedstoneOre",
+      "~CUSTOM:SodaliteLapisLazuliOre",
+      "~CUSTOM:SodaliteDiamondOre",
+      "~CUSTOM:SodaliteEmeraldOre"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:BlockofElixisShards"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BlockofElixisShards",
+      "~CUSTOM:SodaliteQuartzOre",
+      "~CUSTOM:SodaliteRedstoneOre",
+      "~CUSTOM:SodaliteLapisLazuliOre",
+      "~CUSTOM:SodaliteDiamondOre",
+      "~CUSTOM:SodaliteEmeraldOre",
       "~CUSTOM:InfusionTable",
       "~CUSTOM:CrackedSodaliteTiles",
       "~CUSTOM:SodaliteTileWall",
@@ -1935,6 +2294,7 @@
       "item.sovereign_horizon.elixite_armor_boots": "Elixite Boots",
       "enchantment.sovereign_horizon.resilience": "Resilience",
       "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
+      "block.sovereign_horizon.sodalite_quartz_ore": "Sodalite Quartz Ore",
       "advancements.sh_enter.descr": "Enter the Sovereign Horizon",
       "block.sovereign_horizon.sodalite_bricks": "Sodalite Bricks",
       "advancements.carbonated_rock.descr": "Find sodalite",
@@ -1943,6 +2303,8 @@
       "death.attack.pressure": "%1$s imploded",
       "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
       "block.sovereign_horizon.infusion_table": "Infusion Table",
+      "block.sovereign_horizon.sodalite_diamond_ore": "Sodalite Diamond Ore",
+      "block.sovereign_horizon.sodalite_lapis_lazuli_ore": "Sodalite Lapis Lazuli Ore",
       "item.sovereign_horizon.elixis_upgrade_smithing_template": "Smithing Template",
       "block.sovereign_horizon.polished_sodalite_stairs": "Polished Sodalite Stairs",
       "block.sovereign_horizon.polished_sodalite": "Polished Sodalite",
@@ -1951,8 +2313,10 @@
       "block.sovereign_horizon.cobbled_sodalite": "Cobbled Sodalite",
       "biome.sovereign_horizon.sodalite_wastes": "Sodalite Wastes",
       "block.sovereign_horizon.test": "Test",
+      "block.sovereign_horizon.sodalite_redstone_ore": "Sodalite Redstone Ore",
       "item.sovereign_horizon.elixite_armor_leggings": "Elixite Leggings",
       "block.sovereign_horizon.larimar": "Larimar",
+      "block.sovereign_horizon.sodalite_emerald_ore": "Sodalite Emerald Ore",
       "block.sovereign_horizon.sodalite": "Sodalite",
       "gui.sovereign_horizon.infusion_table_gui.button_infuse": "Infuse",
       "item.sovereign_horizon.elixite_armor_helmet": "Elixite Helmet",
@@ -1970,6 +2334,7 @@
       "block.sovereign_horizon.lepidolite": "Lepidolite",
       "gui.sovereign_horizon.infusion_table_gui.label_infusion_table": "Infusion Table",
       "entity.sovereign_horizon.catechism": "Catechism",
+      "block.sovereign_horizon.blockof_elixis_shards": "Block of Elixis Shards",
       "item_group.sovereign_horizon.sovereign_horizon": "Sovereign Horizon",
       "block.sovereign_horizon.sodalite_brick_slab": "Sodalite Brick Slab",
       "item.sovereign_horizon.elixis_shard": "Elixis Shard",
@@ -2035,6 +2400,10 @@
           },
           {
             "name": "Larimar",
+            "children": []
+          },
+          {
+            "name": "Sodalite Ores",
             "children": []
           }
         ]

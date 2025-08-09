@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:blockof_elixis_shards",
+    "sovereign_horizon:sodalite_quartz_ore",
+    "sovereign_horizon:sodalite_redstone_ore",
+    "sovereign_horizon:sodalite_lapis_lazuli_ore",
+    "sovereign_horizon:sodalite_diamond_ore",
+    "sovereign_horizon:sodalite_emerald_ore",
     "sovereign_horizon:infusion_table",
     "sovereign_horizon:cracked_sodalite_tiles",
     "sovereign_horizon:sodalite_tile_wall",

@@ -12,7 +12,6 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.sovereignhorizon.block.TestBlock;
 import net.mcreator.sovereignhorizon.block.SparseDeepLichenCoveredSodaliteBlock;
-import net.mcreator.sovereignhorizon.block.SoverignHorizonPortalBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteWallBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteTilesBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteTileWallBlock;
@@ -20,7 +19,12 @@ import net.mcreator.sovereignhorizon.block.SodaliteTileStairsBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteTileSlabBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteStairsBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteSlabBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteRedstoneOreBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteQuartzOreBlock;
 import net.mcreator.sovereignhorizon.block.SodalitePressurePlateBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteLapisLazuliOreBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteEmeraldOreBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteDiamondOreBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteButtonBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteBricksBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteBrickWallBlock;
@@ -31,6 +35,8 @@ import net.mcreator.sovereignhorizon.block.PolishedSodaliteWallBlock;
 import net.mcreator.sovereignhorizon.block.PolishedSodaliteStairsBlock;
 import net.mcreator.sovereignhorizon.block.PolishedSodaliteSlabBlock;
 import net.mcreator.sovereignhorizon.block.PolishedSodaliteBlock;
+import net.mcreator.sovereignhorizon.block.LepidoliteBlock;
+import net.mcreator.sovereignhorizon.block.LarimarBlock;
 import net.mcreator.sovereignhorizon.block.InfusionTableBlock;
 import net.mcreator.sovereignhorizon.block.DeepLichenCoveredSodaliteBlock;
 import net.mcreator.sovereignhorizon.block.CrackedSodaliteTilesBlock;
@@ -39,12 +45,12 @@ import net.mcreator.sovereignhorizon.block.CobbledSodaliteWallBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteStairsBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteSlabBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteBlock;
+import net.mcreator.sovereignhorizon.block.BlockofElixisShardsBlock;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
 public class SovereignHorizonModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, SovereignHorizonMod.MODID);
 	public static final RegistryObject<Block> TEST = REGISTRY.register("test", () -> new TestBlock());
-	public static final RegistryObject<Block> SOVERIGN_HORIZON_PORTAL = REGISTRY.register("soverign_horizon_portal", () -> new SoverignHorizonPortalBlock());
 	public static final RegistryObject<Block> SODALITE = REGISTRY.register("sodalite", () -> new SodaliteBlock());
 	public static final RegistryObject<Block> SODALITE_STAIRS = REGISTRY.register("sodalite_stairs", () -> new SodaliteStairsBlock());
 	public static final RegistryObject<Block> SODALITE_SLAB = REGISTRY.register("sodalite_slab", () -> new SodaliteSlabBlock());
@@ -72,6 +78,14 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> SODALITE_TILE_WALL = REGISTRY.register("sodalite_tile_wall", () -> new SodaliteTileWallBlock());
 	public static final RegistryObject<Block> CRACKED_SODALITE_TILES = REGISTRY.register("cracked_sodalite_tiles", () -> new CrackedSodaliteTilesBlock());
 	public static final RegistryObject<Block> INFUSION_TABLE = REGISTRY.register("infusion_table", () -> new InfusionTableBlock());
+	public static final RegistryObject<Block> LARIMAR = REGISTRY.register("larimar", () -> new LarimarBlock());
+	public static final RegistryObject<Block> LEPIDOLITE = REGISTRY.register("lepidolite", () -> new LepidoliteBlock());
+	public static final RegistryObject<Block> SODALITE_EMERALD_ORE = REGISTRY.register("sodalite_emerald_ore", () -> new SodaliteEmeraldOreBlock());
+	public static final RegistryObject<Block> SODALITE_DIAMOND_ORE = REGISTRY.register("sodalite_diamond_ore", () -> new SodaliteDiamondOreBlock());
+	public static final RegistryObject<Block> SODALITE_LAPIS_LAZULI_ORE = REGISTRY.register("sodalite_lapis_lazuli_ore", () -> new SodaliteLapisLazuliOreBlock());
+	public static final RegistryObject<Block> SODALITE_REDSTONE_ORE = REGISTRY.register("sodalite_redstone_ore", () -> new SodaliteRedstoneOreBlock());
+	public static final RegistryObject<Block> SODALITE_QUARTZ_ORE = REGISTRY.register("sodalite_quartz_ore", () -> new SodaliteQuartzOreBlock());
+	public static final RegistryObject<Block> BLOCKOF_ELIXIS_SHARDS = REGISTRY.register("blockof_elixis_shards", () -> new BlockofElixisShardsBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

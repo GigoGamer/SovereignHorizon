@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.sovereignhorizon.init.SovereignHorizonModTabs;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModSounds;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModPotions;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModMenus;

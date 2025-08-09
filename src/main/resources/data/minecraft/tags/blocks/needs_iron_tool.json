@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "sovereign_horizon:sodalite_quartz_ore",
+    "sovereign_horizon:sodalite_redstone_ore",
+    "sovereign_horizon:sodalite_lapis_lazuli_ore",
+    "sovereign_horizon:sodalite_diamond_ore",
+    "sovereign_horizon:sodalite_emerald_ore"
+  ]
+}

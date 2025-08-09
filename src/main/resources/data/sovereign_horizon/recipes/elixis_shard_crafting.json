@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "elixis_shard",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sovereign_horizon:blockof_elixis_shards"
+    }
+  ],
+  "result": {
+    "item": "sovereign_horizon:elixis_shard",
+    "count": 9
+  }
+}
