@@ -9,8 +9,8 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 15,
-    "separation": 10,
+    "spacing": 10,
+    "separation": 5,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:SodaliteWastes"

@@ -3,7 +3,7 @@
   "group": "polished_raw_marble_stairs",
   "count": 1,
   "ingredient": {
-    "item": "sovereign_horizon:polished_raw_marble"
+    "item": "sovereign_horizon:deleted_mod_element"
   },
   "result": "sovereign_horizon:polished_raw_marble_stairs"
 }

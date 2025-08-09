@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "minecraft:air"
+    },
+    "direction": "up",
+    "prioritize_tip": false,
+    "layers": [
+      {
+        "height": {
+          "type": "uniform",
+          "value": {
+            "min_inclusive": 3,
+            "max_inclusive": 4
+          }
+        },
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "data": {
+                "Name": "sovereign_horizon:ash"
+              },
+              "weight": 1
+            },
+            {
+              "data": {
+                "Name": "sovereign_horizon:sodalite"
+              },
+              "weight": 1
+            }
+          ]
+        }
+      },
+      {
+        "height": {
+          "type": "uniform",
+          "value": {
+            "min_inclusive": 16,
+            "max_inclusive": 30
+          }
+        },
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "sovereign_horizon:ash"
+          }
+        }
+      }
+    ]
+  }
+}

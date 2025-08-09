@@ -9,11 +9,11 @@
   ],
   "key": {
     "a": {
-      "item": "sovereign_horizon:marble_bricks"
+      "item": "sovereign_horizon:deleted_mod_element"
     }
   },
   "result": {
-    "item": "sovereign_horizon:marble_brick_stairs",
+    "item": "sovereign_horizon:deleted_mod_element",
     "count": 4
   }
 }

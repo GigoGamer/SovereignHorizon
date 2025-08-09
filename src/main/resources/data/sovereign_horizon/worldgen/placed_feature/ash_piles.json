@@ -1,0 +1,22 @@
+{
+  "feature": "sovereign_horizon:ash_piles",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "uniform",
+        "value": {
+          "min_inclusive": 8,
+          "max_inclusive": 20
+        }
+      }
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 5
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

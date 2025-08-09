@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sovereign_horizon:block/ash",
+    "up": "sovereign_horizon:block/ash",
+    "north": "sovereign_horizon:block/ash",
+    "east": "sovereign_horizon:block/ash",
+    "south": "sovereign_horizon:block/ash",
+    "west": "sovereign_horizon:block/ash",
+    "particle": "sovereign_horizon:block/ash"
+  },
+  "render_type": "solid"
+}

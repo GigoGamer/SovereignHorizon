@@ -54,7 +54,7 @@ public class CatechismEntity extends Monster {
 	public CatechismEntity(EntityType<CatechismEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0f);
-		xpReward = 0;
+		xpReward = 5;
 		setNoAi(false);
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(Items.DIAMOND_SWORD));
 		this.moveControl = new FlyingMoveControl(this, 10, true);
@@ -215,7 +215,7 @@ public class CatechismEntity extends Monster {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.4);
-		builder = builder.add(Attributes.MAX_HEALTH, 18);
+		builder = builder.add(Attributes.MAX_HEALTH, 20);
 		builder = builder.add(Attributes.ARMOR, 1);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 10);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);

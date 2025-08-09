@@ -42,11 +42,7 @@
     "resistance": 8.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:SovereignHorizon"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""

@@ -3,7 +3,7 @@
   "group": "marble_tiles",
   "count": 1,
   "ingredient": {
-    "item": "sovereign_horizon:marble_bricks"
+    "item": "sovereign_horizon:deleted_mod_element"
   },
-  "result": "sovereign_horizon:marble_tiles"
+  "result": "sovereign_horizon:deleted_mod_element"
 }

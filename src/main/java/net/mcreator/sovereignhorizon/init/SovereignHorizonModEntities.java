@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.sovereignhorizon.entity.RivedGhastEntity;
 import net.mcreator.sovereignhorizon.entity.CatechismEntity;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
@@ -23,7 +24,11 @@ import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 public class SovereignHorizonModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, SovereignHorizonMod.MODID);
 	public static final RegistryObject<EntityType<CatechismEntity>> CATECHISM = register("catechism", EntityType.Builder.<CatechismEntity>of(CatechismEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-			.setUpdateInterval(3).setCustomClientFactory(CatechismEntity::new).fireImmune().sized(0.6f, 1.8f));
+			.setUpdateInterval(3).setCustomClientFactory(CatechismEntity::new).fireImmune().sized(0.8f, 0.4f));
+	public static final RegistryObject<EntityType<RivedGhastEntity>> RIVED_GHAST = register("rived_ghast",
+			EntityType.Builder.<RivedGhastEntity>of(RivedGhastEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RivedGhastEntity::new)
+
+					.sized(4f, 4f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -35,11 +40,13 @@ public class SovereignHorizonModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			CatechismEntity.init();
+			RivedGhastEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(CATECHISM.get(), CatechismEntity.createAttributes().build());
+		event.put(RIVED_GHAST.get(), RivedGhastEntity.createAttributes().build());
 	}
 }
