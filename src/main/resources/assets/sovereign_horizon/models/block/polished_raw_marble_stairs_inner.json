@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "sovereign_horizon:block/polished_raw_marble",
+    "bottom": "sovereign_horizon:block/polished_raw_marble",
+    "top": "sovereign_horizon:block/polished_raw_marble",
+    "side": "sovereign_horizon:block/polished_raw_marble"
+  },
+  "render_type": "solid"
+}

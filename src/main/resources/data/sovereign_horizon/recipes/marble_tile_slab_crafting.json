@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "marble_tile_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:marble_tiles"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:marble_tile_slab",
+    "count": 6
+  }
+}

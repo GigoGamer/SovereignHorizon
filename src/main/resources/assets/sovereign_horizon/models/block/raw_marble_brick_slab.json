@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "sovereign_horizon:block/raw_marble_bricks",
+    "bottom": "sovereign_horizon:block/raw_marble_bricks",
+    "top": "sovereign_horizon:block/raw_marble_bricks",
+    "side": "sovereign_horizon:block/raw_marble_bricks"
+  },
+  "render_type": "solid"
+}

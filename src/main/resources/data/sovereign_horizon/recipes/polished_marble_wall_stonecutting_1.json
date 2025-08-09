@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "polished_marble_wall",
+  "count": 1,
+  "ingredient": {
+    "item": "sovereign_horizon:marble"
+  },
+  "result": "sovereign_horizon:polished_marble_wall"
+}

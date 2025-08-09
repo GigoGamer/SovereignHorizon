@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "raw_marble_brick_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RawMarbleBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RawMarbleBricks"
+      },
+      {
+        "value": "CUSTOM:RawMarbleBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RawMarbleBricks"
+      },
+      {
+        "value": "CUSTOM:RawMarbleBricks"
+      },
+      {
+        "value": "CUSTOM:RawMarbleBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RawMarbleBrickStairs"
+    },
+    "name": "raw_marble_brick_stairs_crafting",
+    "namespace": "mod"
+  }
+}

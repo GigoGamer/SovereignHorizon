@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "sovereign_horizon:block/polished_marble",
+    "bottom": "sovereign_horizon:block/polished_marble",
+    "top": "sovereign_horizon:block/polished_marble",
+    "side": "sovereign_horizon:block/polished_marble"
+  },
+  "render_type": "solid"
+}

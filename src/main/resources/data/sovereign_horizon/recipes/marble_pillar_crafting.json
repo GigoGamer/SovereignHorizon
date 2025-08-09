@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "marble_pillar",
+  "category": "building",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:marble"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:marble_pillar",
+    "count": 2
+  }
+}

@@ -1,6 +1,14 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:marble_tile_wall",
+    "sovereign_horizon:marble_brick_wall",
+    "sovereign_horizon:polished_marble_wall",
+    "sovereign_horizon:marble_wall",
+    "sovereign_horizon:raw_marble_tile_wall",
+    "sovereign_horizon:raw_marble_brick_wall",
+    "sovereign_horizon:polished_raw_marble_wall",
+    "sovereign_horizon:raw_marble_wall",
     "sovereign_horizon:sodalite_tile_wall",
     "sovereign_horizon:sodalite_brick_wall",
     "sovereign_horizon:polished_sodalite_wall",

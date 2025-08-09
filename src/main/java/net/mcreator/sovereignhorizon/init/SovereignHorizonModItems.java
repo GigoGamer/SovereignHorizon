@@ -65,6 +65,44 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> SODALITE_REDSTONE_ORE = block(SovereignHorizonModBlocks.SODALITE_REDSTONE_ORE);
 	public static final RegistryObject<Item> SODALITE_QUARTZ_ORE = block(SovereignHorizonModBlocks.SODALITE_QUARTZ_ORE);
 	public static final RegistryObject<Item> BLOCKOF_ELIXIS_SHARDS = block(SovereignHorizonModBlocks.BLOCKOF_ELIXIS_SHARDS);
+	public static final RegistryObject<Item> RAW_MARBLE = block(SovereignHorizonModBlocks.RAW_MARBLE);
+	public static final RegistryObject<Item> RAW_MARBLE_STAIRS = block(SovereignHorizonModBlocks.RAW_MARBLE_STAIRS);
+	public static final RegistryObject<Item> RAW_MARBLE_SLAB = block(SovereignHorizonModBlocks.RAW_MARBLE_SLAB);
+	public static final RegistryObject<Item> RAW_MARBLE_WALL = block(SovereignHorizonModBlocks.RAW_MARBLE_WALL);
+	public static final RegistryObject<Item> POLISHED_RAW_MARBLE = block(SovereignHorizonModBlocks.POLISHED_RAW_MARBLE);
+	public static final RegistryObject<Item> POLISHED_RAW_MARBLE_STAIRS = block(SovereignHorizonModBlocks.POLISHED_RAW_MARBLE_STAIRS);
+	public static final RegistryObject<Item> POLISHED_RAW_MARBLE_SLAB = block(SovereignHorizonModBlocks.POLISHED_RAW_MARBLE_SLAB);
+	public static final RegistryObject<Item> POLISHED_RAW_MARBLE_WALL = block(SovereignHorizonModBlocks.POLISHED_RAW_MARBLE_WALL);
+	public static final RegistryObject<Item> RAW_MARBLE_BRICKS = block(SovereignHorizonModBlocks.RAW_MARBLE_BRICKS);
+	public static final RegistryObject<Item> RAW_MARBLE_BRICK_STAIRS = block(SovereignHorizonModBlocks.RAW_MARBLE_BRICK_STAIRS);
+	public static final RegistryObject<Item> RAW_MARBLE_BRICK_SLAB = block(SovereignHorizonModBlocks.RAW_MARBLE_BRICK_SLAB);
+	public static final RegistryObject<Item> RAW_MARBLE_BRICK_WALL = block(SovereignHorizonModBlocks.RAW_MARBLE_BRICK_WALL);
+	public static final RegistryObject<Item> RAW_MARBLE_TILES = block(SovereignHorizonModBlocks.RAW_MARBLE_TILES);
+	public static final RegistryObject<Item> RAW_MARBLE_TILE_STAIRS = block(SovereignHorizonModBlocks.RAW_MARBLE_TILE_STAIRS);
+	public static final RegistryObject<Item> RAW_MARBLE_TILE_SLAB = block(SovereignHorizonModBlocks.RAW_MARBLE_TILE_SLAB);
+	public static final RegistryObject<Item> RAW_MARBLE_TILE_WALL = block(SovereignHorizonModBlocks.RAW_MARBLE_TILE_WALL);
+	public static final RegistryObject<Item> CRACKED_RAW_MARBLE_BRICKS = block(SovereignHorizonModBlocks.CRACKED_RAW_MARBLE_BRICKS);
+	public static final RegistryObject<Item> CRACKED_RAW_MARBLE_TILES = block(SovereignHorizonModBlocks.CRACKED_RAW_MARBLE_TILES);
+	public static final RegistryObject<Item> RAW_MARBLE_PILLAR = block(SovereignHorizonModBlocks.RAW_MARBLE_PILLAR);
+	public static final RegistryObject<Item> MARBLE = block(SovereignHorizonModBlocks.MARBLE);
+	public static final RegistryObject<Item> MARBLE_STAIRS = block(SovereignHorizonModBlocks.MARBLE_STAIRS);
+	public static final RegistryObject<Item> MARBLE_SLAB = block(SovereignHorizonModBlocks.MARBLE_SLAB);
+	public static final RegistryObject<Item> MARBLE_WALL = block(SovereignHorizonModBlocks.MARBLE_WALL);
+	public static final RegistryObject<Item> POLISHED_MARBLE = block(SovereignHorizonModBlocks.POLISHED_MARBLE);
+	public static final RegistryObject<Item> POLISHED_MARBLE_STAIRS = block(SovereignHorizonModBlocks.POLISHED_MARBLE_STAIRS);
+	public static final RegistryObject<Item> POLISHED_MARBLE_SLAB = block(SovereignHorizonModBlocks.POLISHED_MARBLE_SLAB);
+	public static final RegistryObject<Item> POLISHED_MARBLE_WALL = block(SovereignHorizonModBlocks.POLISHED_MARBLE_WALL);
+	public static final RegistryObject<Item> MARBLE_BRICKS = block(SovereignHorizonModBlocks.MARBLE_BRICKS);
+	public static final RegistryObject<Item> MARBLE_BRICK_STAIRS = block(SovereignHorizonModBlocks.MARBLE_BRICK_STAIRS);
+	public static final RegistryObject<Item> MARBLE_BRICK_SLAB = block(SovereignHorizonModBlocks.MARBLE_BRICK_SLAB);
+	public static final RegistryObject<Item> MARBLE_BRICK_WALL = block(SovereignHorizonModBlocks.MARBLE_BRICK_WALL);
+	public static final RegistryObject<Item> MARBLE_TILES = block(SovereignHorizonModBlocks.MARBLE_TILES);
+	public static final RegistryObject<Item> MARBLE_TILE_STAIRS = block(SovereignHorizonModBlocks.MARBLE_TILE_STAIRS);
+	public static final RegistryObject<Item> MARBLE_TILE_SLAB = block(SovereignHorizonModBlocks.MARBLE_TILE_SLAB);
+	public static final RegistryObject<Item> MARBLE_TILE_WALL = block(SovereignHorizonModBlocks.MARBLE_TILE_WALL);
+	public static final RegistryObject<Item> CRACKED_MARBLE_BRICKS = block(SovereignHorizonModBlocks.CRACKED_MARBLE_BRICKS);
+	public static final RegistryObject<Item> CRACKED_MARBLE_TILES = block(SovereignHorizonModBlocks.CRACKED_MARBLE_TILES);
+	public static final RegistryObject<Item> MARBLE_PILLAR = block(SovereignHorizonModBlocks.MARBLE_PILLAR);
 
 	// Start of user code block custom items
 	// End of user code block custom items

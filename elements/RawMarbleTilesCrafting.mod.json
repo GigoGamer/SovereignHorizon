@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "raw_marble_tiles",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RawMarbleBricks"
+      },
+      {
+        "value": "CUSTOM:RawMarbleBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RawMarbleBricks"
+      },
+      {
+        "value": "CUSTOM:RawMarbleBricks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RawMarbleTiles"
+    },
+    "name": "raw_marble_tiles_crafting",
+    "namespace": "mod"
+  }
+}

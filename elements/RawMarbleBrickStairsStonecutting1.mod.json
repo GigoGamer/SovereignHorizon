@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "raw_marble_brick_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:RawMarble"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:RawMarbleBrickStairs"
+    },
+    "name": "raw_marble_brick_stairs_stonecutting_1",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "polished_marble_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:polished_marble"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:polished_marble_slab",
+    "count": 6
+  }
+}

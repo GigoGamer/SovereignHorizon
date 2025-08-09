@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "polished_marble_stairs",
+  "count": 1,
+  "ingredient": {
+    "item": "sovereign_horizon:polished_marble"
+  },
+  "result": "sovereign_horizon:polished_marble_stairs"
+}

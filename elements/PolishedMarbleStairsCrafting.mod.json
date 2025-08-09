@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "polished_marble_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolishedMarble"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedMarble"
+      },
+      {
+        "value": "CUSTOM:PolishedMarble"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedMarble"
+      },
+      {
+        "value": "CUSTOM:PolishedMarble"
+      },
+      {
+        "value": "CUSTOM:PolishedMarble"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedMarbleStairs"
+    },
+    "name": "polished_marble_stairs_crafting",
+    "namespace": "mod"
+  }
+}
