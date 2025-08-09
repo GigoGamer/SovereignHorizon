@@ -67,11 +67,7 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:SovereignHorizon"
-      }
-    ],
+    "creativeTabs": [],
     "texture": "minecraft:barrier",
     "portalTexture": "test",
     "enablePortal": true
