@@ -56,5 +56,7 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModBlocks.INFUSION_TABLE.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.LARIMAR.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.LEPIDOLITE.get().asItem());
+				tabData.accept(SovereignHorizonModItems.RIVED_GHAST_SPAWN_EGG.get());
+				tabData.accept(SovereignHorizonModBlocks.ASH.get().asItem());
 			}).build());
 }

@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:SodaliteWastes"
+      },
+      {
+        "value": "CUSTOM:AshField"
       }
     ],
     "worldGenType": "Normal world gen",

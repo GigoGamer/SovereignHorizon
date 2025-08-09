@@ -1814,6 +1814,88 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "RivedGhast",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rived_ghast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/RivedGhastRenderer.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/rived_ghast_spawn_egg.json",
+          "src/main/java/net/mcreator/sovereignhorizon/entity/RivedGhastEntity.java",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/rived_ghast_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "RivedGhastEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rived_ghast_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/RivedGhastEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "Ash",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/ash.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/ash.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/AshBlock.java",
+          "src/main/resources/assets/sovereign_horizon/blockstates/ash.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/ash.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshField",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_field",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/ash_field_tree.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/biome/ash_field.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/ash_field_tree.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "AshPiles",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_piles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/ash_piles.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/ash_piles_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/ash_piles.json"
+        ]
+      },
+      "path": "~/Features"
     }
   ],
   "variable_elements": [],
@@ -1869,7 +1951,8 @@
       "~CUSTOM:SodaliteSlab"
     ],
     "BIOMES:mod:is_sh": [
-      "CUSTOM:SodaliteWastes"
+      "CUSTOM:SodaliteWastes",
+      "CUSTOM:AshField"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:CrackedSodaliteTiles",
@@ -1899,6 +1982,9 @@
       "~CUSTOM:SodaliteStairs",
       "~CUSTOM:Sodalite"
     ],
+    "BIOMES:mod:has_top_layer": [
+      "CUSTOM:SodaliteWastes"
+    ],
     "BLOCKS:minecraft:walls": [
       "~CUSTOM:SodaliteTileWall",
       "~CUSTOM:SodaliteBrickWall",
@@ -1914,6 +2000,7 @@
       "~CUSTOM:SodaliteStairs"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Ash",
       "~CUSTOM:Sodalite"
     ]
   },
@@ -1924,6 +2011,7 @@
       "block.sovereign_horizon.sodalite_brick_stairs": "Sodalite Brick Stairs",
       "death.attack.pressure.item": "%1$s was squashed by %2$s using %3$s",
       "advancements.carbonated_rock.title": "Carbonated Rock",
+      "biome.sovereign_horizon.ash_field": "Ash Field",
       "block.sovereign_horizon.cracked_sodalite_bricks": "Cracked Sodalite Bricks",
       "item.sovereign_horizon.elixite_armor_chestplate": "Elixite Chestplate",
       "key.sovereign_horizon.enchantment_ability": "Enchantment Ability",
@@ -1938,6 +2026,8 @@
       "advancements.sh_enter.descr": "Enter the Sovereign Horizon",
       "block.sovereign_horizon.sodalite_bricks": "Sodalite Bricks",
       "advancements.carbonated_rock.descr": "Find sodalite",
+      "item.sovereign_horizon.rived_ghast_spawn_egg": "Rived Ghast Spawn Egg",
+      "block.sovereign_horizon.ash": "Ash",
       "block.sovereign_horizon.polished_sodalite_slab": "Polished Sodalite Slab",
       "block.sovereign_horizon.cobbled_sodalite_wall": "Cobbled Sodalite Wall",
       "death.attack.pressure": "%1$s imploded",
@@ -1950,6 +2040,7 @@
       "item.minecraft.lingering_potion.effect.levitation": "Lingering Potion of Levitation",
       "block.sovereign_horizon.cobbled_sodalite": "Cobbled Sodalite",
       "biome.sovereign_horizon.sodalite_wastes": "Sodalite Wastes",
+      "entity.sovereign_horizon.rived_ghast": "Rived Ghast",
       "block.sovereign_horizon.test": "Test",
       "item.sovereign_horizon.elixite_armor_leggings": "Elixite Leggings",
       "block.sovereign_horizon.larimar": "Larimar",

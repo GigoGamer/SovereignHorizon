@@ -2,10 +2,10 @@
   "_fv": 77,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Catechism",
+    "mobName": "Rived Ghast",
     "mobLabel": "",
-    "mobModelName": "ModelCustomModel",
-    "mobModelTexture": "catechism.png",
+    "mobModelName": "Modelrived_ghast",
+    "mobModelTexture": "rived_ghast.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -16,24 +16,24 @@
       "fixedValue": false
     },
     "visualScale": {
-      "fixedValue": 1.0
+      "fixedValue": 4.0
     },
     "boundingBoxScale": {
       "fixedValue": 1.0
     },
     "modelLayers": [],
     "animations": [],
-    "modelWidth": 0.7999999999999999,
-    "modelHeight": 0.4,
-    "modelShadowSize": 0.5,
+    "modelWidth": 4.0,
+    "modelHeight": 4.0,
+    "modelShadowSize": 4.0,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -10092442,
+      "value": -13395457,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -65281,
+      "value": -39322,
       "falpha": 0.0
     },
     "creativeTabs": [
@@ -45,7 +45,7 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": "Items.DIAMOND_SWORD"
+      "value": ""
     },
     "equipmentOffHand": {
       "value": ""
@@ -64,35 +64,35 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 10,
-    "attackKnockback": 0.2,
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
-    "movementSpeed": 0.4,
+    "movementSpeed": 0.7,
     "stepHeight": 0.0,
-    "armorBaseValue": 1.0,
+    "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
-    "health": 20,
-    "xpAmount": 5,
+    "health": 35,
+    "xpAmount": 10,
     "waterMob": false,
     "breatheUnderwater": {
-      "fixedValue": true
+      "fixedValue": false
     },
     "pushedByFluids": {
       "fixedValue": true
     },
     "flyingMob": true,
-    "inventorySize": 1,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "immuneToArrows": false,
     "immuneToFallDamage": true,
     "immuneToCactus": true,
-    "immuneToDrowning": true,
+    "immuneToDrowning": false,
     "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
@@ -102,16 +102,16 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:CatechismWing"
+      "value": ""
     },
     "livingSound": {
-      "value": "entity.vex.ambient"
+      "value": "entity.ghast.ambient"
     },
     "hurtSound": {
-      "value": "entity.vex.hurt"
+      "value": "entity.ghast.hurt"
     },
     "deathSound": {
-      "value": "entity.vex.death"
+      "value": "entity.ghast.death"
     },
     "stepSound": {
       "value": ""
@@ -120,26 +120,33 @@
       "value": ""
     },
     "entityDataEntries": [],
+    "whenMobIsHurt": {
+      "name": "RivedGhastEntityIsHurt"
+    },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_fly\"><field name=\"radius\">16</field><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"41\" y=\"37\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_fly\"><field name=\"radius\">16</field><field name=\"speed\">2</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
     "ranged": false,
     "rangedAttackItem": {
-      "value": ""
+      "value": "Items.FIRE_CHARGE"
     },
     "rangedItemType": "Default item",
-    "rangedAttackInterval": 20,
+    "rangedAttackInterval": 60,
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
+    "spawningProbability": 5,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 2,
-    "maxNumberOfMobsPerGroup": 5,
-    "restrictionBiomes": [],
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 2,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SodaliteWastes"
+      }
+    ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [
       4,

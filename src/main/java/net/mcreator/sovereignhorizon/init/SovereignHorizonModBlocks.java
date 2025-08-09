@@ -40,6 +40,7 @@ import net.mcreator.sovereignhorizon.block.CobbledSodaliteWallBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteStairsBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteSlabBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteBlock;
+import net.mcreator.sovereignhorizon.block.AshBlock;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
 public class SovereignHorizonModBlocks {
@@ -74,6 +75,7 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> INFUSION_TABLE = REGISTRY.register("infusion_table", () -> new InfusionTableBlock());
 	public static final RegistryObject<Block> LARIMAR = REGISTRY.register("larimar", () -> new LarimarBlock());
 	public static final RegistryObject<Block> LEPIDOLITE = REGISTRY.register("lepidolite", () -> new LepidoliteBlock());
+	public static final RegistryObject<Block> ASH = REGISTRY.register("ash", () -> new AshBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

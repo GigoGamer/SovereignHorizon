@@ -59,6 +59,8 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> INFUSION_TABLE = block(SovereignHorizonModBlocks.INFUSION_TABLE);
 	public static final RegistryObject<Item> LARIMAR = block(SovereignHorizonModBlocks.LARIMAR);
 	public static final RegistryObject<Item> LEPIDOLITE = block(SovereignHorizonModBlocks.LEPIDOLITE);
+	public static final RegistryObject<Item> RIVED_GHAST_SPAWN_EGG = REGISTRY.register("rived_ghast_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.RIVED_GHAST, -13395457, -39322, new Item.Properties()));
+	public static final RegistryObject<Item> ASH = block(SovereignHorizonModBlocks.ASH);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "sovereign_horizon:sodalite_wastes"
+    "sovereign_horizon:sodalite_wastes",
+    "sovereign_horizon:ash_field"
   ]
 }
