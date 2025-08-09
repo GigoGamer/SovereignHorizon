@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "sovereign_horizon:blueskin"
+    },
+    "title": {
+      "translate": "advancements.how_riveding.title"
+    },
+    "description": {
+      "translate": "advancements.how_riveding.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "how_riveding_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sovereign_horizon:blueskin"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "sovereign_horizon:sh_enter"
+}

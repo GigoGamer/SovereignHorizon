@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "minecraft:air"
+    },
+    "direction": "up",
+    "prioritize_tip": false,
+    "layers": [
+      {
+        "height": {
+          "type": "uniform",
+          "value": {
+            "min_inclusive": 3,
+            "max_inclusive": 4
+          }
+        },
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "sovereign_horizon:ash"
+          }
+        }
+      },
+      {
+        "height": {
+          "type": "uniform",
+          "value": {
+            "min_inclusive": 30,
+            "max_inclusive": 60
+          }
+        },
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "sovereign_horizon:thulite"
+          }
+        }
+      }
+    ]
+  }
+}

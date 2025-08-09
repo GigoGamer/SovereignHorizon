@@ -18,7 +18,6 @@ public class SovereignHorizonModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SovereignHorizonMod.MODID);
 	public static final RegistryObject<CreativeModeTab> SOVEREIGN_HORIZON = REGISTRY.register("sovereign_horizon",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.sovereign_horizon.sovereign_horizon")).icon(() -> new ItemStack(SovereignHorizonModBlocks.SODALITE.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(SovereignHorizonModBlocks.TEST.get().asItem());
 				tabData.accept(SovereignHorizonModItems.CATECHISM_SPAWN_EGG.get());
 				tabData.accept(SovereignHorizonModBlocks.SODALITE.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.SODALITE_STAIRS.get().asItem());
@@ -64,5 +63,7 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModBlocks.SODALITE_LAPIS_LAZULI_ORE.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.SODALITE_REDSTONE_ORE.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.SODALITE_DIAMOND_ORE.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.THULITE.get().asItem());
+				tabData.accept(SovereignHorizonModItems.BLUESKIN.get());
 			}).build());
 }

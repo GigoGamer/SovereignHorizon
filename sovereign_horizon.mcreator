@@ -48,7 +48,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soverign_horizon_player_enters_dimension",
+      "registry_name": "sovereign_horizon_player_enters_dimension",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/sovereignhorizon/procedures/SoverignHorizonPlayerEntersDimensionProcedure.java"
@@ -67,7 +67,7 @@
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soverign_horizon_player_leaves_dimension",
+      "registry_name": "sovereign_horizon_player_leaves_dimension",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/sovereignhorizon/procedures/SoverignHorizonPlayerLeavesDimensionProcedure.java"
@@ -2239,6 +2239,108 @@
         ]
       },
       "path": "~/Blocks/Sodalite Ores"
+    },
+    {
+      "name": "Thulite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thulite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/blockstates/thulite.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/thulite.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/ThuliteBlock.java",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/thulite.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/thulite.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Blueskin",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueskin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/item/BlueskinItem.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/blueskin.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HowRiveding",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "how_riveding",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/how_riveding.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "RivedGhastLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rived_ghast_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/entities/rived_ghast.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "ThuliteDiscs",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thulite_discs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/thulite_discs.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/thulite_discs_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/thulite_discs.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "ThulitePillar",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thulite_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/thulite_pillar.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/thulite_pillar_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/thulite_pillar.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "AshPillar",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/ash_pillar.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/ash_pillar_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/ash_pillar.json"
+        ]
+      },
+      "path": "~/Features"
     }
   ],
   "variable_elements": [],
@@ -2310,7 +2412,8 @@
       "~CUSTOM:SodaliteSlab"
     ],
     "BIOMES:mod:is_sh": [
-      "CUSTOM:SodaliteWastes"
+      "CUSTOM:SodaliteWastes",
+      "CUSTOM:AshField"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:CrackedSodaliteTiles",
@@ -2355,6 +2458,7 @@
       "~CUSTOM:SodaliteStairs"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Ash",
       "~CUSTOM:Sodalite"
     ]
   },
@@ -2365,25 +2469,31 @@
       "block.sovereign_horizon.sodalite_brick_stairs": "Sodalite Brick Stairs",
       "death.attack.pressure.item": "%1$s was squashed by %2$s using %3$s",
       "advancements.carbonated_rock.title": "Carbonated Rock",
+      "biome.sovereign_horizon.ash_field": "Ash Field",
       "block.sovereign_horizon.cracked_sodalite_bricks": "Cracked Sodalite Bricks",
       "item.sovereign_horizon.elixite_armor_chestplate": "Elixite Chestplate",
       "key.sovereign_horizon.enchantment_ability": "Enchantment Ability",
       "advancements.sh_enter.title": "A Sovereign Horizon",
       "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
       "block.sovereign_horizon.polished_sodalite_wall": "Polished Sodalite Wall",
-      "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "block.sovereign_horizon.sodalite_pressure_plate": "Sodalite Pressure Plate",
+      "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "item.sovereign_horizon.elixite_armor_boots": "Elixite Boots",
       "enchantment.sovereign_horizon.resilience": "Resilience",
       "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
+      "block.sovereign_horizon.sodalite_quartz_ore": "Sodalite Quartz Ore",
       "advancements.sh_enter.descr": "Enter the Sovereign Horizon",
       "block.sovereign_horizon.sodalite_bricks": "Sodalite Bricks",
       "advancements.carbonated_rock.descr": "Find sodalite",
+      "item.sovereign_horizon.rived_ghast_spawn_egg": "Rived Ghast Spawn Egg",
       "block.sovereign_horizon.polished_sodalite_slab": "Polished Sodalite Slab",
+      "block.sovereign_horizon.ash": "Ash",
       "block.sovereign_horizon.cobbled_sodalite_wall": "Cobbled Sodalite Wall",
       "death.attack.pressure": "%1$s imploded",
       "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
       "block.sovereign_horizon.infusion_table": "Infusion Table",
+      "block.sovereign_horizon.sodalite_diamond_ore": "Sodalite Diamond Ore",
+      "block.sovereign_horizon.sodalite_lapis_lazuli_ore": "Sodalite Lapis Lazuli Ore",
       "item.sovereign_horizon.elixis_upgrade_smithing_template": "Smithing Template",
       "block.sovereign_horizon.polished_sodalite_stairs": "Polished Sodalite Stairs",
       "block.sovereign_horizon.polished_sodalite": "Polished Sodalite",
@@ -2391,9 +2501,13 @@
       "item.minecraft.lingering_potion.effect.levitation": "Lingering Potion of Levitation",
       "block.sovereign_horizon.cobbled_sodalite": "Cobbled Sodalite",
       "biome.sovereign_horizon.sodalite_wastes": "Sodalite Wastes",
+      "entity.sovereign_horizon.rived_ghast": "Rived Ghast",
+      "advancements.how_riveding.descr": "Kill a rived ghast",
       "block.sovereign_horizon.test": "Test",
+      "block.sovereign_horizon.sodalite_redstone_ore": "Sodalite Redstone Ore",
       "item.sovereign_horizon.elixite_armor_leggings": "Elixite Leggings",
       "block.sovereign_horizon.larimar": "Larimar",
+      "block.sovereign_horizon.sodalite_emerald_ore": "Sodalite Emerald Ore",
       "block.sovereign_horizon.sodalite": "Sodalite",
       "gui.sovereign_horizon.infusion_table_gui.button_infuse": "Infuse",
       "item.sovereign_horizon.elixite_armor_helmet": "Elixite Helmet",
@@ -2402,18 +2516,22 @@
       "subtitles.music.sh.sodalitewastes": "Music",
       "block.sovereign_horizon.sodalite_tile_stairs": "Sodalite Tile Stairs",
       "death.attack.pressure.player": "%1$s imploded whilst trying to escape %2$s",
+      "item.sovereign_horizon.blueskin": "Blueskin",
       "item.sovereign_horizon.catechism_wing": "Catechism Wing",
       "block.sovereign_horizon.sodalite_button": "Sodalite Button",
       "block.sovereign_horizon.sodalite_stairs": "Sodalite Stairs",
       "block.sovereign_horizon.sodalite_brick_wall": "Sodalite Brick Wall",
+      "block.sovereign_horizon.thulite": "Thulite",
       "block.sovereign_horizon.sodalite_slab": "Sodalite Slab",
       "block.sovereign_horizon.cobbled_sodalite_slab": "Cobbled Sodalite Slab",
       "block.sovereign_horizon.lepidolite": "Lepidolite",
       "gui.sovereign_horizon.infusion_table_gui.label_infusion_table": "Infusion Table",
       "entity.sovereign_horizon.catechism": "Catechism",
+      "block.sovereign_horizon.blockof_elixis_shards": "Block of Elixis Shards",
       "item_group.sovereign_horizon.sovereign_horizon": "Sovereign Horizon",
       "block.sovereign_horizon.sodalite_brick_slab": "Sodalite Brick Slab",
       "item.sovereign_horizon.elixis_shard": "Elixis Shard",
+      "advancements.how_riveding.title": "How Rived-ing",
       "block.sovereign_horizon.sparse_deep_lichen_covered_sodalite": "Sparse Deep Lichen Covered Sodalite",
       "block.sovereign_horizon.cracked_sodalite_tiles": "Cracked Sodalite Tiles",
       "enchantment.sovereign_horizon.bounding": "Bounding",

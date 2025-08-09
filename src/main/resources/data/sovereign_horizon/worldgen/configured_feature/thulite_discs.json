@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "radius": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      }
+    },
+    "half_height": 2,
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "sovereign_horizon:sodalite",
+        "sovereign_horizon:ash"
+      ]
+    },
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "sovereign_horizon:thulite"
+        }
+      },
+      "rules": []
+    }
+  }
+}

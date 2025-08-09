@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sovereign_horizon:block/thulite",
+    "up": "sovereign_horizon:block/thulite",
+    "north": "sovereign_horizon:block/thulite",
+    "east": "sovereign_horizon:block/thulite",
+    "south": "sovereign_horizon:block/thulite",
+    "west": "sovereign_horizon:block/thulite",
+    "particle": "sovereign_horizon:block/thulite"
+  },
+  "render_type": "solid"
+}

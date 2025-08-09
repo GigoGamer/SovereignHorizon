@@ -17,6 +17,7 @@ import net.mcreator.sovereignhorizon.item.ElixiteArmorItem;
 import net.mcreator.sovereignhorizon.item.ElixisUpgradeSmithingTemplateItem;
 import net.mcreator.sovereignhorizon.item.ElixisShardItem;
 import net.mcreator.sovereignhorizon.item.CatechismWingItem;
+import net.mcreator.sovereignhorizon.item.BlueskinItem;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
 public class SovereignHorizonModItems {
@@ -67,6 +68,8 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> SODALITE_LAPIS_LAZULI_ORE = block(SovereignHorizonModBlocks.SODALITE_LAPIS_LAZULI_ORE);
 	public static final RegistryObject<Item> SODALITE_REDSTONE_ORE = block(SovereignHorizonModBlocks.SODALITE_REDSTONE_ORE);
 	public static final RegistryObject<Item> SODALITE_DIAMOND_ORE = block(SovereignHorizonModBlocks.SODALITE_DIAMOND_ORE);
+	public static final RegistryObject<Item> THULITE = block(SovereignHorizonModBlocks.THULITE);
+	public static final RegistryObject<Item> BLUESKIN = REGISTRY.register("blueskin", () -> new BlueskinItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

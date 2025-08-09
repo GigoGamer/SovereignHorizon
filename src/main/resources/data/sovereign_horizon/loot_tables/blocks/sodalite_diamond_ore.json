@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sovereign_horizon:deleted_mod_element",
+          "name": "sovereign_horizon:sodalite_diamond_ore",
           "weight": 1,
           "conditions": [
             {

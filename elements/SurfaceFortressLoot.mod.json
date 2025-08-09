@@ -84,7 +84,7 @@
           {
             "type": "item",
             "item": {
-              "value": "Items.IRON_INGOT"
+              "value": "Items.DYE#4"
             },
             "weight": 5,
             "minCount": 1,
@@ -98,7 +98,7 @@
           {
             "type": "item",
             "item": {
-              "value": "Items.GOLD_INGOT"
+              "value": "Items.EMERALD"
             },
             "weight": 4,
             "minCount": 1,
@@ -112,13 +112,41 @@
           {
             "type": "item",
             "item": {
-              "value": "Items.IRON_NUGGET"
+              "value": "Items.QUARTZ"
             },
             "weight": 5,
             "minCount": 6,
             "maxCount": 10,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.ENCHANTED_BOOK"
+            },
+            "weight": 2,
+            "minCount": 1,
+            "maxCount": 21,
+            "minEnchantmentLevel": 3,
+            "maxEnchantmentLevel": 10,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.DIAMOND_SWORD"
+            },
+            "weight": 2,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 3,
+            "maxEnchantmentLevel": 10,
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0

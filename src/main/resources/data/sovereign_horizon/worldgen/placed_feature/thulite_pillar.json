@@ -1,0 +1,45 @@
+{
+  "feature": "sovereign_horizon:thulite_pillar",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 130
+        },
+        "max_inclusive": {
+          "absolute": 134
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 25
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 3
+        }
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "uniform",
+        "value": {
+          "min_inclusive": 10,
+          "max_inclusive": 15
+        }
+      }
+    }
+  ]
+}

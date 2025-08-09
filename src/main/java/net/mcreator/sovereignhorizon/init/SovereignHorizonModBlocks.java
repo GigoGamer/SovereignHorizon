@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.sovereignhorizon.block.ThuliteBlock;
 import net.mcreator.sovereignhorizon.block.TestBlock;
 import net.mcreator.sovereignhorizon.block.SparseDeepLichenCoveredSodaliteBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteWallBlock;
@@ -88,6 +89,7 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> SODALITE_LAPIS_LAZULI_ORE = REGISTRY.register("sodalite_lapis_lazuli_ore", () -> new SodaliteLapisLazuliOreBlock());
 	public static final RegistryObject<Block> SODALITE_REDSTONE_ORE = REGISTRY.register("sodalite_redstone_ore", () -> new SodaliteRedstoneOreBlock());
 	public static final RegistryObject<Block> SODALITE_DIAMOND_ORE = REGISTRY.register("sodalite_diamond_ore", () -> new SodaliteDiamondOreBlock());
+	public static final RegistryObject<Block> THULITE = REGISTRY.register("thulite", () -> new ThuliteBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -2,14 +2,14 @@
   "_fv": 77,
   "_type": "block",
   "definition": {
-    "texture": "test",
+    "texture": "thulite",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -34,28 +34,32 @@
       }
     ],
     "customProperties": [],
-    "name": "Test",
+    "name": "Thulite",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 8.0,
-    "resistance": 8.0,
+    "hardness": 5.0,
+    "resistance": 5.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
-    "destroyTool": "pickaxe",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SovereignHorizon"
+      }
+    ],
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "NONE"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
