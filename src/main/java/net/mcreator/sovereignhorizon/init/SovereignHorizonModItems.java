@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.sovereignhorizon.item.LiquidVoidItem;
 import net.mcreator.sovereignhorizon.item.ElixiteArmorItem;
 import net.mcreator.sovereignhorizon.item.ElixisUpgradeSmithingTemplateItem;
 import net.mcreator.sovereignhorizon.item.ElixisShardItem;
@@ -108,6 +109,7 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> ASH = block(SovereignHorizonModBlocks.ASH);
 	public static final RegistryObject<Item> THULITE = block(SovereignHorizonModBlocks.THULITE);
 	public static final RegistryObject<Item> BLUESKIN = REGISTRY.register("blueskin", () -> new BlueskinItem());
+	public static final RegistryObject<Item> LIQUID_VOID_BUCKET = REGISTRY.register("liquid_void_bucket", () -> new LiquidVoidItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

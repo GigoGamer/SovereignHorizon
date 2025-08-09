@@ -22,6 +22,8 @@ import net.mcreator.sovereignhorizon.init.SovereignHorizonModSounds;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModPotions;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModMenus;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModItems;
+import net.mcreator.sovereignhorizon.init.SovereignHorizonModFluids;
+import net.mcreator.sovereignhorizon.init.SovereignHorizonModFluidTypes;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEntities;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEnchantments;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModBlocks;
@@ -57,6 +59,8 @@ public class SovereignHorizonMod {
 		SovereignHorizonModPotions.REGISTRY.register(bus);
 
 		SovereignHorizonModMenus.REGISTRY.register(bus);
+		SovereignHorizonModFluids.REGISTRY.register(bus);
+		SovereignHorizonModFluidTypes.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

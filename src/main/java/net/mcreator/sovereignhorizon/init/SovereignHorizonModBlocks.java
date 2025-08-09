@@ -70,6 +70,7 @@ import net.mcreator.sovereignhorizon.block.MarbleBrickWallBlock;
 import net.mcreator.sovereignhorizon.block.MarbleBrickStairsBlock;
 import net.mcreator.sovereignhorizon.block.MarbleBrickSlabBlock;
 import net.mcreator.sovereignhorizon.block.MarbleBlock;
+import net.mcreator.sovereignhorizon.block.LiquidVoidBlock;
 import net.mcreator.sovereignhorizon.block.LepidoliteBlock;
 import net.mcreator.sovereignhorizon.block.LarimarBlock;
 import net.mcreator.sovereignhorizon.block.InfusionTableBlock;
@@ -166,6 +167,7 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> RAW_MARBLE_TILES = REGISTRY.register("raw_marble_tiles", () -> new RawMarbleTilesBlock());
 	public static final RegistryObject<Block> ASH = REGISTRY.register("ash", () -> new AshBlock());
 	public static final RegistryObject<Block> THULITE = REGISTRY.register("thulite", () -> new ThuliteBlock());
+	public static final RegistryObject<Block> LIQUID_VOID = REGISTRY.register("liquid_void", () -> new LiquidVoidBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
