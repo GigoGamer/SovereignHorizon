@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "raw_marble_slab",
+  "count": 2,
+  "ingredient": {
+    "item": "sovereign_horizon:raw_marble"
+  },
+  "result": "sovereign_horizon:raw_marble_slab"
+}

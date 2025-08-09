@@ -1,6 +1,14 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:marble_brick_stairs",
+    "sovereign_horizon:raw_marble_tile_stairs",
+    "sovereign_horizon:marble_tile_stairs",
+    "sovereign_horizon:polished_marble_stairs",
+    "sovereign_horizon:raw_marble_brick_stairs",
+    "sovereign_horizon:raw_marble_stairs",
+    "sovereign_horizon:polished_raw_marble_stairs",
+    "sovereign_horizon:marble_stairs",
     "sovereign_horizon:sodalite_tile_stairs",
     "sovereign_horizon:sodalite_brick_stairs",
     "sovereign_horizon:polished_sodalite_stairs",

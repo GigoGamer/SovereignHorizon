@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sovereign_horizon:block/raw_marble_slab"
+    },
+    "type=top": {
+      "model": "sovereign_horizon:block/raw_marble_slab_top"
+    },
+    "type=double": {
+      "model": "sovereign_horizon:block/raw_marble_slab_full"
+    }
+  }
+}

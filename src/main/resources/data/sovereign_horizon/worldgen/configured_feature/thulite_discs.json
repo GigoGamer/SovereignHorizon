@@ -13,14 +13,14 @@
       "type": "minecraft:matching_blocks",
       "blocks": [
         "sovereign_horizon:sodalite",
-        "sovereign_horizon:ash"
+        "sovereign_horizon:deleted_mod_element"
       ]
     },
     "state_provider": {
       "fallback": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "sovereign_horizon:thulite"
+          "Name": "sovereign_horizon:deleted_mod_element"
         }
       },
       "rules": []

@@ -2370,6 +2370,2218 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "MarbleStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/block/MarbleStairsBlock.java",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/marble_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_stairs_outer.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/marble_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_stairs_inner.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/marble_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "PolishedRawMarbleStonecutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_raw_marble_stonecutting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBricksStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_bricks_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_bricks_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTileWallCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_wall_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_wall_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBricksStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_bricks_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_bricks_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedRawMarbleStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/polished_raw_marble_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/polished_raw_marble_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_raw_marble_stairs_outer.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_raw_marble_stairs.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_raw_marble_stairs.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/PolishedRawMarbleStairsBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_raw_marble_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "PolishedMarbleCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_marble_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleStairsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_stairs_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_stairs_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/block/MarbleBrickSlabBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/marble_brick_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_brick_slab_full.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/marble_brick_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_brick_slab.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/marble_brick_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_brick_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "PolishedRawMarbleCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_raw_marble_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleWallCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_wall_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_wall_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBrickWallCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_wall_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_brick_wall_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedMarbleStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_marble_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBrickStairsStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_stairs_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_brick_stairs_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTileWallCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_wall_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_wall_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBrickStairsStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_stairs_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_brick_stairs_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBrickStairsStonecutting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_stairs_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_brick_stairs_stonecutting_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarblePillarCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_pillar_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_pillar_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CrackedMarbleBricksSmelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_marble_bricks_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/cracked_marble_bricks_smelt.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_brick_slab.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/raw_marble_brick_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_brick_slab_top.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/raw_marble_brick_slab.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/RawMarbleBrickSlabBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_marble_brick_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_brick_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "PolishedMarbleWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_marble_wall_side_tall.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/PolishedMarbleWallBlock.java",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_marble_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_marble_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/polished_marble_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_marble_wall_inventory.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/polished_marble_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_marble_wall_post.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "PolishedMarbleStairsStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_stairs_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_marble_stairs_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBrickStairsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_stairs_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_brick_stairs_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/block/RawMarbleStairsBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_stairs_inner.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/raw_marble_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_marble_stairs.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/raw_marble_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "PolishedMarbleStairsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_stairs_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_marble_stairs_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/block/RawMarbleBricksBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_marble_bricks.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/raw_marble_bricks.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/raw_marble_bricks.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_bricks.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "CrackedRawMarbleTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_raw_marble_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/block/CrackedRawMarbleTilesBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/cracked_raw_marble_tiles.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/cracked_raw_marble_tiles.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cracked_raw_marble_tiles.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cracked_raw_marble_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "PolishedRawMarbleStairsStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_stairs_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_raw_marble_stairs_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedMarbleStairsStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_stairs_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_marble_stairs_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedRawMarbleStairsStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_stairs_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_raw_marble_stairs_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_slab_full.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_slab.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/raw_marble_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_marble_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_slab_top.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/RawMarbleSlabBlock.java",
+          "src/main/resources/assets/sovereign_horizon/blockstates/raw_marble_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "MarbleSmelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_smelt.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedMarbleStonecutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_marble_stonecutting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTileSlabCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_slab_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_slab_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarblePillarCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_pillar_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_pillar_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedRawMarbleWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_raw_marble_wall_side_tall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_raw_marble_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_raw_marble_wall_post.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/polished_raw_marble_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/polished_raw_marble_wall.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/PolishedRawMarbleWallBlock.java",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_raw_marble_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_raw_marble_wall_inventory.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "RawMarbleTilesStonecutting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tiles_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tiles_stonecutting_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleSlabCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_slab_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_slab_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTileWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/block/MarbleTileWallBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_tile_wall_inventory.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_tile_wall.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/marble_tile_wall.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/marble_tile_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_tile_wall_side_tall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_tile_wall_post.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/marble_tile_wall.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "RawMarbleTilesStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tiles_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tiles_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTilesStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tiles_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tiles_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CrackedRawMarbleBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_raw_marble_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cracked_raw_marble_bricks.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/CrackedRawMarbleBricksBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/cracked_raw_marble_bricks.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/cracked_raw_marble_bricks.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/cracked_raw_marble_bricks.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "PolishedMarbleSlabStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_slab_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_marble_slab_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTileSlabStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_slab_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_slab_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarble",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_marble.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/raw_marble.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/raw_marble.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/RawMarbleBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "MarbleTileSlabStonecutting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_slab_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_slab_stonecutting_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleStairsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_stairs_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_stairs_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTileSlabStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_slab_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_slab_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTileStairsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_stairs_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_stairs_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTileSlabStonecutting4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_slab_stonecutting_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_slab_stonecutting_4.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/marble_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_slab_full.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/marble_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_slab_top.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/marble_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_slab.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/MarbleSlabBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "PolishedRawMarbleSlabCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_slab_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_raw_marble_slab_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedMarbleWallStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_wall_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_marble_wall_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarblePillar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_pillar.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/raw_marble_pillar.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/raw_marble_pillar.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_marble_pillar.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/RawMarblePillarBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "MarbleBrickSlabCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_slab_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_brick_slab_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedRawMarbleStairsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_stairs_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_raw_marble_stairs_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedMarbleSlabStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_slab_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_marble_slab_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTileSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/blockstates/raw_marble_tile_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_tile_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_tile_slab_top.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/raw_marble_tile_slab.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/RawMarbleTileSlabBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_tile_slab_full.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_marble_tile_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "MarbleTileSlabCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_slab_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_slab_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTileWallStonecutting4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_wall_stonecutting_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_wall_stonecutting_4.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedMarbleWallStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_wall_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_marble_wall_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTileWallStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_wall_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_wall_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedMarbleSlabCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_slab_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_marble_slab_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTileWallStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_wall_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_wall_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTileWallStonecutting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_wall_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_wall_stonecutting_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTilesStonecutting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tiles_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tiles_stonecutting_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedMarble",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/block/PolishedMarbleBlock.java",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_marble.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/polished_marble.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/polished_marble.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_marble.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "MarbleWallCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_wall_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_wall_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/raw_marble_brick_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/raw_marble_brick_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_brick_stairs_outer.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/RawMarbleBrickStairsBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_brick_stairs_inner.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_brick_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_marble_brick_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "PolishedMarbleStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_marble_stairs_inner.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_marble_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/polished_marble_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/polished_marble_stairs.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_marble_stairs.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/PolishedMarbleStairsBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_marble_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "MarbleTileStairsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_stairs_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_stairs_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarblePillarStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_pillar_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_pillar_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTileStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/blockstates/marble_tile_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_tile_stairs.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/marble_tile_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_tile_stairs_outer.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_tile_stairs_inner.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/MarbleTileStairsBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/marble_tile_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "MarbleBricksCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_bricks_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_bricks_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedRawMarbleWallCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_wall_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_raw_marble_wall_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarblePillarStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_pillar_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_pillar_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CrackedMarbleTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_marble_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cracked_marble_tiles.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/cracked_marble_tiles.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/CrackedMarbleTilesBlock.java",
+          "src/main/resources/assets/sovereign_horizon/blockstates/cracked_marble_tiles.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cracked_marble_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "RawMarbleTileWallStonecutting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_wall_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_wall_stonecutting_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTileWallStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_wall_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_wall_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTileWallStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_wall_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_wall_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedRawMarbleSlabStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_slab_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_raw_marble_slab_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTileWallStonecutting4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_wall_stonecutting_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_wall_stonecutting_4.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedMarbleWallCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_wall_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_marble_wall_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarblePillar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_pillar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/block/MarblePillarBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_pillar.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/marble_pillar.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/marble_pillar.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/marble_pillar.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "RawMarbleTileSlabStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_slab_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_slab_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBrickWallStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_wall_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_brick_wall_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBrickWallStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_wall_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_brick_wall_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTileSlabStonecutting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_slab_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_slab_stonecutting_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleGeneration",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/raw_marble_generation.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/raw_marble_generation.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/raw_marble_generation_biome_modifier.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "PolishedRawMarbleSlabStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_slab_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_raw_marble_slab_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTileSlabStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_slab_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_slab_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBrickWallStonecutting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_wall_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_brick_wall_stonecutting_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Marble",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/marble.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/marble.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/MarbleBlock.java",
+          "src/main/resources/assets/sovereign_horizon/blockstates/marble.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "RawMarbleTileSlabStonecutting4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_slab_stonecutting_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_slab_stonecutting_4.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleSlabStonecutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_slab_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_slab_stonecutting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedRawMarbleWallStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_wall_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_raw_marble_wall_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleStairsStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_stairs_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_stairs_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_wall_post.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_wall_inventory.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/marble_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_wall.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/MarbleWallBlock.java",
+          "src/main/resources/assets/sovereign_horizon/blockstates/marble_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/marble_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_wall_side_tall.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "MarbleTilesStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tiles_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tiles_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTilesStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tiles_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tiles_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleStairsStonecutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_stairs_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_stairs_stonecutting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedMarbleSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_marble_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_marble_slab_top.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_marble_slab.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/polished_marble_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_marble_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/polished_marble_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_marble_slab_full.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/PolishedMarbleSlabBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "MarblePillarStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_pillar_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_pillar_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/block/MarbleTilesBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/marble_tiles.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/marble_tiles.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/marble_tiles.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "MarbleWallStonecutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_wall_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_wall_stonecutting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedRawMarbleWallStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_wall_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_raw_marble_wall_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBrickWallCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_wall_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_brick_wall_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTileStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/blockstates/raw_marble_tile_stairs.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/raw_marble_tile_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_marble_tile_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_tile_stairs_inner.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/RawMarbleTileStairsBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_tile_stairs_outer.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_tile_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "RawMarbleSlabCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_slab_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_slab_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBricksStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_bricks_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_bricks_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarblePillarStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_pillar_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_pillar_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/raw_marble_wall.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/raw_marble_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_wall_inventory.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_marble_wall.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/RawMarbleWallBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_wall_side_tall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_wall_post.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_wall.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "RawMarbleSlabStonecutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_slab_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_slab_stonecutting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CrackedRawMarbleBricksSmelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_raw_marble_bricks_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/cracked_raw_marble_bricks_smelt.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CrackedMarbleTilesSmelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_marble_tiles_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/cracked_marble_tiles_smelt.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBrickWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_marble_brick_wall.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/raw_marble_brick_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_brick_wall.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/raw_marble_brick_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_brick_wall_post.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_brick_wall_inventory.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_brick_wall_side_tall.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/RawMarbleBrickWallBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "MarbleTileSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_tile_slab_top.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/marble_tile_slab.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/marble_tile_slab.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/marble_tile_slab.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/MarbleTileSlabBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_tile_slab_full.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_tile_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "PolishedRawMarbleSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_raw_marble_slab_full.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/PolishedRawMarbleSlabBlock.java",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_raw_marble_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_raw_marble_slab_top.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_raw_marble_slab.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/polished_raw_marble_slab.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/polished_raw_marble_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "PolishedRawMarble",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/block/polished_raw_marble.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/polished_raw_marble.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/polished_raw_marble.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/polished_raw_marble.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/PolishedRawMarbleBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "RawMarbleWallStonecutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_wall_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_wall_stonecutting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/marble_brick_stairs.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/marble_brick_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_brick_stairs.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/MarbleBrickStairsBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_brick_stairs_outer.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/marble_brick_stairs.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_brick_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "RawMarbleTileStairsStonecutting4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_stairs_stonecutting_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_stairs_stonecutting_4.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTileStairsStonecutting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_stairs_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_stairs_stonecutting_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBricksStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_bricks_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_bricks_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTileStairsStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_stairs_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_stairs_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBrickSlabStonecutting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_slab_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_brick_slab_stonecutting_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTileStairsStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_stairs_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tile_stairs_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBrickSlabStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_slab_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_brick_slab_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PolishedRawMarbleStairsStonecutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_raw_marble_stairs_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/polished_raw_marble_stairs_stonecutting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBrickSlabStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_slab_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_brick_slab_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTileWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tile_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/raw_marble_tile_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_tile_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_tile_wall_side_tall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_tile_wall_inventory.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_marble_tile_wall.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/raw_marble_tile_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_tile_wall_post.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/RawMarbleTileWallBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "MarbleBrickWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/marble_brick_wall.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/marble_brick_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_brick_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_brick_wall_side_tall.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/marble_brick_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_brick_wall_post.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_brick_wall_inventory.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/MarbleBrickWallBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "RawMarbleBrickStairsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_stairs_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_brick_stairs_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBrickSlabStonecutting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_slab_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_brick_slab_stonecutting_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/marble_bricks.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/marble_bricks.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/marble_bricks.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/MarbleBricksBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/marble_bricks.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "RawMarbleBrickSlabStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_slab_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_brick_slab_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBrickSlabStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_slab_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_brick_slab_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBricksCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_bricks_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_bricks_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CrackedMarbleBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_marble_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/cracked_marble_bricks.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/cracked_marble_bricks.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/cracked_marble_bricks.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/CrackedMarbleBricksBlock.java",
+          "src/main/resources/assets/sovereign_horizon/blockstates/cracked_marble_bricks.json"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "RawMarbleBrickStairsStonecutting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_stairs_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_brick_stairs_stonecutting_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBrickStairsStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_stairs_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_brick_stairs_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBrickStairsStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_stairs_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_brick_stairs_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBrickWallStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_wall_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_brick_wall_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CrackedRawMarbleTilesSmelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_raw_marble_tiles_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/cracked_raw_marble_tiles_smelt.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBrickWallStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_wall_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_brick_wall_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBrickSlabCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_slab_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_brick_slab_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleBrickWallStonecutting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_brick_wall_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_brick_wall_stonecutting_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTilesCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tiles_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/raw_marble_tiles_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTileStairsStonecutting3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_stairs_stonecutting_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_stairs_stonecutting_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawMarbleTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_marble_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_marble_tiles.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/raw_marble_tiles.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/raw_marble_tiles.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/raw_marble_tiles.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/RawMarbleTilesBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Marble"
+    },
+    {
+      "name": "MarbleTileStairsStonecutting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_stairs_stonecutting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_stairs_stonecutting_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTilesCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tiles_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tiles_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTileStairsStonecutting1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_stairs_stonecutting_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_stairs_stonecutting_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MarbleTileStairsStonecutting4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_tile_stairs_stonecutting_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/marble_tile_stairs_stonecutting_4.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -2395,6 +4607,44 @@
       "~CUSTOM:BlockofElixisShards"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:RawMarbleTiles",
+      "~CUSTOM:CrackedMarbleBricks",
+      "~CUSTOM:MarbleBricks",
+      "~CUSTOM:MarbleBrickWall",
+      "~CUSTOM:RawMarbleTileWall",
+      "~CUSTOM:MarbleBrickStairs",
+      "~CUSTOM:PolishedRawMarble",
+      "~CUSTOM:PolishedRawMarbleSlab",
+      "~CUSTOM:MarbleTileSlab",
+      "~CUSTOM:RawMarbleBrickWall",
+      "~CUSTOM:RawMarbleWall",
+      "~CUSTOM:RawMarbleTileStairs",
+      "~CUSTOM:MarbleTiles",
+      "~CUSTOM:PolishedMarbleSlab",
+      "~CUSTOM:MarbleWall",
+      "~CUSTOM:Marble",
+      "~CUSTOM:MarblePillar",
+      "~CUSTOM:CrackedMarbleTiles",
+      "~CUSTOM:MarbleTileStairs",
+      "~CUSTOM:PolishedMarbleStairs",
+      "~CUSTOM:RawMarbleBrickStairs",
+      "~CUSTOM:PolishedMarble",
+      "~CUSTOM:RawMarbleTileSlab",
+      "~CUSTOM:RawMarblePillar",
+      "~CUSTOM:MarbleSlab",
+      "~CUSTOM:RawMarble",
+      "~CUSTOM:CrackedRawMarbleBricks",
+      "~CUSTOM:MarbleTileWall",
+      "~CUSTOM:PolishedRawMarbleWall",
+      "~CUSTOM:RawMarbleSlab",
+      "~CUSTOM:CrackedRawMarbleTiles",
+      "~CUSTOM:RawMarbleBricks",
+      "~CUSTOM:RawMarbleStairs",
+      "~CUSTOM:PolishedMarbleWall",
+      "~CUSTOM:RawMarbleBrickSlab",
+      "~CUSTOM:MarbleBrickSlab",
+      "~CUSTOM:PolishedRawMarbleStairs",
+      "~CUSTOM:MarbleStairs",
       "~CUSTOM:SodaliteDiamondOre",
       "~CUSTOM:SodaliteRedstoneOre",
       "~CUSTOM:SodaliteLapisLazuliOre",
@@ -2434,6 +4684,14 @@
       "~CUSTOM:SodaliteWastes"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:PolishedRawMarbleSlab",
+      "~CUSTOM:MarbleTileSlab",
+      "~CUSTOM:PolishedMarbleSlab",
+      "~CUSTOM:RawMarbleTileSlab",
+      "~CUSTOM:MarbleSlab",
+      "~CUSTOM:RawMarbleSlab",
+      "~CUSTOM:RawMarbleBrickSlab",
+      "~CUSTOM:MarbleBrickSlab",
       "~CUSTOM:SodaliteTileSlab",
       "~CUSTOM:SodaliteBrickSlab",
       "~CUSTOM:PolishedSodaliteSlab",
@@ -2473,6 +4731,14 @@
       "~CUSTOM:Sodalite"
     ],
     "BLOCKS:minecraft:walls": [
+      "~CUSTOM:MarbleBrickWall",
+      "~CUSTOM:RawMarbleTileWall",
+      "~CUSTOM:RawMarbleBrickWall",
+      "~CUSTOM:RawMarbleWall",
+      "~CUSTOM:MarbleWall",
+      "~CUSTOM:MarbleTileWall",
+      "~CUSTOM:PolishedRawMarbleWall",
+      "~CUSTOM:PolishedMarbleWall",
       "~CUSTOM:SodaliteTileWall",
       "~CUSTOM:SodaliteBrickWall",
       "~CUSTOM:PolishedSodaliteWall",
@@ -2480,6 +4746,14 @@
       "~CUSTOM:SodaliteWall"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:MarbleBrickStairs",
+      "~CUSTOM:RawMarbleTileStairs",
+      "~CUSTOM:MarbleTileStairs",
+      "~CUSTOM:PolishedMarbleStairs",
+      "~CUSTOM:RawMarbleBrickStairs",
+      "~CUSTOM:RawMarbleStairs",
+      "~CUSTOM:PolishedRawMarbleStairs",
+      "~CUSTOM:MarbleStairs",
       "~CUSTOM:SodaliteTileStairs",
       "~CUSTOM:SodaliteBrickStairs",
       "~CUSTOM:PolishedSodaliteStairs",
@@ -2495,81 +4769,73 @@
   "language_map": {
     "en_us": {
       "block.sovereign_horizon.deep_lichen_covered_sodalite": "Deep Lichen Covered Sodalite",
-      "block.sovereign_horizon.sodalite_brick_stairs": "Sodalite Brick Stairs",
-      "death.attack.pressure.item": "%1$s was squashed by %2$s using %3$s",
-      "advancements.carbonated_rock.title": "Carbonated Rock",
-      "biome.sovereign_horizon.ash_field": "Ash Field",
-      "block.sovereign_horizon.cracked_sodalite_bricks": "Cracked Sodalite Bricks",
       "item.sovereign_horizon.elixite_armor_chestplate": "Elixite Chestplate",
       "key.sovereign_horizon.enchantment_ability": "Enchantment Ability",
       "advancements.sh_enter.title": "A Sovereign Horizon",
-      "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
-      "block.sovereign_horizon.polished_sodalite_wall": "Polished Sodalite Wall",
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
-      "block.sovereign_horizon.sodalite_pressure_plate": "Sodalite Pressure Plate",
       "item.sovereign_horizon.elixite_armor_boots": "Elixite Boots",
-      "enchantment.sovereign_horizon.resilience": "Resilience",
       "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
-      "block.sovereign_horizon.sodalite_quartz_ore": "Sodalite Quartz Ore",
-      "advancements.sh_enter.descr": "Enter the Sovereign Horizon",
-      "block.sovereign_horizon.sodalite_bricks": "Sodalite Bricks",
       "advancements.carbonated_rock.descr": "Find sodalite",
-      "item.sovereign_horizon.rived_ghast_spawn_egg": "Rived Ghast Spawn Egg",
-      "block.sovereign_horizon.ash": "Ash",
       "block.sovereign_horizon.polished_sodalite_slab": "Polished Sodalite Slab",
-      "block.sovereign_horizon.cobbled_sodalite_wall": "Cobbled Sodalite Wall",
-      "death.attack.pressure": "%1$s imploded",
       "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
-      "block.sovereign_horizon.infusion_table": "Infusion Table",
       "block.sovereign_horizon.sodalite_diamond_ore": "Sodalite Diamond Ore",
       "block.sovereign_horizon.sodalite_lapis_lazuli_ore": "Sodalite Lapis Lazuli Ore",
       "item.sovereign_horizon.elixis_upgrade_smithing_template": "Smithing Template",
-      "block.sovereign_horizon.polished_sodalite_stairs": "Polished Sodalite Stairs",
-      "block.sovereign_horizon.polished_sodalite": "Polished Sodalite",
-      "block.sovereign_horizon.cobbled_sodalite_stairs": "Cobbled Sodalite Stairs",
       "item.minecraft.lingering_potion.effect.levitation": "Lingering Potion of Levitation",
-      "block.sovereign_horizon.cobbled_sodalite": "Cobbled Sodalite",
       "biome.sovereign_horizon.sodalite_wastes": "Sodalite Wastes",
-      "entity.sovereign_horizon.rived_ghast": "Rived Ghast",
-      "advancements.how_riveding.descr": "Kill a rived ghast",
       "block.sovereign_horizon.test": "Test",
       "block.sovereign_horizon.sodalite_redstone_ore": "Sodalite Redstone Ore",
       "item.sovereign_horizon.elixite_armor_leggings": "Elixite Leggings",
-      "block.sovereign_horizon.larimar": "Larimar",
       "block.sovereign_horizon.sodalite_emerald_ore": "Sodalite Emerald Ore",
       "block.sovereign_horizon.sodalite": "Sodalite",
-      "gui.sovereign_horizon.infusion_table_gui.button_infuse": "Infuse",
       "item.sovereign_horizon.elixite_armor_helmet": "Elixite Helmet",
       "block.sovereign_horizon.sodalite_tiles": "Sodalite Tiles",
       "block.sovereign_horizon.sodalite_wall": "Sodalite Wall",
+      "item.sovereign_horizon.catechism_wing": "Catechism Wing",
+      "entity.sovereign_horizon.catechism": "Catechism",
+      "block.sovereign_horizon.blockof_elixis_shards": "Block of Elixis Shards",
+      "item_group.sovereign_horizon.sovereign_horizon": "Sovereign Horizon",
+      "item.sovereign_horizon.elixis_shard": "Elixis Shard",
+      "block.sovereign_horizon.sodalite_brick_slab": "Sodalite Brick Slab",
+      "block.sovereign_horizon.sparse_deep_lichen_covered_sodalite": "Sparse Deep Lichen Covered Sodalite",
+      "block.sovereign_horizon.cracked_sodalite_tiles": "Cracked Sodalite Tiles",
+      "block.sovereign_horizon.sodalite_tile_slab": "Sodalite Tile Slab",
+      "block.sovereign_horizon.sodalite_brick_stairs": "Sodalite Brick Stairs",
+      "death.attack.pressure.item": "%1$s was squashed by %2$s using %3$s",
+      "advancements.carbonated_rock.title": "Carbonated Rock",
+      "block.sovereign_horizon.cracked_sodalite_bricks": "Cracked Sodalite Bricks",
+      "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
+      "block.sovereign_horizon.polished_sodalite_wall": "Polished Sodalite Wall",
+      "block.sovereign_horizon.sodalite_pressure_plate": "Sodalite Pressure Plate",
+      "block.sovereign_horizon.sodalite_quartz_ore": "Sodalite Quartz Ore",
+      "enchantment.sovereign_horizon.resilience": "Resilience",
+      "block.sovereign_horizon.sodalite_bricks": "Sodalite Bricks",
+      "advancements.sh_enter.descr": "Enter the Sovereign Horizon",
+      "block.sovereign_horizon.cobbled_sodalite_wall": "Cobbled Sodalite Wall",
+      "death.attack.pressure": "%1$s imploded",
+      "block.sovereign_horizon.infusion_table": "Infusion Table",
+      "block.sovereign_horizon.polished_sodalite_stairs": "Polished Sodalite Stairs",
+      "block.sovereign_horizon.polished_sodalite": "Polished Sodalite",
+      "block.sovereign_horizon.cobbled_sodalite_stairs": "Cobbled Sodalite Stairs",
+      "block.sovereign_horizon.cobbled_sodalite": "Cobbled Sodalite",
+      "block.sovereign_horizon.larimar": "Larimar",
+      "gui.sovereign_horizon.infusion_table_gui.button_infuse": "Infuse",
       "subtitles.music.sh.sodalitewastes": "Music",
       "block.sovereign_horizon.sodalite_tile_stairs": "Sodalite Tile Stairs",
       "death.attack.pressure.player": "%1$s imploded whilst trying to escape %2$s",
-      "item.sovereign_horizon.blueskin": "Blueskin",
-      "item.sovereign_horizon.catechism_wing": "Catechism Wing",
       "block.sovereign_horizon.sodalite_button": "Sodalite Button",
       "block.sovereign_horizon.sodalite_stairs": "Sodalite Stairs",
       "block.sovereign_horizon.sodalite_brick_wall": "Sodalite Brick Wall",
-      "block.sovereign_horizon.thulite": "Thulite",
       "block.sovereign_horizon.sodalite_slab": "Sodalite Slab",
       "block.sovereign_horizon.cobbled_sodalite_slab": "Cobbled Sodalite Slab",
       "block.sovereign_horizon.lepidolite": "Lepidolite",
       "gui.sovereign_horizon.infusion_table_gui.label_infusion_table": "Infusion Table",
-      "entity.sovereign_horizon.catechism": "Catechism",
-      "block.sovereign_horizon.blockof_elixis_shards": "Block of Elixis Shards",
-      "item_group.sovereign_horizon.sovereign_horizon": "Sovereign Horizon",
-      "block.sovereign_horizon.sodalite_brick_slab": "Sodalite Brick Slab",
-      "item.sovereign_horizon.elixis_shard": "Elixis Shard",
-      "advancements.how_riveding.title": "How Rived-ing",
-      "block.sovereign_horizon.sparse_deep_lichen_covered_sodalite": "Sparse Deep Lichen Covered Sodalite",
-      "block.sovereign_horizon.cracked_sodalite_tiles": "Cracked Sodalite Tiles",
       "enchantment.sovereign_horizon.bounding": "Bounding",
       "item.minecraft.splash_potion.effect.levitation": "Splash Potion of Levitation",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_5": " §9Elixis Shard",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_4": "Ingredients:",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_3": " §9Diamond Equipment",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_2": "Applies to:",
-      "block.sovereign_horizon.sodalite_tile_slab": "Sodalite Tile Slab",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_1": "",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_0": "Elixis Upgrade"
     }
@@ -2617,6 +4883,10 @@
       {
         "name": "Blocks",
         "children": [
+          {
+            "name": "Marble",
+            "children": []
+          },
           {
             "name": "Larimar",
             "children": []

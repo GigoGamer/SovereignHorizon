@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "marble_brick_slab",
+  "count": 2,
+  "ingredient": {
+    "item": "sovereign_horizon:deleted_mod_element"
+  },
+  "result": "sovereign_horizon:marble_brick_slab"
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "cracked_marble_bricks",
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 0.1,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:MarbleBricks"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CrackedMarbleBricks"
+    },
+    "name": "cracked_marble_bricks_smelt",
+    "namespace": "mod"
+  }
+}

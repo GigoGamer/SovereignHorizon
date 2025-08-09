@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "sovereign_horizon:blocks/raw_marble_brick_stairs",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sovereign_horizon:raw_marble_brick_stairs"
+        }
+      ]
+    }
+  ]
+}

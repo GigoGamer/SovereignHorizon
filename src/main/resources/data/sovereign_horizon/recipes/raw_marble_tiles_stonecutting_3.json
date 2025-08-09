@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "raw_marble_tiles",
+  "count": 1,
+  "ingredient": {
+    "item": "sovereign_horizon:raw_marble_bricks"
+  },
+  "result": "sovereign_horizon:deleted_mod_element"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "marble_tiles",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:marble_bricks"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:marble_tiles",
+    "count": 4
+  }
+}

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "sovereign_horizon:blueskin"
+      "item": "sovereign_horizon:deleted_mod_element"
     },
     "title": {
       "translate": "advancements.how_riveding.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "sovereign_horizon:blueskin"
+              "sovereign_horizon:deleted_mod_element"
             ],
             "count": {
               "min": 1,

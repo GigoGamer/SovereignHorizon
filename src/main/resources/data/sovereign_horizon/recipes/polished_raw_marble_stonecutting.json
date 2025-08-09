@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "polished_raw_marble",
+  "count": 1,
+  "ingredient": {
+    "item": "sovereign_horizon:deleted_mod_element"
+  },
+  "result": "sovereign_horizon:deleted_mod_element"
+}

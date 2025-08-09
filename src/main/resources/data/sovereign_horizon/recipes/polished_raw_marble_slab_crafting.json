@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "polished_raw_marble_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:deleted_mod_element",
+    "count": 6
+  }
+}

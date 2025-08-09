@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "cracked_raw_marble_tiles",
+  "category": "blocks",
+  "experience": 0.1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "sovereign_horizon:deleted_mod_element"
+  },
+  "result": "sovereign_horizon:cracked_raw_marble_tiles"
+}

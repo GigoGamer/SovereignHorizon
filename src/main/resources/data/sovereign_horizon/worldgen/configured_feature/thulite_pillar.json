@@ -19,7 +19,7 @@
         "provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "sovereign_horizon:ash"
+            "Name": "sovereign_horizon:deleted_mod_element"
           }
         }
       },
@@ -34,7 +34,7 @@
         "provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "sovereign_horizon:thulite"
+            "Name": "sovereign_horizon:deleted_mod_element"
           }
         }
       }

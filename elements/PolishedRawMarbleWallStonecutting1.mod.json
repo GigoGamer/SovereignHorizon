@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "polished_raw_marble_wall",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:RawMarble"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:PolishedRawMarbleWall"
+    },
+    "name": "polished_raw_marble_wall_stonecutting_1",
+    "namespace": "mod"
+  }
+}

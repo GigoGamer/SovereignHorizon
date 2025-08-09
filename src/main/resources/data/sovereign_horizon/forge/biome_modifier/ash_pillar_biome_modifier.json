@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "sovereign_horizon:ash_field",
+  "biomes": "sovereign_horizon:deleted_mod_element",
   "features": "sovereign_horizon:ash_pillar",
   "step": "raw_generation"
 }
