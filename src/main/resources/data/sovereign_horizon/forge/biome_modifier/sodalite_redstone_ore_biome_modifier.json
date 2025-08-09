@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "sovereign_horizon:sodalite_wastes",
+  "features": "sovereign_horizon:sodalite_redstone_ore",
+  "step": "underground_ores"
+}

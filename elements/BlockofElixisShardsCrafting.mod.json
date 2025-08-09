@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "block_of_elixis_shards",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ElixisShard"
+      },
+      {
+        "value": "CUSTOM:ElixisShard"
+      },
+      {
+        "value": "CUSTOM:ElixisShard"
+      },
+      {
+        "value": "CUSTOM:ElixisShard"
+      },
+      {
+        "value": "CUSTOM:ElixisShard"
+      },
+      {
+        "value": "CUSTOM:ElixisShard"
+      },
+      {
+        "value": "CUSTOM:ElixisShard"
+      },
+      {
+        "value": "CUSTOM:ElixisShard"
+      },
+      {
+        "value": "CUSTOM:ElixisShard"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlockofElixisShards"
+    },
+    "name": "block_of_elixis_shards_crafting",
+    "namespace": "mod"
+  }
+}

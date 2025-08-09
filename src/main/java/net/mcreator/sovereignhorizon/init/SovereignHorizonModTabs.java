@@ -58,5 +58,11 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModBlocks.LEPIDOLITE.get().asItem());
 				tabData.accept(SovereignHorizonModItems.RIVED_GHAST_SPAWN_EGG.get());
 				tabData.accept(SovereignHorizonModBlocks.ASH.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.SODALITE_QUARTZ_ORE.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.BLOCKOF_ELIXIS_SHARDS.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.SODALITE_EMERALD_ORE.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.SODALITE_LAPIS_LAZULI_ORE.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.SODALITE_REDSTONE_ORE.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.SODALITE_DIAMOND_ORE.get().asItem());
 			}).build());
 }

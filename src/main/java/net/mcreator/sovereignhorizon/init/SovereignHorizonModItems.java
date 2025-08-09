@@ -61,6 +61,12 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> LEPIDOLITE = block(SovereignHorizonModBlocks.LEPIDOLITE);
 	public static final RegistryObject<Item> RIVED_GHAST_SPAWN_EGG = REGISTRY.register("rived_ghast_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.RIVED_GHAST, -13395457, -39322, new Item.Properties()));
 	public static final RegistryObject<Item> ASH = block(SovereignHorizonModBlocks.ASH);
+	public static final RegistryObject<Item> SODALITE_QUARTZ_ORE = block(SovereignHorizonModBlocks.SODALITE_QUARTZ_ORE);
+	public static final RegistryObject<Item> BLOCKOF_ELIXIS_SHARDS = block(SovereignHorizonModBlocks.BLOCKOF_ELIXIS_SHARDS);
+	public static final RegistryObject<Item> SODALITE_EMERALD_ORE = block(SovereignHorizonModBlocks.SODALITE_EMERALD_ORE);
+	public static final RegistryObject<Item> SODALITE_LAPIS_LAZULI_ORE = block(SovereignHorizonModBlocks.SODALITE_LAPIS_LAZULI_ORE);
+	public static final RegistryObject<Item> SODALITE_REDSTONE_ORE = block(SovereignHorizonModBlocks.SODALITE_REDSTONE_ORE);
+	public static final RegistryObject<Item> SODALITE_DIAMOND_ORE = block(SovereignHorizonModBlocks.SODALITE_DIAMOND_ORE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

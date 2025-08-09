@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 12,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "sovereign_horizon:sodalite"
+          }
+        },
+        "state": {
+          "Name": "sovereign_horizon:sodalite_lapis_lazuli_ore"
+        }
+      }
+    ]
+  }
+}

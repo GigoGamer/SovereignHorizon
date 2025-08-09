@@ -19,7 +19,12 @@ import net.mcreator.sovereignhorizon.block.SodaliteTileStairsBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteTileSlabBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteStairsBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteSlabBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteRedstoneOreBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteQuartzOreBlock;
 import net.mcreator.sovereignhorizon.block.SodalitePressurePlateBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteLapisLazuliOreBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteEmeraldOreBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteDiamondOreBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteButtonBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteBricksBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteBrickWallBlock;
@@ -40,6 +45,7 @@ import net.mcreator.sovereignhorizon.block.CobbledSodaliteWallBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteStairsBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteSlabBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteBlock;
+import net.mcreator.sovereignhorizon.block.BlockofElixisShardsBlock;
 import net.mcreator.sovereignhorizon.block.AshBlock;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
@@ -76,6 +82,12 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> LARIMAR = REGISTRY.register("larimar", () -> new LarimarBlock());
 	public static final RegistryObject<Block> LEPIDOLITE = REGISTRY.register("lepidolite", () -> new LepidoliteBlock());
 	public static final RegistryObject<Block> ASH = REGISTRY.register("ash", () -> new AshBlock());
+	public static final RegistryObject<Block> SODALITE_QUARTZ_ORE = REGISTRY.register("sodalite_quartz_ore", () -> new SodaliteQuartzOreBlock());
+	public static final RegistryObject<Block> BLOCKOF_ELIXIS_SHARDS = REGISTRY.register("blockof_elixis_shards", () -> new BlockofElixisShardsBlock());
+	public static final RegistryObject<Block> SODALITE_EMERALD_ORE = REGISTRY.register("sodalite_emerald_ore", () -> new SodaliteEmeraldOreBlock());
+	public static final RegistryObject<Block> SODALITE_LAPIS_LAZULI_ORE = REGISTRY.register("sodalite_lapis_lazuli_ore", () -> new SodaliteLapisLazuliOreBlock());
+	public static final RegistryObject<Block> SODALITE_REDSTONE_ORE = REGISTRY.register("sodalite_redstone_ore", () -> new SodaliteRedstoneOreBlock());
+	public static final RegistryObject<Block> SODALITE_DIAMOND_ORE = REGISTRY.register("sodalite_diamond_ore", () -> new SodaliteDiamondOreBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

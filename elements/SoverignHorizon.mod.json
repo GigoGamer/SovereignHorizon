@@ -1,0 +1,75 @@
+{
+  "_fv": 77,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "roofed_forest"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Test"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Test"
+    },
+    "seaLevel": 250,
+    "generateOreVeins": false,
+    "generateAquifers": false,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": true,
+    "cloudHeight": 192.0,
+    "skyType": "NONE",
+    "airColor": {
+      "value": -16777114,
+      "falpha": 0.0
+    },
+    "sunHeightAffectsFog": false,
+    "canRespawnHere": true,
+    "hasFog": true,
+    "ambientLight": 0.09999999999999999,
+    "doesWaterVaporize": false,
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": false,
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "piglinSafe": false,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 10,
+    "monsterSpawnBlockLightLimit": 10,
+    "onPlayerEntersDimension": {
+      "name": "SoverignHorizonPlayerEntersDimension"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "SoverignHorizonPlayerLeavesDimension"
+    },
+    "portalFrame": {
+      "value": "CUSTOM:Test"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Soverign Horizon Portal Igniter",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [],
+    "texture": "minecraft:barrier",
+    "portalTexture": "test",
+    "enablePortal": true
+  }
+}
