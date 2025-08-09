@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#sovereign_horizon:is_sh",
+  "features": "sovereign_horizon:lepidolite_pillar",
+  "step": "raw_generation"
+}

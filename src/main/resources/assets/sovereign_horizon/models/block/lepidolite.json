@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sovereign_horizon:block/lepidolite",
+    "up": "sovereign_horizon:block/lepidolite",
+    "north": "sovereign_horizon:block/lepidolite",
+    "east": "sovereign_horizon:block/lepidolite",
+    "south": "sovereign_horizon:block/lepidolite",
+    "west": "sovereign_horizon:block/lepidolite",
+    "particle": "sovereign_horizon:block/lepidolite"
+  },
+  "render_type": "solid"
+}

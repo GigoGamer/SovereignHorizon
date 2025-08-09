@@ -1724,6 +1724,51 @@
         ]
       },
       "path": "~/Other"
+    },
+    {
+      "name": "CarbonatedRock",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carbonated_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/carbonated_rock.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Lepidolite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lepidolite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/lepidolite.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/lepidolite.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/lepidolite.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/lepidolite.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/LepidoliteBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LepidolitePillar",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lepidolite_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/lepidolite_pillar_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/lepidolite_pillar.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/lepidolite_pillar.json"
+        ]
+      },
+      "path": "~/Features"
     }
   ],
   "variable_elements": [],
@@ -1833,19 +1878,21 @@
       "block.sovereign_horizon.deep_lichen_covered_sodalite": "Deep Lichen Covered Sodalite",
       "block.sovereign_horizon.sodalite_brick_stairs": "Sodalite Brick Stairs",
       "death.attack.pressure.item": "%1$s was squashed by %2$s using %3$s",
+      "advancements.carbonated_rock.title": "Carbonated Rock",
       "block.sovereign_horizon.cracked_sodalite_bricks": "Cracked Sodalite Bricks",
       "item.sovereign_horizon.elixite_armor_chestplate": "Elixite Chestplate",
       "key.sovereign_horizon.enchantment_ability": "Enchantment Ability",
       "advancements.sh_enter.title": "A Sovereign Horizon",
       "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
       "block.sovereign_horizon.polished_sodalite_wall": "Polished Sodalite Wall",
-      "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "block.sovereign_horizon.sodalite_pressure_plate": "Sodalite Pressure Plate",
+      "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "item.sovereign_horizon.elixite_armor_boots": "Elixite Boots",
       "enchantment.sovereign_horizon.resilience": "Resilience",
       "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
       "advancements.sh_enter.descr": "Enter the Sovereign Horizon",
       "block.sovereign_horizon.sodalite_bricks": "Sodalite Bricks",
+      "advancements.carbonated_rock.descr": "Find sodalite",
       "block.sovereign_horizon.polished_sodalite_slab": "Polished Sodalite Slab",
       "block.sovereign_horizon.cobbled_sodalite_wall": "Cobbled Sodalite Wall",
       "death.attack.pressure": "%1$s imploded",
@@ -1875,6 +1922,7 @@
       "block.sovereign_horizon.sodalite_brick_wall": "Sodalite Brick Wall",
       "block.sovereign_horizon.sodalite_slab": "Sodalite Slab",
       "block.sovereign_horizon.cobbled_sodalite_slab": "Cobbled Sodalite Slab",
+      "block.sovereign_horizon.lepidolite": "Lepidolite",
       "gui.sovereign_horizon.infusion_table_gui.label_infusion_table": "Infusion Table",
       "entity.sovereign_horizon.catechism": "Catechism",
       "item_group.sovereign_horizon.sovereign_horizon": "Sovereign Horizon",

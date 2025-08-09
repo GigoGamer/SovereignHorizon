@@ -46,25 +46,25 @@
             "ignoredBlocks": []
           },
           {
-            "weight": 2,
+            "weight": 1,
             "structure": "surface_fortress_fourway",
             "projection": "rigid",
             "ignoredBlocks": []
           },
           {
-            "weight": 1,
+            "weight": 2,
             "structure": "surface_fortress_conversion_hall",
             "projection": "rigid",
             "ignoredBlocks": []
           },
           {
-            "weight": 1,
+            "weight": 2,
             "structure": "surface_fortress_spawner",
             "projection": "rigid",
             "ignoredBlocks": []
           },
           {
-            "weight": 2,
+            "weight": 3,
             "structure": "surface_fortress_spawner",
             "projection": "rigid",
             "ignoredBlocks": []
@@ -88,19 +88,19 @@
             "ignoredBlocks": []
           },
           {
-            "weight": 2,
+            "weight": 1,
             "structure": "surface_fortress_interior_fourway",
             "projection": "rigid",
             "ignoredBlocks": []
           },
           {
-            "weight": 2,
+            "weight": 3,
             "structure": "surface_fortress_interior_hall_loot",
             "projection": "rigid",
             "ignoredBlocks": []
           },
           {
-            "weight": 2,
+            "weight": 3,
             "structure": "surface_fortress_interior_hall_spawner",
             "projection": "rigid",
             "ignoredBlocks": []

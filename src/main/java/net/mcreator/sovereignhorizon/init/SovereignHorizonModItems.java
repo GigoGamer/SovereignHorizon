@@ -58,6 +58,7 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> CATECHISM_WING = REGISTRY.register("catechism_wing", () -> new CatechismWingItem());
 	public static final RegistryObject<Item> INFUSION_TABLE = block(SovereignHorizonModBlocks.INFUSION_TABLE);
 	public static final RegistryObject<Item> LARIMAR = block(SovereignHorizonModBlocks.LARIMAR);
+	public static final RegistryObject<Item> LEPIDOLITE = block(SovereignHorizonModBlocks.LEPIDOLITE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

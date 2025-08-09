@@ -30,6 +30,7 @@ import net.mcreator.sovereignhorizon.block.PolishedSodaliteWallBlock;
 import net.mcreator.sovereignhorizon.block.PolishedSodaliteStairsBlock;
 import net.mcreator.sovereignhorizon.block.PolishedSodaliteSlabBlock;
 import net.mcreator.sovereignhorizon.block.PolishedSodaliteBlock;
+import net.mcreator.sovereignhorizon.block.LepidoliteBlock;
 import net.mcreator.sovereignhorizon.block.LarimarBlock;
 import net.mcreator.sovereignhorizon.block.InfusionTableBlock;
 import net.mcreator.sovereignhorizon.block.DeepLichenCoveredSodaliteBlock;
@@ -72,6 +73,7 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> CRACKED_SODALITE_TILES = REGISTRY.register("cracked_sodalite_tiles", () -> new CrackedSodaliteTilesBlock());
 	public static final RegistryObject<Block> INFUSION_TABLE = REGISTRY.register("infusion_table", () -> new InfusionTableBlock());
 	public static final RegistryObject<Block> LARIMAR = REGISTRY.register("larimar", () -> new LarimarBlock());
+	public static final RegistryObject<Block> LEPIDOLITE = REGISTRY.register("lepidolite", () -> new LepidoliteBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -1,0 +1,88 @@
+{
+  "display": {
+    "icon": {
+      "item": "sovereign_horizon:sodalite"
+    },
+    "title": {
+      "translate": "advancements.carbonated_rock.title"
+    },
+    "description": {
+      "translate": "advancements.carbonated_rock.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "carbonated_rock_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sovereign_horizon:sodalite"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "sovereign_horizon:sodalite_stairs_crafting",
+      "sovereign_horizon:sodalite_stairs_stonecutting",
+      "sovereign_horizon:sodalite_slab_crafting",
+      "sovereign_horizon:sodalite_slab_stonecutting",
+      "sovereign_horizon:sodalite_wall_crafting",
+      "sovereign_horizon:sodalite_wall_stonecutting",
+      "sovereign_horizon:sodalite_pressure_plate_crafting",
+      "sovereign_horizon:sodalite_button_crafting",
+      "sovereign_horizon:sodalite_smelt",
+      "sovereign_horizon:cobbled_sodalite_stairs_crafting",
+      "sovereign_horizon:cobbled_sodalite_stairs_stonecutting",
+      "sovereign_horizon:cobbled_sodalite_slab_crafting",
+      "sovereign_horizon:cobbled_sodalite_slab_stonecutting",
+      "sovereign_horizon:cobbled_sodalite_wall_crafting",
+      "sovereign_horizon:cobbled_sodalite_wall_stonecutting",
+      "sovereign_horizon:polished_sodalite_crafting",
+      "sovereign_horizon:polished_sodalite_stonecutting",
+      "sovereign_horizon:polished_sodalite_stairs_crafting",
+      "sovereign_horizon:polished_sodalite_stairs_stonecutting",
+      "sovereign_horizon:polished_sodalite_slab_crafting",
+      "sovereign_horizon:polished_sodalite_slab_stonecutting",
+      "sovereign_horizon:polished_sodalite_wall_crafting",
+      "sovereign_horizon:polished_sodalite_wall_stonecutting",
+      "sovereign_horizon:sodalite_bricks_crafting",
+      "sovereign_horizon:sodalite_bricks_stonecutting",
+      "sovereign_horizon:sodalite_brick_stairs_crafting",
+      "sovereign_horizon:sodalite_brick_stairs_stonecutting_1",
+      "sovereign_horizon:sodalite_brick_stairs_stonecutting_2",
+      "sovereign_horizon:sodalite_brick_slab_crafting",
+      "sovereign_horizon:sodalite_brick_slab_stonecutting_1",
+      "sovereign_horizon:sodalite_brick_slab_stonecutting_2",
+      "sovereign_horizon:sodalite_brick_wall_crafting",
+      "sovereign_horizon:sodalite_brick_wall_stonecutting_1",
+      "sovereign_horizon:sodalite_brick_wall_stonecutting_2",
+      "sovereign_horizon:cracked_sodalite_bricks_smelt",
+      "sovereign_horizon:sodalite_tiles_crafting",
+      "sovereign_horizon:sodalite_tiles_stonecutting",
+      "sovereign_horizon:sodalite_tile_stairs_crafting",
+      "sovereign_horizon:sodalite_tile_stairs_stonecutting_1",
+      "sovereign_horizon:sodalite_tile_stairs_stonecutting_2",
+      "sovereign_horizon:sodalite_tile_slab_crafting",
+      "sovereign_horizon:sodalite_tile_slab_stonecutting_1",
+      "sovereign_horizon:sodalite_tile_slab_stonecutting_2",
+      "sovereign_horizon:sodalite_tile_wall_crafting",
+      "sovereign_horizon:sodalite_tile_wall_stonecutting_1",
+      "sovereign_horizon:sodalite_tile_wall_stonecutting_2",
+      "sovereign_horizon:cracked_sodalite_tiles_smelt"
+    ]
+  },
+  "parent": "sovereign_horizon:sh_enter"
+}

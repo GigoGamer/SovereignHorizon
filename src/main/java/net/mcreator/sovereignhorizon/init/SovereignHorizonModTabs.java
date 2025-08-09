@@ -55,5 +55,6 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModItems.CATECHISM_WING.get());
 				tabData.accept(SovereignHorizonModBlocks.INFUSION_TABLE.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.LARIMAR.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.LEPIDOLITE.get().asItem());
 			}).build());
 }
