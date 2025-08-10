@@ -42,7 +42,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sovereign_horizon:deleted_mod_element",
+          "name": "sovereign_horizon:reachflower",
           "weight": 1,
           "functions": [
             {

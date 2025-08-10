@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "item": "sovereign_horizon:catechism_wing"
+    },
+    "title": {
+      "translate": "advancements.corruption_cleanser.title"
+    },
+    "description": {
+      "translate": "advancements.corruption_cleanser.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "corruption_cleanser_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sovereign_horizon:catechism_wing"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "corruption_cleanser_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sovereign_horizon:blueskin"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "corruption_cleanser_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sovereign_horizon:corrupted_pearl"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 7
+  },
+  "parent": "sovereign_horizon:how_riveding"
+}

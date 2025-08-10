@@ -64,6 +64,8 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModItems.ELIXITE_ARMOR_BOOTS.get());
 				tabData.accept(SovereignHorizonModItems.CATECHISM_WING.get());
 				tabData.accept(SovereignHorizonModItems.BLUESKIN.get());
+				tabData.accept(SovereignHorizonModItems.CORRUPTED_PEARL.get());
+				tabData.accept(SovereignHorizonModBlocks.REACHFLOWER.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.MARBLE.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.MARBLE_STAIRS.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.MARBLE_SLAB.get().asItem());
@@ -104,7 +106,6 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModBlocks.RAW_MARBLE_PILLAR.get().asItem());
 				tabData.accept(SovereignHorizonModItems.CATECHISM_SPAWN_EGG.get());
 				tabData.accept(SovereignHorizonModItems.RIVED_GHAST_SPAWN_EGG.get());
-				tabData.accept(SovereignHorizonModBlocks.REACHFLOWER.get().asItem());
 				tabData.accept(SovereignHorizonModItems.DESOLATE_CREEPER_SPAWN_EGG.get());
 				tabData.accept(SovereignHorizonModItems.ELIXIS_CORRUPTED_ENDERMAN_SPAWN_EGG.get());
 			}).build());

@@ -28,14 +28,14 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Blueskin"
+              "value": "CUSTOM:CorruptedPearl"
             },
-            "weight": 10,
+            "weight": 6,
             "minCount": 1,
-            "maxCount": 2,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
-            "affectedByFortune": true,
+            "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
           },
@@ -43,20 +43,6 @@
             "type": "item",
             "item": {
               "value": "CUSTOM:Larimar"
-            },
-            "weight": 6,
-            "minCount": 1,
-            "maxCount": 2,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": true,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "Items.ENDER_PEARL"
             },
             "weight": 6,
             "minCount": 1,

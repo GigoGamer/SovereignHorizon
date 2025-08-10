@@ -1,6 +1,27 @@
 
 package net.mcreator.sovereignhorizon.fluid.types;
 
+import org.joml.Vector3f;
+
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fluids.FluidType;
+import net.minecraftforge.common.SoundActions;
+import net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.FogRenderer;
+import net.minecraft.client.multiplayer.ClientLevel;
+import net.minecraft.client.Camera;
+
+import java.util.function.Consumer;
+
+import com.mojang.blaze3d.systems.RenderSystem;
+import com.mojang.blaze3d.shaders.FogShape;
+
 public class LiquidVoidFluidType extends FluidType {
 	public LiquidVoidFluidType() {
 		super(FluidType.Properties.create().fallDistanceModifier(0F).canExtinguish(true).supportsBoating(true).canHydrate(true).motionScale(-0.0035D).lightLevel(6).density(-1000).rarity(Rarity.EPIC)
