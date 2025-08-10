@@ -119,7 +119,7 @@
         "value": "CUSTOM:SodaliteWastes"
       }
     ],
-    "generationType": "Flower",
+    "generationType": "Grass",
     "patchSize": 5,
     "generateAtAnyHeight": true
   }

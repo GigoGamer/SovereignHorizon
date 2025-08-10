@@ -5,7 +5,7 @@
   "experience": 0.1,
   "cookingtime": 600,
   "ingredient": {
-    "item": "sovereign_horizon:deleted_mod_element"
+    "item": "sovereign_horizon:raw_corrupted_flesh"
   },
-  "result": "sovereign_horizon:deleted_mod_element"
+  "result": "sovereign_horizon:cooked_corrupted_flesh"
 }
