@@ -1,0 +1,27 @@
+{
+  "_fv": 77,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:CorruptedPearl"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.shulker.shoot"
+    },
+    "igniteFire": false,
+    "power": 1.5,
+    "damage": 7.0,
+    "knockback": 3,
+    "entityModel": "Modelelixite_projectile",
+    "customModelTexture": "elixite_projectile.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsEntity": {
+      "name": "ElixiteProjectileProjectileHitsLivingEntity"
+    },
+    "onFlyingTick": {
+      "name": "ElixiteProjectileWhileProjectileFlyingTick"
+    }
+  }
+}

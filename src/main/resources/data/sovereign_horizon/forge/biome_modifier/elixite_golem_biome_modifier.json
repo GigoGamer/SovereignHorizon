@@ -1,11 +1,9 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "sovereign_horizon:sodalite_wastes",
   "spawners": {
     "type": "sovereign_horizon:elixite_golem",
-    "weight": 20,
+    "weight": 8,
     "minCount": 4,
     "maxCount": 4
   }

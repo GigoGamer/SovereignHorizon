@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.sovereignhorizon.entity.RivedGhastEntity;
+import net.mcreator.sovereignhorizon.entity.ElixiteProjectileEntity;
 import net.mcreator.sovereignhorizon.entity.ElixiteGolemEntity;
 import net.mcreator.sovereignhorizon.entity.ElixisCorruptedEndermanEntity;
 import net.mcreator.sovereignhorizon.entity.DesolateCreeperEntity;
@@ -45,6 +46,8 @@ public class SovereignHorizonModEntities {
 			EntityType.Builder.<ElixiteGolemEntity>of(ElixiteGolemEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ElixiteGolemEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ElixiteProjectileEntity>> ELIXITE_PROJECTILE = register("elixite_projectile", EntityType.Builder.<ElixiteProjectileEntity>of(ElixiteProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(ElixiteProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
