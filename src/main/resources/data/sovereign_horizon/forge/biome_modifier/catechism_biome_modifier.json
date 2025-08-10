@@ -1,8 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "#sovereign_horizon:is_sh",
   "spawners": {
     "type": "sovereign_horizon:catechism",
     "weight": 20,

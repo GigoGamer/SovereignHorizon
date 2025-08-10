@@ -139,7 +139,11 @@
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 2,
     "maxNumberOfMobsPerGroup": 5,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "#mod:is_sh"
+      }
+    ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [
       4,
