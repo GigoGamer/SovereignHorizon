@@ -4725,6 +4725,122 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "Reachflower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reachflower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/block/ReachflowerBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/reachflower.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/reachflower_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/reachflower.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/reachflower_bottom.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/reachflower.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/reachflower.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/reachflower.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/reachflower.json"
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "DesolateCreeper",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desolate_creeper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/desolate_creeper_spawn_egg.json",
+          "src/main/java/net/mcreator/sovereignhorizon/entity/DesolateCreeperEntity.java",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/desolate_creeper_biome_modifier.json",
+          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/DesolateCreeperRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "DesolateCreeperPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desolate_creeper_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/DesolateCreeperPlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "DesolateCreeperLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desolate_creeper_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/entities/desolate_creeper.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "ReachflowerOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reachflower_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/ReachflowerOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Foliage"
     }
   ],
   "variable_elements": [],
@@ -4955,6 +5071,7 @@
       "ElixiteArmor",
       "CatechismWing",
       "Blueskin",
+      "Reachflower",
       "Marble",
       "MarbleStairs",
       "MarbleSlab",
@@ -4994,7 +5111,8 @@
       "RawMarbleTileWall",
       "RawMarblePillar",
       "Catechism",
-      "RivedGhast"
+      "RivedGhast",
+      "DesolateCreeper"
     ]
   },
   "language_map": {
@@ -5010,6 +5128,7 @@
       "block.sovereign_horizon.marble_tile_slab": "Marble Tile Slab",
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "item.sovereign_horizon.elixite_armor_boots": "Elixite Boots",
+      "entity.sovereign_horizon.desolate_creeper": "Desolate Creeper",
       "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
       "block.sovereign_horizon.raw_marble_brick_slab": "Raw Marble Brick Slab",
       "advancements.carbonated_rock.descr": "Find sodalite",
@@ -5025,6 +5144,7 @@
       "item.sovereign_horizon.elixis_upgrade_smithing_template": "Smithing Template",
       "advancements.boing.title": "Boing!",
       "block.sovereign_horizon.polished_raw_marble": "Polished Raw Marble",
+      "block.sovereign_horizon.reachflower": "Reachflower",
       "block.sovereign_horizon.polished_marble": "Polished Marble",
       "block.sovereign_horizon.raw_marble_slab": "Raw Marble Slab",
       "block.sovereign_horizon.cracked_marble_bricks": "Cracked Marble Bricks",
@@ -5095,6 +5215,7 @@
       "block.sovereign_horizon.cobbled_sodalite_stairs": "Cobbled Sodalite Stairs",
       "block.sovereign_horizon.polished_raw_marble_wall": "Polished Raw Marble Wall",
       "block.sovereign_horizon.cobbled_sodalite": "Cobbled Sodalite",
+      "item.sovereign_horizon.desolate_creeper_spawn_egg": "Desolate Creeper Spawn Egg",
       "advancements.how_riveding.descr": "Kill a rived ghast",
       "advancements.under_pressure.title": "Under Pressure",
       "block.sovereign_horizon.raw_marble_tile_slab": "Raw Marble Tile Slab",
@@ -5190,6 +5311,10 @@
           {
             "name": "Sodalite",
             "children": []
+          },
+          {
+            "name": "Foliage",
+            "children": []
           }
         ]
       },
@@ -5210,7 +5335,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.sovereignhorizon"

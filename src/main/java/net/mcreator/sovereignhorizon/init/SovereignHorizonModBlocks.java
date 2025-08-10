@@ -32,6 +32,7 @@ import net.mcreator.sovereignhorizon.block.SodaliteBrickWallBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteBrickStairsBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteBrickSlabBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteBlock;
+import net.mcreator.sovereignhorizon.block.ReachflowerBlock;
 import net.mcreator.sovereignhorizon.block.RawMarbleWallBlock;
 import net.mcreator.sovereignhorizon.block.RawMarbleTilesBlock;
 import net.mcreator.sovereignhorizon.block.RawMarbleTileWallBlock;
@@ -168,6 +169,7 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> ASH = REGISTRY.register("ash", () -> new AshBlock());
 	public static final RegistryObject<Block> THULITE = REGISTRY.register("thulite", () -> new ThuliteBlock());
 	public static final RegistryObject<Block> LIQUID_VOID = REGISTRY.register("liquid_void", () -> new LiquidVoidBlock());
+	public static final RegistryObject<Block> REACHFLOWER = REGISTRY.register("reachflower", () -> new ReachflowerBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

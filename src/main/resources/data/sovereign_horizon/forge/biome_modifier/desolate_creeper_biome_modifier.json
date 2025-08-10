@@ -5,9 +5,9 @@
     "sovereign_horizon:ash_field"
   ],
   "spawners": {
-    "type": "sovereign_horizon:catechism",
-    "weight": 20,
-    "minCount": 2,
-    "maxCount": 5
+    "type": "sovereign_horizon:desolate_creeper",
+    "weight": 15,
+    "minCount": 4,
+    "maxCount": 4
   }
 }

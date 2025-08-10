@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "sovereign_horizon:ash_field",
+    "sovereign_horizon:sodalite_wastes"
+  ],
+  "features": "sovereign_horizon:reachflower",
+  "step": "vegetal_decoration"
+}

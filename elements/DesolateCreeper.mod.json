@@ -2,10 +2,10 @@
   "_fv": 77,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Catechism",
+    "mobName": "Desolate Creeper",
     "mobLabel": "",
-    "mobModelName": "ModelCustomModel",
-    "mobModelTexture": "catechism.png",
+    "mobModelName": "Modeldesolate_creep",
+    "mobModelTexture": "desolate_creeper.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -21,19 +21,26 @@
     "boundingBoxScale": {
       "fixedValue": 1.0
     },
-    "modelLayers": [],
+    "modelLayers": [
+      {
+        "model": "Modeldesolate_creep",
+        "texture": "desolate_creeper_glow.png",
+        "disableHurtOverlay": false,
+        "glow": true
+      }
+    ],
     "animations": [],
-    "modelWidth": 0.7999999999999999,
-    "modelHeight": 0.4,
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -10092442,
+      "value": -15509935,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -65281,
+      "value": -12698289,
       "falpha": 0.0
     },
     "creativeTabs": [
@@ -45,7 +52,7 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": "Items.DIAMOND_SWORD"
+      "value": ""
     },
     "equipmentOffHand": {
       "value": ""
@@ -64,54 +71,54 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 10,
-    "attackKnockback": 0.2,
+    "attackStrength": 0,
+    "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
-    "movementSpeed": 0.4,
-    "stepHeight": 0.0,
-    "armorBaseValue": 1.0,
+    "movementSpeed": 0.3,
+    "stepHeight": 0.6,
+    "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "followRange": 16,
-    "health": 20,
-    "xpAmount": 5,
+    "followRange": 48,
+    "health": 30,
+    "xpAmount": 7,
     "waterMob": false,
     "breatheUnderwater": {
-      "fixedValue": true
+      "fixedValue": false
     },
     "pushedByFluids": {
       "fixedValue": true
     },
-    "flyingMob": true,
-    "inventorySize": 1,
+    "flyingMob": false,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": true,
-    "immuneToCactus": true,
-    "immuneToDrowning": true,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
     "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "immuneToExplosion": false,
     "immuneToTrident": false,
-    "immuneToAnvil": true,
+    "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:CatechismWing"
+      "value": ""
     },
     "livingSound": {
-      "value": "entity.vex.ambient"
+      "value": ""
     },
     "hurtSound": {
-      "value": "entity.vex.hurt"
+      "value": "entity.creeper.hurt"
     },
     "deathSound": {
-      "value": "entity.vex.death"
+      "value": "entity.creeper.death"
     },
     "stepSound": {
       "value": ""
@@ -120,9 +127,12 @@
       "value": ""
     },
     "entityDataEntries": [],
+    "onPlayerCollidesWith": {
+      "name": "DesolateCreeperPlayerCollidesWithThisEntity"
+    },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_fly\"><field name=\"radius\">16</field><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
@@ -135,10 +145,10 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
+    "spawningProbability": 15,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 2,
-    "maxNumberOfMobsPerGroup": 5,
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:SodaliteWastes"
