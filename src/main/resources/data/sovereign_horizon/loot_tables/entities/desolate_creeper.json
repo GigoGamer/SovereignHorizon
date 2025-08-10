@@ -53,6 +53,20 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sovereign_horizon:creepmine",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     }

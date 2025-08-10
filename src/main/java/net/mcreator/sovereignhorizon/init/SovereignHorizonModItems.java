@@ -14,13 +14,17 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.sovereignhorizon.item.TotemofChanceItem;
+import net.mcreator.sovereignhorizon.item.RawCorruptedFleshItem;
 import net.mcreator.sovereignhorizon.item.LiquidVoidItem;
 import net.mcreator.sovereignhorizon.item.ElixiteArmorItem;
 import net.mcreator.sovereignhorizon.item.ElixisUpgradeSmithingTemplateItem;
 import net.mcreator.sovereignhorizon.item.ElixisShardItem;
 import net.mcreator.sovereignhorizon.item.CorruptedPearlItem;
+import net.mcreator.sovereignhorizon.item.CookedCorruptedFleshItem;
 import net.mcreator.sovereignhorizon.item.CatechismWingItem;
 import net.mcreator.sovereignhorizon.item.BlueskinItem;
+import net.mcreator.sovereignhorizon.item.BlueskinBootsItem;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
 public class SovereignHorizonModItems {
@@ -117,6 +121,11 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> ELIXIS_CORRUPTED_ENDERMAN_SPAWN_EGG = REGISTRY.register("elixis_corrupted_enderman_spawn_egg",
 			() -> new ForgeSpawnEggItem(SovereignHorizonModEntities.ELIXIS_CORRUPTED_ENDERMAN, -15000805, -14167645, new Item.Properties()));
 	public static final RegistryObject<Item> CORRUPTED_PEARL = REGISTRY.register("corrupted_pearl", () -> new CorruptedPearlItem());
+	public static final RegistryObject<Item> CREEPMINE = block(SovereignHorizonModBlocks.CREEPMINE);
+	public static final RegistryObject<Item> BLUESKIN_BOOTS_BOOTS = REGISTRY.register("blueskin_boots_boots", () -> new BlueskinBootsItem.Boots());
+	public static final RegistryObject<Item> RAW_CORRUPTED_FLESH = REGISTRY.register("raw_corrupted_flesh", () -> new RawCorruptedFleshItem());
+	public static final RegistryObject<Item> COOKED_CORRUPTED_FLESH = REGISTRY.register("cooked_corrupted_flesh", () -> new CookedCorruptedFleshItem());
+	public static final RegistryObject<Item> TOTEMOF_CHANCE = REGISTRY.register("totemof_chance", () -> new TotemofChanceItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

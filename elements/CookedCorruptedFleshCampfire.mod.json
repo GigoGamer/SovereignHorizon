@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "cooked_corrupted_flesh",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 0.1,
+    "cookingTime": 600,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:RawCorruptedFlesh"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:CookedCorruptedFlesh"
+    },
+    "name": "cooked_corrupted_flesh_campfire",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "sovereign_horizon:sodalite_wastes",
+    "sovereign_horizon:ash_field"
+  ],
+  "spawners": {
+    "type": "sovereign_horizon:elixis_corrupted_enderman",
+    "weight": 5,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

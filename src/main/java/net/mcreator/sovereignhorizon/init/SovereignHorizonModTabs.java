@@ -54,6 +54,7 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModBlocks.LEPIDOLITE.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.THULITE.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.INFUSION_TABLE.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.CREEPMINE.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.BLOCKOF_ELIXIS_SHARDS.get().asItem());
 				tabData.accept(SovereignHorizonModItems.ELIXIS_SHARD.get());
 				tabData.accept(SovereignHorizonModItems.ELIXIS_UPGRADE_SMITHING_TEMPLATE.get());
@@ -62,9 +63,13 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModItems.ELIXITE_ARMOR_CHESTPLATE.get());
 				tabData.accept(SovereignHorizonModItems.ELIXITE_ARMOR_LEGGINGS.get());
 				tabData.accept(SovereignHorizonModItems.ELIXITE_ARMOR_BOOTS.get());
+				tabData.accept(SovereignHorizonModItems.BLUESKIN_BOOTS_BOOTS.get());
 				tabData.accept(SovereignHorizonModItems.CATECHISM_WING.get());
 				tabData.accept(SovereignHorizonModItems.BLUESKIN.get());
 				tabData.accept(SovereignHorizonModItems.CORRUPTED_PEARL.get());
+				tabData.accept(SovereignHorizonModItems.RAW_CORRUPTED_FLESH.get());
+				tabData.accept(SovereignHorizonModItems.COOKED_CORRUPTED_FLESH.get());
+				tabData.accept(SovereignHorizonModItems.TOTEMOF_CHANCE.get());
 				tabData.accept(SovereignHorizonModBlocks.REACHFLOWER.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.MARBLE.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.MARBLE_STAIRS.get().asItem());

@@ -76,6 +76,7 @@ import net.mcreator.sovereignhorizon.block.LepidoliteBlock;
 import net.mcreator.sovereignhorizon.block.LarimarBlock;
 import net.mcreator.sovereignhorizon.block.InfusionTableBlock;
 import net.mcreator.sovereignhorizon.block.DeepLichenCoveredSodaliteBlock;
+import net.mcreator.sovereignhorizon.block.CreepmineBlock;
 import net.mcreator.sovereignhorizon.block.CrackedSodaliteTilesBlock;
 import net.mcreator.sovereignhorizon.block.CrackedSodaliteBricksBlock;
 import net.mcreator.sovereignhorizon.block.CrackedRawMarbleTilesBlock;
@@ -170,6 +171,7 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> THULITE = REGISTRY.register("thulite", () -> new ThuliteBlock());
 	public static final RegistryObject<Block> LIQUID_VOID = REGISTRY.register("liquid_void", () -> new LiquidVoidBlock());
 	public static final RegistryObject<Block> REACHFLOWER = REGISTRY.register("reachflower", () -> new ReachflowerBlock());
+	public static final RegistryObject<Block> CREEPMINE = REGISTRY.register("creepmine", () -> new CreepmineBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

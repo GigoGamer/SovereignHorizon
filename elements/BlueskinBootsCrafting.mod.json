@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "blueskin_boots",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Blueskin"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Blueskin"
+      },
+      {
+        "value": "CUSTOM:Blueskin"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Blueskin"
+      },
+      {
+        "value": "Items.PHANTOM_MEMBRANE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.PHANTOM_MEMBRANE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlueskinBoots.boots"
+    },
+    "name": "blueskin_boots_crafting",
+    "namespace": "mod"
+  }
+}
