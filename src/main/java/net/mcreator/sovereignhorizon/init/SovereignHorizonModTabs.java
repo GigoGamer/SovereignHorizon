@@ -112,6 +112,8 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModBlocks.REACHFLOWER.get().asItem());
 				tabData.accept(SovereignHorizonModItems.DESOLATE_CREEPER_SPAWN_EGG.get());
 				tabData.accept(SovereignHorizonModBlocks.DEPTH_SPROUT.get().asItem());
+				tabData.accept(SovereignHorizonModItems.CORRUPTED_PEARL.get());
+				tabData.accept(SovereignHorizonModItems.ELIXIS_CORRUPTED_ENDERMAN_SPAWN_EGG.get());
 			}).build());
 
 	@SubscribeEvent

@@ -18,6 +18,7 @@ import net.mcreator.sovereignhorizon.item.LiquidVoidItem;
 import net.mcreator.sovereignhorizon.item.ElixiteArmorItem;
 import net.mcreator.sovereignhorizon.item.ElixisUpgradeSmithingTemplateItem;
 import net.mcreator.sovereignhorizon.item.ElixisShardItem;
+import net.mcreator.sovereignhorizon.item.CorruptedPearlItem;
 import net.mcreator.sovereignhorizon.item.CatechismWingItem;
 import net.mcreator.sovereignhorizon.item.BlueskinItem;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
@@ -115,6 +116,9 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> DESOLATE_CREEPER_SPAWN_EGG = REGISTRY.register("desolate_creeper_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.DESOLATE_CREEPER, -15509935, -12698289, new Item.Properties()));
 	public static final RegistryObject<Item> DEPTH_SPROUT = block(SovereignHorizonModBlocks.DEPTH_SPROUT);
 	public static final RegistryObject<Item> ELIXITE_GOLEM_SPAWN_EGG = REGISTRY.register("elixite_golem_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.ELIXITE_GOLEM, -16711799, -6357048, new Item.Properties()));
+	public static final RegistryObject<Item> CORRUPTED_PEARL = REGISTRY.register("corrupted_pearl", () -> new CorruptedPearlItem());
+	public static final RegistryObject<Item> ELIXIS_CORRUPTED_ENDERMAN_SPAWN_EGG = REGISTRY.register("elixis_corrupted_enderman_spawn_egg",
+			() -> new ForgeSpawnEggItem(SovereignHorizonModEntities.ELIXIS_CORRUPTED_ENDERMAN, -15000805, -14167645, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

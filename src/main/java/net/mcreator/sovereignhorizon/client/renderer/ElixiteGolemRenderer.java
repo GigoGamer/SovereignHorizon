@@ -1,13 +1,6 @@
 
 package net.mcreator.sovereignhorizon.client.renderer;
 
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.MobRenderer;
-import net.minecraft.client.renderer.entity.EntityRendererProvider;
-
-import net.mcreator.sovereignhorizon.entity.ElixiteGolemEntity;
-import net.mcreator.sovereignhorizon.client.model.Modelelixite_golem;
-
 public class ElixiteGolemRenderer extends MobRenderer<ElixiteGolemEntity, Modelelixite_golem<ElixiteGolemEntity>> {
 	public ElixiteGolemRenderer(EntityRendererProvider.Context context) {
 		super(context, new Modelelixite_golem<ElixiteGolemEntity>(context.bakeLayer(Modelelixite_golem.LAYER_LOCATION)), 0.5f);

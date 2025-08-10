@@ -4895,19 +4895,6 @@
       "path": "~/Blocks/Foliage"
     },
     {
-      "name": "AintNobodyGotTimeForThat",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "aint_nobody_got_time_for_that",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sovereign_horizon/advancements/aint_nobody_got_time_for_that.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
       "name": "ANewMeta",
       "type": "achievement",
       "compiles": true,
@@ -4921,14 +4908,14 @@
       "path": "~/Advancements"
     },
     {
-      "name": "SoManyCombos",
+      "name": "AintNobodyGotTimeForThat",
       "type": "achievement",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "so_many_combos",
+      "registry_name": "aint_nobody_got_time_for_that",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/advancements/so_many_combos.json"
+          "src/main/resources/data/sovereign_horizon/advancements/aint_nobody_got_time_for_that.json"
         ]
       },
       "path": "~/Advancements"
@@ -4948,6 +4935,153 @@
         ]
       },
       "path": "~/Entities"
+    },
+    {
+      "name": "SoManyCombos",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "so_many_combos",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/so_many_combos.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "CorruptedPearlPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_pearl_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/CorruptedPearlPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CheatCode",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheat_code",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/cheat_code.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "CorruptedPearl",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_pearl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/corrupted_pearl.json",
+          "src/main/java/net/mcreator/sovereignhorizon/item/CorruptedPearlItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ElixisCorruptedEndermanLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixis_corrupted_enderman_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/entities/elixis_corrupted_enderman.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "ElixisCorruptedEndermanOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixis_corrupted_enderman_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/ElixisCorruptedEndermanOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "ElixisCorruptedEnderman",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixis_corrupted_enderman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/entity/ElixisCorruptedEndermanEntity.java",
+          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/ElixisCorruptedEndermanRenderer.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/elixis_corrupted_enderman_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "CorruptionCleanser",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption_cleanser",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/corruption_cleanser.json"
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
