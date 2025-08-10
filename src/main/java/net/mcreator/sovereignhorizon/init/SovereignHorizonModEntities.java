@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.sovereignhorizon.entity.RivedGhastEntity;
+import net.mcreator.sovereignhorizon.entity.ElixiteGolemEntity;
 import net.mcreator.sovereignhorizon.entity.DesolateCreeperEntity;
 import net.mcreator.sovereignhorizon.entity.CatechismEntity;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
@@ -34,6 +35,10 @@ public class SovereignHorizonModEntities {
 			EntityType.Builder.<DesolateCreeperEntity>of(DesolateCreeperEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DesolateCreeperEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ElixiteGolemEntity>> ELIXITE_GOLEM = register("elixite_golem",
+			EntityType.Builder.<ElixiteGolemEntity>of(ElixiteGolemEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ElixiteGolemEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -47,6 +52,7 @@ public class SovereignHorizonModEntities {
 			CatechismEntity.init();
 			RivedGhastEntity.init();
 			DesolateCreeperEntity.init();
+			ElixiteGolemEntity.init();
 		});
 	}
 
@@ -55,5 +61,6 @@ public class SovereignHorizonModEntities {
 		event.put(CATECHISM.get(), CatechismEntity.createAttributes().build());
 		event.put(RIVED_GHAST.get(), RivedGhastEntity.createAttributes().build());
 		event.put(DESOLATE_CREEPER.get(), DesolateCreeperEntity.createAttributes().build());
+		event.put(ELIXITE_GOLEM.get(), ElixiteGolemEntity.createAttributes().build());
 	}
 }

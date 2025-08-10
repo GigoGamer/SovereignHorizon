@@ -10,6 +10,7 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.sovereignhorizon.client.model.Modelrived_ghast;
+import net.mcreator.sovereignhorizon.client.model.Modelelixite_golem;
 import net.mcreator.sovereignhorizon.client.model.Modeldesolate_creep;
 import net.mcreator.sovereignhorizon.client.model.ModelCustomModel;
 
@@ -17,6 +18,7 @@ import net.mcreator.sovereignhorizon.client.model.ModelCustomModel;
 public class SovereignHorizonModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(Modelelixite_golem.LAYER_LOCATION, Modelelixite_golem::createBodyLayer);
 		event.registerLayerDefinition(Modelrived_ghast.LAYER_LOCATION, Modelrived_ghast::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(Modeldesolate_creep.LAYER_LOCATION, Modeldesolate_creep::createBodyLayer);

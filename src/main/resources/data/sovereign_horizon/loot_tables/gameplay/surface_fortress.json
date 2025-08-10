@@ -121,14 +121,14 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:written_book",
+          "name": "minecraft:book",
           "weight": 3,
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 21
+                "max": 2
               }
             },
             {

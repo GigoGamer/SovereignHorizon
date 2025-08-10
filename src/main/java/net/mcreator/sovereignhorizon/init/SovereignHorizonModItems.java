@@ -113,6 +113,8 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> LIQUID_VOID_BUCKET = REGISTRY.register("liquid_void_bucket", () -> new LiquidVoidItem());
 	public static final RegistryObject<Item> REACHFLOWER = doubleBlock(SovereignHorizonModBlocks.REACHFLOWER);
 	public static final RegistryObject<Item> DESOLATE_CREEPER_SPAWN_EGG = REGISTRY.register("desolate_creeper_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.DESOLATE_CREEPER, -15509935, -12698289, new Item.Properties()));
+	public static final RegistryObject<Item> DEPTH_SPROUT = block(SovereignHorizonModBlocks.DEPTH_SPROUT);
+	public static final RegistryObject<Item> ELIXITE_GOLEM_SPAWN_EGG = REGISTRY.register("elixite_golem_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.ELIXITE_GOLEM, -16711799, -6357048, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

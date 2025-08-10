@@ -126,11 +126,11 @@
           {
             "type": "item",
             "item": {
-              "value": "Items.WRITTEN_BOOK"
+              "value": "Items.BOOK"
             },
             "weight": 3,
             "minCount": 1,
-            "maxCount": 21,
+            "maxCount": 2,
             "minEnchantmentLevel": 8,
             "maxEnchantmentLevel": 10,
             "affectedByFortune": false,

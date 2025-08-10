@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Forgotten Memory",
-    "achievementDescription": "Obtain the mythical test block (Its one of a kind!)",
+    "achievementDescription": "Obtain the mythical test block (It's one of a kind!)",
     "achievementIcon": {
       "value": "CUSTOM:Test"
     },

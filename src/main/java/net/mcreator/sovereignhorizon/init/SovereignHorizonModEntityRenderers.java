@@ -10,6 +10,7 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.sovereignhorizon.client.renderer.RivedGhastRenderer;
+import net.mcreator.sovereignhorizon.client.renderer.ElixiteGolemRenderer;
 import net.mcreator.sovereignhorizon.client.renderer.DesolateCreeperRenderer;
 import net.mcreator.sovereignhorizon.client.renderer.CatechismRenderer;
 
@@ -20,5 +21,6 @@ public class SovereignHorizonModEntityRenderers {
 		event.registerEntityRenderer(SovereignHorizonModEntities.CATECHISM.get(), CatechismRenderer::new);
 		event.registerEntityRenderer(SovereignHorizonModEntities.RIVED_GHAST.get(), RivedGhastRenderer::new);
 		event.registerEntityRenderer(SovereignHorizonModEntities.DESOLATE_CREEPER.get(), DesolateCreeperRenderer::new);
+		event.registerEntityRenderer(SovereignHorizonModEntities.ELIXITE_GOLEM.get(), ElixiteGolemRenderer::new);
 	}
 }

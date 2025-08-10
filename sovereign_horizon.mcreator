@@ -126,7 +126,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/sovereignhorizon/entity/CatechismEntity.java",
-          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/catechism_biome_modifier.json",
           "src/main/resources/assets/sovereign_horizon/models/item/catechism_spawn_egg.json",
           "src/main/java/net/mcreator/sovereignhorizon/client/renderer/CatechismRenderer.java"
         ]
@@ -4720,6 +4719,7 @@
       "metadata": {
         "files": [
           "src/main/resources/data/sovereign_horizon/worldgen/template_pool/marble_mine_path.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/marble_mine_feature.json",
           "src/main/resources/data/sovereign_horizon/worldgen/template_pool/marble_mine.json",
           "src/main/resources/data/sovereign_horizon/worldgen/structure/marble_mine.json",
           "src/main/resources/data/sovereign_horizon/worldgen/structure_set/marble_mine.json"
@@ -4839,6 +4839,112 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "DepthSprout",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_sprout",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/blockstates/depth_sprout.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/DepthSproutBlock.java",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/depth_sprout.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/depth_sprout.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/depth_sprout_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/depth_sprout.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/depth_sprout.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/depth_sprout.json"
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "DepthSproutOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_sprout_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/DepthSproutOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "AintNobodyGotTimeForThat",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aint_nobody_got_time_for_that",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/aint_nobody_got_time_for_that.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ANewMeta",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_new_meta",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/a_new_meta.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SoManyCombos",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "so_many_combos",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/so_many_combos.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ElixiteGolem",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixite_golem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/entity/ElixiteGolemEntity.java",
+          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/ElixiteGolemRenderer.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/elixite_golem_spawn_egg.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/elixite_golem_biome_modifier.json"
         ]
       },
       "path": "~/Entities"
@@ -5034,32 +5140,35 @@
       "block.sovereign_horizon.deep_lichen_covered_sodalite": "Deep Lichen Covered Sodalite",
       "biome.sovereign_horizon.ash_field": "Ash Field",
       "block.sovereign_horizon.marble_tile_stairs": "Marble Tile Stairs",
-      "key.sovereign_horizon.enchantment_ability": "Enchantment Ability",
+      "advancements.forgotten_memory.descr": "Obtain the mythical test block (It\u0027s one of a kind!)",
       "item.sovereign_horizon.elixite_armor_chestplate": "Elixite Chestplate",
-      "advancements.forgotten_memory.descr": "Obtain the mythical test block (Its one of a kind!)",
+      "key.sovereign_horizon.enchantment_ability": "Enchantment Ability",
       "advancements.sh_enter.title": "A Sovereign Horizon",
       "block.sovereign_horizon.marble": "Marble",
       "block.sovereign_horizon.marble_tile_slab": "Marble Tile Slab",
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "item.sovereign_horizon.elixite_armor_boots": "Elixite Boots",
-      "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
+      "entity.sovereign_horizon.desolate_creeper": "Desolate Creeper",
       "block.sovereign_horizon.raw_marble_brick_slab": "Raw Marble Brick Slab",
-      "advancements.carbonated_rock.descr": "Find sodalite",
+      "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
       "item.sovereign_horizon.rived_ghast_spawn_egg": "Rived Ghast Spawn Egg",
+      "advancements.carbonated_rock.descr": "Find sodalite",
       "block.sovereign_horizon.polished_sodalite_slab": "Polished Sodalite Slab",
       "block.sovereign_horizon.marble_brick_wall": "Marble Brick Wall",
       "advancements.tear_in_the_fabricof_reality.descr": "Obtain a liquid void bucket, the key to entering the Sovereign Horizon",
       "advancements.enriched_ores.title": "Enriched Ores",
-      "block.sovereign_horizon.sodalite_diamond_ore": "Sodalite Diamond Ore",
-      "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
       "block.sovereign_horizon.polished_raw_marble_slab": "Polished Raw Marble Slab",
+      "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
+      "block.sovereign_horizon.sodalite_diamond_ore": "Sodalite Diamond Ore",
       "block.sovereign_horizon.sodalite_lapis_lazuli_ore": "Sodalite Lapis Lazuli Ore",
       "item.sovereign_horizon.elixis_upgrade_smithing_template": "Smithing Template",
+      "item.sovereign_horizon.elixite_golem_spawn_egg": "Elixite Golem Spawn Egg",
       "advancements.boing.title": "Boing!",
       "block.sovereign_horizon.polished_raw_marble": "Polished Raw Marble",
+      "block.sovereign_horizon.reachflower": "Reachflower",
       "block.sovereign_horizon.polished_marble": "Polished Marble",
-      "block.sovereign_horizon.raw_marble_slab": "Raw Marble Slab",
       "block.sovereign_horizon.cracked_marble_bricks": "Cracked Marble Bricks",
+      "block.sovereign_horizon.raw_marble_slab": "Raw Marble Slab",
       "item.minecraft.lingering_potion.effect.levitation": "Lingering Potion of Levitation",
       "block.sovereign_horizon.raw_marble_pillar": "Raw Marble Pillar",
       "block.sovereign_horizon.marble_tiles": "Marble Tiles",
@@ -5067,6 +5176,7 @@
       "fluid.sovereign_horizon.liquid_void": "Liquid Void",
       "block.sovereign_horizon.marble_stairs": "Marble Stairs",
       "entity.sovereign_horizon.rived_ghast": "Rived Ghast",
+      "advancements.so_many_combos.title": "So Many Combos...",
       "advancements.mineral_collector.title": "Mineral Collector",
       "block.sovereign_horizon.sodalite_redstone_ore": "Sodalite Redstone Ore",
       "block.sovereign_horizon.test": "Test",
@@ -5098,6 +5208,7 @@
       "block.sovereign_horizon.cracked_sodalite_tiles": "Cracked Sodalite Tiles",
       "block.sovereign_horizon.raw_marble_bricks": "Raw Marble Bricks",
       "block.sovereign_horizon.raw_marble_brick_stairs": "Raw Marble Brick Stairs",
+      "entity.sovereign_horizon.elixite_golem": "Elixite Golem",
       "block.sovereign_horizon.sodalite_tile_slab": "Sodalite Tile Slab",
       "block.sovereign_horizon.sodalite_brick_stairs": "Sodalite Brick Stairs",
       "death.attack.pressure.item": "%1$s was squashed by %2$s using %3$s",
@@ -5120,13 +5231,17 @@
       "block.sovereign_horizon.infusion_table": "Infusion Table",
       "block.sovereign_horizon.raw_marble_brick_wall": "Raw Marble Brick Wall",
       "block.sovereign_horizon.raw_marble_wall": "Raw Marble Wall",
+      "advancements.a_new_meta.title": "A New Meta",
+      "block.sovereign_horizon.depth_sprout": "Depth Sprout",
       "block.sovereign_horizon.marble_brick_slab": "Marble Brick Slab",
       "block.sovereign_horizon.polished_sodalite_stairs": "Polished Sodalite Stairs",
       "block.sovereign_horizon.cracked_raw_marble_tiles": "Cracked Raw Marble Tiles",
       "block.sovereign_horizon.polished_sodalite": "Polished Sodalite",
+      "advancements.aint_nobody_got_time_for_that.title": "Aint Nobody Got Time For That",
       "block.sovereign_horizon.cobbled_sodalite_stairs": "Cobbled Sodalite Stairs",
       "block.sovereign_horizon.polished_raw_marble_wall": "Polished Raw Marble Wall",
       "block.sovereign_horizon.cobbled_sodalite": "Cobbled Sodalite",
+      "item.sovereign_horizon.desolate_creeper_spawn_egg": "Desolate Creeper Spawn Egg",
       "advancements.how_riveding.descr": "Kill a rived ghast",
       "advancements.under_pressure.title": "Under Pressure",
       "block.sovereign_horizon.raw_marble_tile_slab": "Raw Marble Tile Slab",
@@ -5145,6 +5260,7 @@
       "block.sovereign_horizon.sodalite_button": "Sodalite Button",
       "block.sovereign_horizon.sodalite_stairs": "Sodalite Stairs",
       "block.sovereign_horizon.sodalite_brick_wall": "Sodalite Brick Wall",
+      "advancements.aint_nobody_got_time_for_that.descr": "Go flower collecting? In the Sovereign Horizon? Why?",
       "block.sovereign_horizon.sodalite_slab": "Sodalite Slab",
       "block.sovereign_horizon.cobbled_sodalite_slab": "Cobbled Sodalite Slab",
       "block.sovereign_horizon.lepidolite": "Lepidolite",
@@ -5152,6 +5268,8 @@
       "gui.sovereign_horizon.infusion_table_gui.label_infusion_table": "Infusion Table",
       "advancements.mineral_collector.descr": "Collect every special mineral from the Sovereign Horizon",
       "block.sovereign_horizon.liquid_void": "Liquid Void",
+      "advancements.so_many_combos.descr": "Infuse Elixite Armor with an infusion table.",
+      "advancements.a_new_meta.descr": "Get an Elixite Shard",
       "advancements.how_riveding.title": "How Rived-ing",
       "enchantment.sovereign_horizon.bounding": "Bounding",
       "item.minecraft.splash_potion.effect.levitation": "Splash Potion of Levitation",

@@ -9,8 +9,8 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 5,
-    "separation": 2,
+    "spacing": 30,
+    "separation": 20,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:SodaliteWastes"
@@ -51,6 +51,60 @@
           {
             "weight": 3,
             "structure": "marble_mine_weird_path",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "feature",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 5,
+            "structure": "marble_mine_farm",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "marble_mine_farm2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 2,
+            "structure": "marble_mine_infusion_table",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "marble_mine_loot_house",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "marble_mine_ore_house",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "marble_mine_silo",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "marble_mine_silo2",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "marble_mine_tool_house",
             "projection": "rigid",
             "ignoredBlocks": []
           }

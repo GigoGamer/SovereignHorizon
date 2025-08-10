@@ -6,14 +6,19 @@ package net.mcreator.sovereignhorizon.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class SovereignHorizonModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SovereignHorizonMod.MODID);
 	public static final RegistryObject<CreativeModeTab> SOVEREIGN_HORIZON = REGISTRY.register("sovereign_horizon",
@@ -106,5 +111,13 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModItems.LIQUID_VOID_BUCKET.get());
 				tabData.accept(SovereignHorizonModBlocks.REACHFLOWER.get().asItem());
 				tabData.accept(SovereignHorizonModItems.DESOLATE_CREEPER_SPAWN_EGG.get());
+				tabData.accept(SovereignHorizonModBlocks.DEPTH_SPROUT.get().asItem());
 			}).build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(SovereignHorizonModItems.ELIXITE_GOLEM_SPAWN_EGG.get());
+		}
+	}
 }

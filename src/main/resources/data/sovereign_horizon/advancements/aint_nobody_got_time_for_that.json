@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "sovereign_horizon:reachflower"
+    },
+    "title": {
+      "translate": "advancements.aint_nobody_got_time_for_that.title"
+    },
+    "description": {
+      "translate": "advancements.aint_nobody_got_time_for_that.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aint_nobody_got_time_for_that_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sovereign_horizon:reachflower"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "sovereign_horizon:sh_enter"
+}
