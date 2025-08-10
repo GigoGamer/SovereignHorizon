@@ -4995,53 +4995,17 @@
       "path": "~/Advancements"
     },
     {
-      "name": "CreepmineEntityWalksOnTheBlock",
-      "type": "procedure",
+      "name": "TotemofChanceCrafting",
+      "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "creepmine_entity_walks_on_the_block",
+      "registry_name": "totemof_chance_crafting",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/procedures/CreepmineEntityWalksOnTheBlockProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/resources/data/sovereign_horizon/recipes/totem_of_chance_crafting.json"
         ]
       },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "Creepmine",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "creepmine",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/creepmine.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/creepmine_down.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/creepmine.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/CreepmineBlock.java",
-          "src/main/resources/assets/sovereign_horizon/models/item/creepmine.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/creepmine.json"
-        ]
-      },
-      "path": "~/Blocks"
+      "path": "~/Recipes"
     },
     {
       "name": "BlueskinBoots",
@@ -5058,14 +5022,14 @@
       "path": "~/Other"
     },
     {
-      "name": "BlueskinBootsCrafting",
+      "name": "CookedCorruptedFleshCampfire",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blueskin_boots_crafting",
+      "registry_name": "cooked_corrupted_flesh_campfire",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/recipes/blueskin_boots_crafting.json"
+          "src/main/resources/data/sovereign_horizon/recipes/cooked_corrupted_flesh_campfire.json"
         ]
       },
       "path": "~/Recipes"
@@ -5090,123 +5054,17 @@
       "path": "~/Other"
     },
     {
-      "name": "RawCorruptedFlesh",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_corrupted_flesh",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/item/RawCorruptedFleshItem.java",
-          "src/main/resources/assets/sovereign_horizon/models/item/raw_corrupted_flesh.json"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
-      "name": "RawCorruptedFleshPlayerFinishesUsingItem",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_corrupted_flesh_player_finishes_using_item",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/procedures/RawCorruptedFleshPlayerFinishesUsingItemProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
-      "name": "CookedCorruptedFlesh",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cooked_corrupted_flesh",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/item/CookedCorruptedFleshItem.java",
-          "src/main/resources/assets/sovereign_horizon/models/item/cooked_corrupted_flesh.json"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
-      "name": "CookedCorruptedFleshPlayerFinishesUsingItem",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cooked_corrupted_flesh_player_finishes_using_item",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/procedures/CookedCorruptedFleshPlayerFinishesUsingItemProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
-      "name": "CookedCorruptedFleshSmelting",
+      "name": "BlueskinBootsCrafting",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cooked_corrupted_flesh_smelting",
+      "registry_name": "blueskin_boots_crafting",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/recipes/cooked_corrupted_flesh_smelting.json"
+          "src/main/resources/data/sovereign_horizon/recipes/blueskin_boots_crafting.json"
         ]
       },
       "path": "~/Recipes"
-    },
-    {
-      "name": "CookedCorruptedFleshSmoking",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cooked_corrupted_flesh_smoking",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sovereign_horizon/recipes/cooked_corrupted_flesh_smoking.json"
-        ]
-      },
-      "path": "~/Recipes"
-    },
-    {
-      "name": "CookedCorruptedFleshCampfire",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cooked_corrupted_flesh_campfire",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sovereign_horizon/recipes/cooked_corrupted_flesh_campfire.json"
-        ]
-      },
-      "path": "~/Recipes"
-    },
-    {
-      "name": "TotemofChance",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "totemof_chance",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/item/TotemofChanceItem.java",
-          "src/main/resources/assets/sovereign_horizon/models/item/totemof_chance.json"
-        ]
-      },
-      "path": "~/Items"
     },
     {
       "name": "TotemofChanceUse",
@@ -5244,17 +5102,265 @@
       "path": "~/Items"
     },
     {
-      "name": "TotemofChanceCrafting",
+      "name": "Creepmine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creepmine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/creepmine.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/creepmine_down.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/creepmine.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/CreepmineBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/creepmine.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/creepmine.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CookedCorruptedFleshPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_corrupted_flesh_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/CookedCorruptedFleshPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TotemofChance",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totemof_chance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/item/TotemofChanceItem.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/totemof_chance.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CookedCorruptedFlesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_corrupted_flesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/item/CookedCorruptedFleshItem.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/cooked_corrupted_flesh.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "RawCorruptedFleshPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_corrupted_flesh_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/RawCorruptedFleshPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CookedCorruptedFleshSmelting",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totemof_chance_crafting",
+      "registry_name": "cooked_corrupted_flesh_smelting",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/recipes/totem_of_chance_crafting.json"
+          "src/main/resources/data/sovereign_horizon/recipes/cooked_corrupted_flesh_smelting.json"
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "CreepmineEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creepmine_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/CreepmineEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CookedCorruptedFleshSmoking",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_corrupted_flesh_smoking",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/cooked_corrupted_flesh_smoking.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawCorruptedFlesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_corrupted_flesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/item/RawCorruptedFleshItem.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_corrupted_flesh.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DepthSprout",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_sprout",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/blockstates/depth_sprout.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/DepthSproutBlock.java",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/depth_sprout.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/depth_sprout.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/depth_sprout.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/depth_sprout.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/depth_sprout_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/depth_sprout.json"
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "DepthSproutOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_sprout_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/DepthSproutOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "ANewMeta",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_new_meta",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/a_new_meta.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AintNobodyGotTimeForThat",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aint_nobody_got_time_for_that",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/aint_nobody_got_time_for_that.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ElixiteGolem",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixite_golem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/entity/ElixiteGolemEntity.java",
+          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/ElixiteGolemRenderer.java",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/elixite_golem_biome_modifier.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/elixite_golem_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "SoManyCombos",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "so_many_combos",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/so_many_combos.json"
+        ]
+      },
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -5479,19 +5585,14 @@
       "Lepidolite",
       "Thulite",
       "InfusionTable",
-      "Creepmine",
       "BlockofElixisShards",
       "ElixisShard",
       "ElixisUpgradeSmithingTemplate",
       "LiquidVoid",
       "ElixiteArmor",
-      "BlueskinBoots",
       "CatechismWing",
       "Blueskin",
       "CorruptedPearl",
-      "RawCorruptedFlesh",
-      "CookedCorruptedFlesh",
-      "TotemofChance",
       "Reachflower",
       "Marble",
       "MarbleStairs",
@@ -5534,7 +5635,13 @@
       "Catechism",
       "RivedGhast",
       "DesolateCreeper",
-      "ElixisCorruptedEnderman"
+      "ElixisCorruptedEnderman",
+      "BlueskinBoots",
+      "Creepmine",
+      "TotemofChance",
+      "CookedCorruptedFlesh",
+      "RawCorruptedFlesh",
+      "DepthSprout"
     ]
   },
   "language_map": {
@@ -5542,28 +5649,26 @@
       "block.sovereign_horizon.deep_lichen_covered_sodalite": "Deep Lichen Covered Sodalite",
       "block.sovereign_horizon.marble_tile_stairs": "Marble Tile Stairs",
       "biome.sovereign_horizon.ash_field": "Ash Field",
-      "key.sovereign_horizon.enchantment_ability": "Enchantment Ability",
-      "item.sovereign_horizon.elixite_armor_chestplate": "Elixite Chestplate",
       "advancements.forgotten_memory.descr": "Obtain the mythical test block (Its one of a kind!)",
+      "item.sovereign_horizon.elixite_armor_chestplate": "Elixite Chestplate",
+      "key.sovereign_horizon.enchantment_ability": "Enchantment Ability",
       "block.sovereign_horizon.marble_tile_slab": "Marble Tile Slab",
       "block.sovereign_horizon.marble": "Marble",
       "advancements.sh_enter.title": "A Sovereign Horizon",
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "item.sovereign_horizon.elixite_armor_boots": "Elixite Boots",
       "entity.sovereign_horizon.desolate_creeper": "Desolate Creeper",
-      "advancements.corruption_cleanser.descr": "Kill every mob within the Sovereign Horizon and obtain their unique drops",
-      "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
       "block.sovereign_horizon.raw_marble_brick_slab": "Raw Marble Brick Slab",
-      "item.sovereign_horizon.corrupted_pearl": "Corrupted Pearl",
-      "advancements.carbonated_rock.descr": "Find sodalite",
+      "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
       "item.sovereign_horizon.rived_ghast_spawn_egg": "Rived Ghast Spawn Egg",
+      "advancements.carbonated_rock.descr": "Find sodalite",
       "block.sovereign_horizon.polished_sodalite_slab": "Polished Sodalite Slab",
-      "block.sovereign_horizon.marble_brick_wall": "Marble Brick Wall",
-      "advancements.enriched_ores.title": "Enriched Ores",
       "advancements.tear_in_the_fabricof_reality.descr": "Obtain a liquid void bucket, the key to entering the Sovereign Horizon",
-      "block.sovereign_horizon.sodalite_diamond_ore": "Sodalite Diamond Ore",
-      "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
+      "advancements.enriched_ores.title": "Enriched Ores",
+      "block.sovereign_horizon.marble_brick_wall": "Marble Brick Wall",
       "block.sovereign_horizon.polished_raw_marble_slab": "Polished Raw Marble Slab",
+      "item.sovereign_horizon.catechism_spawn_egg": "Catechism Spawn Egg",
+      "block.sovereign_horizon.sodalite_diamond_ore": "Sodalite Diamond Ore",
       "block.sovereign_horizon.sodalite_lapis_lazuli_ore": "Sodalite Lapis Lazuli Ore",
       "item.sovereign_horizon.elixis_upgrade_smithing_template": "Smithing Template",
       "advancements.boing.title": "Boing!",
@@ -5579,7 +5684,6 @@
       "fluid.sovereign_horizon.liquid_void": "Liquid Void",
       "block.sovereign_horizon.marble_stairs": "Marble Stairs",
       "item.sovereign_horizon.elixis_corrupted_enderman_spawn_egg": "Elixis Corrupted Enderman Spawn Egg",
-      "item.sovereign_horizon.cooked_corrupted_flesh": "Raw Corrupted Flesh",
       "entity.sovereign_horizon.rived_ghast": "Rived Ghast",
       "advancements.mineral_collector.title": "Mineral Collector",
       "block.sovereign_horizon.sodalite_redstone_ore": "Sodalite Redstone Ore",
@@ -5592,13 +5696,9 @@
       "block.sovereign_horizon.sodalite_tiles": "Sodalite Tiles",
       "block.sovereign_horizon.sodalite_wall": "Sodalite Wall",
       "block.sovereign_horizon.raw_marble_tile_wall": "Raw Marble Tile Wall",
-      "advancements.cheat_code.title": "Cheat Code",
       "item.sovereign_horizon.catechism_wing": "Catechism Wing",
-      "block.sovereign_horizon.creepmine": "Creepmine",
       "item.sovereign_horizon.liquid_void_bucket": "Liquid Void Bucket",
       "block.sovereign_horizon.thulite": "Thulite",
-      "advancements.cheat_code.descr": "Use a Corrupted Pearl to phase in and out of reality",
-      "advancements.corruption_cleanser.title": "Corruption Cleanser",
       "block.sovereign_horizon.marble_wall": "Marble Wall",
       "block.sovereign_horizon.polished_marble_slab": "Polished Marble Slab",
       "block.sovereign_horizon.polished_marble_stairs": "Polished Marble Stairs",
@@ -5639,17 +5739,14 @@
       "block.sovereign_horizon.raw_marble_brick_wall": "Raw Marble Brick Wall",
       "block.sovereign_horizon.raw_marble_wall": "Raw Marble Wall",
       "block.sovereign_horizon.marble_brick_slab": "Marble Brick Slab",
-      "item.sovereign_horizon.totemof_chance": "Totem of Chance",
       "entity.sovereign_horizon.elixis_corrupted_enderman": "Elixis Corrupted Enderman",
       "block.sovereign_horizon.polished_sodalite_stairs": "Polished Sodalite Stairs",
       "block.sovereign_horizon.polished_sodalite": "Polished Sodalite",
       "block.sovereign_horizon.cracked_raw_marble_tiles": "Cracked Raw Marble Tiles",
       "block.sovereign_horizon.cobbled_sodalite_stairs": "Cobbled Sodalite Stairs",
       "block.sovereign_horizon.polished_raw_marble_wall": "Polished Raw Marble Wall",
-      "item.sovereign_horizon.blueskin_boots_boots": "Blueskin Boots",
       "block.sovereign_horizon.cobbled_sodalite": "Cobbled Sodalite",
       "item.sovereign_horizon.desolate_creeper_spawn_egg": "Desolate Creeper Spawn Egg",
-      "item.sovereign_horizon.raw_corrupted_flesh": "Raw Corrupted Flesh",
       "advancements.how_riveding.descr": "Kill a rived ghast",
       "advancements.under_pressure.title": "Under Pressure",
       "block.sovereign_horizon.raw_marble_tile_slab": "Raw Marble Tile Slab",

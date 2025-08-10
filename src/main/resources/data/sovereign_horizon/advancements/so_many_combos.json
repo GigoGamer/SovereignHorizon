@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "sovereign_horizon:elixite_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.so_many_combos.title"
+    },
+    "description": {
+      "translate": "advancements.so_many_combos.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "so_many_combos_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "sovereign_horizon:deleted_mod_element"
+}

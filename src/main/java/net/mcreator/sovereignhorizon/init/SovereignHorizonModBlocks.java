@@ -75,6 +75,7 @@ import net.mcreator.sovereignhorizon.block.LiquidVoidBlock;
 import net.mcreator.sovereignhorizon.block.LepidoliteBlock;
 import net.mcreator.sovereignhorizon.block.LarimarBlock;
 import net.mcreator.sovereignhorizon.block.InfusionTableBlock;
+import net.mcreator.sovereignhorizon.block.DepthSproutBlock;
 import net.mcreator.sovereignhorizon.block.DeepLichenCoveredSodaliteBlock;
 import net.mcreator.sovereignhorizon.block.CreepmineBlock;
 import net.mcreator.sovereignhorizon.block.CrackedSodaliteTilesBlock;
@@ -172,6 +173,7 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> LIQUID_VOID = REGISTRY.register("liquid_void", () -> new LiquidVoidBlock());
 	public static final RegistryObject<Block> REACHFLOWER = REGISTRY.register("reachflower", () -> new ReachflowerBlock());
 	public static final RegistryObject<Block> CREEPMINE = REGISTRY.register("creepmine", () -> new CreepmineBlock());
+	public static final RegistryObject<Block> DEPTH_SPROUT = REGISTRY.register("depth_sprout", () -> new DepthSproutBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

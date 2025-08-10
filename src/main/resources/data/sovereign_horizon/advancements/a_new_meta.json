@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "sovereign_horizon:elixis_shard"
+    },
+    "title": {
+      "translate": "advancements.a_new_meta.title"
+    },
+    "description": {
+      "translate": "advancements.a_new_meta.descr"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_new_meta_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sovereign_horizon:elixis_shard"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20,
+    "recipes": [
+      "sovereign_horizon:elixite_armor_helmet_recipe",
+      "sovereign_horizon:elixite_armor_chestplate_recipe",
+      "sovereign_horizon:elixite_armor_leggings_recipe",
+      "sovereign_horizon:elixite_armor_boots_recipe",
+      "sovereign_horizon:elixis_upgrade_smithing_template_crafting",
+      "sovereign_horizon:block_of_elixis_shards_crafting",
+      "sovereign_horizon:elixis_shard_crafting"
+    ]
+  },
+  "parent": "sovereign_horizon:sh_enter"
+}

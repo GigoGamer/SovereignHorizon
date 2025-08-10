@@ -1,8 +1,6 @@
 package net.mcreator.sovereignhorizon.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.core.BlockPos;
+import net.minecraftforge.eventbus.api.Event;
 
 public class CreepmineEntityWalksOnTheBlockProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

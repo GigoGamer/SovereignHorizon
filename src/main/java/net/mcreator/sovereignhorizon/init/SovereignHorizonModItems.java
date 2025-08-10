@@ -121,11 +121,13 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> ELIXIS_CORRUPTED_ENDERMAN_SPAWN_EGG = REGISTRY.register("elixis_corrupted_enderman_spawn_egg",
 			() -> new ForgeSpawnEggItem(SovereignHorizonModEntities.ELIXIS_CORRUPTED_ENDERMAN, -15000805, -14167645, new Item.Properties()));
 	public static final RegistryObject<Item> CORRUPTED_PEARL = REGISTRY.register("corrupted_pearl", () -> new CorruptedPearlItem());
-	public static final RegistryObject<Item> CREEPMINE = block(SovereignHorizonModBlocks.CREEPMINE);
 	public static final RegistryObject<Item> BLUESKIN_BOOTS_BOOTS = REGISTRY.register("blueskin_boots_boots", () -> new BlueskinBootsItem.Boots());
-	public static final RegistryObject<Item> RAW_CORRUPTED_FLESH = REGISTRY.register("raw_corrupted_flesh", () -> new RawCorruptedFleshItem());
-	public static final RegistryObject<Item> COOKED_CORRUPTED_FLESH = REGISTRY.register("cooked_corrupted_flesh", () -> new CookedCorruptedFleshItem());
+	public static final RegistryObject<Item> CREEPMINE = block(SovereignHorizonModBlocks.CREEPMINE);
 	public static final RegistryObject<Item> TOTEMOF_CHANCE = REGISTRY.register("totemof_chance", () -> new TotemofChanceItem());
+	public static final RegistryObject<Item> COOKED_CORRUPTED_FLESH = REGISTRY.register("cooked_corrupted_flesh", () -> new CookedCorruptedFleshItem());
+	public static final RegistryObject<Item> RAW_CORRUPTED_FLESH = REGISTRY.register("raw_corrupted_flesh", () -> new RawCorruptedFleshItem());
+	public static final RegistryObject<Item> DEPTH_SPROUT = block(SovereignHorizonModBlocks.DEPTH_SPROUT);
+	public static final RegistryObject<Item> ELIXITE_GOLEM_SPAWN_EGG = REGISTRY.register("elixite_golem_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.ELIXITE_GOLEM, -16711799, -6357048, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
