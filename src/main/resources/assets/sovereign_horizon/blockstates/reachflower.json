@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "sovereign_horizon:block/reachflower"
+    },
+    "half=lower": {
+      "model": "sovereign_horizon:block/reachflower_bottom"
+    }
+  }
+}

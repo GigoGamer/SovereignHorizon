@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "sovereign_horizon:block/reachflower_top",
+    "particle": "sovereign_horizon:block/reachflower_top"
+  },
+  "render_type": "cutout"
+}

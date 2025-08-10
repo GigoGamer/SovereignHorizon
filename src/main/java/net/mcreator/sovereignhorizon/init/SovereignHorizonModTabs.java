@@ -104,5 +104,7 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModBlocks.CRACKED_MARBLE_BRICKS.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.RAW_MARBLE_TILES.get().asItem());
 				tabData.accept(SovereignHorizonModItems.LIQUID_VOID_BUCKET.get());
+				tabData.accept(SovereignHorizonModBlocks.REACHFLOWER.get().asItem());
+				tabData.accept(SovereignHorizonModItems.DESOLATE_CREEPER_SPAWN_EGG.get());
 			}).build());
 }

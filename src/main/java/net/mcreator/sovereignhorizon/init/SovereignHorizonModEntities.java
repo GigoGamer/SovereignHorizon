@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.sovereignhorizon.entity.RivedGhastEntity;
+import net.mcreator.sovereignhorizon.entity.DesolateCreeperEntity;
 import net.mcreator.sovereignhorizon.entity.CatechismEntity;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
@@ -29,6 +30,10 @@ public class SovereignHorizonModEntities {
 			EntityType.Builder.<RivedGhastEntity>of(RivedGhastEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RivedGhastEntity::new)
 
 					.sized(4f, 4f));
+	public static final RegistryObject<EntityType<DesolateCreeperEntity>> DESOLATE_CREEPER = register("desolate_creeper",
+			EntityType.Builder.<DesolateCreeperEntity>of(DesolateCreeperEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DesolateCreeperEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -41,6 +46,7 @@ public class SovereignHorizonModEntities {
 		event.enqueueWork(() -> {
 			CatechismEntity.init();
 			RivedGhastEntity.init();
+			DesolateCreeperEntity.init();
 		});
 	}
 
@@ -48,5 +54,6 @@ public class SovereignHorizonModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(CATECHISM.get(), CatechismEntity.createAttributes().build());
 		event.put(RIVED_GHAST.get(), RivedGhastEntity.createAttributes().build());
+		event.put(DESOLATE_CREEPER.get(), DesolateCreeperEntity.createAttributes().build());
 	}
 }

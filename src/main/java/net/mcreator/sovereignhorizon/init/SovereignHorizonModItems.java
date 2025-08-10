@@ -11,6 +11,7 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.sovereignhorizon.item.LiquidVoidItem;
@@ -110,10 +111,16 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> CRACKED_MARBLE_BRICKS = block(SovereignHorizonModBlocks.CRACKED_MARBLE_BRICKS);
 	public static final RegistryObject<Item> RAW_MARBLE_TILES = block(SovereignHorizonModBlocks.RAW_MARBLE_TILES);
 	public static final RegistryObject<Item> LIQUID_VOID_BUCKET = REGISTRY.register("liquid_void_bucket", () -> new LiquidVoidItem());
+	public static final RegistryObject<Item> REACHFLOWER = doubleBlock(SovereignHorizonModBlocks.REACHFLOWER);
+	public static final RegistryObject<Item> DESOLATE_CREEPER_SPAWN_EGG = REGISTRY.register("desolate_creeper_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.DESOLATE_CREEPER, -15509935, -12698289, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
 	}
 }

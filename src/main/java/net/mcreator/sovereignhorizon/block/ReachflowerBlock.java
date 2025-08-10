@@ -1,0 +1,61 @@
+
+package net.mcreator.sovereignhorizon.block;
+
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+
+public class ReachflowerBlock extends DoublePlantBlock implements BonemealableBlock {
+	public ReachflowerBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().lightLevel(s -> 8).noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		Vec3 offset = state.getOffset(world, pos);
+		return box(0, 0, 0, 16, 16, 16).move(offset.x, offset.y, offset.z);
+	}
+
+	@Override
+	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+		return 100;
+	}
+
+	@Override
+	public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+		return 60;
+	}
+
+	@Override
+	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
+		return groundState.is(SovereignHorizonModBlocks.SODALITE.get()) || groundState.is(SovereignHorizonModBlocks.RAW_MARBLE.get()) || groundState.is(Blocks.GRASS_BLOCK) || groundState.is(Blocks.DIRT);
+	}
+
+	@Override
+	public boolean canSurvive(BlockState blockstate, LevelReader worldIn, BlockPos pos) {
+		BlockPos blockpos = pos.below();
+		BlockState groundState = worldIn.getBlockState(blockpos);
+		if (blockstate.getValue(HALF) == DoubleBlockHalf.UPPER)
+			return groundState.is(this) && groundState.getValue(HALF) == DoubleBlockHalf.LOWER;
+		else
+			return this.mayPlaceOn(groundState, worldIn, blockpos);
+	}
+
+	@Override
+	public PlantType getPlantType(BlockGetter world, BlockPos pos) {
+		return PlantType.PLAINS;
+	}
+
+	@Override
+	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate, boolean clientSide) {
+		return true;
+	}
+
+	@Override
+	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
+		return true;
+	}
+
+	@Override
+	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
+		ReachflowerOnBoneMealSuccessProcedure.execute();
+	}
+}
