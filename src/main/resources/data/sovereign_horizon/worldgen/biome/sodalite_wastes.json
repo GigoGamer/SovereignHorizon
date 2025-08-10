@@ -29,6 +29,12 @@
         "weight": 5,
         "minCount": 1,
         "maxCount": 3
+      },
+      {
+        "type": "zombie",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
       }
     ],
     "creature": [],

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ashen_flower",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:ashen_flower"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_dye",
+    "count": 1
+  }
+}

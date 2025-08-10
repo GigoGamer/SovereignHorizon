@@ -14,6 +14,7 @@ import net.mcreator.sovereignhorizon.client.model.Modelovergrown_enderman;
 import net.mcreator.sovereignhorizon.client.model.Modelelixite_projectile;
 import net.mcreator.sovereignhorizon.client.model.Modelelixite_golem;
 import net.mcreator.sovereignhorizon.client.model.Modeldesolate_creep;
+import net.mcreator.sovereignhorizon.client.model.Modelash_crawler;
 import net.mcreator.sovereignhorizon.client.model.ModelCustomModel;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
@@ -23,6 +24,7 @@ public class SovereignHorizonModModels {
 		event.registerLayerDefinition(Modelelixite_golem.LAYER_LOCATION, Modelelixite_golem::createBodyLayer);
 		event.registerLayerDefinition(Modelrived_ghast.LAYER_LOCATION, Modelrived_ghast::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
+		event.registerLayerDefinition(Modelash_crawler.LAYER_LOCATION, Modelash_crawler::createBodyLayer);
 		event.registerLayerDefinition(Modeldesolate_creep.LAYER_LOCATION, Modeldesolate_creep::createBodyLayer);
 		event.registerLayerDefinition(Modelelixite_projectile.LAYER_LOCATION, Modelelixite_projectile::createBodyLayer);
 		event.registerLayerDefinition(Modelovergrown_enderman.LAYER_LOCATION, Modelovergrown_enderman::createBodyLayer);

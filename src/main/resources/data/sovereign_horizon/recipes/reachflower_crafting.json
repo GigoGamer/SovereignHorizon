@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "reachflower",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sovereign_horizon:reachflower"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_dye",
+    "count": 1
+  }
+}

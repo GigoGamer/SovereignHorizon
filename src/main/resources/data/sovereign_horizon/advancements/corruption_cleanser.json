@@ -110,6 +110,22 @@
           }
         ]
       }
+    },
+    "corruption_cleanser_6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sovereign_horizon:ashy_flesh"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {

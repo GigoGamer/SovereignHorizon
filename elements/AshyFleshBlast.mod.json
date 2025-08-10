@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "ashy_flesh",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 0.1,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RawCorruptedFlesh"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:AshyFlesh"
+    },
+    "name": "ashy_flesh_blast",
+    "namespace": "mod"
+  }
+}

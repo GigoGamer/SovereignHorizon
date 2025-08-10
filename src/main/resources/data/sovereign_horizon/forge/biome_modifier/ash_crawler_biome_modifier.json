@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "sovereign_horizon:ash_field",
+  "spawners": {
+    "type": "sovereign_horizon:ash_crawler",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

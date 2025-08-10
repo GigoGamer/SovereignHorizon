@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "sovereign_horizon:block/ashen_flower",
+    "particle": "sovereign_horizon:block/ashen_flower"
+  },
+  "render_type": "cutout"
+}

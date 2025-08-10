@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "sovereign_horizon:ash_field",
+  "features": "sovereign_horizon:ashen_flower",
+  "step": "vegetal_decoration"
+}

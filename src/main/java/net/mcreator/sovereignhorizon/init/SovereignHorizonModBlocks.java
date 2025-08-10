@@ -32,6 +32,7 @@ import net.mcreator.sovereignhorizon.block.SodaliteBrickWallBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteBrickStairsBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteBrickSlabBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteBlock;
+import net.mcreator.sovereignhorizon.block.ShortSproutsBlock;
 import net.mcreator.sovereignhorizon.block.ReachflowerBlock;
 import net.mcreator.sovereignhorizon.block.RawMarbleWallBlock;
 import net.mcreator.sovereignhorizon.block.RawMarbleTilesBlock;
@@ -75,6 +76,7 @@ import net.mcreator.sovereignhorizon.block.LiquidVoidBlock;
 import net.mcreator.sovereignhorizon.block.LepidoliteBlock;
 import net.mcreator.sovereignhorizon.block.LarimarBlock;
 import net.mcreator.sovereignhorizon.block.InfusionTableBlock;
+import net.mcreator.sovereignhorizon.block.GlowweedBlock;
 import net.mcreator.sovereignhorizon.block.DepthSproutBlock;
 import net.mcreator.sovereignhorizon.block.DeepLichenCoveredSodaliteBlock;
 import net.mcreator.sovereignhorizon.block.CreepmineBlock;
@@ -89,6 +91,7 @@ import net.mcreator.sovereignhorizon.block.CobbledSodaliteStairsBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteSlabBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteBlock;
 import net.mcreator.sovereignhorizon.block.BlockofElixisShardsBlock;
+import net.mcreator.sovereignhorizon.block.AshenFlowerBlock;
 import net.mcreator.sovereignhorizon.block.AshBlock;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
@@ -174,6 +177,9 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> REACHFLOWER = REGISTRY.register("reachflower", () -> new ReachflowerBlock());
 	public static final RegistryObject<Block> CREEPMINE = REGISTRY.register("creepmine", () -> new CreepmineBlock());
 	public static final RegistryObject<Block> DEPTH_SPROUT = REGISTRY.register("depth_sprout", () -> new DepthSproutBlock());
+	public static final RegistryObject<Block> GLOWWEED = REGISTRY.register("glowweed", () -> new GlowweedBlock());
+	public static final RegistryObject<Block> SHORT_SPROUTS = REGISTRY.register("short_sprouts", () -> new ShortSproutsBlock());
+	public static final RegistryObject<Block> ASHEN_FLOWER = REGISTRY.register("ashen_flower", () -> new AshenFlowerBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

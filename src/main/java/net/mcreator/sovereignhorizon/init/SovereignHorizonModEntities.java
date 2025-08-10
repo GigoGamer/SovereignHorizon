@@ -22,6 +22,7 @@ import net.mcreator.sovereignhorizon.entity.ElixiteGolemEntity;
 import net.mcreator.sovereignhorizon.entity.ElixisCorruptedEndermanEntity;
 import net.mcreator.sovereignhorizon.entity.DesolateCreeperEntity;
 import net.mcreator.sovereignhorizon.entity.CatechismEntity;
+import net.mcreator.sovereignhorizon.entity.AshCrawlerEntity;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -48,6 +49,10 @@ public class SovereignHorizonModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<ElixiteProjectileEntity>> ELIXITE_PROJECTILE = register("elixite_projectile", EntityType.Builder.<ElixiteProjectileEntity>of(ElixiteProjectileEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(ElixiteProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<AshCrawlerEntity>> ASH_CRAWLER = register("ash_crawler",
+			EntityType.Builder.<AshCrawlerEntity>of(AshCrawlerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AshCrawlerEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -63,6 +68,7 @@ public class SovereignHorizonModEntities {
 			DesolateCreeperEntity.init();
 			ElixisCorruptedEndermanEntity.init();
 			ElixiteGolemEntity.init();
+			AshCrawlerEntity.init();
 		});
 	}
 
@@ -73,5 +79,6 @@ public class SovereignHorizonModEntities {
 		event.put(DESOLATE_CREEPER.get(), DesolateCreeperEntity.createAttributes().build());
 		event.put(ELIXIS_CORRUPTED_ENDERMAN.get(), ElixisCorruptedEndermanEntity.createAttributes().build());
 		event.put(ELIXITE_GOLEM.get(), ElixiteGolemEntity.createAttributes().build());
+		event.put(ASH_CRAWLER.get(), AshCrawlerEntity.createAttributes().build());
 	}
 }

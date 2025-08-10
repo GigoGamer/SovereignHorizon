@@ -25,6 +25,7 @@ import net.mcreator.sovereignhorizon.item.CookedCorruptedFleshItem;
 import net.mcreator.sovereignhorizon.item.CatechismWingItem;
 import net.mcreator.sovereignhorizon.item.BlueskinItem;
 import net.mcreator.sovereignhorizon.item.BlueskinBootsItem;
+import net.mcreator.sovereignhorizon.item.AshyFleshItem;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
 public class SovereignHorizonModItems {
@@ -128,6 +129,11 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> RAW_CORRUPTED_FLESH = REGISTRY.register("raw_corrupted_flesh", () -> new RawCorruptedFleshItem());
 	public static final RegistryObject<Item> DEPTH_SPROUT = block(SovereignHorizonModBlocks.DEPTH_SPROUT);
 	public static final RegistryObject<Item> ELIXITE_GOLEM_SPAWN_EGG = REGISTRY.register("elixite_golem_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.ELIXITE_GOLEM, -16711799, -6357048, new Item.Properties()));
+	public static final RegistryObject<Item> ASH_CRAWLER_SPAWN_EGG = REGISTRY.register("ash_crawler_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.ASH_CRAWLER, -16777216, -15395563, new Item.Properties()));
+	public static final RegistryObject<Item> ASHY_FLESH = REGISTRY.register("ashy_flesh", () -> new AshyFleshItem());
+	public static final RegistryObject<Item> GLOWWEED = block(SovereignHorizonModBlocks.GLOWWEED);
+	public static final RegistryObject<Item> SHORT_SPROUTS = block(SovereignHorizonModBlocks.SHORT_SPROUTS);
+	public static final RegistryObject<Item> ASHEN_FLOWER = block(SovereignHorizonModBlocks.ASHEN_FLOWER);
 
 	// Start of user code block custom items
 	// End of user code block custom items

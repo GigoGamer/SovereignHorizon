@@ -51,7 +51,8 @@ public class ReachflowerBlock extends DoublePlantBlock implements BonemealableBl
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(SovereignHorizonModBlocks.SODALITE.get()) || groundState.is(SovereignHorizonModBlocks.RAW_MARBLE.get()) || groundState.is(Blocks.GRASS_BLOCK) || groundState.is(Blocks.DIRT);
+		return groundState.is(SovereignHorizonModBlocks.SODALITE.get()) || groundState.is(SovereignHorizonModBlocks.RAW_MARBLE.get()) || groundState.is(Blocks.GRASS_BLOCK) || groundState.is(Blocks.DIRT)
+				|| groundState.is(SovereignHorizonModBlocks.SPARSE_DEEP_LICHEN_COVERED_SODALITE.get()) || groundState.is(SovereignHorizonModBlocks.DEEP_LICHEN_COVERED_SODALITE.get());
 	}
 
 	@Override

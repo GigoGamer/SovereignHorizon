@@ -68,10 +68,14 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModItems.CATECHISM_WING.get());
 				tabData.accept(SovereignHorizonModItems.BLUESKIN.get());
 				tabData.accept(SovereignHorizonModItems.CORRUPTED_PEARL.get());
-				tabData.accept(SovereignHorizonModItems.COOKED_CORRUPTED_FLESH.get());
 				tabData.accept(SovereignHorizonModItems.RAW_CORRUPTED_FLESH.get());
+				tabData.accept(SovereignHorizonModItems.COOKED_CORRUPTED_FLESH.get());
+				tabData.accept(SovereignHorizonModItems.ASHY_FLESH.get());
 				tabData.accept(SovereignHorizonModBlocks.DEPTH_SPROUT.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.SHORT_SPROUTS.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.GLOWWEED.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.REACHFLOWER.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.ASHEN_FLOWER.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.MARBLE.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.MARBLE_STAIRS.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.MARBLE_SLAB.get().asItem());
@@ -115,5 +119,6 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModItems.DESOLATE_CREEPER_SPAWN_EGG.get());
 				tabData.accept(SovereignHorizonModItems.ELIXIS_CORRUPTED_ENDERMAN_SPAWN_EGG.get());
 				tabData.accept(SovereignHorizonModItems.ELIXITE_GOLEM_SPAWN_EGG.get());
+				tabData.accept(SovereignHorizonModItems.ASH_CRAWLER_SPAWN_EGG.get());
 			}).build());
 }
