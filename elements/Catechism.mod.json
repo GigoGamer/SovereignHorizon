@@ -141,10 +141,7 @@
     "maxNumberOfMobsPerGroup": 5,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:SodaliteWastes"
-      },
-      {
-        "value": "CUSTOM:AshField"
+        "value": "#mod:is_sh"
       }
     ],
     "spawnInDungeons": false,

@@ -4459,21 +4459,6 @@
       "path": "~/Advancements"
     },
     {
-      "name": "ThuliteDiscs",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thulite_discs",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/thulite_discs.json",
-          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/thulite_discs.json",
-          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/thulite_discs_biome_modifier.json"
-        ]
-      },
-      "path": "~/Features"
-    },
-    {
       "name": "Ash",
       "type": "block",
       "compiles": true,
@@ -4859,21 +4844,6 @@
       "path": "~/Entities"
     },
     {
-      "name": "ElixisCorruptedEnderman",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "elixis_corrupted_enderman",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/ElixisCorruptedEndermanRenderer.java",
-          "src/main/resources/assets/sovereign_horizon/models/item/elixis_corrupted_enderman_spawn_egg.json",
-          "src/main/java/net/mcreator/sovereignhorizon/entity/ElixisCorruptedEndermanEntity.java"
-        ]
-      },
-      "path": "~/Entities"
-    },
-    {
       "name": "ElixisCorruptedEndermanLoot",
       "type": "loottable",
       "compiles": true,
@@ -4920,6 +4890,37 @@
         ]
       },
       "path": "~/Entities"
+    },
+    {
+      "name": "ElixisCorruptedEnderman",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixis_corrupted_enderman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/ElixisCorruptedEndermanRenderer.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/elixis_corrupted_enderman_spawn_egg.json",
+          "src/main/java/net/mcreator/sovereignhorizon/entity/ElixisCorruptedEndermanEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "MarbleMine",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_mine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/structure_set/marble_mine.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/structure/marble_mine.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/marble_mine.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/marble_mine_path.json"
+        ]
+      },
+      "path": "~/Structures"
     }
   ],
   "variable_elements": [],

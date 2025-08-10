@@ -1,0 +1,61 @@
+{
+  "_fv": 77,
+  "_type": "structure",
+  "definition": {
+    "structure": "marble_mine_hole",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 5,
+    "separation": 2,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SodaliteWastes"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 225,
+    "startHeightMax": 226,
+    "size": 7,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "path",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 5,
+            "structure": "marble_mine_curve_path",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "marble_mine_straight_path",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "marble_mine_three_path",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "marble_mine_weird_path",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

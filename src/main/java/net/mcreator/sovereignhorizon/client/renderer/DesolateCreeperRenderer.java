@@ -1,22 +1,6 @@
 
 package net.mcreator.sovereignhorizon.client.renderer;
 
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.MobRenderer;
-import net.minecraft.client.renderer.entity.LivingEntityRenderer;
-import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.model.EntityModel;
-import net.minecraft.client.Minecraft;
-
-import net.mcreator.sovereignhorizon.entity.DesolateCreeperEntity;
-import net.mcreator.sovereignhorizon.client.model.Modeldesolate_creep;
-
-import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.blaze3d.vertex.PoseStack;
-
 public class DesolateCreeperRenderer extends MobRenderer<DesolateCreeperEntity, Modeldesolate_creep<DesolateCreeperEntity>> {
 	public DesolateCreeperRenderer(EntityRendererProvider.Context context) {
 		super(context, new Modeldesolate_creep<DesolateCreeperEntity>(context.bakeLayer(Modeldesolate_creep.LAYER_LOCATION)), 0.5f);
