@@ -14,7 +14,7 @@
         "value": "TAG:minecraft:enchantable/foot_armor"
       }
     ],
-    "isTreasureEnchantment": true,
+    "isTreasureEnchantment": false,
     "isCurse": false,
     "canGenerateInLootTables": false,
     "canVillagerTrade": false
