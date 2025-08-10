@@ -106,5 +106,6 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModItems.RIVED_GHAST_SPAWN_EGG.get());
 				tabData.accept(SovereignHorizonModBlocks.REACHFLOWER.get().asItem());
 				tabData.accept(SovereignHorizonModItems.DESOLATE_CREEPER_SPAWN_EGG.get());
+				tabData.accept(SovereignHorizonModItems.ELIXIS_CORRUPTED_ENDERMAN_SPAWN_EGG.get());
 			}).build());
 }

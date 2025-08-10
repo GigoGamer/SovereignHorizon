@@ -52,7 +52,7 @@ public class EnchantmentAbilityMessage {
 			return;
 		if (type == 0) {
 
-			EnchantmentAbilityOnKeyPressedProcedure.execute(entity);
+			EnchantmentAbilityOnKeyPressedProcedure.execute(world, x, y, z, entity);
 		}
 	}
 
