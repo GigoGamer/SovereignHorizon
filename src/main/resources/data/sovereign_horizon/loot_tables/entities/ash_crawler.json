@@ -23,7 +23,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "sovereign_horizon:deleted_mod_element",
+          "name": "sovereign_horizon:ashy_flesh",
           "weight": 1,
           "functions": [
             {

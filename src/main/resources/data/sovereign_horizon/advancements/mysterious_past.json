@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "sovereign_horizon:record_sunrise"
+    },
+    "title": {
+      "translate": "advancements.mysterious_past.title"
+    },
+    "description": {
+      "translate": "advancements.mysterious_past.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mysterious_past_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sovereign_horizon:record_sunrise"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "sovereign_horizon:sh_enter"
+}

@@ -1,6 +1,10 @@
 package net.mcreator.sovereignhorizon.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
 
 public class ElixiteGolemOnEntityTickUpdateProcedure {
 	public static void execute(Entity entity) {

@@ -75,6 +75,7 @@ import net.mcreator.sovereignhorizon.block.MarbleBlock;
 import net.mcreator.sovereignhorizon.block.LiquidVoidBlock;
 import net.mcreator.sovereignhorizon.block.LepidoliteBlock;
 import net.mcreator.sovereignhorizon.block.LarimarBlock;
+import net.mcreator.sovereignhorizon.block.KeystoneBlock;
 import net.mcreator.sovereignhorizon.block.InfusionTableBlock;
 import net.mcreator.sovereignhorizon.block.GlowweedBlock;
 import net.mcreator.sovereignhorizon.block.DepthSproutBlock;
@@ -180,6 +181,7 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> SHORT_SPROUTS = REGISTRY.register("short_sprouts", () -> new ShortSproutsBlock());
 	public static final RegistryObject<Block> CREEPMINE = REGISTRY.register("creepmine", () -> new CreepmineBlock());
 	public static final RegistryObject<Block> GLOWWEED = REGISTRY.register("glowweed", () -> new GlowweedBlock());
+	public static final RegistryObject<Block> KEYSTONE = REGISTRY.register("keystone", () -> new KeystoneBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

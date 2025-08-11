@@ -15,6 +15,7 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.sovereignhorizon.item.TotemofChanceItem;
+import net.mcreator.sovereignhorizon.item.RecordSunriseItem;
 import net.mcreator.sovereignhorizon.item.RawCorruptedFleshItem;
 import net.mcreator.sovereignhorizon.item.LiquidVoidItem;
 import net.mcreator.sovereignhorizon.item.ElixiteArmorItem;
@@ -134,6 +135,8 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> GLOWWEED = block(SovereignHorizonModBlocks.GLOWWEED);
 	public static final RegistryObject<Item> RAW_CORRUPTED_FLESH = REGISTRY.register("raw_corrupted_flesh", () -> new RawCorruptedFleshItem());
 	public static final RegistryObject<Item> ASH_CRAWLER_SPAWN_EGG = REGISTRY.register("ash_crawler_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.ASH_CRAWLER, -16777216, -15395563, new Item.Properties()));
+	public static final RegistryObject<Item> RECORD_SUNRISE = REGISTRY.register("record_sunrise", () -> new RecordSunriseItem());
+	public static final RegistryObject<Item> KEYSTONE = block(SovereignHorizonModBlocks.KEYSTONE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -16,4 +16,5 @@ import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 public class SovereignHorizonModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, SovereignHorizonMod.MODID);
 	public static final RegistryObject<SoundEvent> MUSIC_SH_SODALITEWASTES = REGISTRY.register("music.sh.sodalitewastes", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("sovereign_horizon", "music.sh.sodalitewastes")));
+	public static final RegistryObject<SoundEvent> RECORD_SUNRISE = REGISTRY.register("record.sunrise", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("sovereign_horizon", "record.sunrise")));
 }

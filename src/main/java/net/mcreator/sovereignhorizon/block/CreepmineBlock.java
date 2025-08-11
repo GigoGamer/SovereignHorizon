@@ -1,7 +1,17 @@
 
 package net.mcreator.sovereignhorizon.block;
 
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.PressurePlateBlock;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.sovereignhorizon.procedures.CreepmineEntityWalksOnTheBlockProcedure;
 
 public class CreepmineBlock extends PressurePlateBlock {
 	public CreepmineBlock() {
@@ -17,7 +27,7 @@ public class CreepmineBlock extends PressurePlateBlock {
 	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
 		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
 		if (world.getBestNeighborSignal(pos) > 0) {
-			CreepmineEntityWalksOnTheBlockProcedure.execute();
+			CreepmineEntityWalksOnTheBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		}
 	}
 }

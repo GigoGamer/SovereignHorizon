@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sovereign_horizon:block/keystone"
+    },
+    "facing=east": {
+      "model": "sovereign_horizon:block/keystone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sovereign_horizon:block/keystone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sovereign_horizon:block/keystone",
+      "y": 270
+    }
+  }
+}

@@ -120,5 +120,7 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModBlocks.GLOWWEED.get().asItem());
 				tabData.accept(SovereignHorizonModItems.RAW_CORRUPTED_FLESH.get());
 				tabData.accept(SovereignHorizonModItems.ASH_CRAWLER_SPAWN_EGG.get());
+				tabData.accept(SovereignHorizonModItems.RECORD_SUNRISE.get());
+				tabData.accept(SovereignHorizonModBlocks.KEYSTONE.get().asItem());
 			}).build());
 }
