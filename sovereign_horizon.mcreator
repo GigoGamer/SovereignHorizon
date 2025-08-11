@@ -5079,6 +5079,7 @@
       "registry_name": "elixis_corrupted_enderman",
       "metadata": {
         "files": [
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/elixis_corrupted_enderman_biome_modifier.json",
           "src/main/java/net/mcreator/sovereignhorizon/entity/ElixisCorruptedEndermanEntity.java",
           "src/main/java/net/mcreator/sovereignhorizon/client/renderer/ElixisCorruptedEndermanRenderer.java",
           "src/main/resources/assets/sovereign_horizon/models/item/elixis_corrupted_enderman_spawn_egg.json"
@@ -5098,6 +5099,672 @@
         ]
       },
       "path": "~/Advancements"
+    },
+    {
+      "name": "TotemofChanceCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totemof_chance_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/totem_of_chance_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ShortSproutsOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "short_sprouts_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/ShortSproutsOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "AshCrawlerLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_crawler_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/entities/ash_crawler.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "AshenFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashen_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/ashen_flower_biome_modifier.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/ashen_flower.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/ashen_flower.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/ashen_flower.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/AshenFlowerBlock.java",
+          "src/main/resources/assets/sovereign_horizon/blockstates/ashen_flower.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/ashen_flower.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/ashen_flower.json"
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "ElixiteGolemOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixite_golem_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/ElixiteGolemOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "BlueskinBoots",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueskin_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/blueskin_boots_boots.json",
+          "src/main/java/net/mcreator/sovereignhorizon/item/BlueskinBootsItem.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "CookedCorruptedFleshCampfire",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_corrupted_flesh_campfire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/cooked_corrupted_flesh_campfire.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ElixiteGolemLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixite_golem_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/entities/elixite_golem.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "AshyFlesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashy_flesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/item/AshyFleshItem.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/ashy_flesh.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ShortSprouts",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "short_sprouts",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/block/ShortSproutsBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/short_sprouts.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/short_sprouts.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/short_sprouts.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/short_sprouts_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/short_sprouts.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/short_sprouts.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/short_sprouts.json"
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "ElixiteProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixite_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/ElixiteProjectileRenderer.java",
+          "src/main/java/net/mcreator/sovereignhorizon/entity/ElixiteProjectileEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "AshyFleshPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashy_flesh_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/AshyFleshPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ElixiteProjectileWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixite_projectile_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/ElixiteProjectileWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "Creepmine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creepmine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/creepmine.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/creepmine.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/creepmine.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/creepmine.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/creepmine_down.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/CreepmineBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CatechismWingPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catechism_wing_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/CatechismWingPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "TotemofChance",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totemof_chance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/item/TotemofChanceItem.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/totemof_chance.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CookedCorruptedFlesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_corrupted_flesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/cooked_corrupted_flesh.json",
+          "src/main/java/net/mcreator/sovereignhorizon/item/CookedCorruptedFleshItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AshyFleshBlast",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashy_flesh_blast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/ashy_flesh_blast.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RawCorruptedFleshPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_corrupted_flesh_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/RawCorruptedFleshPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ReachflowerCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reachflower_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/reachflower_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TestBlockGeneration",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_block_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/test_block_generation.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/test_block_generation.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/test_block_generation_biome_modifier.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "Glowweed",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowweed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/block/GlowweedBlock.java",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/glowweed_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/glowweed.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/glowweed.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/glowweed.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/glowweed.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/glowweed.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/glowweed.json"
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "CreepmineEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creepmine_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/CreepmineEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RawCorruptedFlesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_corrupted_flesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/item/RawCorruptedFleshItem.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/raw_corrupted_flesh.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ElixiteProjectileProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elixite_projectile_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/ElixiteProjectileProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "BlueskinBootsBootsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueskin_boots_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/BlueskinBootsBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "AshCrawler",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_crawler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/entity/AshCrawlerEntity.java",
+          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/AshCrawlerRenderer.java",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/ash_crawler_biome_modifier.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/ash_crawler_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "BlueskinBootsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueskin_boots_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/blueskin_boots_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TotemofChanceUse",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totemof_chance_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/TotemofChanceUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AshenFlowerOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashen_flower_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/AshenFlowerOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "CookedCorruptedFleshPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_corrupted_flesh_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/CookedCorruptedFleshPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GlowweedOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowweed_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/GlowweedOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "CookedCorruptedFleshSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_corrupted_flesh_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/cooked_corrupted_flesh_smelting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AshenFlowerCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashen_flower_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/ashen_flower_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CookedCorruptedFleshSmoking",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_corrupted_flesh_smoking",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/cooked_corrupted_flesh_smoking.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -5126,6 +5793,7 @@
       "~CUSTOM:LiquidVoid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Creepmine",
       "~CUSTOM:RawMarbleTiles",
       "~CUSTOM:CrackedMarbleBricks",
       "~CUSTOM:MarbleBricks",

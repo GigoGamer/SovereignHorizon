@@ -10,10 +10,12 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.sovereignhorizon.client.renderer.RivedGhastRenderer;
+import net.mcreator.sovereignhorizon.client.renderer.ElixiteProjectileRenderer;
 import net.mcreator.sovereignhorizon.client.renderer.ElixiteGolemRenderer;
 import net.mcreator.sovereignhorizon.client.renderer.ElixisCorruptedEndermanRenderer;
 import net.mcreator.sovereignhorizon.client.renderer.DesolateCreeperRenderer;
 import net.mcreator.sovereignhorizon.client.renderer.CatechismRenderer;
+import net.mcreator.sovereignhorizon.client.renderer.AshCrawlerRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class SovereignHorizonModEntityRenderers {
@@ -24,5 +26,7 @@ public class SovereignHorizonModEntityRenderers {
 		event.registerEntityRenderer(SovereignHorizonModEntities.DESOLATE_CREEPER.get(), DesolateCreeperRenderer::new);
 		event.registerEntityRenderer(SovereignHorizonModEntities.ELIXITE_GOLEM.get(), ElixiteGolemRenderer::new);
 		event.registerEntityRenderer(SovereignHorizonModEntities.ELIXIS_CORRUPTED_ENDERMAN.get(), ElixisCorruptedEndermanRenderer::new);
+		event.registerEntityRenderer(SovereignHorizonModEntities.ELIXITE_PROJECTILE.get(), ElixiteProjectileRenderer::new);
+		event.registerEntityRenderer(SovereignHorizonModEntities.ASH_CRAWLER.get(), AshCrawlerRenderer::new);
 	}
 }

@@ -1,20 +1,6 @@
 
 package net.mcreator.sovereignhorizon.fluid;
 
-import net.minecraftforge.fluids.ForgeFlowingFluid;
-
-import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.material.Fluid;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.core.particles.ParticleOptions;
-
-import net.mcreator.sovereignhorizon.init.SovereignHorizonModItems;
-import net.mcreator.sovereignhorizon.init.SovereignHorizonModFluids;
-import net.mcreator.sovereignhorizon.init.SovereignHorizonModFluidTypes;
-import net.mcreator.sovereignhorizon.init.SovereignHorizonModBlocks;
-
 public abstract class LiquidVoidFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> SovereignHorizonModFluidTypes.LIQUID_VOID_TYPE.get(), () -> SovereignHorizonModFluids.LIQUID_VOID.get(),
 			() -> SovereignHorizonModFluids.FLOWING_LIQUID_VOID.get()).explosionResistance(100f).tickRate(15).levelDecreasePerBlock(3).bucket(() -> SovereignHorizonModItems.LIQUID_VOID_BUCKET.get())

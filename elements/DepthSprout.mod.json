@@ -106,11 +106,17 @@
       },
       {
         "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "CUSTOM:SparseDeepLichenCoveredSodalite"
+      },
+      {
+        "value": "CUSTOM:DeepLichenCoveredSodalite"
       }
     ],
     "isBonemealable": true,
     "onBonemealSuccess": {
-      "name": "ReachflowerOnBoneMealSuccess"
+      "name": "DepthSproutOnBoneMealSuccess"
     },
     "frequencyOnChunks": 4,
     "generateFeature": true,
@@ -119,8 +125,8 @@
         "value": "CUSTOM:SodaliteWastes"
       }
     ],
-    "generationType": "Flower",
-    "patchSize": 5,
+    "generationType": "Grass",
+    "patchSize": 15,
     "generateAtAnyHeight": true
   }
 }

@@ -106,6 +106,12 @@
       },
       {
         "value": "Blocks.DIRT#0"
+      },
+      {
+        "value": "CUSTOM:SparseDeepLichenCoveredSodalite"
+      },
+      {
+        "value": "CUSTOM:DeepLichenCoveredSodalite"
       }
     ],
     "isBonemealable": true,
@@ -116,14 +122,11 @@
     "generateFeature": true,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:AshField"
-      },
-      {
         "value": "CUSTOM:SodaliteWastes"
       }
     ],
     "generationType": "Flower",
     "patchSize": 64,
-    "generateAtAnyHeight": false
+    "generateAtAnyHeight": true
   }
 }

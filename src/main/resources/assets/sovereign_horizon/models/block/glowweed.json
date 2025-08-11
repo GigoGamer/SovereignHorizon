@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "sovereign_horizon:block/glowweed",
+    "particle": "sovereign_horizon:block/glowweed"
+  },
+  "render_type": "cutout"
+}

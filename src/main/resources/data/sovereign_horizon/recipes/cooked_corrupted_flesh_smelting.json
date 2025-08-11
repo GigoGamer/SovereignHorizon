@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "cooked_corrupted_flesh",
+  "category": "food",
+  "experience": 0.1,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "sovereign_horizon:raw_corrupted_flesh"
+  },
+  "result": "sovereign_horizon:cooked_corrupted_flesh"
+}

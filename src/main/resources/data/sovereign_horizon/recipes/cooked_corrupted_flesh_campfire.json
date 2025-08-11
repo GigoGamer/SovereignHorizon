@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "group": "cooked_corrupted_flesh",
+  "category": "food",
+  "experience": 0.1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "sovereign_horizon:deleted_mod_element"
+  },
+  "result": "sovereign_horizon:deleted_mod_element"
+}

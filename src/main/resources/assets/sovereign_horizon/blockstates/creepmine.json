@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "sovereign_horizon:block/creepmine"
+    },
+    "powered=true": {
+      "model": "sovereign_horizon:block/creepmine_down"
+    }
+  }
+}

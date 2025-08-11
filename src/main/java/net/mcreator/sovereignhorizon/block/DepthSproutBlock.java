@@ -1,30 +1,7 @@
 
 package net.mcreator.sovereignhorizon.block;
 
-import org.checkerframework.checker.units.qual.s;
-
-import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.level.material.PushReaction;
-import net.minecraft.world.level.material.MapColor;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.FlowerBlock;
-import net.minecraft.world.level.block.BonemealableBlock;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.LevelReader;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.effect.MobEffects;
-import net.minecraft.util.RandomSource;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.Direction;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.sovereignhorizon.procedures.ReachflowerOnBoneMealSuccessProcedure;
-import net.mcreator.sovereignhorizon.init.SovereignHorizonModBlocks;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class DepthSproutBlock extends FlowerBlock implements BonemealableBlock {
 	public DepthSproutBlock() {
@@ -54,7 +31,8 @@ public class DepthSproutBlock extends FlowerBlock implements BonemealableBlock {
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(SovereignHorizonModBlocks.SODALITE.get()) || groundState.is(SovereignHorizonModBlocks.RAW_MARBLE.get()) || groundState.is(Blocks.GRASS_BLOCK) || groundState.is(Blocks.DIRT);
+		return groundState.is(SovereignHorizonModBlocks.SODALITE.get()) || groundState.is(SovereignHorizonModBlocks.RAW_MARBLE.get()) || groundState.is(Blocks.GRASS_BLOCK) || groundState.is(Blocks.DIRT)
+				|| groundState.is(SovereignHorizonModBlocks.SPARSE_DEEP_LICHEN_COVERED_SODALITE.get()) || groundState.is(SovereignHorizonModBlocks.DEEP_LICHEN_COVERED_SODALITE.get());
 	}
 
 	@Override
@@ -76,6 +54,6 @@ public class DepthSproutBlock extends FlowerBlock implements BonemealableBlock {
 
 	@Override
 	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		ReachflowerOnBoneMealSuccessProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		DepthSproutOnBoneMealSuccessProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

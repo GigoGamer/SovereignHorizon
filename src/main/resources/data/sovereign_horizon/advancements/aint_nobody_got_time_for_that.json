@@ -25,7 +25,23 @@
             ],
             "count": {
               "min": 1,
-              "max": 1
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "aint_nobody_got_time_for_that_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sovereign_horizon:ashen_flower"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
             }
           }
         ]

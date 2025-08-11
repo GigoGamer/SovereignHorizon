@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "cooked_corrupted_flesh",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 0.1,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:RawCorruptedFlesh"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedCorruptedFlesh"
+    },
+    "name": "cooked_corrupted_flesh_smoking",
+    "namespace": "mod"
+  }
+}
