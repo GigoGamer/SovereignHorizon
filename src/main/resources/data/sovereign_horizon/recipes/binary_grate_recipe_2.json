@@ -3,7 +3,7 @@
   "group": "binary",
   "count": 4,
   "ingredient": {
-    "item": "sovereign_horizon:binary_bricks"
+    "item": "sovereign_horizon:deleted_mod_element"
   },
   "result": "sovereign_horizon:binary_grate"
 }

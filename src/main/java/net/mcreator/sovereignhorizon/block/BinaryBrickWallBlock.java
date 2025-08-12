@@ -1,9 +1,7 @@
 
 package net.mcreator.sovereignhorizon.block;
 
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.WallBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class BinaryBrickWallBlock extends WallBlock {
 	public BinaryBrickWallBlock() {

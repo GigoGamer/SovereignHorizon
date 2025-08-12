@@ -1,9 +1,12 @@
 
 package net.mcreator.sovereignhorizon.enchantment;
 
+import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.entity.EquipmentSlot;
+
+import java.util.List;
 
 public class BoundingEnchantment extends Enchantment {
 	private static final EnchantmentCategory ENCHANTMENT_CATEGORY = EnchantmentCategory.ARMOR_FEET;
@@ -24,7 +27,17 @@ public class BoundingEnchantment extends Enchantment {
 
 	@Override
 	public int getMaxLevel() {
-		return 3;
+		return 4;
+	}
+
+	@Override
+	protected boolean checkCompatibility(Enchantment enchantment) {
+		return super.checkCompatibility(enchantment) && !List.of(Enchantments.DEPTH_STRIDER, Enchantments.FROST_WALKER).contains(enchantment);
+	}
+
+	@Override
+	public boolean isTreasureOnly() {
+		return true;
 	}
 
 	@Override

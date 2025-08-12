@@ -6,15 +6,22 @@
     "supportedSlots": "feet",
     "weight": 10,
     "anvilCost": 1,
-    "maxLevel": 3,
+    "maxLevel": 4,
     "damageModifier": 0,
-    "incompatibleEnchantments": [],
+    "incompatibleEnchantments": [
+      {
+        "value": "DEPTH_STRIDER"
+      },
+      {
+        "value": "FROST_WALKER"
+      }
+    ],
     "supportedItems": [
       {
         "value": "TAG:minecraft:enchantable/foot_armor"
       }
     ],
-    "isTreasureEnchantment": false,
+    "isTreasureEnchantment": true,
     "isCurse": false,
     "canGenerateInLootTables": false,
     "canVillagerTrade": false

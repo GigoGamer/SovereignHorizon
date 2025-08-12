@@ -20,7 +20,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.sovereignhorizon.procedures.ElixiteProjectileWhileProjectileFlyingTickProcedure;
 import net.mcreator.sovereignhorizon.procedures.ElixiteProjectileProjectileHitsLivingEntityProcedure;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModItems;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEntities;
@@ -76,7 +75,6 @@ public class ElixiteProjectileEntity extends AbstractArrow implements ItemSuppli
 	@Override
 	public void tick() {
 		super.tick();
-		ElixiteProjectileWhileProjectileFlyingTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 		if (this.inGround)
 			this.discard();
 	}

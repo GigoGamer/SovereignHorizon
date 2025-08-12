@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:rabbit_foot"
+      "item": "sovereign_horizon:blueskin_boots_boots"
     },
     "title": {
       "translate": "advancements.boing.title"

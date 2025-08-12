@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sovereign_horizon:binary_shard",
+          "name": "sovereign_horizon:deleted_mod_element",
           "weight": 5,
           "functions": [
             {

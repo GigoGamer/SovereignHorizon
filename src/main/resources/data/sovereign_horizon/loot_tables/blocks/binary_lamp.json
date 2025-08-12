@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sovereign_horizon:binary_shard",
+          "name": "sovereign_horizon:deleted_mod_element",
           "functions": [
             {
               "count": 4,

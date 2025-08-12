@@ -189,13 +189,13 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> CREEPMINE = REGISTRY.register("creepmine", () -> new CreepmineBlock());
 	public static final RegistryObject<Block> GLOWWEED = REGISTRY.register("glowweed", () -> new GlowweedBlock());
 	public static final RegistryObject<Block> KEYSTONE = REGISTRY.register("keystone", () -> new KeystoneBlock());
-	public static final RegistryObject<Block> BINARY_BRICKS = REGISTRY.register("binary_bricks", () -> new BinaryBricksBlock());
+	public static final RegistryObject<Block> BINARY_BRICK_WALL = REGISTRY.register("binary_brick_wall", () -> new BinaryBrickWallBlock());
+	public static final RegistryObject<Block> BINARY_GRATE = REGISTRY.register("binary_grate", () -> new BinaryGrateBlock());
+	public static final RegistryObject<Block> BINARY_LAMP = REGISTRY.register("binary_lamp", () -> new BinaryLampBlock());
 	public static final RegistryObject<Block> CRACKED_BINARY_BRICKS = REGISTRY.register("cracked_binary_bricks", () -> new CrackedBinaryBricksBlock());
 	public static final RegistryObject<Block> BINARY_BRICK_STAIRS = REGISTRY.register("binary_brick_stairs", () -> new BinaryBrickStairsBlock());
+	public static final RegistryObject<Block> BINARY_BRICKS = REGISTRY.register("binary_bricks", () -> new BinaryBricksBlock());
 	public static final RegistryObject<Block> BINARY_BRICK_SLAB = REGISTRY.register("binary_brick_slab", () -> new BinaryBrickSlabBlock());
-	public static final RegistryObject<Block> BINARY_BRICK_WALL = REGISTRY.register("binary_brick_wall", () -> new BinaryBrickWallBlock());
-	public static final RegistryObject<Block> BINARY_LAMP = REGISTRY.register("binary_lamp", () -> new BinaryLampBlock());
-	public static final RegistryObject<Block> BINARY_GRATE = REGISTRY.register("binary_grate", () -> new BinaryGrateBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

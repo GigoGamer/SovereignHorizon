@@ -9,14 +9,14 @@
   ],
   "key": {
     "a": {
-      "item": "sovereign_horizon:binary_bricks"
+      "item": "sovereign_horizon:deleted_mod_element"
     },
     "b": {
       "item": "sovereign_horizon:corrupted_pearl"
     }
   },
   "result": {
-    "item": "sovereign_horizon:binary_lamp",
+    "item": "sovereign_horizon:deleted_mod_element",
     "count": 8
   }
 }

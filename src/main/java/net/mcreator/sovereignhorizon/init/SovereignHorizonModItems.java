@@ -139,14 +139,14 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> RECORD_SUNRISE = REGISTRY.register("record_sunrise", () -> new RecordSunriseItem());
 	public static final RegistryObject<Item> KEYSTONE = block(SovereignHorizonModBlocks.KEYSTONE);
 	public static final RegistryObject<Item> SWITCHLING_SPAWN_EGG = REGISTRY.register("switchling_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.SWITCHLING, -13369549, -16724992, new Item.Properties()));
+	public static final RegistryObject<Item> BINARY_BRICK_WALL = block(SovereignHorizonModBlocks.BINARY_BRICK_WALL);
+	public static final RegistryObject<Item> BINARY_GRATE = block(SovereignHorizonModBlocks.BINARY_GRATE);
+	public static final RegistryObject<Item> BINARY_LAMP = block(SovereignHorizonModBlocks.BINARY_LAMP);
 	public static final RegistryObject<Item> BINARY_SHARD = REGISTRY.register("binary_shard", () -> new BinaryShardItem());
-	public static final RegistryObject<Item> BINARY_BRICKS = block(SovereignHorizonModBlocks.BINARY_BRICKS);
 	public static final RegistryObject<Item> CRACKED_BINARY_BRICKS = block(SovereignHorizonModBlocks.CRACKED_BINARY_BRICKS);
 	public static final RegistryObject<Item> BINARY_BRICK_STAIRS = block(SovereignHorizonModBlocks.BINARY_BRICK_STAIRS);
+	public static final RegistryObject<Item> BINARY_BRICKS = block(SovereignHorizonModBlocks.BINARY_BRICKS);
 	public static final RegistryObject<Item> BINARY_BRICK_SLAB = block(SovereignHorizonModBlocks.BINARY_BRICK_SLAB);
-	public static final RegistryObject<Item> BINARY_BRICK_WALL = block(SovereignHorizonModBlocks.BINARY_BRICK_WALL);
-	public static final RegistryObject<Item> BINARY_LAMP = block(SovereignHorizonModBlocks.BINARY_LAMP);
-	public static final RegistryObject<Item> BINARY_GRATE = block(SovereignHorizonModBlocks.BINARY_GRATE);
 
 	// Start of user code block custom items
 	// End of user code block custom items
