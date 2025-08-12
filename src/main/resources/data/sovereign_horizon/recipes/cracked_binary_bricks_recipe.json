@@ -5,7 +5,7 @@
   "experience": 1,
   "cookingtime": 100,
   "ingredient": {
-    "item": "sovereign_horizon:deleted_mod_element"
+    "item": "sovereign_horizon:binary_bricks"
   },
   "result": "sovereign_horizon:cracked_binary_bricks"
 }

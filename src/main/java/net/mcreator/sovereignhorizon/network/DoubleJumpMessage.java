@@ -1,11 +1,22 @@
 
 package net.mcreator.sovereignhorizon.network;
 
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.network.FriendlyByteBuf;
+
+import net.mcreator.sovereignhorizon.procedures.EnchantmentAbilityOnKeyPressedProcedure;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
+
+import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DoubleJumpMessage {
-
 	int type, pressedms;
 
 	public DoubleJumpMessage(int type, int pressedms) {
@@ -36,21 +47,17 @@ public class DoubleJumpMessage {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(entity.blockPosition()))
 			return;
-
 		if (type == 0) {
 
 			EnchantmentAbilityOnKeyPressedProcedure.execute(world, x, y, z, entity);
 		}
-
 	}
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
 		SovereignHorizonMod.addNetworkMessage(DoubleJumpMessage.class, DoubleJumpMessage::buffer, DoubleJumpMessage::new, DoubleJumpMessage::handler);
 	}
-
 }
