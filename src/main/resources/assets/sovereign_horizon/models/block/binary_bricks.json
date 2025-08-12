@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sovereign_horizon:block/binary_bricks",
+    "up": "sovereign_horizon:block/binary_bricks",
+    "north": "sovereign_horizon:block/binary_bricks",
+    "east": "sovereign_horizon:block/binary_bricks",
+    "south": "sovereign_horizon:block/binary_bricks",
+    "west": "sovereign_horizon:block/binary_bricks",
+    "particle": "sovereign_horizon:block/binary_bricks"
+  },
+  "render_type": "solid"
+}

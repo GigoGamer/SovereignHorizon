@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "binary",
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:BinaryBricks"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CrackedBinaryBricks"
+    },
+    "name": "cracked_binary_bricks_recipe",
+    "namespace": "mod"
+  }
+}

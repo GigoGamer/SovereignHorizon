@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:binary_brick_stairs",
     "sovereign_horizon:marble_brick_stairs",
     "sovereign_horizon:raw_marble_tile_stairs",
     "sovereign_horizon:marble_tile_stairs",

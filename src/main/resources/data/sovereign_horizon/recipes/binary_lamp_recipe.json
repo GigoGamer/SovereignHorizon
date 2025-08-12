@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "binary",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:binary_bricks"
+    },
+    "b": {
+      "item": "sovereign_horizon:corrupted_pearl"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:binary_lamp",
+    "count": 8
+  }
+}

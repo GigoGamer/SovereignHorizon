@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "binary",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BinaryBrickSlab"
+    },
+    "name": "binary_brick_stairs_recipe_2",
+    "namespace": "mod"
+  }
+}

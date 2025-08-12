@@ -123,5 +123,13 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModItems.RECORD_SUNRISE.get());
 				tabData.accept(SovereignHorizonModBlocks.KEYSTONE.get().asItem());
 				tabData.accept(SovereignHorizonModItems.SWITCHLING_SPAWN_EGG.get());
+				tabData.accept(SovereignHorizonModItems.BINARY_SHARD.get());
+				tabData.accept(SovereignHorizonModBlocks.BINARY_BRICKS.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.CRACKED_BINARY_BRICKS.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.BINARY_BRICK_STAIRS.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.BINARY_BRICK_SLAB.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.BINARY_BRICK_WALL.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.BINARY_LAMP.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.BINARY_GRATE.get().asItem());
 			}).build());
 }

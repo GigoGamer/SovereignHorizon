@@ -87,11 +87,18 @@ import net.mcreator.sovereignhorizon.block.CrackedRawMarbleTilesBlock;
 import net.mcreator.sovereignhorizon.block.CrackedRawMarbleBricksBlock;
 import net.mcreator.sovereignhorizon.block.CrackedMarbleTilesBlock;
 import net.mcreator.sovereignhorizon.block.CrackedMarbleBricksBlock;
+import net.mcreator.sovereignhorizon.block.CrackedBinaryBricksBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteWallBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteStairsBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteSlabBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteBlock;
 import net.mcreator.sovereignhorizon.block.BlockofElixisShardsBlock;
+import net.mcreator.sovereignhorizon.block.BinaryLampBlock;
+import net.mcreator.sovereignhorizon.block.BinaryGrateBlock;
+import net.mcreator.sovereignhorizon.block.BinaryBricksBlock;
+import net.mcreator.sovereignhorizon.block.BinaryBrickWallBlock;
+import net.mcreator.sovereignhorizon.block.BinaryBrickStairsBlock;
+import net.mcreator.sovereignhorizon.block.BinaryBrickSlabBlock;
 import net.mcreator.sovereignhorizon.block.AshenFlowerBlock;
 import net.mcreator.sovereignhorizon.block.AshBlock;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
@@ -182,6 +189,13 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> CREEPMINE = REGISTRY.register("creepmine", () -> new CreepmineBlock());
 	public static final RegistryObject<Block> GLOWWEED = REGISTRY.register("glowweed", () -> new GlowweedBlock());
 	public static final RegistryObject<Block> KEYSTONE = REGISTRY.register("keystone", () -> new KeystoneBlock());
+	public static final RegistryObject<Block> BINARY_BRICKS = REGISTRY.register("binary_bricks", () -> new BinaryBricksBlock());
+	public static final RegistryObject<Block> CRACKED_BINARY_BRICKS = REGISTRY.register("cracked_binary_bricks", () -> new CrackedBinaryBricksBlock());
+	public static final RegistryObject<Block> BINARY_BRICK_STAIRS = REGISTRY.register("binary_brick_stairs", () -> new BinaryBrickStairsBlock());
+	public static final RegistryObject<Block> BINARY_BRICK_SLAB = REGISTRY.register("binary_brick_slab", () -> new BinaryBrickSlabBlock());
+	public static final RegistryObject<Block> BINARY_BRICK_WALL = REGISTRY.register("binary_brick_wall", () -> new BinaryBrickWallBlock());
+	public static final RegistryObject<Block> BINARY_LAMP = REGISTRY.register("binary_lamp", () -> new BinaryLampBlock());
+	public static final RegistryObject<Block> BINARY_GRATE = REGISTRY.register("binary_grate", () -> new BinaryGrateBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sovereign_horizon:block/binary_brick_slab"
+    },
+    "type=top": {
+      "model": "sovereign_horizon:block/binary_brick_slab_top"
+    },
+    "type=double": {
+      "model": "sovereign_horizon:block/binary_brick_slab_full"
+    }
+  }
+}

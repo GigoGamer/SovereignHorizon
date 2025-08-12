@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "binary",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BinaryGrate"
+    },
+    "name": "binary_grate_recipe",
+    "namespace": "mod"
+  }
+}

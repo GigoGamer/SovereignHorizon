@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "binary",
+  "category": "building",
+  "pattern": [
+    "  a",
+    " aa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:binary_bricks"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:binary_brick_slab",
+    "count": 4
+  }
+}

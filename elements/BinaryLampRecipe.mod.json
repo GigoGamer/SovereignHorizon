@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "binary",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:CorruptedPearl"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BinaryLamp"
+    },
+    "name": "binary_lamp_recipe",
+    "namespace": "mod"
+  }
+}

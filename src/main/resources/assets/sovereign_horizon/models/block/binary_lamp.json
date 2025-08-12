@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sovereign_horizon:block/binary_lamp",
+    "up": "sovereign_horizon:block/binary_lamp",
+    "north": "sovereign_horizon:block/binary_lamp",
+    "east": "sovereign_horizon:block/binary_lamp",
+    "south": "sovereign_horizon:block/binary_lamp",
+    "west": "sovereign_horizon:block/binary_lamp",
+    "particle": "sovereign_horizon:block/binary_lamp"
+  },
+  "render_type": "solid"
+}

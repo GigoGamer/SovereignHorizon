@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "binary",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": "CUSTOM:BinaryBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BinaryBrickWall"
+    },
+    "name": "binary_brick_wall_recipe",
+    "namespace": "mod"
+  }
+}

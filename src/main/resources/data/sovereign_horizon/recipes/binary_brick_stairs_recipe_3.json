@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "binary",
+  "count": 1,
+  "ingredient": {
+    "item": "sovereign_horizon:binary_bricks"
+  },
+  "result": "sovereign_horizon:binary_brick_slab"
+}

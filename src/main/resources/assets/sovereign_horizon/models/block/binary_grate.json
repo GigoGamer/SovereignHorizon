@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sovereign_horizon:block/binary_grate",
+    "up": "sovereign_horizon:block/binary_grate",
+    "north": "sovereign_horizon:block/binary_grate",
+    "east": "sovereign_horizon:block/binary_grate",
+    "south": "sovereign_horizon:block/binary_grate",
+    "west": "sovereign_horizon:block/binary_grate",
+    "particle": "sovereign_horizon:block/binary_grate"
+  },
+  "render_type": "cutout_mipped"
+}
