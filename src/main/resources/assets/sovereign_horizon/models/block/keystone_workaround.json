@@ -1,0 +1,9 @@
+{
+  "parent": "sovereign_horizon:custom/keystone",
+  "textures": {
+    "all": "sovereign_horizon:block/keystone",
+    "particle": "sovereign_horizon:block/keystone",
+    "0": "sovereign_horizon:block/keystone"
+  },
+  "render_type": "solid"
+}

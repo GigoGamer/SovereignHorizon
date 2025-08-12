@@ -1,0 +1,103 @@
+{
+  "_fv": 77,
+  "_type": "structure",
+  "definition": {
+    "structure": "binary_halls_start",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 15,
+    "separation": 10,
+    "restrictionBiomes": [
+      {
+        "value": "#mod:is_sh"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "UNDERGROUND_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": -40,
+    "startHeightMax": 10,
+    "size": 7,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "room",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 3,
+            "structure": "binary_halls_fourway",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 10,
+            "structure": "binary_halls_hall",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "binary_halls_secret_hall",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "binary_halls_special_room",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "binary_halls_upward_path",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 4,
+            "structure": "binary_halls_end_room",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "binary_halls_big_room",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "feature",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 5,
+            "structure": "binary_halls_chest",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "binary_halls_keystone",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "binary_halls_mine",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      }
+    ]
+  }
+}

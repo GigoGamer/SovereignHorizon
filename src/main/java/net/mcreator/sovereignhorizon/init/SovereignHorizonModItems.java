@@ -147,6 +147,7 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> BINARY_BRICK_STAIRS = block(SovereignHorizonModBlocks.BINARY_BRICK_STAIRS);
 	public static final RegistryObject<Item> BINARY_BRICKS = block(SovereignHorizonModBlocks.BINARY_BRICKS);
 	public static final RegistryObject<Item> BINARY_BRICK_SLAB = block(SovereignHorizonModBlocks.BINARY_BRICK_SLAB);
+	public static final RegistryObject<Item> KEYSTONE_WORKAROUND = block(SovereignHorizonModBlocks.KEYSTONE_WORKAROUND);
 
 	// Start of user code block custom items
 	// End of user code block custom items

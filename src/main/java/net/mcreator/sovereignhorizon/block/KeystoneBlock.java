@@ -110,7 +110,7 @@ public class KeystoneBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		KeystoneOnBlockRightClickedProcedure.execute(world, x, y, z, blockstate);
+		KeystoneOnBlockRightClickedProcedure.execute(world, x, y, z, blockstate, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

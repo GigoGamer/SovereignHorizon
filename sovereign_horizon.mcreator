@@ -5782,6 +5782,10 @@
             "type": "blockstate"
           },
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -6244,6 +6248,97 @@
         ]
       },
       "path": "~/Enchants/Bounding"
+    },
+    {
+      "name": "BinaryHallsLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "binary_halls_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/gameplay/binary_halls.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "BinaryHalls",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "binary_halls",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/binary_halls_feature.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/structure_set/binary_halls.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/structure/binary_halls.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/binary_halls_room.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/binary_halls.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "OnAndOff",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_and_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/on_and_off.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "KeystoneWorkaroundOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keystone_workaround_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/KeystoneWorkaroundOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Keystone"
+    },
+    {
+      "name": "KeystoneWorkaround",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keystone_workaround",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/blockstates/keystone_workaround.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/keystone_workaround.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/keystone_workaround.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/KeystoneWorkaroundBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/keystone_workaround.json"
+        ]
+      },
+      "path": "~/Blocks/Keystone"
     }
   ],
   "variable_elements": [],
@@ -6648,6 +6743,7 @@
       "block.sovereign_horizon.sodalite_brick_slab": "Sodalite Brick Slab",
       "item.sovereign_horizon.elixis_shard": "Elixis Shard",
       "block.sovereign_horizon.cracked_raw_marble_bricks": "Cracked Raw Marble Bricks",
+      "advancements.on_and_off.title": "On And Off",
       "block.sovereign_horizon.sparse_deep_lichen_covered_sodalite": "Sparse Deep Lichen Covered Sodalite",
       "block.sovereign_horizon.cracked_sodalite_tiles": "Cracked Sodalite Tiles",
       "block.sovereign_horizon.raw_marble_bricks": "Raw Marble Bricks",
@@ -6660,6 +6756,7 @@
       "death.attack.pressure.item": "%1$s was squashed by %2$s using %3$s",
       "advancements.carbonated_rock.title": "Carbonated Rock",
       "block.sovereign_horizon.cracked_sodalite_bricks": "Cracked Sodalite Bricks",
+      "block.sovereign_horizon.keystone_workaround": "Keystone Workaround",
       "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
       "block.sovereign_horizon.polished_sodalite_wall": "Polished Sodalite Wall",
       "block.sovereign_horizon.sodalite_pressure_plate": "Sodalite Pressure Plate",
@@ -6686,6 +6783,7 @@
       "key.sovereign_horizon.double_jump": "Double-Jump",
       "entity.sovereign_horizon.elixis_corrupted_enderman": "Elixis Corrupted Enderman",
       "block.sovereign_horizon.polished_sodalite_stairs": "Polished Sodalite Stairs",
+      "advancements.on_and_off.descr": "0100010101101110011000110110111101110101011011100111010001100101011100100010000001010100011010000110000101110100001000000100111101101110011001010010000001000101011011100110010101101101011110010010000001000110011100100110111101101101001000000100010001101111011011100110101101100101011110010010000001001011011011110110111001100111001000000100001001111001001000000100010001100101011000010110001101110100011010010111011001100001011101000110100101101110011001110010000001000001001000000100101101100101011110010111001101110100011011110110111001100101",
       "block.sovereign_horizon.cracked_raw_marble_tiles": "Cracked Raw Marble Tiles",
       "block.sovereign_horizon.polished_sodalite": "Polished Sodalite",
       "advancements.aint_nobody_got_time_for_that.title": "Aint Nobody Got Time For That",

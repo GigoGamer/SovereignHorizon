@@ -126,6 +126,22 @@
           }
         ]
       }
+    },
+    "corruption_cleanser_7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sovereign_horizon:binary_shard"
+            ],
+            "count": {
+              "min": 1,
+              "max": 99999
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {

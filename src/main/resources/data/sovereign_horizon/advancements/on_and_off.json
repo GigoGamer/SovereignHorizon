@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "sovereign_horizon:binary_shard"
+    },
+    "title": {
+      "translate": "advancements.on_and_off.title"
+    },
+    "description": {
+      "translate": "advancements.on_and_off.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "on_and_off_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "sovereign_horizon:sh_enter"
+}

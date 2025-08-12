@@ -32,5 +32,5 @@
       }
     }
   },
-  "parent": "sovereign_horizon:sh_enter"
+  "parent": "sovereign_horizon:on_and_off"
 }

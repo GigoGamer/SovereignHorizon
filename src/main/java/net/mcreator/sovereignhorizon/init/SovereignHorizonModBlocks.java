@@ -75,6 +75,7 @@ import net.mcreator.sovereignhorizon.block.MarbleBlock;
 import net.mcreator.sovereignhorizon.block.LiquidVoidBlock;
 import net.mcreator.sovereignhorizon.block.LepidoliteBlock;
 import net.mcreator.sovereignhorizon.block.LarimarBlock;
+import net.mcreator.sovereignhorizon.block.KeystoneWorkaroundBlock;
 import net.mcreator.sovereignhorizon.block.KeystoneBlock;
 import net.mcreator.sovereignhorizon.block.InfusionTableBlock;
 import net.mcreator.sovereignhorizon.block.GlowweedBlock;
@@ -196,6 +197,7 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> BINARY_BRICK_STAIRS = REGISTRY.register("binary_brick_stairs", () -> new BinaryBrickStairsBlock());
 	public static final RegistryObject<Block> BINARY_BRICKS = REGISTRY.register("binary_bricks", () -> new BinaryBricksBlock());
 	public static final RegistryObject<Block> BINARY_BRICK_SLAB = REGISTRY.register("binary_brick_slab", () -> new BinaryBrickSlabBlock());
+	public static final RegistryObject<Block> KEYSTONE_WORKAROUND = REGISTRY.register("keystone_workaround", () -> new KeystoneWorkaroundBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

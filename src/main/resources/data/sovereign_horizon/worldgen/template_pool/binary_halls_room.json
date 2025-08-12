@@ -1,0 +1,83 @@
+{
+  "name": "sovereign_horizon:binary_halls_room",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sovereign_horizon:binary_halls_fourway",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sovereign_horizon:binary_halls_hall",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sovereign_horizon:binary_halls_secret_hall",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sovereign_horizon:binary_halls_special_room",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sovereign_horizon:binary_halls_upward_path",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sovereign_horizon:binary_halls_end_room",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sovereign_horizon:binary_halls_big_room",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

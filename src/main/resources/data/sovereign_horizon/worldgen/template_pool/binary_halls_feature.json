@@ -1,0 +1,39 @@
+{
+  "name": "sovereign_horizon:binary_halls_feature",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sovereign_horizon:binary_halls_chest",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sovereign_horizon:binary_halls_keystone",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sovereign_horizon:binary_halls_mine",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}
