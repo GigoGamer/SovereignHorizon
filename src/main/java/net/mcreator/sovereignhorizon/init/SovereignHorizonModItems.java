@@ -137,7 +137,7 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> ASH_CRAWLER_SPAWN_EGG = REGISTRY.register("ash_crawler_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.ASH_CRAWLER, -16777216, -15395563, new Item.Properties()));
 	public static final RegistryObject<Item> RECORD_SUNRISE = REGISTRY.register("record_sunrise", () -> new RecordSunriseItem());
 	public static final RegistryObject<Item> KEYSTONE = block(SovereignHorizonModBlocks.KEYSTONE);
-	public static final RegistryObject<Item> GATE_CRYSTAL = block(SovereignHorizonModBlocks.GATE_CRYSTAL);
+	public static final RegistryObject<Item> SWITCHLING_SPAWN_EGG = REGISTRY.register("switchling_spawn_egg", () -> new ForgeSpawnEggItem(SovereignHorizonModEntities.SWITCHLING, -13369549, -16724992, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

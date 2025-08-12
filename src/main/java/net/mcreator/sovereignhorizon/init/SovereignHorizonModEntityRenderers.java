@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.sovereignhorizon.client.renderer.SwitchlingRenderer;
 import net.mcreator.sovereignhorizon.client.renderer.RivedGhastRenderer;
 import net.mcreator.sovereignhorizon.client.renderer.ElixiteProjectileRenderer;
 import net.mcreator.sovereignhorizon.client.renderer.ElixiteGolemRenderer;
@@ -28,5 +29,6 @@ public class SovereignHorizonModEntityRenderers {
 		event.registerEntityRenderer(SovereignHorizonModEntities.ELIXIS_CORRUPTED_ENDERMAN.get(), ElixisCorruptedEndermanRenderer::new);
 		event.registerEntityRenderer(SovereignHorizonModEntities.ELIXITE_PROJECTILE.get(), ElixiteProjectileRenderer::new);
 		event.registerEntityRenderer(SovereignHorizonModEntities.ASH_CRAWLER.get(), AshCrawlerRenderer::new);
+		event.registerEntityRenderer(SovereignHorizonModEntities.SWITCHLING.get(), SwitchlingRenderer::new);
 	}
 }

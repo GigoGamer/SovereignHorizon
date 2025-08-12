@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.sovereignhorizon.client.model.Modelswitchling;
 import net.mcreator.sovereignhorizon.client.model.Modelrived_ghast;
 import net.mcreator.sovereignhorizon.client.model.Modelovergrown_enderman;
 import net.mcreator.sovereignhorizon.client.model.Modelelixite_projectile;
@@ -24,6 +25,7 @@ public class SovereignHorizonModModels {
 		event.registerLayerDefinition(Modelelixite_golem.LAYER_LOCATION, Modelelixite_golem::createBodyLayer);
 		event.registerLayerDefinition(Modelrived_ghast.LAYER_LOCATION, Modelrived_ghast::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
+		event.registerLayerDefinition(Modelswitchling.LAYER_LOCATION, Modelswitchling::createBodyLayer);
 		event.registerLayerDefinition(Modelash_crawler.LAYER_LOCATION, Modelash_crawler::createBodyLayer);
 		event.registerLayerDefinition(Modeldesolate_creep.LAYER_LOCATION, Modeldesolate_creep::createBodyLayer);
 		event.registerLayerDefinition(Modelelixite_projectile.LAYER_LOCATION, Modelelixite_projectile::createBodyLayer);

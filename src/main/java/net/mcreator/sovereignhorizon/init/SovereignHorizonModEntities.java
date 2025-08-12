@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.sovereignhorizon.entity.SwitchlingEntity;
 import net.mcreator.sovereignhorizon.entity.RivedGhastEntity;
 import net.mcreator.sovereignhorizon.entity.ElixiteProjectileEntity;
 import net.mcreator.sovereignhorizon.entity.ElixiteGolemEntity;
@@ -53,6 +54,10 @@ public class SovereignHorizonModEntities {
 			EntityType.Builder.<AshCrawlerEntity>of(AshCrawlerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AshCrawlerEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SwitchlingEntity>> SWITCHLING = register("switchling",
+			EntityType.Builder.<SwitchlingEntity>of(SwitchlingEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SwitchlingEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -69,6 +74,7 @@ public class SovereignHorizonModEntities {
 			ElixiteGolemEntity.init();
 			ElixisCorruptedEndermanEntity.init();
 			AshCrawlerEntity.init();
+			SwitchlingEntity.init();
 		});
 	}
 
@@ -80,5 +86,6 @@ public class SovereignHorizonModEntities {
 		event.put(ELIXITE_GOLEM.get(), ElixiteGolemEntity.createAttributes().build());
 		event.put(ELIXIS_CORRUPTED_ENDERMAN.get(), ElixisCorruptedEndermanEntity.createAttributes().build());
 		event.put(ASH_CRAWLER.get(), AshCrawlerEntity.createAttributes().build());
+		event.put(SWITCHLING.get(), SwitchlingEntity.createAttributes().build());
 	}
 }

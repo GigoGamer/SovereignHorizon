@@ -5882,21 +5882,77 @@
       "path": "~/Blocks/Keystone"
     },
     {
-      "name": "GateCrystal",
-      "type": "block",
+      "name": "SwitchlingOnInitialEntitySpawn",
+      "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gate_crystal",
+      "registry_name": "switchling_on_initial_entity_spawn",
       "metadata": {
         "files": [
-          "src/main/resources/assets/sovereign_horizon/models/item/gate_crystal.json",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/gate_crystal.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/gate_crystal.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/gate_crystal.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/GateCrystalBlock.java"
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/SwitchlingOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
-      "path": "~/Blocks/Keystone"
+      "path": "~/Entities"
+    },
+    {
+      "name": "SwitchlingOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switchling_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/SwitchlingOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "Switchling",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switchling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/switchling_spawn_egg.json",
+          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/SwitchlingRenderer.java",
+          "src/main/java/net/mcreator/sovereignhorizon/entity/SwitchlingEntity.java"
+        ]
+      },
+      "path": "~/Entities"
     }
   ],
   "variable_elements": [],
@@ -6100,11 +6156,11 @@
     "en_us": {
       "block.sovereign_horizon.deep_lichen_covered_sodalite": "Deep Lichen Covered Sodalite",
       "item.sovereign_horizon.record_sunrise.desc": "Goshiggy - Sunrise",
-      "block.sovereign_horizon.marble_tile_stairs": "Marble Tile Stairs",
       "biome.sovereign_horizon.ash_field": "Ash Field",
-      "advancements.forgotten_memory.descr": "Obtain the mythical test block (It\u0027s one of a kind!)",
-      "item.sovereign_horizon.elixite_armor_chestplate": "Elixite Chestplate",
+      "block.sovereign_horizon.marble_tile_stairs": "Marble Tile Stairs",
       "key.sovereign_horizon.enchantment_ability": "Enchantment Ability",
+      "item.sovereign_horizon.elixite_armor_chestplate": "Elixite Chestplate",
+      "advancements.forgotten_memory.descr": "Obtain the mythical test block (It\u0027s one of a kind!)",
       "advancements.sh_enter.title": "A Sovereign Horizon",
       "block.sovereign_horizon.marble": "Marble",
       "block.sovereign_horizon.marble_tile_slab": "Marble Tile Slab",
@@ -6118,6 +6174,7 @@
       "advancements.carbonated_rock.descr": "Find sodalite",
       "item.sovereign_horizon.rived_ghast_spawn_egg": "Rived Ghast Spawn Egg",
       "block.sovereign_horizon.polished_sodalite_slab": "Polished Sodalite Slab",
+      "entity.sovereign_horizon.switchling": "Switchling",
       "advancements.enriched_ores.title": "Enriched Ores",
       "advancements.tear_in_the_fabricof_reality.descr": "Obtain a liquid void bucket, the key to entering the Sovereign Horizon",
       "block.sovereign_horizon.marble_brick_wall": "Marble Brick Wall",
@@ -6137,7 +6194,6 @@
       "block.sovereign_horizon.ashen_flower": "Ashen Flower",
       "block.sovereign_horizon.cracked_marble_bricks": "Cracked Marble Bricks",
       "block.sovereign_horizon.raw_marble_slab": "Raw Marble Slab",
-      "block.sovereign_horizon.gate_crystal": "Gate Crystal",
       "item.minecraft.lingering_potion.effect.levitation": "Lingering Potion of Levitation",
       "block.sovereign_horizon.raw_marble_pillar": "Raw Marble Pillar",
       "block.sovereign_horizon.marble_tiles": "Marble Tiles",
@@ -6235,6 +6291,7 @@
       "gui.sovereign_horizon.infusion_table_gui.button_infuse": "Infuse",
       "block.sovereign_horizon.marble_pillar": "Marble Pillar",
       "block.sovereign_horizon.marble_brick_stairs": "Marble Brick Stairs",
+      "item.sovereign_horizon.switchling_spawn_egg": "Switchling Spawn Egg",
       "subtitles.music.sh.sodalitewastes": "Music",
       "block.sovereign_horizon.sodalite_tile_stairs": "Sodalite Tile Stairs",
       "death.attack.pressure.player": "%1$s imploded whilst trying to escape %2$s",

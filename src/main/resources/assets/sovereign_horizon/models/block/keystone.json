@@ -2,7 +2,7 @@
   "parent": "sovereign_horizon:custom/keystone",
   "textures": {
     "all": "sovereign_horizon:block/keystone",
-    "particle": "sovereign_horizon:block/keystone",
+    "particle": "sovereign_horizon:block/cobbled_sodalite",
     "0": "sovereign_horizon:block/keystone"
   },
   "render_type": "solid"

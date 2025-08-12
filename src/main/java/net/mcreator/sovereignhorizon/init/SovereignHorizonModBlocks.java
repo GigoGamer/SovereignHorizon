@@ -78,7 +78,6 @@ import net.mcreator.sovereignhorizon.block.LarimarBlock;
 import net.mcreator.sovereignhorizon.block.KeystoneBlock;
 import net.mcreator.sovereignhorizon.block.InfusionTableBlock;
 import net.mcreator.sovereignhorizon.block.GlowweedBlock;
-import net.mcreator.sovereignhorizon.block.GateCrystalBlock;
 import net.mcreator.sovereignhorizon.block.DepthSproutBlock;
 import net.mcreator.sovereignhorizon.block.DeepLichenCoveredSodaliteBlock;
 import net.mcreator.sovereignhorizon.block.CreepmineBlock;
@@ -183,7 +182,6 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> CREEPMINE = REGISTRY.register("creepmine", () -> new CreepmineBlock());
 	public static final RegistryObject<Block> GLOWWEED = REGISTRY.register("glowweed", () -> new GlowweedBlock());
 	public static final RegistryObject<Block> KEYSTONE = REGISTRY.register("keystone", () -> new KeystoneBlock());
-	public static final RegistryObject<Block> GATE_CRYSTAL = REGISTRY.register("gate_crystal", () -> new GateCrystalBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

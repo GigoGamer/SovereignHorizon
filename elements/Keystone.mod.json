@@ -15,7 +15,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "keystone",
-    "particleTexture": "",
+    "particleTexture": "cobbled_sodalite",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,

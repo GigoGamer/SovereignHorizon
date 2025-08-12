@@ -122,6 +122,6 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModItems.ASH_CRAWLER_SPAWN_EGG.get());
 				tabData.accept(SovereignHorizonModItems.RECORD_SUNRISE.get());
 				tabData.accept(SovereignHorizonModBlocks.KEYSTONE.get().asItem());
-				tabData.accept(SovereignHorizonModBlocks.GATE_CRYSTAL.get().asItem());
+				tabData.accept(SovereignHorizonModItems.SWITCHLING_SPAWN_EGG.get());
 			}).build());
 }
