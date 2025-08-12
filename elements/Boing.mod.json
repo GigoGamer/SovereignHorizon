@@ -5,7 +5,7 @@
     "achievementName": "Boing!",
     "achievementDescription": "Use the bounding enchantment to double jump",
     "achievementIcon": {
-      "value": "Items.RABBIT_FOOT"
+      "value": "CUSTOM:BlueskinBoots.boots"
     },
     "background": "Default",
     "disableDisplay": false,

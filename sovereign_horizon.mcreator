@@ -1840,10 +1840,10 @@
       "registry_name": "rived_ghast",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/RivedGhastRenderer.java",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/rived_ghast_biome_modifier.json",
           "src/main/resources/assets/sovereign_horizon/models/item/rived_ghast_spawn_egg.json",
           "src/main/java/net/mcreator/sovereignhorizon/entity/RivedGhastEntity.java",
-          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/rived_ghast_biome_modifier.json"
+          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/RivedGhastRenderer.java"
         ]
       },
       "path": "~/Entities"
@@ -1873,8 +1873,8 @@
       "registry_name": "ash_field",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/ash_field_tree.json",
           "src/main/resources/data/sovereign_horizon/worldgen/biome/ash_field.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/ash_field_tree.json",
           "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/ash_field_tree.json"
         ]
       },
@@ -4772,10 +4772,10 @@
       "registry_name": "desolate_creeper",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/entity/DesolateCreeperEntity.java",
-          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/DesolateCreeperRenderer.java",
           "src/main/resources/assets/sovereign_horizon/models/item/desolate_creeper_spawn_egg.json",
-          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/desolate_creeper_biome_modifier.json"
+          "src/main/java/net/mcreator/sovereignhorizon/entity/DesolateCreeperEntity.java",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/desolate_creeper_biome_modifier.json",
+          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/DesolateCreeperRenderer.java"
         ]
       },
       "path": "~/Entities"
@@ -4933,8 +4933,8 @@
         "files": [
           "src/main/java/net/mcreator/sovereignhorizon/entity/ElixiteGolemEntity.java",
           "src/main/java/net/mcreator/sovereignhorizon/client/renderer/ElixiteGolemRenderer.java",
-          "src/main/resources/assets/sovereign_horizon/models/item/elixite_golem_spawn_egg.json",
-          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/elixite_golem_biome_modifier.json"
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/elixite_golem_biome_modifier.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/elixite_golem_spawn_egg.json"
         ]
       },
       "path": "~/Entities"
@@ -5066,10 +5066,10 @@
       "registry_name": "elixis_corrupted_enderman",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/elixis_corrupted_enderman_biome_modifier.json",
-          "src/main/java/net/mcreator/sovereignhorizon/entity/ElixisCorruptedEndermanEntity.java",
           "src/main/java/net/mcreator/sovereignhorizon/client/renderer/ElixisCorruptedEndermanRenderer.java",
-          "src/main/resources/assets/sovereign_horizon/models/item/elixis_corrupted_enderman_spawn_egg.json"
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/elixis_corrupted_enderman_biome_modifier.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/elixis_corrupted_enderman_spawn_egg.json",
+          "src/main/java/net/mcreator/sovereignhorizon/entity/ElixisCorruptedEndermanEntity.java"
         ]
       },
       "path": "~/Entities"
@@ -5265,8 +5265,8 @@
       "registry_name": "elixite_projectile",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/ElixiteProjectileRenderer.java",
-          "src/main/java/net/mcreator/sovereignhorizon/entity/ElixiteProjectileEntity.java"
+          "src/main/java/net/mcreator/sovereignhorizon/entity/ElixiteProjectileEntity.java",
+          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/ElixiteProjectileRenderer.java"
         ]
       },
       "path": "~/Entities"
@@ -5305,37 +5305,6 @@
         ]
       },
       "path": "~/Items"
-    },
-    {
-      "name": "ElixiteProjectileWhileProjectileFlyingTick",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "elixite_projectile_while_projectile_flying_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/procedures/ElixiteProjectileWhileProjectileFlyingTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Entities"
     },
     {
       "name": "Creepmine",
@@ -5578,9 +5547,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/sovereignhorizon/entity/AshCrawlerEntity.java",
-          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/AshCrawlerRenderer.java",
           "src/main/resources/data/sovereign_horizon/forge/biome_modifier/ash_crawler_biome_modifier.json",
-          "src/main/resources/assets/sovereign_horizon/models/item/ash_crawler_spawn_egg.json"
+          "src/main/resources/assets/sovereign_horizon/models/item/ash_crawler_spawn_egg.json",
+          "src/main/java/net/mcreator/sovereignhorizon/client/renderer/AshCrawlerRenderer.java"
         ]
       },
       "path": "~/Entities"
@@ -5953,6 +5922,19 @@
         ]
       },
       "path": "~/Entities"
+    },
+    {
+      "name": "DoubleJump",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_jump",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/network/DoubleJumpMessage.java"
+        ]
+      },
+      "path": "~/Enchants/Bounding"
     }
   ],
   "variable_elements": [],
@@ -6151,7 +6133,112 @@
       "~CUSTOM:SodaliteStairs"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:SovereignHorizon": [
+      "Sodalite",
+      "SodaliteStairs",
+      "SodaliteSlab",
+      "SodaliteWall",
+      "SodalitePressurePlate",
+      "SodaliteButton",
+      "CobbledSodalite",
+      "CobbledSodaliteStairs",
+      "CobbledSodaliteSlab",
+      "CobbledSodaliteWall",
+      "PolishedSodalite",
+      "PolishedSodaliteStairs",
+      "PolishedSodaliteSlab",
+      "PolishedSodaliteWall",
+      "SodaliteBricks",
+      "SodaliteBrickStairs",
+      "SodaliteBrickSlab",
+      "SodaliteBrickWall",
+      "CrackedSodaliteBricks",
+      "SodaliteTiles",
+      "SodaliteTileStairs",
+      "SodaliteTileSlab",
+      "SodaliteTileWall",
+      "CrackedSodaliteTiles",
+      "SparseDeepLichenCoveredSodalite",
+      "DeepLichenCoveredSodalite",
+      "SodaliteQuartzOre",
+      "SodaliteEmeraldOre",
+      "SodaliteLapisLazuliOre",
+      "SodaliteRedstoneOre",
+      "SodaliteDiamondOre",
+      "Larimar",
+      "Lepidolite",
+      "Thulite",
+      "Ash",
+      "InfusionTable",
+      "BlockofElixisShards",
+      "ElixisShard",
+      "ElixisUpgradeSmithingTemplate",
+      "ElixiteArmor",
+      "BlueskinBoots",
+      "CatechismWing",
+      "Blueskin",
+      "Creepmine",
+      "CorruptedPearl",
+      "RawCorruptedFlesh",
+      "CookedCorruptedFlesh",
+      "AshyFlesh",
+      "TotemofChance",
+      "RecordSunrise",
+      "LiquidVoid",
+      "Marble",
+      "MarbleStairs",
+      "MarbleSlab",
+      "MarbleWall",
+      "PolishedMarble",
+      "PolishedMarbleStairs",
+      "PolishedMarbleSlab",
+      "PolishedMarbleWall",
+      "MarbleBricks",
+      "CrackedMarbleBricks",
+      "MarbleBrickStairs",
+      "MarbleBrickSlab",
+      "MarbleBrickWall",
+      "MarbleTiles",
+      "CrackedMarbleTiles",
+      "MarbleTileStairs",
+      "MarbleTileSlab",
+      "MarbleTileWall",
+      "MarblePillar",
+      "RawMarble",
+      "RawMarbleStairs",
+      "RawMarbleSlab",
+      "RawMarbleWall",
+      "PolishedRawMarble",
+      "PolishedRawMarbleStairs",
+      "PolishedRawMarbleSlab",
+      "PolishedRawMarbleWall",
+      "RawMarbleBricks",
+      "CrackedRawMarbleBricks",
+      "RawMarbleBrickStairs",
+      "RawMarbleBrickSlab",
+      "RawMarbleBrickWall",
+      "RawMarbleTiles",
+      "CrackedRawMarbleTiles",
+      "RawMarbleTileStairs",
+      "RawMarbleTileSlab",
+      "RawMarbleTileWall",
+      "RawMarblePillar",
+      "Keystone",
+      "Reachflower",
+      "DepthSprout",
+      "AshenFlower",
+      "ShortSprouts",
+      "Glowweed",
+      "Catechism",
+      "RivedGhast",
+      "DesolateCreeper",
+      "ElixiteGolem",
+      "ElixisCorruptedEnderman",
+      "AshCrawler",
+      "Switchling"
+    ]
+  },
   "language_map": {
     "en_us": {
       "block.sovereign_horizon.deep_lichen_covered_sodalite": "Deep Lichen Covered Sodalite",
@@ -6271,6 +6358,7 @@
       "block.sovereign_horizon.depth_sprout": "Depth Sprout",
       "block.sovereign_horizon.marble_brick_slab": "Marble Brick Slab",
       "item.sovereign_horizon.totemof_chance": "Totem of Chance",
+      "key.sovereign_horizon.double_jump": "Double-Jump",
       "entity.sovereign_horizon.elixis_corrupted_enderman": "Elixis Corrupted Enderman",
       "block.sovereign_horizon.polished_sodalite_stairs": "Polished Sodalite Stairs",
       "block.sovereign_horizon.cracked_raw_marble_tiles": "Cracked Raw Marble Tiles",

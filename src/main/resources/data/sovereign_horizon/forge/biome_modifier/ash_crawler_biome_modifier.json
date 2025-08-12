@@ -3,7 +3,7 @@
   "biomes": "sovereign_horizon:ash_field",
   "spawners": {
     "type": "sovereign_horizon:ash_crawler",
-    "weight": 8,
+    "weight": 25,
     "minCount": 1,
     "maxCount": 4
   }

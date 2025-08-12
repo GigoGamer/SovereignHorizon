@@ -6,7 +6,7 @@
   ],
   "spawners": {
     "type": "sovereign_horizon:elixis_corrupted_enderman",
-    "weight": 3,
+    "weight": 2,
     "minCount": 1,
     "maxCount": 1
   }
