@@ -2,49 +2,43 @@
   "_fv": 77,
   "_type": "block",
   "definition": {
-    "texture": "keystone",
+    "texture": "gatecrystal",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "keystone:default",
-    "rotationMode": 1,
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "keystone",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 2.5,
+        "mx": 0.0,
         "my": 0.0,
-        "mz": 2.5,
-        "Mx": 13.5,
-        "My": 22.0,
-        "Mz": 13.5,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
-    "customProperties": [
-      {
-        "name": "CUSTOM:active",
-        "type": "logic",
-        "value": true
-      }
-    ],
-    "name": "Keystone",
+    "customProperties": [],
+    "name": "Gate Crystal",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": -1.0,
+    "hardness": 1000.0,
     "resistance": 2000000.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -63,11 +57,11 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 6,
     "material": {
       "value": "NONE"
     },
-    "tickRate": 5,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -90,7 +84,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "AMETHYST_BLOCK"
     },
     "breakSound": {
       "value": ""
@@ -107,7 +101,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 5,
+    "luminance": 0,
     "unbreakable": true,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
@@ -127,12 +121,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "KeystoneOnBlockRightClicked"
-    },
-    "onTickUpdate": {
-      "name": "KeystoneOnTickUpdate"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

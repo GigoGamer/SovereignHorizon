@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModTabs;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModSounds;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModPotions;
+import net.mcreator.sovereignhorizon.init.SovereignHorizonModParticleTypes;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModMenus;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModItems;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModFluids;
@@ -57,6 +58,8 @@ public class SovereignHorizonMod {
 		SovereignHorizonModTabs.REGISTRY.register(bus);
 
 		SovereignHorizonModPotions.REGISTRY.register(bus);
+
+		SovereignHorizonModParticleTypes.REGISTRY.register(bus);
 
 		SovereignHorizonModMenus.REGISTRY.register(bus);
 		SovereignHorizonModFluids.REGISTRY.register(bus);

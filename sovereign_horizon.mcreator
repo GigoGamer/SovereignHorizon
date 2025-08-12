@@ -5795,7 +5795,108 @@
           "src/main/resources/assets/sovereign_horizon/models/block/keystone.json"
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Blocks/Keystone"
+    },
+    {
+      "name": "KeystoneOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keystone_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/KeystoneOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Keystone"
+    },
+    {
+      "name": "KeystoneMagic",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keystone_magic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/client/particle/KeystoneMagicParticle.java",
+          "src/main/resources/assets/sovereign_horizon/particles/keystone_magic.json"
+        ]
+      },
+      "path": "~/Blocks/Keystone"
+    },
+    {
+      "name": "KeystoneOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keystone_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/KeystoneOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Keystone"
+    },
+    {
+      "name": "GateCrystal",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gate_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/gate_crystal.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/gate_crystal.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/gate_crystal.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/gate_crystal.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/GateCrystalBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Keystone"
     }
   ],
   "variable_elements": [],
@@ -6036,6 +6137,7 @@
       "block.sovereign_horizon.ashen_flower": "Ashen Flower",
       "block.sovereign_horizon.cracked_marble_bricks": "Cracked Marble Bricks",
       "block.sovereign_horizon.raw_marble_slab": "Raw Marble Slab",
+      "block.sovereign_horizon.gate_crystal": "Gate Crystal",
       "item.minecraft.lingering_potion.effect.levitation": "Lingering Potion of Levitation",
       "block.sovereign_horizon.raw_marble_pillar": "Raw Marble Pillar",
       "block.sovereign_horizon.marble_tiles": "Marble Tiles",
@@ -6228,6 +6330,10 @@
           },
           {
             "name": "Sodalite",
+            "children": []
+          },
+          {
+            "name": "Keystone",
             "children": []
           }
         ]
