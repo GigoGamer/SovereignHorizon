@@ -6339,6 +6339,21 @@
         ]
       },
       "path": "~/Blocks/Keystone"
+    },
+    {
+      "name": "CreepMineGeneration",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creep_mine_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/creep_mine_generation.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/creep_mine_generation_biome_modifier.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/creep_mine_generation.json"
+        ]
+      },
+      "path": "~/Features"
     }
   ],
   "variable_elements": [],

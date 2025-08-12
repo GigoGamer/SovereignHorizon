@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "sovereign_horizon:creep_mine_generation",
+  "step": "vegetal_decoration"
+}
