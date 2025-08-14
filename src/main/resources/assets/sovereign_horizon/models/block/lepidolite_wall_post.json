@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "sovereign_horizon:block/lepidolite",
+    "particle": "sovereign_horizon:block/lepidolite"
+  },
+  "render_type": "solid"
+}

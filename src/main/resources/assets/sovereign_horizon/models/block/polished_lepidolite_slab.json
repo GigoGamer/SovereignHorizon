@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "sovereign_horizon:block/polished_lepidolite",
+    "bottom": "sovereign_horizon:block/polished_lepidolite",
+    "top": "sovereign_horizon:block/polished_lepidolite",
+    "side": "sovereign_horizon:block/polished_lepidolite"
+  },
+  "render_type": "solid"
+}

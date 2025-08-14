@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BinaryBrickWall"
+      "value": "CUSTOM:BinaryBrickSlab"
     },
     "name": "binary_brick_slab_recipe",
     "namespace": "mod"

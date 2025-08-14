@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "thulite_wall",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:Thulite"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:ThuliteWall"
+    },
+    "name": "thulite_wall_stonecutting",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "polished_thulite_stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:polished_thulite"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:polished_thulite_stairs",
+    "count": 4
+  }
+}

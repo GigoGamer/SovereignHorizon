@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "polished_larimar_wall",
+  "count": 1,
+  "ingredient": {
+    "item": "sovereign_horizon:polished_larimar"
+  },
+  "result": "sovereign_horizon:polished_larimar_wall"
+}

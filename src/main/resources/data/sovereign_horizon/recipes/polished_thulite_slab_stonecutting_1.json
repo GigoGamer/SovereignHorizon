@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "polished_thulite_slab",
+  "count": 2,
+  "ingredient": {
+    "item": "sovereign_horizon:thulite"
+  },
+  "result": "sovereign_horizon:polished_thulite_slab"
+}

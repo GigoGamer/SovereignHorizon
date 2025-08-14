@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "polished_thulite_wall",
+  "count": 1,
+  "ingredient": {
+    "item": "sovereign_horizon:polished_thulite"
+  },
+  "result": "sovereign_horizon:polished_thulite_wall"
+}

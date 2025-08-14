@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 2,
+    "group": "polished_lepidolite_slab",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:PolishedLepidolite"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:PolishedLepidoliteSlab"
+    },
+    "name": "polished_lepidolite_slab_stonecutting_2",
+    "namespace": "mod"
+  }
+}

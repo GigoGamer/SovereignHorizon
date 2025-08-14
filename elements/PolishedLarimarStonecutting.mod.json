@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "polished_larimar",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:Larimar"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:PolishedLarimar"
+    },
+    "name": "polished_larimar_stonecutting",
+    "namespace": "mod"
+  }
+}

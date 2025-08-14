@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "thulite_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:thulite"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:thulite_slab",
+    "count": 6
+  }
+}

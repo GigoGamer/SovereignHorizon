@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "polished_lepidolite_stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:polished_lepidolite"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:polished_lepidolite_stairs",
+    "count": 4
+  }
+}
