@@ -14,6 +14,9 @@ import net.mcreator.sovereignhorizon.block.ThuliteWallBlock;
 import net.mcreator.sovereignhorizon.block.ThuliteStairsBlock;
 import net.mcreator.sovereignhorizon.block.ThuliteSlabBlock;
 import net.mcreator.sovereignhorizon.block.ThuliteBlock;
+import net.mcreator.sovereignhorizon.block.TestWallBlock;
+import net.mcreator.sovereignhorizon.block.TestStairsBlock;
+import net.mcreator.sovereignhorizon.block.TestSlabBlock;
 import net.mcreator.sovereignhorizon.block.TestBlock;
 import net.mcreator.sovereignhorizon.block.SparseDeepLichenCoveredSodaliteBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteWallBlock;
@@ -240,6 +243,9 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> POLISHED_THULITE_STAIRS = REGISTRY.register("polished_thulite_stairs", () -> new PolishedThuliteStairsBlock());
 	public static final RegistryObject<Block> POLISHED_THULITE_SLAB = REGISTRY.register("polished_thulite_slab", () -> new PolishedThuliteSlabBlock());
 	public static final RegistryObject<Block> POLISHED_THULITE_WALL = REGISTRY.register("polished_thulite_wall", () -> new PolishedThuliteWallBlock());
+	public static final RegistryObject<Block> TEST_STAIRS = REGISTRY.register("test_stairs", () -> new TestStairsBlock());
+	public static final RegistryObject<Block> TEST_SLAB = REGISTRY.register("test_slab", () -> new TestSlabBlock());
+	public static final RegistryObject<Block> TEST_WALL = REGISTRY.register("test_wall", () -> new TestWallBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

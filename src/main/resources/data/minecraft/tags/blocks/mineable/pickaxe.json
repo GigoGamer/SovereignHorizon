@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:test_wall",
+    "sovereign_horizon:test_slab",
+    "sovereign_horizon:test_stairs",
     "sovereign_horizon:polished_thulite_wall",
     "sovereign_horizon:polished_thulite_slab",
     "sovereign_horizon:polished_thulite_stairs",

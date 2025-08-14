@@ -18,6 +18,7 @@ import net.mcreator.sovereignhorizon.item.TotemofChanceItem;
 import net.mcreator.sovereignhorizon.item.RecordSunriseItem;
 import net.mcreator.sovereignhorizon.item.RawCorruptedFleshItem;
 import net.mcreator.sovereignhorizon.item.LiquidVoidItem;
+import net.mcreator.sovereignhorizon.item.ErrorPearlItem;
 import net.mcreator.sovereignhorizon.item.ElixiteArmorItem;
 import net.mcreator.sovereignhorizon.item.ElixisUpgradeSmithingTemplateItem;
 import net.mcreator.sovereignhorizon.item.ElixisShardItem;
@@ -169,6 +170,10 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> POLISHED_THULITE_STAIRS = block(SovereignHorizonModBlocks.POLISHED_THULITE_STAIRS);
 	public static final RegistryObject<Item> POLISHED_THULITE_SLAB = block(SovereignHorizonModBlocks.POLISHED_THULITE_SLAB);
 	public static final RegistryObject<Item> POLISHED_THULITE_WALL = block(SovereignHorizonModBlocks.POLISHED_THULITE_WALL);
+	public static final RegistryObject<Item> ERROR_PEARL = REGISTRY.register("error_pearl", () -> new ErrorPearlItem());
+	public static final RegistryObject<Item> TEST_STAIRS = block(SovereignHorizonModBlocks.TEST_STAIRS);
+	public static final RegistryObject<Item> TEST_SLAB = block(SovereignHorizonModBlocks.TEST_SLAB);
+	public static final RegistryObject<Item> TEST_WALL = block(SovereignHorizonModBlocks.TEST_WALL);
 
 	// Start of user code block custom items
 	// End of user code block custom items
