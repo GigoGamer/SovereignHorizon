@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "larimar_wall",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:larimar"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:larimar_wall",
+    "count": 6
+  }
+}

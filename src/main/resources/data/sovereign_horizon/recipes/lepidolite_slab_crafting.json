@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lepidolite_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:lepidolite"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:lepidolite_slab",
+    "count": 6
+  }
+}

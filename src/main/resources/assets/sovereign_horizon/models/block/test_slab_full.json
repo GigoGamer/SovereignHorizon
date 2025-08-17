@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "sovereign_horizon:block/test",
+    "bottom": "sovereign_horizon:block/test",
+    "top": "sovereign_horizon:block/test",
+    "side": "sovereign_horizon:block/test"
+  },
+  "render_type": "solid"
+}

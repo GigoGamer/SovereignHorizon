@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "test_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Test"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Test"
+      },
+      {
+        "value": "CUSTOM:Test"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Test"
+      },
+      {
+        "value": "CUSTOM:Test"
+      },
+      {
+        "value": "CUSTOM:Test"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TestStairs"
+    },
+    "name": "test_stairs_crafting",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "lepidolite_wall",
+  "count": 1,
+  "ingredient": {
+    "item": "sovereign_horizon:lepidolite"
+  },
+  "result": "sovereign_horizon:lepidolite_wall"
+}

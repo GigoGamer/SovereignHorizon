@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "test_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:test"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:test_slab",
+    "count": 6
+  }
+}

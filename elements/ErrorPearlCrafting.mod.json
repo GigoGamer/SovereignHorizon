@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "error_pearl",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BinaryShard"
+      },
+      {
+        "value": "CUSTOM:Test"
+      },
+      {
+        "value": "CUSTOM:BinaryShard"
+      },
+      {
+        "value": "CUSTOM:Test"
+      },
+      {
+        "value": "CUSTOM:CorruptedPearl"
+      },
+      {
+        "value": "CUSTOM:Test"
+      },
+      {
+        "value": "CUSTOM:BinaryShard"
+      },
+      {
+        "value": "CUSTOM:Test"
+      },
+      {
+        "value": "CUSTOM:BinaryShard"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ErrorPearl"
+    },
+    "name": "error_pearl_crafting",
+    "namespace": "mod"
+  }
+}

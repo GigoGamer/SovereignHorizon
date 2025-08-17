@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "polished_lepidolite_wall",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:polished_lepidolite"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:polished_lepidolite_wall",
+    "count": 6
+  }
+}

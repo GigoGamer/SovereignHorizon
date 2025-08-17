@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "error_pearl",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:binary_shard"
+    },
+    "b": {
+      "item": "sovereign_horizon:test"
+    },
+    "c": {
+      "item": "sovereign_horizon:corrupted_pearl"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:error_pearl",
+    "count": 1
+  }
+}

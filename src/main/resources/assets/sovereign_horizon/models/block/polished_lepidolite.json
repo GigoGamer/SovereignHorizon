@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sovereign_horizon:block/polished_lepidolite",
+    "up": "sovereign_horizon:block/polished_lepidolite",
+    "north": "sovereign_horizon:block/polished_lepidolite",
+    "east": "sovereign_horizon:block/polished_lepidolite",
+    "south": "sovereign_horizon:block/polished_lepidolite",
+    "west": "sovereign_horizon:block/polished_lepidolite",
+    "particle": "sovereign_horizon:block/polished_lepidolite"
+  },
+  "render_type": "solid"
+}

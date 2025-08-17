@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "sovereign_horizon:block/polished_thulite",
+    "bottom": "sovereign_horizon:block/polished_thulite",
+    "top": "sovereign_horizon:block/polished_thulite",
+    "side": "sovereign_horizon:block/polished_thulite"
+  },
+  "render_type": "solid"
+}

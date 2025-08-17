@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "polished_larimar_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:polished_larimar"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:polished_larimar_slab",
+    "count": 6
+  }
+}

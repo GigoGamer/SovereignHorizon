@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sovereign_horizon:block/polished_larimar",
+    "up": "sovereign_horizon:block/polished_larimar",
+    "north": "sovereign_horizon:block/polished_larimar",
+    "east": "sovereign_horizon:block/polished_larimar",
+    "south": "sovereign_horizon:block/polished_larimar",
+    "west": "sovereign_horizon:block/polished_larimar",
+    "particle": "sovereign_horizon:block/polished_larimar"
+  },
+  "render_type": "solid"
+}

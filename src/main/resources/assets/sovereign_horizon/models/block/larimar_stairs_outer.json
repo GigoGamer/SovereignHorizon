@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "sovereign_horizon:block/larimar",
+    "bottom": "sovereign_horizon:block/larimar",
+    "top": "sovereign_horizon:block/larimar",
+    "side": "sovereign_horizon:block/larimar"
+  },
+  "render_type": "solid"
+}

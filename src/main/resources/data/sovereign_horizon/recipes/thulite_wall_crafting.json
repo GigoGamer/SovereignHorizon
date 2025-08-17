@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "thulite_wall",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:thulite"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:thulite_wall",
+    "count": 6
+  }
+}

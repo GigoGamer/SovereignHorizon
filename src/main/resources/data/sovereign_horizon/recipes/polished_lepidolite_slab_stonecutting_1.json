@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "polished_lepidolite_slab",
+  "count": 2,
+  "ingredient": {
+    "item": "sovereign_horizon:lepidolite"
+  },
+  "result": "sovereign_horizon:polished_lepidolite_slab"
+}

@@ -4,7 +4,7 @@
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 4,
-    "group": "binary",
+    "group": "polished_thulite_stairs",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:PolishedThulite"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BinaryBricks"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedThulite"
+      },
+      {
+        "value": "CUSTOM:PolishedThulite"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BinaryBricks"
+        "value": "CUSTOM:PolishedThulite"
       },
       {
-        "value": "CUSTOM:BinaryBricks"
+        "value": "CUSTOM:PolishedThulite"
       },
       {
-        "value": "CUSTOM:BinaryBricks"
-      },
-      {
-        "value": "CUSTOM:BinaryBricks"
-      },
-      {
-        "value": "CUSTOM:BinaryBricks"
+        "value": "CUSTOM:PolishedThulite"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BinaryBrickSlab"
+      "value": "CUSTOM:PolishedThuliteStairs"
     },
-    "name": "binary_brick_stairs_recipe_2",
+    "name": "polished_thulite_stairs_crafting",
     "namespace": "mod"
   }
 }
