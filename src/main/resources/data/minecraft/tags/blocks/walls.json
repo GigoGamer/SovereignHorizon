@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:test_wall",
+    "sovereign_horizon:polished_thulite_wall",
+    "sovereign_horizon:thulite_wall",
+    "sovereign_horizon:polished_lepidolite_wall",
+    "sovereign_horizon:lepidolite_wall",
+    "sovereign_horizon:polished_larimar_wall",
+    "sovereign_horizon:larimar_wall",
     "sovereign_horizon:binary_brick_wall",
     "sovereign_horizon:marble_brick_wall",
     "sovereign_horizon:raw_marble_tile_wall",

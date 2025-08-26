@@ -15,7 +15,7 @@ import net.minecraft.core.BlockPos;
 
 public class SparseDeepLichenCoveredSodaliteBlock extends Block {
 	public SparseDeepLichenCoveredSodaliteBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(4.75f, 9f).lightLevel(s -> 2).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(4.75f, 9f).lightLevel(s -> 4).requiresCorrectToolForDrops());
 	}
 
 	@Override

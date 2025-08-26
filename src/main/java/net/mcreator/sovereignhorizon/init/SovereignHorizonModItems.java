@@ -18,6 +18,7 @@ import net.mcreator.sovereignhorizon.item.TotemofChanceItem;
 import net.mcreator.sovereignhorizon.item.RecordSunriseItem;
 import net.mcreator.sovereignhorizon.item.RawCorruptedFleshItem;
 import net.mcreator.sovereignhorizon.item.LiquidVoidItem;
+import net.mcreator.sovereignhorizon.item.ErrorPearlItem;
 import net.mcreator.sovereignhorizon.item.ElixiteArmorItem;
 import net.mcreator.sovereignhorizon.item.ElixisUpgradeSmithingTemplateItem;
 import net.mcreator.sovereignhorizon.item.ElixisShardItem;
@@ -148,6 +149,31 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> BINARY_BRICKS = block(SovereignHorizonModBlocks.BINARY_BRICKS);
 	public static final RegistryObject<Item> BINARY_BRICK_SLAB = block(SovereignHorizonModBlocks.BINARY_BRICK_SLAB);
 	public static final RegistryObject<Item> KEYSTONE_WORKAROUND = block(SovereignHorizonModBlocks.KEYSTONE_WORKAROUND);
+	public static final RegistryObject<Item> LARIMAR_STAIRS = block(SovereignHorizonModBlocks.LARIMAR_STAIRS);
+	public static final RegistryObject<Item> LARIMAR_SLAB = block(SovereignHorizonModBlocks.LARIMAR_SLAB);
+	public static final RegistryObject<Item> LARIMAR_WALL = block(SovereignHorizonModBlocks.LARIMAR_WALL);
+	public static final RegistryObject<Item> POLISHED_LARIMAR = block(SovereignHorizonModBlocks.POLISHED_LARIMAR);
+	public static final RegistryObject<Item> POLISHED_LARIMAR_STAIRS = block(SovereignHorizonModBlocks.POLISHED_LARIMAR_STAIRS);
+	public static final RegistryObject<Item> POLISHED_LARIMAR_SLAB = block(SovereignHorizonModBlocks.POLISHED_LARIMAR_SLAB);
+	public static final RegistryObject<Item> POLISHED_LARIMAR_WALL = block(SovereignHorizonModBlocks.POLISHED_LARIMAR_WALL);
+	public static final RegistryObject<Item> LEPIDOLITE_STAIRS = block(SovereignHorizonModBlocks.LEPIDOLITE_STAIRS);
+	public static final RegistryObject<Item> LEPIDOLITE_SLAB = block(SovereignHorizonModBlocks.LEPIDOLITE_SLAB);
+	public static final RegistryObject<Item> LEPIDOLITE_WALL = block(SovereignHorizonModBlocks.LEPIDOLITE_WALL);
+	public static final RegistryObject<Item> POLISHED_LEPIDOLITE = block(SovereignHorizonModBlocks.POLISHED_LEPIDOLITE);
+	public static final RegistryObject<Item> POLISHED_LEPIDOLITE_STAIRS = block(SovereignHorizonModBlocks.POLISHED_LEPIDOLITE_STAIRS);
+	public static final RegistryObject<Item> POLISHED_LEPIDOLITE_SLAB = block(SovereignHorizonModBlocks.POLISHED_LEPIDOLITE_SLAB);
+	public static final RegistryObject<Item> POLISHED_LEPIDOLITE_WALL = block(SovereignHorizonModBlocks.POLISHED_LEPIDOLITE_WALL);
+	public static final RegistryObject<Item> THULITE_STAIRS = block(SovereignHorizonModBlocks.THULITE_STAIRS);
+	public static final RegistryObject<Item> THULITE_SLAB = block(SovereignHorizonModBlocks.THULITE_SLAB);
+	public static final RegistryObject<Item> THULITE_WALL = block(SovereignHorizonModBlocks.THULITE_WALL);
+	public static final RegistryObject<Item> POLISHED_THULITE = block(SovereignHorizonModBlocks.POLISHED_THULITE);
+	public static final RegistryObject<Item> POLISHED_THULITE_STAIRS = block(SovereignHorizonModBlocks.POLISHED_THULITE_STAIRS);
+	public static final RegistryObject<Item> POLISHED_THULITE_SLAB = block(SovereignHorizonModBlocks.POLISHED_THULITE_SLAB);
+	public static final RegistryObject<Item> POLISHED_THULITE_WALL = block(SovereignHorizonModBlocks.POLISHED_THULITE_WALL);
+	public static final RegistryObject<Item> ERROR_PEARL = REGISTRY.register("error_pearl", () -> new ErrorPearlItem());
+	public static final RegistryObject<Item> TEST_STAIRS = block(SovereignHorizonModBlocks.TEST_STAIRS);
+	public static final RegistryObject<Item> TEST_SLAB = block(SovereignHorizonModBlocks.TEST_SLAB);
+	public static final RegistryObject<Item> TEST_WALL = block(SovereignHorizonModBlocks.TEST_WALL);
 
 	// Start of user code block custom items
 	// End of user code block custom items

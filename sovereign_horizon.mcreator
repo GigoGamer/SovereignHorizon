@@ -7558,6 +7558,21 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "FinalCastle",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_castle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/structure_set/final_castle.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/final_castle.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/structure/final_castle.json"
+        ]
+      },
+      "path": "~/Structures"
     }
   ],
   "variable_elements": [],

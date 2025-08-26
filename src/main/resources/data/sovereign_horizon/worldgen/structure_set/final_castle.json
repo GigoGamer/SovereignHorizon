@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "sovereign_horizon:final_castle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 100,
+    "separation": 75,
+    "salt": 369342529
+  }
+}
