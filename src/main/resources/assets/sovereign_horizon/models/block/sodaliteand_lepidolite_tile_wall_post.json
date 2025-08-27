@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "sovereign_horizon:block/sodalite_and_lepidolite_tiles",
+    "particle": "sovereign_horizon:block/sodalite_and_lepidolite_tiles"
+  },
+  "render_type": "solid"
+}

@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:BinaryShard"
+        "value": "CUSTOM:ElixisShard"
       },
       {
         "value": "CUSTOM:Test"
       },
       {
-        "value": "CUSTOM:BinaryShard"
+        "value": "CUSTOM:ElixisShard"
       },
       {
         "value": "CUSTOM:Test"
@@ -30,13 +30,13 @@
         "value": "CUSTOM:Test"
       },
       {
-        "value": "CUSTOM:BinaryShard"
+        "value": "CUSTOM:ElixisShard"
       },
       {
         "value": "CUSTOM:Test"
       },
       {
-        "value": "CUSTOM:BinaryShard"
+        "value": "CUSTOM:ElixisShard"
       }
     ],
     "recipeReturnStack": {

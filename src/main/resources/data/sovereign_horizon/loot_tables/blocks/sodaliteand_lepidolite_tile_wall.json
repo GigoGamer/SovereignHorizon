@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "sovereign_horizon:blocks/sodaliteand_lepidolite_tile_wall",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sovereign_horizon:sodaliteand_lepidolite_tile_wall"
+        }
+      ]
+    }
+  ]
+}

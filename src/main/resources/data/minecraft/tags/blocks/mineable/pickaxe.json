@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:sodaliteand_lepidolite_tile_wall",
+    "sovereign_horizon:sodaliteand_lepidolite_tile_slab",
+    "sovereign_horizon:sodaliteand_lepidolite_tile_stairs",
+    "sovereign_horizon:sodaliteand_lepidolite_tiles",
     "sovereign_horizon:test_wall",
     "sovereign_horizon:test_slab",
     "sovereign_horizon:test_stairs",

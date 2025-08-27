@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "sodalite_and_lepidolite_tiles",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedLepidolite"
+      },
+      {
+        "value": "CUSTOM:PolishedSodalite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedSodalite"
+      },
+      {
+        "value": "CUSTOM:PolishedLepidolite"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SodaliteandLepidoliteTiles"
+    },
+    "name": "sodaliteand_lepidolite_tiles_crafting",
+    "namespace": "mod"
+  }
+}

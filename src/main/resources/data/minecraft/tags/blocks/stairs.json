@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:sodaliteand_lepidolite_tile_stairs",
     "sovereign_horizon:test_stairs",
     "sovereign_horizon:polished_thulite_stairs",
     "sovereign_horizon:thulite_stairs",

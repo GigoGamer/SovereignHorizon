@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:sodaliteand_lepidolite_tile_wall",
     "sovereign_horizon:test_wall",
     "sovereign_horizon:polished_thulite_wall",
     "sovereign_horizon:thulite_wall",

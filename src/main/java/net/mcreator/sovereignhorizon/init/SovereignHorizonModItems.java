@@ -174,6 +174,10 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> TEST_STAIRS = block(SovereignHorizonModBlocks.TEST_STAIRS);
 	public static final RegistryObject<Item> TEST_SLAB = block(SovereignHorizonModBlocks.TEST_SLAB);
 	public static final RegistryObject<Item> TEST_WALL = block(SovereignHorizonModBlocks.TEST_WALL);
+	public static final RegistryObject<Item> SODALITEAND_LEPIDOLITE_TILES = block(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILES);
+	public static final RegistryObject<Item> SODALITEAND_LEPIDOLITE_TILE_STAIRS = block(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILE_STAIRS);
+	public static final RegistryObject<Item> SODALITEAND_LEPIDOLITE_TILE_SLAB = block(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILE_SLAB);
+	public static final RegistryObject<Item> SODALITEAND_LEPIDOLITE_TILE_WALL = block(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILE_WALL);
 
 	// Start of user code block custom items
 	// End of user code block custom items
