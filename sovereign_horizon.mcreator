@@ -7560,36 +7560,6 @@
       "path": "~/Recipes"
     },
     {
-      "name": "SodaliteandLepidoliteTiles",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sodaliteand_lepidolite_tiles",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteandLepidoliteTilesBlock.java",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodaliteand_lepidolite_tiles.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodaliteand_lepidolite_tiles.json",
-          "src/main/resources/assets/sovereign_horizon/models/item/sodaliteand_lepidolite_tiles.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/sodaliteand_lepidolite_tiles.json"
-        ]
-      },
-      "path": "~/Blocks/Lepidolite"
-    },
-    {
-      "name": "SodaliteandLepidoliteTilesCrafting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sodaliteand_lepidolite_tiles_crafting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sovereign_horizon/recipes/sodaliteand_lepidolite_tiles_crafting.json"
-        ]
-      },
-      "path": "~/Recipes"
-    },
-    {
       "name": "SodaliteandLepidoliteTileStairs",
       "type": "block",
       "compiles": true,
@@ -7607,6 +7577,68 @@
         ]
       },
       "path": "~/Blocks/Lepidolite"
+    },
+    {
+      "name": "SodaliteandLepidoliteTileStairsStonecutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodaliteand_lepidolite_tile_stairs_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/sodaliteand_lepidolite_tile_stairs_stonecutting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SodaliteandLepidoliteTileSlabStonecutting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodaliteand_lepidolite_tile_slab_stonecutting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/sodaliteand_lepidolite_tile_slab_stonecutting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RivedGhastNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rived_ghast_natural_entity_spawning_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/RivedGhastNaturalEntitySpawningConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "SodaliteandLepidoliteTilesCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodaliteand_lepidolite_tiles_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/sodaliteand_lepidolite_tiles_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "SodaliteandLepidoliteTileSlab",
@@ -7628,52 +7660,6 @@
       "path": "~/Blocks/Lepidolite"
     },
     {
-      "name": "SodaliteandLepidoliteTileWall",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sodaliteand_lepidolite_tile_wall",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/sovereign_horizon/models/block/sodaliteand_lepidolite_tile_wall_side_tall.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodaliteand_lepidolite_tile_wall_inventory.json",
-          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteandLepidoliteTileWallBlock.java",
-          "src/main/resources/assets/sovereign_horizon/models/item/sodaliteand_lepidolite_tile_wall.json",
-          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodaliteand_lepidolite_tile_wall.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodaliteand_lepidolite_tile_wall.json",
-          "src/main/resources/assets/sovereign_horizon/models/block/sodaliteand_lepidolite_tile_wall_post.json",
-          "src/main/resources/assets/sovereign_horizon/blockstates/sodaliteand_lepidolite_tile_wall.json"
-        ]
-      },
-      "path": "~/Blocks/Lepidolite"
-    },
-    {
-      "name": "SodaliteandLepidoliteTileStairsCrafting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sodaliteand_lepidolite_tile_stairs_crafting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sovereign_horizon/recipes/sodaliteand_lepidolite_tile_stairs_crafting.json"
-        ]
-      },
-      "path": "~/Recipes"
-    },
-    {
-      "name": "SodaliteandLepidoliteTileStairsStonecutting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sodaliteand_lepidolite_tile_stairs_stonecutting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sovereign_horizon/recipes/sodaliteand_lepidolite_tile_stairs_stonecutting.json"
-        ]
-      },
-      "path": "~/Recipes"
-    },
-    {
       "name": "SodaliteandLepidoliteTileSlabCrafting",
       "type": "recipe",
       "compiles": true,
@@ -7687,30 +7673,21 @@
       "path": "~/Recipes"
     },
     {
-      "name": "SodaliteandLepidoliteTileSlabStonecutting",
-      "type": "recipe",
+      "name": "SodaliteandLepidoliteTiles",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sodaliteand_lepidolite_tile_slab_stonecutting",
+      "registry_name": "sodaliteand_lepidolite_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/recipes/sodaliteand_lepidolite_tile_slab_stonecutting.json"
+          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteandLepidoliteTilesBlock.java",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodaliteand_lepidolite_tiles.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodaliteand_lepidolite_tiles.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/sodaliteand_lepidolite_tiles.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodaliteand_lepidolite_tiles.json"
         ]
       },
-      "path": "~/Recipes"
-    },
-    {
-      "name": "SodaliteandLepidoliteTileWallCrafting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sodaliteand_lepidolite_tile_wall_crafting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/sovereign_horizon/recipes/sodaliteand_lepidolite_tile_wall_crafting.json"
-        ]
-      },
-      "path": "~/Recipes"
+      "path": "~/Blocks/Lepidolite"
     },
     {
       "name": "SodaliteandLepidoliteTileWallStonecutting",
@@ -7749,27 +7726,65 @@
       "path": "~/Entities"
     },
     {
-      "name": "RivedGhastNaturalEntitySpawningCondition",
-      "type": "procedure",
+      "name": "SodaliteandLepidoliteTileWall",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rived_ghast_natural_entity_spawning_condition",
+      "registry_name": "sodaliteand_lepidolite_tile_wall",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sovereignhorizon/procedures/RivedGhastNaturalEntitySpawningConditionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          }
+          "src/main/resources/assets/sovereign_horizon/models/block/sodaliteand_lepidolite_tile_wall_side_tall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodaliteand_lepidolite_tile_wall_inventory.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/SodaliteandLepidoliteTileWallBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/item/sodaliteand_lepidolite_tile_wall.json",
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/sodaliteand_lepidolite_tile_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodaliteand_lepidolite_tile_wall.json",
+          "src/main/resources/assets/sovereign_horizon/models/block/sodaliteand_lepidolite_tile_wall_post.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/sodaliteand_lepidolite_tile_wall.json"
         ]
       },
-      "path": "~/Entities"
+      "path": "~/Blocks/Lepidolite"
+    },
+    {
+      "name": "SodaliteandLepidoliteTileStairsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodaliteand_lepidolite_tile_stairs_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/sodaliteand_lepidolite_tile_stairs_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SodaliteandLepidoliteTileWallCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodaliteand_lepidolite_tile_wall_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/sodaliteand_lepidolite_tile_wall_crafting.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FinalCastle",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_castle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/structure_set/final_castle.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/structure/final_castle.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/final_castle.json"
+        ]
+      },
+      "path": "~/Structures"
     }
   ],
   "variable_elements": [],
@@ -7809,13 +7824,6 @@
       "CUSTOM:SodaliteWastes",
       "CUSTOM:AshField"
     ],
-    "BLOCKS:minecraft:sand": [],
-    "ITEMS:minecraft:meat": [
-      "CUSTOM:AshyFlesh",
-      "CUSTOM:CookedCorruptedFlesh",
-      "CUSTOM:RawCorruptedFlesh",
-      "CUSTOM:CatechismWing"
-    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~CUSTOM:Ash",
       "~CUSTOM:Sodalite"
@@ -7823,17 +7831,11 @@
     "ITEMS:minecraft:music_discs": [
       "~CUSTOM:RecordSunrise"
     ],
-    "BIOMES:minecraft:is_overworld": [],
-    "BLOCKS:minecraft:logs": [],
-    "BLOCKS:minecraft:small_flowers": [
-      "CUSTOM:AshenFlower"
-    ],
-    "BLOCKS:minecraft:dirt": [],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:SodaliteandLepidoliteTileWall",
+      "~CUSTOM:SodaliteandLepidoliteTiles",
       "~CUSTOM:SodaliteandLepidoliteTileSlab",
       "~CUSTOM:SodaliteandLepidoliteTileStairs",
-      "~CUSTOM:SodaliteandLepidoliteTiles",
       "~CUSTOM:TestWall",
       "~CUSTOM:TestSlab",
       "~CUSTOM:TestStairs",
@@ -8037,12 +8039,6 @@
       "~CUSTOM:PolishedSodaliteStairs",
       "~CUSTOM:CobbledSodaliteStairs",
       "~CUSTOM:SodaliteStairs"
-    ],
-    "ITEMS:minecraft:stone_crafting_materials": [
-      "CUSTOM:CobbledSodalite"
-    ],
-    "BLOCKS:minecraft:beacon_base_blocks": [
-      "CUSTOM:BlockofElixisShards"
     ]
   },
   "tab_element_order": {
@@ -8127,10 +8123,6 @@
       "PolishedLepidoliteStairs",
       "PolishedLepidoliteSlab",
       "PolishedLepidoliteWall",
-      "SodaliteandLepidoliteTiles",
-      "SodaliteandLepidoliteTileStairs",
-      "SodaliteandLepidoliteTileSlab",
-      "SodaliteandLepidoliteTileWall",
       "Thulite",
       "ThuliteStairs",
       "ThuliteSlab",
@@ -8181,7 +8173,11 @@
       "InfusionTable",
       "Keystone",
       "RecordSunrise",
-      "LiquidVoid"
+      "LiquidVoid",
+      "SodaliteandLepidoliteTileStairs",
+      "SodaliteandLepidoliteTileSlab",
+      "SodaliteandLepidoliteTiles",
+      "SodaliteandLepidoliteTileWall"
     ]
   },
   "language_map": {
@@ -8193,24 +8189,24 @@
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
       "advancements.carbonated_rock.descr": "Find sodalite",
-      "block.sovereign_horizon.polished_sodalite_slab": "Polished Sodalite Slab",
       "entity.sovereign_horizon.switchling": "Switchling",
-      "block.sovereign_horizon.marble_brick_wall": "Marble Brick Wall",
-      "advancements.tear_in_the_fabricof_reality.descr": "Obtain a liquid void bucket, the key to entering the Sovereign Horizon",
+      "block.sovereign_horizon.polished_sodalite_slab": "Polished Sodalite Slab",
       "advancements.enriched_ores.title": "Enriched Ores",
+      "advancements.tear_in_the_fabricof_reality.descr": "Obtain a liquid void bucket, the key to entering the Sovereign Horizon",
+      "block.sovereign_horizon.marble_brick_wall": "Marble Brick Wall",
       "block.sovereign_horizon.binary_brick_stairs": "Cracked Binary Bricks",
       "block.sovereign_horizon.sodalite_lapis_lazuli_ore": "Sodalite Lapis Lazuli Ore",
       "item.sovereign_horizon.elixis_upgrade_smithing_template": "Smithing Template",
       "advancements.boing.title": "Boing!",
-      "block.sovereign_horizon.raw_marble_slab": "Raw Marble Slab",
       "block.sovereign_horizon.cracked_marble_bricks": "Cracked Marble Bricks",
+      "block.sovereign_horizon.raw_marble_slab": "Raw Marble Slab",
       "block.sovereign_horizon.marble_tiles": "Marble Tiles",
       "block.sovereign_horizon.polished_thulite_wall": "Polished Thulite Wall",
       "item.sovereign_horizon.elixis_corrupted_enderman_spawn_egg": "Elixis Corrupted Enderman Spawn Egg",
       "advancements.mineral_collector.title": "Mineral Collector",
       "block.sovereign_horizon.marble_bricks": "Marble Bricks",
-      "block.sovereign_horizon.binary_bricks": "Binary Bricks",
       "block.sovereign_horizon.sodalite_tiles": "Sodalite Tiles",
+      "block.sovereign_horizon.binary_bricks": "Binary Bricks",
       "block.sovereign_horizon.raw_marble_tile_wall": "Raw Marble Tile Wall",
       "advancements.cheat_code.title": "Cheat Code",
       "block.sovereign_horizon.creepmine": "Creepmine",
@@ -8219,14 +8215,13 @@
       "item.sovereign_horizon.ashy_flesh": "Ashy Flesh",
       "advancements.corruption_cleanser.title": "Corruption Cleanser",
       "block.sovereign_horizon.polished_marble_slab": "Polished Marble Slab",
-      "block.sovereign_horizon.sodaliteand_lepidolite_tile_wall": "Sodalite and Lepidolite Tile Wall",
       "advancements.boing.descr": "Use the bounding enchantment to double jump",
       "block.sovereign_horizon.raw_marble_tiles": "Raw Marble Tiles",
       "item_group.sovereign_horizon.sovereign_horizon": "Sovereign Horizon",
       "item.sovereign_horizon.elixis_shard": "Elixis Shard",
       "advancements.on_and_off.title": "On And Off",
-      "block.sovereign_horizon.keystone": "Keystone",
       "block.sovereign_horizon.raw_marble_bricks": "Raw Marble Bricks",
+      "block.sovereign_horizon.keystone": "Keystone",
       "block.sovereign_horizon.polished_thulite_stairs": "Polished Thulite Stairs",
       "block.sovereign_horizon.raw_marble_brick_stairs": "Raw Marble Brick Stairs",
       "entity.sovereign_horizon.elixite_golem": "Elixite Golem",
@@ -8239,14 +8234,13 @@
       "block.sovereign_horizon.larimar_wall": "Larimar Wall",
       "block.sovereign_horizon.sodalite_pressure_plate": "Sodalite Pressure Plate",
       "block.sovereign_horizon.marble_tile_wall": "Marble Tile Wall",
-      "block.sovereign_horizon.polished_larimar": "Polished Larimar",
       "advancements.sh_enter.descr": "Enter the Sovereign Horizon",
+      "block.sovereign_horizon.polished_larimar": "Polished Larimar",
       "block.sovereign_horizon.ash": "Ash",
       "block.sovereign_horizon.cobbled_sodalite_wall": "Cobbled Sodalite Wall",
       "block.sovereign_horizon.test_slab": "Test Slab",
       "death.attack.pressure": "%1$s imploded",
       "advancements.forgotten_memory.title": "Forgotten Memory",
-      "block.sovereign_horizon.sodaliteand_lepidolite_tiles": "Sodalite and Lepidolite Tiles",
       "block.sovereign_horizon.infusion_table": "Infusion Table",
       "block.sovereign_horizon.raw_marble_brick_wall": "Raw Marble Brick Wall",
       "block.sovereign_horizon.raw_marble_wall": "Raw Marble Wall",
@@ -8258,8 +8252,8 @@
       "entity.sovereign_horizon.elixis_corrupted_enderman": "Elixis Corrupted Enderman",
       "block.sovereign_horizon.polished_sodalite_stairs": "Polished Sodalite Stairs",
       "advancements.on_and_off.descr": "0100010101101110011000110110111101110101011011100111010001100101011100100010000001010100011010000110000101110100001000000100111101101110011001010010000001000101011011100110010101101101011110010010000001000110011100100110111101101101001000000100010001101111011011100110101101100101011110010010000001001011011011110110111001100111001000000100001001111001001000000100010001100101011000010110001101110100011010010111011001100001011101000110100101101110011001110010000001000001001000000100101101100101011110010111001101110100011011110110111001100101",
-      "advancements.aint_nobody_got_time_for_that.title": "Aint Nobody Got Time For That",
       "block.sovereign_horizon.polished_sodalite": "Polished Sodalite",
+      "advancements.aint_nobody_got_time_for_that.title": "Aint Nobody Got Time For That",
       "block.sovereign_horizon.cobbled_sodalite_stairs": "Cobbled Sodalite Stairs",
       "block.sovereign_horizon.polished_raw_marble_wall": "Polished Raw Marble Wall",
       "block.sovereign_horizon.cracked_binary_bricks": "Cracked Binary Bricks",
@@ -8291,7 +8285,6 @@
       "block.sovereign_horizon.polished_marble_wall": "Polished Marble Wall",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_1": "",
       "item.sovereign_horizon.elixis_upgrade_smithing_template.description_0": "Elixis Upgrade",
-      "block.sovereign_horizon.sodaliteand_lepidolite_tile_slab": "Sodalite and Lepidolite Tile Slab",
       "block.sovereign_horizon.marble_tile_stairs": "Marble Tile Stairs",
       "biome.sovereign_horizon.ash_field": "Ash Field",
       "advancements.forgotten_memory.descr": "Obtain the mythical test block (It\u0027s one of a kind!)",
@@ -8369,7 +8362,6 @@
       "block.sovereign_horizon.cracked_marble_tiles": "Cracked Marble Tiles",
       "block.sovereign_horizon.polished_larimar_stairs": "Polished Larimar Stairs",
       "block.sovereign_horizon.raw_marble_stairs": "Raw Marble Stairs",
-      "block.sovereign_horizon.sodaliteand_lepidolite_tile_stairs": "Sodalite and Lepidolite Tile Stairs",
       "block.sovereign_horizon.polished_thulite": "Polished Thulite",
       "block.sovereign_horizon.marble_brick_slab": "Marble Brick Slab",
       "block.sovereign_horizon.polished_lepidolite_wall": "Polished Lepidolite Wall",
@@ -8443,6 +8435,10 @@
         "name": "Blocks",
         "children": [
           {
+            "name": "Lepidolite",
+            "children": []
+          },
+          {
             "name": "Marble",
             "children": []
           },
@@ -8455,7 +8451,15 @@
             "children": []
           },
           {
+            "name": "Test",
+            "children": []
+          },
+          {
             "name": "Foliage",
+            "children": []
+          },
+          {
+            "name": "Thulite",
             "children": []
           },
           {
@@ -8468,18 +8472,6 @@
           },
           {
             "name": "Sodalite",
-            "children": []
-          },
-          {
-            "name": "Lepidolite",
-            "children": []
-          },
-          {
-            "name": "Thulite",
-            "children": []
-          },
-          {
-            "name": "Test",
             "children": []
           }
         ]

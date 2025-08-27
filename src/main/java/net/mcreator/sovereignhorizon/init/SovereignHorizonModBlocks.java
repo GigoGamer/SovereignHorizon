@@ -250,9 +250,9 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> TEST_STAIRS = REGISTRY.register("test_stairs", () -> new TestStairsBlock());
 	public static final RegistryObject<Block> TEST_SLAB = REGISTRY.register("test_slab", () -> new TestSlabBlock());
 	public static final RegistryObject<Block> TEST_WALL = REGISTRY.register("test_wall", () -> new TestWallBlock());
-	public static final RegistryObject<Block> SODALITEAND_LEPIDOLITE_TILES = REGISTRY.register("sodaliteand_lepidolite_tiles", () -> new SodaliteandLepidoliteTilesBlock());
 	public static final RegistryObject<Block> SODALITEAND_LEPIDOLITE_TILE_STAIRS = REGISTRY.register("sodaliteand_lepidolite_tile_stairs", () -> new SodaliteandLepidoliteTileStairsBlock());
 	public static final RegistryObject<Block> SODALITEAND_LEPIDOLITE_TILE_SLAB = REGISTRY.register("sodaliteand_lepidolite_tile_slab", () -> new SodaliteandLepidoliteTileSlabBlock());
+	public static final RegistryObject<Block> SODALITEAND_LEPIDOLITE_TILES = REGISTRY.register("sodaliteand_lepidolite_tiles", () -> new SodaliteandLepidoliteTilesBlock());
 	public static final RegistryObject<Block> SODALITEAND_LEPIDOLITE_TILE_WALL = REGISTRY.register("sodaliteand_lepidolite_tile_wall", () -> new SodaliteandLepidoliteTileWallBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
