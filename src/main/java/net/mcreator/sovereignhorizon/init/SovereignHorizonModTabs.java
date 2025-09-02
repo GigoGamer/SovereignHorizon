@@ -98,6 +98,10 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModBlocks.POLISHED_LEPIDOLITE_STAIRS.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.POLISHED_LEPIDOLITE_SLAB.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.POLISHED_LEPIDOLITE_WALL.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILE_STAIRS.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILE_SLAB.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILES.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILE_WALL.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.THULITE.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.THULITE_STAIRS.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.THULITE_SLAB.get().asItem());
@@ -152,9 +156,5 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModBlocks.KEYSTONE.get().asItem());
 				tabData.accept(SovereignHorizonModItems.RECORD_SUNRISE.get());
 				tabData.accept(SovereignHorizonModItems.LIQUID_VOID_BUCKET.get());
-				tabData.accept(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILE_STAIRS.get().asItem());
-				tabData.accept(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILE_SLAB.get().asItem());
-				tabData.accept(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILES.get().asItem());
-				tabData.accept(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILE_WALL.get().asItem());
 			}).build());
 }
