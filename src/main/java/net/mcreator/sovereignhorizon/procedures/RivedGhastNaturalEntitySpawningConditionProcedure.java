@@ -1,6 +1,6 @@
 package net.mcreator.sovereignhorizon.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.entity.Entity;
 
 public class RivedGhastNaturalEntitySpawningConditionProcedure {
 	public static void execute(double y, Entity entity) {

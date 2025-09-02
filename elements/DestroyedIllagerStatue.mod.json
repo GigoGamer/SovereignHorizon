@@ -1,0 +1,26 @@
+{
+  "_fv": 77,
+  "_type": "structure",
+  "definition": {
+    "structure": "destroyed_illager_statue",
+    "projection": "rigid",
+    "ignoredBlocks": [],
+    "spacing": 8,
+    "separation": 2,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SodaliteWastes"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 134,
+    "startHeightMax": 136,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

@@ -3,7 +3,7 @@
   "group": "sodalite_and_lepidolite_tile_stairs",
   "count": 1,
   "ingredient": {
-    "item": "sovereign_horizon:deleted_mod_element"
+    "item": "sovereign_horizon:sodaliteand_lepidolite_tiles"
   },
   "result": "sovereign_horizon:sodaliteand_lepidolite_tile_stairs"
 }
