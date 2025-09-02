@@ -1,18 +1,22 @@
 {
-  "music.sh.sodalitewastes": {
-    "subtitle": "subtitles.music.sh.sodalitewastes",
-    "sounds": [
-      {
-        "name": "sovereign_horizon:droplet20-20deep20space202025-07-282018_16",
-        "stream": true
-      }
-    ]
-  },
   "record.sunrise": {
     "subtitle": "subtitles.record.sunrise",
     "sounds": [
       {
         "name": "sovereign_horizon:sunrise",
+        "stream": true
+      }
+    ]
+  },
+  "music.horizon": {
+    "subtitle": "subtitles.music.horizon",
+    "sounds": [
+      {
+        "name": "sovereign_horizon:reachflowers",
+        "stream": true
+      },
+      {
+        "name": "sovereign_horizon:droplet_-_deep_space_2025-07-28_18_16",
         "stream": true
       }
     ]
