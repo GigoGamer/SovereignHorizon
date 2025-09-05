@@ -178,6 +178,7 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> SODALITEAND_LEPIDOLITE_TILE_SLAB = block(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILE_SLAB);
 	public static final RegistryObject<Item> SODALITEAND_LEPIDOLITE_TILES = block(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILES);
 	public static final RegistryObject<Item> SODALITEAND_LEPIDOLITE_TILE_WALL = block(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILE_WALL);
+	public static final RegistryObject<Item> BLOOD_ROSE = block(SovereignHorizonModBlocks.BLOOD_ROSE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

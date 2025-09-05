@@ -126,6 +126,7 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModBlocks.REACHFLOWER.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.DEPTH_SPROUT.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.ASHEN_FLOWER.get().asItem());
+				tabData.accept(SovereignHorizonModBlocks.BLOOD_ROSE.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.SHORT_SPROUTS.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.GLOWWEED.get().asItem());
 				tabData.accept(SovereignHorizonModBlocks.CREEPMINE.get().asItem());

@@ -121,6 +121,7 @@ import net.mcreator.sovereignhorizon.block.CobbledSodaliteWallBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteStairsBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteSlabBlock;
 import net.mcreator.sovereignhorizon.block.CobbledSodaliteBlock;
+import net.mcreator.sovereignhorizon.block.BloodRoseBlock;
 import net.mcreator.sovereignhorizon.block.BlockofElixisShardsBlock;
 import net.mcreator.sovereignhorizon.block.BinaryLampBlock;
 import net.mcreator.sovereignhorizon.block.BinaryGrateBlock;
@@ -254,6 +255,7 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> SODALITEAND_LEPIDOLITE_TILE_SLAB = REGISTRY.register("sodaliteand_lepidolite_tile_slab", () -> new SodaliteandLepidoliteTileSlabBlock());
 	public static final RegistryObject<Block> SODALITEAND_LEPIDOLITE_TILES = REGISTRY.register("sodaliteand_lepidolite_tiles", () -> new SodaliteandLepidoliteTilesBlock());
 	public static final RegistryObject<Block> SODALITEAND_LEPIDOLITE_TILE_WALL = REGISTRY.register("sodaliteand_lepidolite_tile_wall", () -> new SodaliteandLepidoliteTileWallBlock());
+	public static final RegistryObject<Block> BLOOD_ROSE = REGISTRY.register("blood_rose", () -> new BloodRoseBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

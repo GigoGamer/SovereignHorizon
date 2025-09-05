@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "sovereign_horizon:block/bloodrose",
+    "particle": "sovereign_horizon:block/bloodrose"
+  },
+  "render_type": "cutout"
+}
