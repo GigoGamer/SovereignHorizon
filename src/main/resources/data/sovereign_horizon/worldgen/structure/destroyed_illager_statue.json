@@ -15,6 +15,9 @@
       "absolute": 136
     }
   },
-  "biomes": "sovereign_horizon:sodalite_wastes",
+  "biomes": [
+    "sovereign_horizon:sodalite_wastes",
+    "sovereign_horizon:marble_chasms"
+  ],
   "use_expansion_hack": false
 }

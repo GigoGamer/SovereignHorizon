@@ -1,15 +1,9 @@
 {
-  "feature": "sovereign_horizon:lepidolite_pile",
+  "feature": "sovereign_horizon:marble_pillar_ledges",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": {
-        "type": "uniform",
-        "value": {
-          "min_inclusive": 10,
-          "max_inclusive": 20
-        }
-      }
+      "count": 10
     },
     {
       "type": "minecraft:in_square"
@@ -19,15 +13,12 @@
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "absolute": 131
+          "absolute": 133
         },
         "max_inclusive": {
-          "absolute": 135
+          "absolute": 232
         }
       }
-    },
-    {
-      "type": "minecraft:biome"
     }
   ]
 }

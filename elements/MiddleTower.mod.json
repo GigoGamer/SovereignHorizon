@@ -14,6 +14,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:AshField"
+      },
+      {
+        "value": "CUSTOM:MarbleChasms"
       }
     ],
     "terrainAdaptation": "beard_thin",

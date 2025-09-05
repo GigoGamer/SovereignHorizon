@@ -1,10 +1,10 @@
 {
   "has_precipitation": false,
-  "temperature": 0.5,
+  "temperature": 0,
   "downfall": 0,
   "effects": {
     "mood_sound": {
-      "sound": "ambient.basalt_deltas.mood",
+      "sound": "ambient.cave",
       "tick_delay": 6000,
       "offset": 8,
       "block_search_extent": 2
@@ -17,37 +17,42 @@
     },
     "particle": {
       "options": {
-        "type": "ash"
+        "type": "soul"
       },
-      "probability": 0.005
+      "probability": 0.001
     },
-    "foliage_color": -13421773,
-    "grass_color": -13421773,
-    "sky_color": -6710887,
-    "fog_color": -16777216,
-    "water_color": -13421773,
+    "foliage_color": -6710887,
+    "grass_color": -3355444,
+    "sky_color": 7972607,
+    "fog_color": -13421773,
+    "water_color": -10066330,
     "water_fog_color": -13421773
   },
   "spawners": {
-    "monster": [
-      {
-        "type": "wither_skeleton",
-        "weight": 30,
-        "minCount": 1,
-        "maxCount": 4
-      },
-      {
-        "type": "phantom",
-        "weight": 6,
-        "minCount": 1,
-        "maxCount": 2
-      }
-    ],
+    "monster": [],
     "creature": [
       {
-        "type": "silverfish",
+        "type": "vex",
         "weight": 15,
         "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "zombie",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "sovereign_horizon:elixis_corrupted_enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "sovereign_horizon:desolate_creeper",
+        "weight": 10,
+        "minCount": 2,
         "maxCount": 4
       }
     ],
@@ -59,10 +64,18 @@
     "misc": []
   },
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
   "features": [
     [],
-    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
     [],
     [],
     [],

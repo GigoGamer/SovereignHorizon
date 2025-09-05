@@ -1,24 +1,28 @@
 {
-  "feature": "sovereign_horizon:top_layer_cover",
+  "feature": "sovereign_horizon:marble_pillars",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 25
+      "count": 7
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 40
     },
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:biased_to_bottom",
+        "type": "minecraft:uniform",
         "min_inclusive": {
-          "absolute": 230
+          "absolute": 133
         },
         "max_inclusive": {
-          "absolute": 234
+          "absolute": 232
         }
       }
-    },
-    {
-      "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:biome"

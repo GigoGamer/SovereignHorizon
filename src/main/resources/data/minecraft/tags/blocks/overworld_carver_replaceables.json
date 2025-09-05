@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:raw_marble",
     "sovereign_horizon:ash",
     "sovereign_horizon:sodalite"
   ]

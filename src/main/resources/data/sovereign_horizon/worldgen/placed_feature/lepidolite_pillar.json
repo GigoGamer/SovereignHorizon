@@ -40,6 +40,9 @@
           "max_inclusive": 4
         }
       }
+    },
+    {
+      "type": "minecraft:biome"
     }
   ]
 }

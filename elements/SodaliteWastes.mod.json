@@ -12,6 +12,10 @@
     "underwaterBlock": {
       "value": "CUSTOM:Sodalite"
     },
+    "fogColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
     "grassColor": {
       "value": -16777156,
       "falpha": 0.0

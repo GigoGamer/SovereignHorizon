@@ -1,6 +1,9 @@
 {
   "type": "forge:add_features",
-  "biomes": "#sovereign_horizon:is_sh",
+  "biomes": [
+    "sovereign_horizon:sodalite_wastes",
+    "sovereign_horizon:ash_field"
+  ],
   "features": "sovereign_horizon:lepidolite_pile",
   "step": "underground_decoration"
 }

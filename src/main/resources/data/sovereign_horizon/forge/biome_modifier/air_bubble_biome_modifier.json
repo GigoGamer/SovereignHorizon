@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "sovereign_horizon:marble_chasms",
+  "features": "sovereign_horizon:air_bubble",
+  "step": "raw_generation"
+}

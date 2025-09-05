@@ -1,6 +1,9 @@
 {
   "type": "forge:add_features",
-  "biomes": "sovereign_horizon:ash_field",
+  "biomes": [
+    "sovereign_horizon:ash_field",
+    "sovereign_horizon:marble_chasms"
+  ],
   "features": "sovereign_horizon:thulite_pillar",
   "step": "raw_generation"
 }

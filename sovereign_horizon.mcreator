@@ -1873,9 +1873,7 @@
       "registry_name": "ash_field",
       "metadata": {
         "files": [
-          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/ash_field_tree.json",
-          "src/main/resources/data/sovereign_horizon/worldgen/biome/ash_field.json",
-          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/ash_field_tree.json"
+          "src/main/resources/data/sovereign_horizon/worldgen/biome/ash_field.json"
         ]
       },
       "path": "~/Biomes"
@@ -7815,6 +7813,79 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "MarbleChasms",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_chasms",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/biome/marble_chasms.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "MarblePillars",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_pillars",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/marble_pillars.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/marble_pillars.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/marble_pillars_biome_modifier.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "MarblePillarLedges",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_pillar_ledges",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/marble_pillar_ledges.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/marble_pillar_ledges.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/marble_pillar_ledges_biome_modifier.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "AirBubble",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_bubble",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/air_bubble.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/air_bubble.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/air_bubble_biome_modifier.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "MarbleGeneration",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marble_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/configured_feature/marble_generation.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/placed_feature/marble_generation.json",
+          "src/main/resources/data/sovereign_horizon/forge/biome_modifier/marble_generation_biome_modifier.json"
+        ]
+      },
+      "path": "~/Features"
     }
   ],
   "variable_elements": [],
@@ -7853,9 +7924,11 @@
     ],
     "BIOMES:mod:is_sh": [
       "CUSTOM:SodaliteWastes",
-      "CUSTOM:AshField"
+      "CUSTOM:AshField",
+      "CUSTOM:MarbleChasms"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:RawMarble",
       "~CUSTOM:Ash",
       "~CUSTOM:Sodalite"
     ],
@@ -8022,6 +8095,9 @@
       "~CUSTOM:SodaliteSlab",
       "~CUSTOM:SodaliteStairs",
       "~CUSTOM:Sodalite"
+    ],
+    "BIOMES:mod:has_top_layer": [
+      "CUSTOM:SodaliteWastes"
     ],
     "BLOCKS:minecraft:walls": [
       "~CUSTOM:SodaliteandLepidoliteTileWall",
@@ -8406,6 +8482,7 @@
       "block.sovereign_horizon.cracked_raw_marble_tiles": "Cracked Raw Marble Tiles",
       "block.sovereign_horizon.binary_lamp": "Binary Lamp",
       "item.sovereign_horizon.desolate_creeper_spawn_egg": "Desolate Creeper Spawn Egg",
+      "biome.sovereign_horizon.marble_chasms": "Marble Chasms",
       "item.sovereign_horizon.raw_corrupted_flesh": "Raw Corrupted Flesh",
       "advancements.how_riveding.descr": "Kill a rived ghast",
       "advancements.under_pressure.title": "Under Pressure",

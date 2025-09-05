@@ -6,9 +6,12 @@
     "generationStep": "UNDERGROUND_DECORATION",
     "restrictionBiomes": [
       {
-        "value": "#mod:is_sh"
+        "value": "CUSTOM:SodaliteWastes"
+      },
+      {
+        "value": "CUSTOM:AshField"
       }
     ],
-    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_block_pile\"><value name=\"block\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:Lepidolite</field></block></value></block></value><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_uniform\"><field name=\"min\">10</field><field name=\"max\">20</field></block></value><next><block type=\"placement_in_square\"><next><block type=\"placement_height_uniform\"><value name=\"min\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">131</field></block></value><value name=\"max\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">135</field></block></value></block></next></block></next></block></next></block></xml>"
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_block_pile\"><value name=\"block\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">CUSTOM:Lepidolite</field></block></value></block></value><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_uniform\"><field name=\"min\">10</field><field name=\"max\">20</field></block></value><next><block type=\"placement_in_square\"><next><block type=\"placement_height_uniform\"><value name=\"min\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">131</field></block></value><value name=\"max\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">135</field></block></value><next><block type=\"placement_biome_filter\"></block></next></block></next></block></next></block></next></block></xml>"
   }
 }

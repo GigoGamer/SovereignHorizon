@@ -2,34 +2,30 @@
   "_fv": 77,
   "_type": "biome",
   "definition": {
-    "name": "Ash Field",
+    "name": "Marble Chasms",
     "groundBlock": {
-      "value": "CUSTOM:Ash"
+      "value": "CUSTOM:RawMarble"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:Ash"
+      "value": "CUSTOM:RawMarble"
     },
     "underwaterBlock": {
-      "value": "CUSTOM:Sodalite"
-    },
-    "airColor": {
-      "value": -6710887,
-      "falpha": 0.0
+      "value": "CUSTOM:Marble"
     },
     "fogColor": {
-      "value": -16777216,
+      "value": -13421773,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -13421773,
+      "value": -3355444,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -13421773,
+      "value": -6710887,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -13421773,
+      "value": -10066330,
       "falpha": 0.0
     },
     "waterFogColor": {
@@ -46,26 +42,26 @@
       "value": "CUSTOM:music.horizon"
     },
     "moodSound": {
-      "value": "ambient.basalt_deltas.mood"
+      "value": "ambient.cave"
     },
     "moodSoundDelay": 6000,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "ASH"
+      "value": "SOUL"
     },
-    "particlesProbability": 0.5,
+    "particlesProbability": 0.1,
     "rainingPossibility": 0.0,
-    "temperature": 0.5,
+    "temperature": 0.0,
     "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": 0.5,
-      "max": 1.0
+      "min": -1.0001,
+      "max": -1.0
     },
     "genHumidity": {
-      "min": 0.0,
-      "max": 1.0
+      "min": -1.0,
+      "max": 0.0
     },
     "genContinentalness": {
       "min": -1.0,
@@ -81,13 +77,13 @@
     },
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
-    "treeType": 1,
-    "minHeight": 4,
+    "treeType": 0,
+    "minHeight": 7,
     "treeStem": {
-      "value": "Blocks.BASALT"
+      "value": ""
     },
     "treeBranch": {
-      "value": "Blocks.BASALT"
+      "value": ""
     },
     "treeVines": {
       "value": ""
@@ -95,7 +91,9 @@
     "treeFruits": {
       "value": ""
     },
-    "defaultFeatures": [],
+    "defaultFeatures": [
+      "Caves"
+    ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
@@ -119,30 +117,39 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "EntitySilverfish"
+          "value": "EntityVex"
         },
         "minGroup": 1,
-        "maxGroup": 4,
+        "maxGroup": 3,
         "weight": 15,
         "spawnType": "creature"
       },
       {
         "entity": {
-          "value": "EntityWitherSkeleton"
-        },
-        "minGroup": 1,
-        "maxGroup": 4,
-        "weight": 30,
-        "spawnType": "monster"
-      },
-      {
-        "entity": {
-          "value": "EntityPhantom"
+          "value": "EntityBreeze"
         },
         "minGroup": 1,
         "maxGroup": 2,
-        "weight": 6,
-        "spawnType": "monster"
+        "weight": 5,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:ElixisCorruptedEnderman"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:DesolateCreeper"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "creature"
       }
     ]
   }

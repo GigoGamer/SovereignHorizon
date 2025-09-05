@@ -1,9 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": [
-    "sovereign_horizon:sodalite_wastes",
-    "sovereign_horizon:ash_field"
-  ],
+  "biomes": "#sovereign_horizon:is_sh",
   "features": "sovereign_horizon:test_block_generation",
   "step": "surface_structures"
 }
