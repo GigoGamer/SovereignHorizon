@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "thulite_and_lepidolite_tile_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:ThuliteandLepidoliteTiles"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:ThuliteandLepidoliteTileStairs"
+    },
+    "name": "thuliteand_lepidolite_tile_stairs_stonecutting",
+    "namespace": "mod"
+  }
+}

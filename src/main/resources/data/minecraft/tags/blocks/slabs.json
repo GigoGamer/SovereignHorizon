@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "sovereign_horizon:marbleand_lepidolite_tile_slab",
+    "sovereign_horizon:thuliteand_lepidolite_tile_slab",
+    "sovereign_horizon:marbleand_sodalite_tile_slab",
+    "sovereign_horizon:marbleand_thulite_tile_slab",
+    "sovereign_horizon:sodaliteand_thulite_tile_slab",
     "sovereign_horizon:sodaliteand_lepidolite_tile_slab",
     "sovereign_horizon:test_slab",
     "sovereign_horizon:polished_thulite_slab",

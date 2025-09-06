@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "sodalite_and_thulite_tile_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:SodaliteandThuliteTiles"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:SodaliteandThuliteTileStairs"
+    },
+    "name": "sodaliteand_thulite_tile_stairs_stonecutting",
+    "namespace": "mod"
+  }
+}

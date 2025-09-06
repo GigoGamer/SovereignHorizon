@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "sovereign_horizon:block/marble_and_thulite_tiles",
+    "bottom": "sovereign_horizon:block/marble_and_thulite_tiles",
+    "top": "sovereign_horizon:block/marble_and_thulite_tiles",
+    "side": "sovereign_horizon:block/marble_and_thulite_tiles"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "thulite_and_lepidolite_tiles",
+  "category": "building",
+  "pattern": [
+    "ab",
+    "ba"
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:polished_lepidolite"
+    },
+    "b": {
+      "item": "sovereign_horizon:polished_thulite"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:thuliteand_lepidolite_tiles",
+    "count": 4
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "thulite_and_lepidolite_tile_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ThuliteandLepidoliteTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ThuliteandLepidoliteTiles"
+      },
+      {
+        "value": "CUSTOM:ThuliteandLepidoliteTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ThuliteandLepidoliteTiles"
+      },
+      {
+        "value": "CUSTOM:ThuliteandLepidoliteTiles"
+      },
+      {
+        "value": "CUSTOM:ThuliteandLepidoliteTiles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ThuliteandLepidoliteTileStairs"
+    },
+    "name": "thuliteand_lepidolite_tile_stairs_crafting",
+    "namespace": "mod"
+  }
+}

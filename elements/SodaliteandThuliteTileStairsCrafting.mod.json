@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "sodalite_and_thulite_tile_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SodaliteandThuliteTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SodaliteandThuliteTiles"
+      },
+      {
+        "value": "CUSTOM:SodaliteandThuliteTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SodaliteandThuliteTiles"
+      },
+      {
+        "value": "CUSTOM:SodaliteandThuliteTiles"
+      },
+      {
+        "value": "CUSTOM:SodaliteandThuliteTiles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SodaliteandThuliteTileStairs"
+    },
+    "name": "sodaliteand_thulite_tile_stairs_crafting",
+    "namespace": "mod"
+  }
+}

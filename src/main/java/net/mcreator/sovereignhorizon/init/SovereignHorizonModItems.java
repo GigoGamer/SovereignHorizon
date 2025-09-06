@@ -179,6 +179,26 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> SODALITEAND_LEPIDOLITE_TILES = block(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILES);
 	public static final RegistryObject<Item> SODALITEAND_LEPIDOLITE_TILE_WALL = block(SovereignHorizonModBlocks.SODALITEAND_LEPIDOLITE_TILE_WALL);
 	public static final RegistryObject<Item> BLOOD_ROSE = block(SovereignHorizonModBlocks.BLOOD_ROSE);
+	public static final RegistryObject<Item> SODALITEAND_THULITE_TILE_STAIRS = block(SovereignHorizonModBlocks.SODALITEAND_THULITE_TILE_STAIRS);
+	public static final RegistryObject<Item> SODALITEAND_THULITE_TILE_SLAB = block(SovereignHorizonModBlocks.SODALITEAND_THULITE_TILE_SLAB);
+	public static final RegistryObject<Item> SODALITEAND_THULITE_TILES = block(SovereignHorizonModBlocks.SODALITEAND_THULITE_TILES);
+	public static final RegistryObject<Item> SODALITEAND_THULITE_TILE_WALL = block(SovereignHorizonModBlocks.SODALITEAND_THULITE_TILE_WALL);
+	public static final RegistryObject<Item> MARBLEAND_THULITE_TILE_STAIRS = block(SovereignHorizonModBlocks.MARBLEAND_THULITE_TILE_STAIRS);
+	public static final RegistryObject<Item> MARBLEAND_THULITE_TILE_SLAB = block(SovereignHorizonModBlocks.MARBLEAND_THULITE_TILE_SLAB);
+	public static final RegistryObject<Item> MARBLEAND_THULITE_TILES = block(SovereignHorizonModBlocks.MARBLEAND_THULITE_TILES);
+	public static final RegistryObject<Item> MARBLEAND_THULITE_TILE_WALL = block(SovereignHorizonModBlocks.MARBLEAND_THULITE_TILE_WALL);
+	public static final RegistryObject<Item> MARBLEAND_SODALITE_TILE_STAIRS = block(SovereignHorizonModBlocks.MARBLEAND_SODALITE_TILE_STAIRS);
+	public static final RegistryObject<Item> MARBLEAND_SODALITE_TILE_SLAB = block(SovereignHorizonModBlocks.MARBLEAND_SODALITE_TILE_SLAB);
+	public static final RegistryObject<Item> MARBLEAND_SODALITE_TILES = block(SovereignHorizonModBlocks.MARBLEAND_SODALITE_TILES);
+	public static final RegistryObject<Item> MARBLEAND_SODALITE_TILE_WALL = block(SovereignHorizonModBlocks.MARBLEAND_SODALITE_TILE_WALL);
+	public static final RegistryObject<Item> THULITEAND_LEPIDOLITE_TILE_STAIRS = block(SovereignHorizonModBlocks.THULITEAND_LEPIDOLITE_TILE_STAIRS);
+	public static final RegistryObject<Item> THULITEAND_LEPIDOLITE_TILE_SLAB = block(SovereignHorizonModBlocks.THULITEAND_LEPIDOLITE_TILE_SLAB);
+	public static final RegistryObject<Item> THULITEAND_LEPIDOLITE_TILES = block(SovereignHorizonModBlocks.THULITEAND_LEPIDOLITE_TILES);
+	public static final RegistryObject<Item> THULITEAND_LEPIDOLITE_TILE_WALL = block(SovereignHorizonModBlocks.THULITEAND_LEPIDOLITE_TILE_WALL);
+	public static final RegistryObject<Item> MARBLEAND_LEPIDOLITE_TILE_STAIRS = block(SovereignHorizonModBlocks.MARBLEAND_LEPIDOLITE_TILE_STAIRS);
+	public static final RegistryObject<Item> MARBLEAND_LEPIDOLITE_TILE_SLAB = block(SovereignHorizonModBlocks.MARBLEAND_LEPIDOLITE_TILE_SLAB);
+	public static final RegistryObject<Item> MARBLEAND_LEPIDOLITE_TILES = block(SovereignHorizonModBlocks.MARBLEAND_LEPIDOLITE_TILES);
+	public static final RegistryObject<Item> MARBLEAND_LEPIDOLITE_TILE_WALL = block(SovereignHorizonModBlocks.MARBLEAND_LEPIDOLITE_TILE_WALL);
 
 	// Start of user code block custom items
 	// End of user code block custom items

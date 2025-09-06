@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "marble_and_thulite_tile_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:MarbleandThuliteTiles"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:MarbleandThuliteTileStairs"
+    },
+    "name": "marbleand_thulite_tile_stairs_stonecutting",
+    "namespace": "mod"
+  }
+}

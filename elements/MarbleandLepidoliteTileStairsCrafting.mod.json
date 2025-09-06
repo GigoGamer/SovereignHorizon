@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "marble_and_lepidolite_tile_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MarbleandLepidoliteTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MarbleandLepidoliteTiles"
+      },
+      {
+        "value": "CUSTOM:MarbleandLepidoliteTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MarbleandLepidoliteTiles"
+      },
+      {
+        "value": "CUSTOM:MarbleandLepidoliteTiles"
+      },
+      {
+        "value": "CUSTOM:MarbleandLepidoliteTiles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MarbleandLepidoliteTileStairs"
+    },
+    "name": "marbleand_lepidolite_tile_stairs_crafting",
+    "namespace": "mod"
+  }
+}

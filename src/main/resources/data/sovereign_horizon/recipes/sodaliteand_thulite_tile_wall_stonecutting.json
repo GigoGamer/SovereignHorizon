@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "sodalite_and_thulite_tile_wall",
+  "count": 1,
+  "ingredient": {
+    "item": "sovereign_horizon:sodaliteand_thulite_tiles"
+  },
+  "result": "sovereign_horizon:sodaliteand_thulite_tile_wall"
+}

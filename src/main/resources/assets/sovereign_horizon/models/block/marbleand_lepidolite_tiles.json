@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sovereign_horizon:block/marble_and_lepidolite_tiles",
+    "up": "sovereign_horizon:block/marble_and_lepidolite_tiles",
+    "north": "sovereign_horizon:block/marble_and_lepidolite_tiles",
+    "east": "sovereign_horizon:block/marble_and_lepidolite_tiles",
+    "south": "sovereign_horizon:block/marble_and_lepidolite_tiles",
+    "west": "sovereign_horizon:block/marble_and_lepidolite_tiles",
+    "particle": "sovereign_horizon:block/marble_and_lepidolite_tiles"
+  },
+  "render_type": "solid"
+}

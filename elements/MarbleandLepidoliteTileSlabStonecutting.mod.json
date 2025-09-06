@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 2,
+    "group": "marble_and_lepidolite_tile_slab",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:MarbleandLepidoliteTiles"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:MarbleandLepidoliteTileSlab"
+    },
+    "name": "marbleand_lepidolite_tile_slab_stonecutting",
+    "namespace": "mod"
+  }
+}

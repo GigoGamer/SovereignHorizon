@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "thulite_and_lepidolite_tile_wall",
+  "count": 1,
+  "ingredient": {
+    "item": "sovereign_horizon:thuliteand_lepidolite_tiles"
+  },
+  "result": "sovereign_horizon:thuliteand_lepidolite_tile_wall"
+}

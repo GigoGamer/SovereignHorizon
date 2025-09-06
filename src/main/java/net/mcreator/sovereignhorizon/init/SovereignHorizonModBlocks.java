@@ -10,6 +10,10 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.sovereignhorizon.block.ThuliteandLepidoliteTilesBlock;
+import net.mcreator.sovereignhorizon.block.ThuliteandLepidoliteTileWallBlock;
+import net.mcreator.sovereignhorizon.block.ThuliteandLepidoliteTileStairsBlock;
+import net.mcreator.sovereignhorizon.block.ThuliteandLepidoliteTileSlabBlock;
 import net.mcreator.sovereignhorizon.block.ThuliteWallBlock;
 import net.mcreator.sovereignhorizon.block.ThuliteStairsBlock;
 import net.mcreator.sovereignhorizon.block.ThuliteSlabBlock;
@@ -19,6 +23,10 @@ import net.mcreator.sovereignhorizon.block.TestStairsBlock;
 import net.mcreator.sovereignhorizon.block.TestSlabBlock;
 import net.mcreator.sovereignhorizon.block.TestBlock;
 import net.mcreator.sovereignhorizon.block.SparseDeepLichenCoveredSodaliteBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteandThuliteTilesBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteandThuliteTileWallBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteandThuliteTileStairsBlock;
+import net.mcreator.sovereignhorizon.block.SodaliteandThuliteTileSlabBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteandLepidoliteTilesBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteandLepidoliteTileWallBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteandLepidoliteTileStairsBlock;
@@ -81,6 +89,18 @@ import net.mcreator.sovereignhorizon.block.PolishedLarimarWallBlock;
 import net.mcreator.sovereignhorizon.block.PolishedLarimarStairsBlock;
 import net.mcreator.sovereignhorizon.block.PolishedLarimarSlabBlock;
 import net.mcreator.sovereignhorizon.block.PolishedLarimarBlock;
+import net.mcreator.sovereignhorizon.block.MarbleandThuliteTilesBlock;
+import net.mcreator.sovereignhorizon.block.MarbleandThuliteTileWallBlock;
+import net.mcreator.sovereignhorizon.block.MarbleandThuliteTileStairsBlock;
+import net.mcreator.sovereignhorizon.block.MarbleandThuliteTileSlabBlock;
+import net.mcreator.sovereignhorizon.block.MarbleandSodaliteTilesBlock;
+import net.mcreator.sovereignhorizon.block.MarbleandSodaliteTileWallBlock;
+import net.mcreator.sovereignhorizon.block.MarbleandSodaliteTileStairsBlock;
+import net.mcreator.sovereignhorizon.block.MarbleandSodaliteTileSlabBlock;
+import net.mcreator.sovereignhorizon.block.MarbleandLepidoliteTilesBlock;
+import net.mcreator.sovereignhorizon.block.MarbleandLepidoliteTileWallBlock;
+import net.mcreator.sovereignhorizon.block.MarbleandLepidoliteTileStairsBlock;
+import net.mcreator.sovereignhorizon.block.MarbleandLepidoliteTileSlabBlock;
 import net.mcreator.sovereignhorizon.block.MarbleWallBlock;
 import net.mcreator.sovereignhorizon.block.MarbleTilesBlock;
 import net.mcreator.sovereignhorizon.block.MarbleTileWallBlock;
@@ -256,6 +276,26 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> SODALITEAND_LEPIDOLITE_TILES = REGISTRY.register("sodaliteand_lepidolite_tiles", () -> new SodaliteandLepidoliteTilesBlock());
 	public static final RegistryObject<Block> SODALITEAND_LEPIDOLITE_TILE_WALL = REGISTRY.register("sodaliteand_lepidolite_tile_wall", () -> new SodaliteandLepidoliteTileWallBlock());
 	public static final RegistryObject<Block> BLOOD_ROSE = REGISTRY.register("blood_rose", () -> new BloodRoseBlock());
+	public static final RegistryObject<Block> SODALITEAND_THULITE_TILE_STAIRS = REGISTRY.register("sodaliteand_thulite_tile_stairs", () -> new SodaliteandThuliteTileStairsBlock());
+	public static final RegistryObject<Block> SODALITEAND_THULITE_TILE_SLAB = REGISTRY.register("sodaliteand_thulite_tile_slab", () -> new SodaliteandThuliteTileSlabBlock());
+	public static final RegistryObject<Block> SODALITEAND_THULITE_TILES = REGISTRY.register("sodaliteand_thulite_tiles", () -> new SodaliteandThuliteTilesBlock());
+	public static final RegistryObject<Block> SODALITEAND_THULITE_TILE_WALL = REGISTRY.register("sodaliteand_thulite_tile_wall", () -> new SodaliteandThuliteTileWallBlock());
+	public static final RegistryObject<Block> MARBLEAND_THULITE_TILE_STAIRS = REGISTRY.register("marbleand_thulite_tile_stairs", () -> new MarbleandThuliteTileStairsBlock());
+	public static final RegistryObject<Block> MARBLEAND_THULITE_TILE_SLAB = REGISTRY.register("marbleand_thulite_tile_slab", () -> new MarbleandThuliteTileSlabBlock());
+	public static final RegistryObject<Block> MARBLEAND_THULITE_TILES = REGISTRY.register("marbleand_thulite_tiles", () -> new MarbleandThuliteTilesBlock());
+	public static final RegistryObject<Block> MARBLEAND_THULITE_TILE_WALL = REGISTRY.register("marbleand_thulite_tile_wall", () -> new MarbleandThuliteTileWallBlock());
+	public static final RegistryObject<Block> MARBLEAND_SODALITE_TILE_STAIRS = REGISTRY.register("marbleand_sodalite_tile_stairs", () -> new MarbleandSodaliteTileStairsBlock());
+	public static final RegistryObject<Block> MARBLEAND_SODALITE_TILE_SLAB = REGISTRY.register("marbleand_sodalite_tile_slab", () -> new MarbleandSodaliteTileSlabBlock());
+	public static final RegistryObject<Block> MARBLEAND_SODALITE_TILES = REGISTRY.register("marbleand_sodalite_tiles", () -> new MarbleandSodaliteTilesBlock());
+	public static final RegistryObject<Block> MARBLEAND_SODALITE_TILE_WALL = REGISTRY.register("marbleand_sodalite_tile_wall", () -> new MarbleandSodaliteTileWallBlock());
+	public static final RegistryObject<Block> THULITEAND_LEPIDOLITE_TILE_STAIRS = REGISTRY.register("thuliteand_lepidolite_tile_stairs", () -> new ThuliteandLepidoliteTileStairsBlock());
+	public static final RegistryObject<Block> THULITEAND_LEPIDOLITE_TILE_SLAB = REGISTRY.register("thuliteand_lepidolite_tile_slab", () -> new ThuliteandLepidoliteTileSlabBlock());
+	public static final RegistryObject<Block> THULITEAND_LEPIDOLITE_TILES = REGISTRY.register("thuliteand_lepidolite_tiles", () -> new ThuliteandLepidoliteTilesBlock());
+	public static final RegistryObject<Block> THULITEAND_LEPIDOLITE_TILE_WALL = REGISTRY.register("thuliteand_lepidolite_tile_wall", () -> new ThuliteandLepidoliteTileWallBlock());
+	public static final RegistryObject<Block> MARBLEAND_LEPIDOLITE_TILE_STAIRS = REGISTRY.register("marbleand_lepidolite_tile_stairs", () -> new MarbleandLepidoliteTileStairsBlock());
+	public static final RegistryObject<Block> MARBLEAND_LEPIDOLITE_TILE_SLAB = REGISTRY.register("marbleand_lepidolite_tile_slab", () -> new MarbleandLepidoliteTileSlabBlock());
+	public static final RegistryObject<Block> MARBLEAND_LEPIDOLITE_TILES = REGISTRY.register("marbleand_lepidolite_tiles", () -> new MarbleandLepidoliteTilesBlock());
+	public static final RegistryObject<Block> MARBLEAND_LEPIDOLITE_TILE_WALL = REGISTRY.register("marbleand_lepidolite_tile_wall", () -> new MarbleandLepidoliteTileWallBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

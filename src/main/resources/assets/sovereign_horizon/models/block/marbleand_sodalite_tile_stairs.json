@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "sovereign_horizon:block/marble_and_sodalite_tiles",
+    "bottom": "sovereign_horizon:block/marble_and_sodalite_tiles",
+    "top": "sovereign_horizon:block/marble_and_sodalite_tiles",
+    "side": "sovereign_horizon:block/marble_and_sodalite_tiles"
+  },
+  "render_type": "solid"
+}
