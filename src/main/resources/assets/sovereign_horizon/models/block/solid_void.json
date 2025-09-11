@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sovereign_horizon:block/solidvoid",
+    "up": "sovereign_horizon:block/solidvoid",
+    "north": "sovereign_horizon:block/solidvoid",
+    "east": "sovereign_horizon:block/solidvoid",
+    "south": "sovereign_horizon:block/solidvoid",
+    "west": "sovereign_horizon:block/solidvoid",
+    "particle": "sovereign_horizon:block/solidvoid"
+  },
+  "render_type": "solid"
+}

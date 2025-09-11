@@ -23,6 +23,7 @@ import net.mcreator.sovereignhorizon.block.TestStairsBlock;
 import net.mcreator.sovereignhorizon.block.TestSlabBlock;
 import net.mcreator.sovereignhorizon.block.TestBlock;
 import net.mcreator.sovereignhorizon.block.SparseDeepLichenCoveredSodaliteBlock;
+import net.mcreator.sovereignhorizon.block.SolidVoidBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteandThuliteTilesBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteandThuliteTileWallBlock;
 import net.mcreator.sovereignhorizon.block.SodaliteandThuliteTileStairsBlock;
@@ -296,6 +297,7 @@ public class SovereignHorizonModBlocks {
 	public static final RegistryObject<Block> MARBLEAND_LEPIDOLITE_TILE_SLAB = REGISTRY.register("marbleand_lepidolite_tile_slab", () -> new MarbleandLepidoliteTileSlabBlock());
 	public static final RegistryObject<Block> MARBLEAND_LEPIDOLITE_TILES = REGISTRY.register("marbleand_lepidolite_tiles", () -> new MarbleandLepidoliteTilesBlock());
 	public static final RegistryObject<Block> MARBLEAND_LEPIDOLITE_TILE_WALL = REGISTRY.register("marbleand_lepidolite_tile_wall", () -> new MarbleandLepidoliteTileWallBlock());
+	public static final RegistryObject<Block> SOLID_VOID = REGISTRY.register("solid_void", () -> new SolidVoidBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

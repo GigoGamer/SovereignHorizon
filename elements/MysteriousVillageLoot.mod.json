@@ -5,8 +5,8 @@
     "type": "Generic",
     "pools": [
       {
-        "minrolls": 3,
-        "maxrolls": 5,
+        "minrolls": 4,
+        "maxrolls": 8,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
@@ -14,24 +14,10 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:ElixisUpgradeSmithingTemplate"
+              "value": "CUSTOM:RawMarble"
             },
-            "weight": 2,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:CobbledSodalite"
-            },
-            "weight": 10,
-            "minCount": 1,
+            "weight": 101,
+            "minCount": 2,
             "maxCount": 5,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
@@ -42,93 +28,9 @@
           {
             "type": "item",
             "item": {
-              "value": "Items.REDSTONE"
+              "value": "CUSTOM:BloodRose"
             },
-            "weight": 12,
-            "minCount": 3,
-            "maxCount": 12,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "Items.DYE#4"
-            },
-            "weight": 10,
-            "minCount": 1,
-            "maxCount": 5,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "Items.BOOK"
-            },
-            "weight": 5,
-            "minCount": 1,
-            "maxCount": 3,
-            "minEnchantmentLevel": 10,
-            "maxEnchantmentLevel": 20,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "Items.DIAMOND_PICKAXE"
-            },
-            "weight": 2,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 10,
-            "maxEnchantmentLevel": 15,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:Ash"
-            },
-            "weight": 7,
-            "minCount": 1,
-            "maxCount": 3,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:CatechismWing"
-            },
-            "weight": 4,
-            "minCount": 1,
-            "maxCount": 3,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "Items.GOLDEN_APPLE#0"
-            },
-            "weight": 3,
+            "weight": 8,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
@@ -144,6 +46,118 @@
             },
             "weight": 5,
             "minCount": 1,
+            "maxCount": 4,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:CookedCorruptedFlesh"
+            },
+            "weight": 4,
+            "minCount": 1,
+            "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:LiquidVoid.bucket"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:CorruptedPearl"
+            },
+            "weight": 3,
+            "minCount": 1,
+            "maxCount": 2,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.BOOK"
+            },
+            "weight": 3,
+            "minCount": 1,
+            "maxCount": 2,
+            "minEnchantmentLevel": 15,
+            "maxEnchantmentLevel": 25,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.DIAMOND_PICKAXE"
+            },
+            "weight": 2,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 15,
+            "maxEnchantmentLevel": 35,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.DIAMOND_SWORD"
+            },
+            "weight": 2,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 15,
+            "maxEnchantmentLevel": 35,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Reachflower"
+            },
+            "weight": 3,
+            "minCount": 1,
+            "maxCount": 2,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_APPLE#0"
+            },
+            "weight": 3,
+            "minCount": 1,
             "maxCount": 2,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
@@ -154,7 +168,7 @@
         ]
       }
     ],
-    "name": "gameplay/middle_tower",
+    "name": "gameplay/mysterious_village",
     "namespace": "mod"
   }
 }

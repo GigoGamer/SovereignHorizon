@@ -8767,6 +8767,84 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "MysteriousVillage",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_village",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/mysterious_village_room.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/structure/mysterious_village.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/structure_set/mysterious_village.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/mysterious_village.json",
+          "src/main/resources/data/sovereign_horizon/worldgen/template_pool/mysterious_village_bridge.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "SolidVoid",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solid_void",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/blocks/solid_void.json",
+          "src/main/resources/assets/sovereign_horizon/models/item/solid_void.json",
+          "src/main/resources/assets/sovereign_horizon/blockstates/solid_void.json",
+          "src/main/java/net/mcreator/sovereignhorizon/block/SolidVoidBlock.java",
+          "src/main/resources/assets/sovereign_horizon/models/block/solid_void.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LiquidVoidNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_void_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/LiquidVoidNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MysteriousVillageLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_village_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/loot_tables/gameplay/mysterious_village.json"
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
@@ -9221,7 +9299,8 @@
       "InfusionTable",
       "Keystone",
       "RecordSunrise",
-      "LiquidVoid"
+      "LiquidVoid",
+      "SolidVoid"
     ]
   },
   "language_map": {
@@ -9276,6 +9355,7 @@
       "entity.sovereign_horizon.elixite_golem": "Elixite Golem",
       "block.sovereign_horizon.polished_larimar_wall": "Polished Larimar Wall",
       "block.sovereign_horizon.marbleand_thulite_tiles": "Marble and Thulite Tiles",
+      "block.sovereign_horizon.solid_void": "Solid Void",
       "block.sovereign_horizon.sodalite_tile_slab": "Sodalite Tile Slab",
       "block.sovereign_horizon.binary_brick_slab": "Cracked Binary Bricks",
       "block.sovereign_horizon.thulite_wall": "Thulite Wall",
