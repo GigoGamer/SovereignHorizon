@@ -178,5 +178,7 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModItems.RECORD_SUNRISE.get());
 				tabData.accept(SovereignHorizonModItems.LIQUID_VOID_BUCKET.get());
 				tabData.accept(SovereignHorizonModBlocks.SOLID_VOID.get().asItem());
+				tabData.accept(SovereignHorizonModItems.REPULSTONE.get());
+				tabData.accept(SovereignHorizonModItems.REELLANCE.get());
 			}).build());
 }

@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "repulstone",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CatechismWing"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CatechismWing"
+      },
+      {
+        "value": "CUSTOM:SolidVoid"
+      },
+      {
+        "value": "CUSTOM:CatechismWing"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CatechismWing"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Repulstone"
+    },
+    "name": "repulstone_recipe",
+    "namespace": "mod"
+  }
+}

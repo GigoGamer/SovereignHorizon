@@ -15,6 +15,8 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.sovereignhorizon.item.TotemofChanceItem;
+import net.mcreator.sovereignhorizon.item.RepulstoneItem;
+import net.mcreator.sovereignhorizon.item.ReellanceItem;
 import net.mcreator.sovereignhorizon.item.RecordSunriseItem;
 import net.mcreator.sovereignhorizon.item.RawCorruptedFleshItem;
 import net.mcreator.sovereignhorizon.item.LiquidVoidItem;
@@ -200,6 +202,8 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> MARBLEAND_LEPIDOLITE_TILES = block(SovereignHorizonModBlocks.MARBLEAND_LEPIDOLITE_TILES);
 	public static final RegistryObject<Item> MARBLEAND_LEPIDOLITE_TILE_WALL = block(SovereignHorizonModBlocks.MARBLEAND_LEPIDOLITE_TILE_WALL);
 	public static final RegistryObject<Item> SOLID_VOID = block(SovereignHorizonModBlocks.SOLID_VOID);
+	public static final RegistryObject<Item> REPULSTONE = REGISTRY.register("repulstone", () -> new RepulstoneItem());
+	public static final RegistryObject<Item> REELLANCE = REGISTRY.register("reellance", () -> new ReellanceItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

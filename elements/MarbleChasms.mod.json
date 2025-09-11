@@ -126,15 +126,6 @@
       },
       {
         "entity": {
-          "value": "EntityBreeze"
-        },
-        "minGroup": 1,
-        "maxGroup": 2,
-        "weight": 5,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
           "value": "CUSTOM:ElixisCorruptedEnderman"
         },
         "minGroup": 1,
