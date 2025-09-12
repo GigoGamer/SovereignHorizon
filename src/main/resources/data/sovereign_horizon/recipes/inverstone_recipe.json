@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "inverstone",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:binary_shard"
+    },
+    "b": {
+      "item": "sovereign_horizon:solid_void"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:inverstone",
+    "count": 4
+  }
+}

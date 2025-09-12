@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "warpstone",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CorruptedPearl"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CorruptedPearl"
+      },
+      {
+        "value": "CUSTOM:SolidVoid"
+      },
+      {
+        "value": "CUSTOM:CorruptedPearl"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CorruptedPearl"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Warpstone"
+    },
+    "name": "warpstone_recipe",
+    "namespace": "mod"
+  }
+}

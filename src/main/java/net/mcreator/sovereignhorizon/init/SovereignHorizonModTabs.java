@@ -181,5 +181,7 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModItems.REPULSTONE.get());
 				tabData.accept(SovereignHorizonModItems.REELLANCE.get());
 				tabData.accept(SovereignHorizonModItems.BOUNDSTONE.get());
+				tabData.accept(SovereignHorizonModItems.WARPSTONE.get());
+				tabData.accept(SovereignHorizonModItems.INVERSTONE.get());
 			}).build());
 }

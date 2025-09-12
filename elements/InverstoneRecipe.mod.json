@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "inverstone",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BinaryShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BinaryShard"
+      },
+      {
+        "value": "CUSTOM:SolidVoid"
+      },
+      {
+        "value": "CUSTOM:BinaryShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BinaryShard"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Inverstone"
+    },
+    "name": "inverstone_recipe",
+    "namespace": "mod"
+  }
+}

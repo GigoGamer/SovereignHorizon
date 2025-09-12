@@ -9031,6 +9031,134 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "Warpstone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warpstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/warpstone.json",
+          "src/main/java/net/mcreator/sovereignhorizon/item/WarpstoneItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WarpstonePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warpstone_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/WarpstonePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Inverstone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inverstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sovereign_horizon/models/item/inverstone.json",
+          "src/main/java/net/mcreator/sovereignhorizon/item/InverstoneItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "InverstonePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inverstone_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/InverstonePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WarpstoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warpstone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/warpstone_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "InverstoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inverstone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/recipes/inverstone_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -9238,6 +9366,9 @@
       "~CUSTOM:CobbledSodaliteSlab",
       "~CUSTOM:SodaliteSlab"
     ],
+    "BIOMES:mod:has_top_layer": [
+      "CUSTOM:SodaliteWastes"
+    ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:CrackedSodaliteTiles",
       "~CUSTOM:SodaliteTileWall",
@@ -9265,9 +9396,6 @@
       "~CUSTOM:SodaliteSlab",
       "~CUSTOM:SodaliteStairs",
       "~CUSTOM:Sodalite"
-    ],
-    "BIOMES:mod:has_top_layer": [
-      "CUSTOM:SodaliteWastes"
     ],
     "BLOCKS:minecraft:walls": [
       "~CUSTOM:MarbleandLepidoliteTileWall",
@@ -9492,38 +9620,41 @@
       "SolidVoid",
       "Repulstone",
       "Reellance",
-      "Boundstone"
+      "Boundstone",
+      "Warpstone",
+      "Inverstone"
     ]
   },
   "language_map": {
     "en_us": {
       "block.sovereign_horizon.deep_lichen_covered_sodalite": "Deep Lichen Covered Sodalite",
-      "item.sovereign_horizon.boundstone": "Boundstone",
       "item.sovereign_horizon.record_sunrise.desc": "Goshiggy - Sunrise",
+      "item.sovereign_horizon.boundstone": "Boundstone",
       "item.sovereign_horizon.elixite_armor_chestplate": "Elixite Chestplate",
       "key.sovereign_horizon.enchantment_ability": "Enchantment Ability",
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
       "advancements.carbonated_rock.descr": "Find sodalite",
-      "entity.sovereign_horizon.switchling": "Switchling",
       "block.sovereign_horizon.polished_sodalite_slab": "Polished Sodalite Slab",
-      "advancements.enriched_ores.title": "Enriched Ores",
-      "advancements.tear_in_the_fabricof_reality.descr": "Obtain a liquid void bucket, the key to entering the Sovereign Horizon",
+      "entity.sovereign_horizon.switchling": "Switchling",
       "block.sovereign_horizon.marble_brick_wall": "Marble Brick Wall",
+      "advancements.tear_in_the_fabricof_reality.descr": "Obtain a liquid void bucket, the key to entering the Sovereign Horizon",
+      "advancements.enriched_ores.title": "Enriched Ores",
       "block.sovereign_horizon.binary_brick_stairs": "Cracked Binary Bricks",
       "block.sovereign_horizon.sodalite_lapis_lazuli_ore": "Sodalite Lapis Lazuli Ore",
       "item.sovereign_horizon.elixis_upgrade_smithing_template": "Smithing Template",
       "advancements.boing.title": "Boing!",
-      "block.sovereign_horizon.cracked_marble_bricks": "Cracked Marble Bricks",
       "block.sovereign_horizon.raw_marble_slab": "Raw Marble Slab",
+      "block.sovereign_horizon.cracked_marble_bricks": "Cracked Marble Bricks",
       "block.sovereign_horizon.marble_tiles": "Marble Tiles",
       "item.sovereign_horizon.reellance": "Reellance",
       "block.sovereign_horizon.polished_thulite_wall": "Polished Thulite Wall",
       "item.sovereign_horizon.elixis_corrupted_enderman_spawn_egg": "Elixis Corrupted Enderman Spawn Egg",
       "advancements.mineral_collector.title": "Mineral Collector",
+      "item.sovereign_horizon.inverstone": "Inverstone",
       "block.sovereign_horizon.marble_bricks": "Marble Bricks",
-      "block.sovereign_horizon.sodalite_tiles": "Sodalite Tiles",
       "block.sovereign_horizon.binary_bricks": "Binary Bricks",
+      "block.sovereign_horizon.sodalite_tiles": "Sodalite Tiles",
       "block.sovereign_horizon.raw_marble_tile_wall": "Raw Marble Tile Wall",
       "block.sovereign_horizon.blood_rose": "Blood Rose",
       "advancements.cheat_code.title": "Cheat Code",
@@ -9535,21 +9666,22 @@
       "advancements.corruption_cleanser.title": "Corruption Cleanser",
       "block.sovereign_horizon.thuliteand_lepidolite_tiles": "Thulite and Lepidolite Tiles",
       "subtitles.music.horizon": "Music",
-      "block.sovereign_horizon.polished_marble_slab": "Polished Marble Slab",
       "block.sovereign_horizon.sodaliteand_lepidolite_tile_wall": "Sodalite and Lepidolite Tile Wall",
-      "block.sovereign_horizon.raw_marble_tiles": "Raw Marble Tiles",
+      "block.sovereign_horizon.polished_marble_slab": "Polished Marble Slab",
       "advancements.boing.descr": "Use the bounding enchantment to double jump",
+      "block.sovereign_horizon.raw_marble_tiles": "Raw Marble Tiles",
       "item_group.sovereign_horizon.sovereign_horizon": "Sovereign Horizon",
-      "advancements.on_and_off.title": "On And Off",
       "item.sovereign_horizon.elixis_shard": "Elixis Shard",
-      "block.sovereign_horizon.raw_marble_bricks": "Raw Marble Bricks",
+      "advancements.on_and_off.title": "On And Off",
       "block.sovereign_horizon.keystone": "Keystone",
+      "block.sovereign_horizon.raw_marble_bricks": "Raw Marble Bricks",
       "block.sovereign_horizon.polished_thulite_stairs": "Polished Thulite Stairs",
       "block.sovereign_horizon.raw_marble_brick_stairs": "Raw Marble Brick Stairs",
       "entity.sovereign_horizon.elixite_golem": "Elixite Golem",
       "block.sovereign_horizon.polished_larimar_wall": "Polished Larimar Wall",
       "block.sovereign_horizon.marbleand_thulite_tiles": "Marble and Thulite Tiles",
       "block.sovereign_horizon.solid_void": "Solid Void",
+      "item.sovereign_horizon.warpstone": "Warpstone",
       "block.sovereign_horizon.sodalite_tile_slab": "Sodalite Tile Slab",
       "block.sovereign_horizon.binary_brick_slab": "Cracked Binary Bricks",
       "block.sovereign_horizon.thulite_wall": "Thulite Wall",

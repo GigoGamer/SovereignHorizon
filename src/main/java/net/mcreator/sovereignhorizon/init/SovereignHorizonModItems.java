@@ -14,12 +14,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.sovereignhorizon.item.WarpstoneItem;
 import net.mcreator.sovereignhorizon.item.TotemofChanceItem;
 import net.mcreator.sovereignhorizon.item.RepulstoneItem;
 import net.mcreator.sovereignhorizon.item.ReellanceItem;
 import net.mcreator.sovereignhorizon.item.RecordSunriseItem;
 import net.mcreator.sovereignhorizon.item.RawCorruptedFleshItem;
 import net.mcreator.sovereignhorizon.item.LiquidVoidItem;
+import net.mcreator.sovereignhorizon.item.InverstoneItem;
 import net.mcreator.sovereignhorizon.item.ErrorPearlItem;
 import net.mcreator.sovereignhorizon.item.ElixiteArmorItem;
 import net.mcreator.sovereignhorizon.item.ElixisUpgradeSmithingTemplateItem;
@@ -206,6 +208,8 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> REPULSTONE = REGISTRY.register("repulstone", () -> new RepulstoneItem());
 	public static final RegistryObject<Item> REELLANCE = REGISTRY.register("reellance", () -> new ReellanceItem());
 	public static final RegistryObject<Item> BOUNDSTONE = REGISTRY.register("boundstone", () -> new BoundstoneItem());
+	public static final RegistryObject<Item> WARPSTONE = REGISTRY.register("warpstone", () -> new WarpstoneItem());
+	public static final RegistryObject<Item> INVERSTONE = REGISTRY.register("inverstone", () -> new InverstoneItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
