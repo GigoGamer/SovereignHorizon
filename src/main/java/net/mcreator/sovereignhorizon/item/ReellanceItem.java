@@ -45,7 +45,7 @@ public class ReellanceItem extends SwordItem {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		ReellanceLivingEntityIsHitWithToolProcedure.execute(entity, sourceentity);
+		ReellanceLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity, sourceentity, itemstack);
 		return retval;
 	}
 

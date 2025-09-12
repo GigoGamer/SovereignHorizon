@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boundstone",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "sovereign_horizon:blueskin"
+    },
+    "b": {
+      "item": "sovereign_horizon:solid_void"
+    }
+  },
+  "result": {
+    "item": "sovereign_horizon:boundstone",
+    "count": 4
+  }
+}

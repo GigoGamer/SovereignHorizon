@@ -1,0 +1,26 @@
+{
+  "_fv": 77,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Reeling",
+    "supportedSlots": "any",
+    "weight": 5,
+    "anvilCost": 2,
+    "maxLevel": 2,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [
+      {
+        "value": "KNOCKBACK"
+      }
+    ],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:Reellance"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": false
+  }
+}

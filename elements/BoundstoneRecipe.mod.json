@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "boundstone",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Blueskin"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Blueskin"
+      },
+      {
+        "value": "CUSTOM:SolidVoid"
+      },
+      {
+        "value": "CUSTOM:Blueskin"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Blueskin"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Boundstone"
+    },
+    "name": "boundstone_recipe",
+    "namespace": "mod"
+  }
+}

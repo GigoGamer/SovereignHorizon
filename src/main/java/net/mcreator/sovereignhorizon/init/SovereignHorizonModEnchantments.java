@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.enchantment.Enchantment;
 
 import net.mcreator.sovereignhorizon.enchantment.ResilienceEnchantment;
+import net.mcreator.sovereignhorizon.enchantment.ReelingEnchantment;
 import net.mcreator.sovereignhorizon.enchantment.BoundingEnchantment;
 import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 
@@ -18,4 +19,5 @@ public class SovereignHorizonModEnchantments {
 	public static final DeferredRegister<Enchantment> REGISTRY = DeferredRegister.create(ForgeRegistries.ENCHANTMENTS, SovereignHorizonMod.MODID);
 	public static final RegistryObject<Enchantment> RESILIENCE = REGISTRY.register("resilience", () -> new ResilienceEnchantment());
 	public static final RegistryObject<Enchantment> BOUNDING = REGISTRY.register("bounding", () -> new BoundingEnchantment());
+	public static final RegistryObject<Enchantment> REELING = REGISTRY.register("reeling", () -> new ReelingEnchantment());
 }

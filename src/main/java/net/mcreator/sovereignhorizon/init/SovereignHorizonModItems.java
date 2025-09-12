@@ -27,6 +27,7 @@ import net.mcreator.sovereignhorizon.item.ElixisShardItem;
 import net.mcreator.sovereignhorizon.item.CorruptedPearlItem;
 import net.mcreator.sovereignhorizon.item.CookedCorruptedFleshItem;
 import net.mcreator.sovereignhorizon.item.CatechismWingItem;
+import net.mcreator.sovereignhorizon.item.BoundstoneItem;
 import net.mcreator.sovereignhorizon.item.BlueskinItem;
 import net.mcreator.sovereignhorizon.item.BlueskinBootsItem;
 import net.mcreator.sovereignhorizon.item.BinaryShardItem;
@@ -204,6 +205,7 @@ public class SovereignHorizonModItems {
 	public static final RegistryObject<Item> SOLID_VOID = block(SovereignHorizonModBlocks.SOLID_VOID);
 	public static final RegistryObject<Item> REPULSTONE = REGISTRY.register("repulstone", () -> new RepulstoneItem());
 	public static final RegistryObject<Item> REELLANCE = REGISTRY.register("reellance", () -> new ReellanceItem());
+	public static final RegistryObject<Item> BOUNDSTONE = REGISTRY.register("boundstone", () -> new BoundstoneItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
