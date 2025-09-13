@@ -1,31 +1,31 @@
 {
   "display": {
     "icon": {
-      "item": "sovereign_horizon:liquid_void_bucket"
+      "item": "sovereign_horizon:reellance"
     },
     "title": {
-      "translate": "advancements.tear_in_the_fabricof_reality.title"
+      "translate": "advancements.take_it_back_now_yall.title"
     },
     "description": {
-      "translate": "advancements.tear_in_the_fabricof_reality.descr"
+      "translate": "advancements.take_it_back_now_yall.descr"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
   },
   "criteria": {
-    "tear_in_the_fabricof_reality_0": {
+    "take_it_back_now_yall_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "sovereign_horizon:liquid_void_bucket"
+              "sovereign_horizon:reellance"
             ],
             "count": {
               "min": 1,
-              "max": 1
+              "max": 99999999
             }
           }
         ]
@@ -33,7 +33,7 @@
     }
   },
   "rewards": {
-    "experience": 2
+    "experience": 10
   },
-  "parent": "sovereign_horizon:sh_enter"
+  "parent": "sovereign_horizon:under_pressure"
 }

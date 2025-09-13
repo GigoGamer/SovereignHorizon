@@ -33,6 +33,7 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.sovereignhorizon.procedures.NewEntityDiesProcedure;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEntities;
 
 public class AshCrawlerEntity extends Monster {
@@ -86,6 +87,12 @@ public class AshCrawlerEntity extends Monster {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("particle.soul_escape"));
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		NewEntityDiesProcedure.execute(source.getEntity());
 	}
 
 	public static void init() {

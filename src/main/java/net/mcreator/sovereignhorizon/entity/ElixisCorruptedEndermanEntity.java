@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.sovereignhorizon.procedures.NewEntityDiesProcedure;
 import net.mcreator.sovereignhorizon.procedures.ElixisCorruptedEndermanOnEntityTickUpdateProcedure;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEntities;
 
@@ -97,6 +98,12 @@ public class ElixisCorruptedEndermanEntity extends Monster {
 		if (damagesource.getDirectEntity() instanceof AbstractArrow)
 			return false;
 		return super.hurt(damagesource, amount);
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		NewEntityDiesProcedure.execute(source.getEntity());
 	}
 
 	@Override

@@ -147,6 +147,9 @@
         "value": true
       }
     ],
+    "whenMobDies": {
+      "name": "NewEntityDies"
+    },
     "onMobTickUpdate": {
       "name": "SwitchlingOnEntityTickUpdate"
     },

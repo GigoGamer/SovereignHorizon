@@ -11,13 +11,13 @@
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
-    "hideIfNotCompleted": false,
+    "hideIfNotCompleted": true,
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardXP": 5,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:HowRiveding"
+      "value": "CUSTOM:MysteriousDangers"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
   }

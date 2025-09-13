@@ -2,10 +2,10 @@
   "_fv": 77,
   "_type": "achievement",
   "definition": {
-    "achievementName": "So Many Combos...",
-    "achievementDescription": "Infuse Elixite Armor with an infusion table.",
+    "achievementName": "Mysterious Dangers",
+    "achievementDescription": "Kill a mob native to the Sovereign Horizon",
     "achievementIcon": {
-      "value": "CUSTOM:ElixiteArmor.body"
+      "value": "CUSTOM:RawCorruptedFlesh"
     },
     "background": "sovereign_horizon_advancement_background.png",
     "disableDisplay": false,
@@ -13,11 +13,15 @@
     "announceToChat": true,
     "hideIfNotCompleted": true,
     "rewardLoot": [],
-    "rewardRecipes": [],
-    "rewardXP": 20,
-    "achievementType": "challenge",
+    "rewardRecipes": [
+      "CookedCorruptedFleshCampfire",
+      "CookedCorruptedFleshSmelting",
+      "CookedCorruptedFleshSmoking"
+    ],
+    "rewardXP": 4,
+    "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:ANewMeta"
+      "value": "CUSTOM:ShEnter"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
   }

@@ -11,7 +11,7 @@
     "disableDisplay": false,
     "showPopup": false,
     "announceToChat": true,
-    "hideIfNotCompleted": false,
+    "hideIfNotCompleted": true,
     "rewardLoot": [],
     "rewardRecipes": [
       "ElixiteArmorHelmetRecipe",

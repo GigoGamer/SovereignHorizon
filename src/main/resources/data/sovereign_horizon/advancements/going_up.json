@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "sovereign_horizon:liquid_void_bucket"
+      "item": "sovereign_horizon:inverstone"
     },
     "title": {
-      "translate": "advancements.tear_in_the_fabricof_reality.title"
+      "translate": "advancements.going_up.title"
     },
     "description": {
-      "translate": "advancements.tear_in_the_fabricof_reality.descr"
+      "translate": "advancements.going_up.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -15,17 +15,17 @@
     "hidden": true
   },
   "criteria": {
-    "tear_in_the_fabricof_reality_0": {
+    "going_up_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "sovereign_horizon:liquid_void_bucket"
+              "sovereign_horizon:inverstone"
             ],
             "count": {
               "min": 1,
-              "max": 1
+              "max": 9999
             }
           }
         ]
@@ -33,7 +33,10 @@
     }
   },
   "rewards": {
-    "experience": 2
+    "experience": 0,
+    "recipes": [
+      "sovereign_horizon:inverstone_recipe"
+    ]
   },
-  "parent": "sovereign_horizon:sh_enter"
+  "parent": "sovereign_horizon:on_and_off"
 }

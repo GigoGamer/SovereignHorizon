@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "sovereign_horizon:raw_corrupted_flesh"
+    },
+    "title": {
+      "translate": "advancements.mysterious_dangers.title"
+    },
+    "description": {
+      "translate": "advancements.mysterious_dangers.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "mysterious_dangers_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 4,
+    "recipes": [
+      "sovereign_horizon:cooked_corrupted_flesh_campfire",
+      "sovereign_horizon:cooked_corrupted_flesh_smelting",
+      "sovereign_horizon:cooked_corrupted_flesh_smoking"
+    ]
+  },
+  "parent": "sovereign_horizon:sh_enter"
+}

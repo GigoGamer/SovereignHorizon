@@ -12,7 +12,7 @@
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "corruption_cleanser_0": {
@@ -147,5 +147,5 @@
   "rewards": {
     "experience": 7
   },
-  "parent": "sovereign_horizon:how_riveding"
+  "parent": "sovereign_horizon:mysterious_dangers"
 }

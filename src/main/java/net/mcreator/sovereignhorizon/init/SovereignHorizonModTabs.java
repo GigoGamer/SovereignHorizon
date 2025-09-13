@@ -166,6 +166,7 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModItems.COOKED_CORRUPTED_FLESH.get());
 				tabData.accept(SovereignHorizonModItems.SWITCHLING_SPAWN_EGG.get());
 				tabData.accept(SovereignHorizonModItems.BINARY_SHARD.get());
+				tabData.accept(SovereignHorizonModBlocks.KEYSTONE.get().asItem());
 				tabData.accept(SovereignHorizonModItems.ELIXIS_SHARD.get());
 				tabData.accept(SovereignHorizonModBlocks.BLOCKOF_ELIXIS_SHARDS.get().asItem());
 				tabData.accept(SovereignHorizonModItems.ELIXIS_UPGRADE_SMITHING_TEMPLATE.get());
@@ -174,14 +175,13 @@ public class SovereignHorizonModTabs {
 				tabData.accept(SovereignHorizonModItems.ELIXITE_ARMOR_LEGGINGS.get());
 				tabData.accept(SovereignHorizonModItems.ELIXITE_ARMOR_BOOTS.get());
 				tabData.accept(SovereignHorizonModBlocks.INFUSION_TABLE.get().asItem());
-				tabData.accept(SovereignHorizonModBlocks.KEYSTONE.get().asItem());
-				tabData.accept(SovereignHorizonModItems.RECORD_SUNRISE.get());
-				tabData.accept(SovereignHorizonModItems.LIQUID_VOID_BUCKET.get());
-				tabData.accept(SovereignHorizonModBlocks.SOLID_VOID.get().asItem());
-				tabData.accept(SovereignHorizonModItems.REPULSTONE.get());
 				tabData.accept(SovereignHorizonModItems.REELLANCE.get());
+				tabData.accept(SovereignHorizonModItems.REPULSTONE.get());
 				tabData.accept(SovereignHorizonModItems.BOUNDSTONE.get());
 				tabData.accept(SovereignHorizonModItems.WARPSTONE.get());
 				tabData.accept(SovereignHorizonModItems.INVERSTONE.get());
+				tabData.accept(SovereignHorizonModItems.RECORD_SUNRISE.get());
+				tabData.accept(SovereignHorizonModItems.LIQUID_VOID_BUCKET.get());
+				tabData.accept(SovereignHorizonModBlocks.SOLID_VOID.get().asItem());
 			}).build());
 }

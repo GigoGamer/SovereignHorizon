@@ -12,12 +12,12 @@
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "on_and_off_0": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "sovereign_horizon:sh_enter"
+  "parent": "sovereign_horizon:under_pressure"
 }

@@ -9159,6 +9159,103 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "GetOutOfMyNoNoSquare",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_out_of_my_no_no_square",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/get_out_of_my_no_no_square.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GottaBlast",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gotta_blast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/gotta_blast.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BackFromTheFuture",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_from_the_future",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/back_from_the_future.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GoingUp",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "going_up",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/going_up.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TakeItBackNowYall",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "take_it_back_now_yall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/take_it_back_now_yall.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MysteriousDangers",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_dangers",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/sovereign_horizon/advancements/mysterious_dangers.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "NewEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sovereignhorizon/procedures/NewEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entities"
     }
   ],
   "variable_elements": [],
@@ -9609,43 +9706,43 @@
       "CookedCorruptedFlesh",
       "Switchling",
       "BinaryShard",
+      "Keystone",
       "ElixisShard",
       "BlockofElixisShards",
       "ElixisUpgradeSmithingTemplate",
       "ElixiteArmor",
       "InfusionTable",
-      "Keystone",
-      "RecordSunrise",
-      "LiquidVoid",
-      "SolidVoid",
-      "Repulstone",
       "Reellance",
+      "Repulstone",
       "Boundstone",
       "Warpstone",
-      "Inverstone"
+      "Inverstone",
+      "RecordSunrise",
+      "LiquidVoid",
+      "SolidVoid"
     ]
   },
   "language_map": {
     "en_us": {
       "block.sovereign_horizon.deep_lichen_covered_sodalite": "Deep Lichen Covered Sodalite",
-      "item.sovereign_horizon.boundstone": "Boundstone",
       "item.sovereign_horizon.record_sunrise.desc": "Goshiggy - Sunrise",
+      "item.sovereign_horizon.boundstone": "Boundstone",
       "item.sovereign_horizon.elixite_armor_chestplate": "Elixite Chestplate",
       "key.sovereign_horizon.enchantment_ability": "Enchantment Ability",
       "item.minecraft.potion.effect.levitation": "Potion of Levitation",
       "block.sovereign_horizon.sodalite_tile_wall": "Sodalite Tile Wall",
       "advancements.carbonated_rock.descr": "Find sodalite",
-      "entity.sovereign_horizon.switchling": "Switchling",
       "block.sovereign_horizon.polished_sodalite_slab": "Polished Sodalite Slab",
-      "advancements.enriched_ores.title": "Enriched Ores",
-      "advancements.tear_in_the_fabricof_reality.descr": "Obtain a liquid void bucket, the key to entering the Sovereign Horizon",
+      "entity.sovereign_horizon.switchling": "Switchling",
       "block.sovereign_horizon.marble_brick_wall": "Marble Brick Wall",
+      "advancements.tear_in_the_fabricof_reality.descr": "Obtain a liquid void bucket, the key to entering the Sovereign Horizon",
+      "advancements.enriched_ores.title": "Enriched Ores",
       "block.sovereign_horizon.binary_brick_stairs": "Cracked Binary Bricks",
       "block.sovereign_horizon.sodalite_lapis_lazuli_ore": "Sodalite Lapis Lazuli Ore",
       "item.sovereign_horizon.elixis_upgrade_smithing_template": "Smithing Template",
       "advancements.boing.title": "Boing!",
-      "block.sovereign_horizon.cracked_marble_bricks": "Cracked Marble Bricks",
       "block.sovereign_horizon.raw_marble_slab": "Raw Marble Slab",
+      "block.sovereign_horizon.cracked_marble_bricks": "Cracked Marble Bricks",
       "block.sovereign_horizon.marble_tiles": "Marble Tiles",
       "item.sovereign_horizon.reellance": "Reellance",
       "block.sovereign_horizon.polished_thulite_wall": "Polished Thulite Wall",
@@ -9653,8 +9750,8 @@
       "advancements.mineral_collector.title": "Mineral Collector",
       "item.sovereign_horizon.inverstone": "Inverstone",
       "block.sovereign_horizon.marble_bricks": "Marble Bricks",
-      "block.sovereign_horizon.sodalite_tiles": "Sodalite Tiles",
       "block.sovereign_horizon.binary_bricks": "Binary Bricks",
+      "block.sovereign_horizon.sodalite_tiles": "Sodalite Tiles",
       "block.sovereign_horizon.raw_marble_tile_wall": "Raw Marble Tile Wall",
       "block.sovereign_horizon.blood_rose": "Blood Rose",
       "advancements.cheat_code.title": "Cheat Code",
@@ -9666,17 +9763,18 @@
       "advancements.corruption_cleanser.title": "Corruption Cleanser",
       "block.sovereign_horizon.thuliteand_lepidolite_tiles": "Thulite and Lepidolite Tiles",
       "subtitles.music.horizon": "Music",
-      "block.sovereign_horizon.polished_marble_slab": "Polished Marble Slab",
       "block.sovereign_horizon.sodaliteand_lepidolite_tile_wall": "Sodalite and Lepidolite Tile Wall",
-      "block.sovereign_horizon.raw_marble_tiles": "Raw Marble Tiles",
+      "block.sovereign_horizon.polished_marble_slab": "Polished Marble Slab",
       "advancements.boing.descr": "Use the bounding enchantment to double jump",
+      "block.sovereign_horizon.raw_marble_tiles": "Raw Marble Tiles",
       "item_group.sovereign_horizon.sovereign_horizon": "Sovereign Horizon",
-      "advancements.on_and_off.title": "On And Off",
       "item.sovereign_horizon.elixis_shard": "Elixis Shard",
-      "block.sovereign_horizon.raw_marble_bricks": "Raw Marble Bricks",
+      "advancements.on_and_off.title": "On And Off",
       "block.sovereign_horizon.keystone": "Keystone",
+      "block.sovereign_horizon.raw_marble_bricks": "Raw Marble Bricks",
       "block.sovereign_horizon.polished_thulite_stairs": "Polished Thulite Stairs",
       "block.sovereign_horizon.raw_marble_brick_stairs": "Raw Marble Brick Stairs",
+      "advancements.mysterious_dangers.title": "Mysterious Dangers",
       "entity.sovereign_horizon.elixite_golem": "Elixite Golem",
       "block.sovereign_horizon.polished_larimar_wall": "Polished Larimar Wall",
       "block.sovereign_horizon.marbleand_thulite_tiles": "Marble and Thulite Tiles",
@@ -9702,6 +9800,7 @@
       "block.sovereign_horizon.sodaliteand_lepidolite_tiles": "Sodalite and Lepidolite Tiles",
       "block.sovereign_horizon.infusion_table": "Infusion Table",
       "block.sovereign_horizon.raw_marble_brick_wall": "Raw Marble Brick Wall",
+      "advancements.take_it_back_now_yall.title": "Take It Back Now Y\u0027all",
       "block.sovereign_horizon.raw_marble_wall": "Raw Marble Wall",
       "advancements.a_new_meta.title": "A New Meta",
       "block.sovereign_horizon.lepidolite_stairs": "Lepidolite Stairs",
@@ -9724,10 +9823,12 @@
       "block.sovereign_horizon.marbleand_lepidolite_tile_wall": "Marble and Lepidolite Tile Wall",
       "advancements.under_pressure.descr": "Take damage due to not having adequate equipment for deep, underground travel in the Sovereign Horizon",
       "block.sovereign_horizon.sodaliteand_thulite_tile_slab": "Sodalite and Thulite Tile Slab",
+      "advancements.going_up.descr": "Find or craft a inverstone",
       "block.sovereign_horizon.binary_brick_wall": "Binary Brick Wall",
       "block.sovereign_horizon.raw_marble_tile_stairs": "Raw Marble Tile Stairs",
       "gui.sovereign_horizon.infusion_table_gui.button_infuse": "Infuse",
       "block.sovereign_horizon.marble_pillar": "Marble Pillar",
+      "advancements.get_out_of_my_no_no_square.title": "Get Out Of My No-No Square!",
       "item.sovereign_horizon.switchling_spawn_egg": "Switchling Spawn Egg",
       "block.sovereign_horizon.sodalite_tile_stairs": "Sodalite Tile Stairs",
       "block.sovereign_horizon.sodalite_button": "Sodalite Button",
@@ -9779,6 +9880,7 @@
       "block.sovereign_horizon.reachflower": "Reachflower",
       "block.sovereign_horizon.thuliteand_lepidolite_tile_wall": "Thulite and Lepidolite Tile Wall",
       "advancements.mysterious_past.descr": "Find the Sunrise music disc",
+      "advancements.gotta_blast.title": "Gotta Blast",
       "block.sovereign_horizon.polished_marble": "Polished Marble",
       "block.sovereign_horizon.ashen_flower": "Ashen Flower",
       "block.sovereign_horizon.test_stairs": "Test Stairs",
@@ -9792,6 +9894,7 @@
       "block.sovereign_horizon.thulite_stairs": "Thulite Stairs",
       "entity.sovereign_horizon.rived_ghast": "Rived Ghast",
       "advancements.so_many_combos.title": "So Many Combos...",
+      "advancements.back_from_the_future.descr": "Find or craft a warpstone",
       "block.sovereign_horizon.sodalite_redstone_ore": "Sodalite Redstone Ore",
       "block.sovereign_horizon.test": "Test",
       "item.sovereign_horizon.elixite_armor_leggings": "Elixite Leggings",
@@ -9800,6 +9903,7 @@
       "item.sovereign_horizon.elixite_armor_helmet": "Elixite Helmet",
       "entity.sovereign_horizon.ash_crawler": "Ash Crawler",
       "block.sovereign_horizon.sodalite_wall": "Sodalite Wall",
+      "advancements.take_it_back_now_yall.descr": "Get a reellance",
       "item.sovereign_horizon.catechism_wing": "Catechism Wing",
       "block.sovereign_horizon.sodaliteand_thulite_tile_wall": "Sodalite and Thulite Tile Wall",
       "block.sovereign_horizon.larimar_stairs": "Larimar Stairs",
@@ -9846,13 +9950,17 @@
       "block.sovereign_horizon.thuliteand_lepidolite_tile_slab": "Thulite and Lepidolite Tile Slab",
       "block.sovereign_horizon.binary_lamp": "Binary Lamp",
       "item.sovereign_horizon.desolate_creeper_spawn_egg": "Desolate Creeper Spawn Egg",
+      "advancements.mysterious_dangers.descr": "Kill a mob native to the Sovereign Horizon",
       "biome.sovereign_horizon.marble_chasms": "Marble Chasms",
+      "advancements.get_out_of_my_no_no_square.descr": "Find or craft a repulstone",
       "item.sovereign_horizon.raw_corrupted_flesh": "Raw Corrupted Flesh",
       "advancements.how_riveding.descr": "Kill a rived ghast",
       "advancements.under_pressure.title": "Under Pressure",
       "block.sovereign_horizon.marbleand_lepidolite_tile_stairs": "Marble and Lepidolite Tile Stairs",
       "block.sovereign_horizon.raw_marble_tile_slab": "Raw Marble Tile Slab",
       "block.sovereign_horizon.larimar": "Larimar",
+      "advancements.back_from_the_future.title": "Back From the Future",
+      "advancements.going_up.title": "Going Up?",
       "block.sovereign_horizon.marble_brick_stairs": "Marble Brick Stairs",
       "subtitles.music.sh.sodalitewastes": "Music",
       "death.attack.pressure.player": "%1$s imploded whilst trying to escape %2$s",
@@ -9862,6 +9970,7 @@
       "advancements.aint_nobody_got_time_for_that.descr": "Go flower collecting? In the Sovereign Horizon? Why?",
       "gui.sovereign_horizon.infusion_table_gui.label_infusion_table": "Infusion Table",
       "advancements.so_many_combos.descr": "Infuse Elixite Armor with an infusion table.",
+      "advancements.gotta_blast.descr": "Find or craft a boundstone",
       "advancements.a_new_meta.descr": "Get an Elixite Shard",
       "block.sovereign_horizon.thuliteand_lepidolite_tile_stairs": "Thulite and Lepidolite Tile Stairs",
       "enchantment.sovereign_horizon.bounding": "Bounding",

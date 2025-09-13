@@ -38,6 +38,7 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.sovereignhorizon.procedures.NewEntityDiesProcedure;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModItems;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEntities;
 
@@ -184,6 +185,12 @@ public class CatechismEntity extends Monster {
 	@Override
 	public boolean fireImmune() {
 		return true;
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		NewEntityDiesProcedure.execute(source.getEntity());
 	}
 
 	@Override

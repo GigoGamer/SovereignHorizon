@@ -38,6 +38,7 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.sovereignhorizon.procedures.RivedGhastEntityIsHurtProcedure;
+import net.mcreator.sovereignhorizon.procedures.NewEntityDiesProcedure;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEntities;
 
 import java.util.EnumSet;
@@ -165,6 +166,12 @@ public class RivedGhastEntity extends Monster {
 		if (damagesource.is(DamageTypes.FALLING_ANVIL))
 			return false;
 		return super.hurt(damagesource, amount);
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		NewEntityDiesProcedure.execute(source.getEntity());
 	}
 
 	@Override

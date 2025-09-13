@@ -12,7 +12,7 @@
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "how_riveding_0": {
@@ -35,5 +35,5 @@
   "rewards": {
     "experience": 1
   },
-  "parent": "sovereign_horizon:sh_enter"
+  "parent": "sovereign_horizon:mysterious_dangers"
 }

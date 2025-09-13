@@ -22,6 +22,7 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
@@ -34,6 +35,7 @@ import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.sovereignhorizon.procedures.SwitchlingOnInitialEntitySpawnProcedure;
 import net.mcreator.sovereignhorizon.procedures.SwitchlingOnEntityTickUpdateProcedure;
+import net.mcreator.sovereignhorizon.procedures.NewEntityDiesProcedure;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEntities;
 
 import javax.annotation.Nullable;
@@ -98,6 +100,12 @@ public class SwitchlingEntity extends Monster {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		NewEntityDiesProcedure.execute(source.getEntity());
 	}
 
 	@Override
