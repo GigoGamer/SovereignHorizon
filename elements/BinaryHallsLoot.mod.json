@@ -5,8 +5,8 @@
     "type": "Generic",
     "pools": [
       {
-        "minrolls": 4,
-        "maxrolls": 10,
+        "minrolls": 6,
+        "maxrolls": 12,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:BinaryShard"
             },
-            "weight": 15,
+            "weight": 12,
             "minCount": 1,
             "maxCount": 6,
             "minEnchantmentLevel": 0,
@@ -187,6 +187,20 @@
             "weight": 3,
             "minCount": 1,
             "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Boundstone"
+            },
+            "weight": 5,
+            "minCount": 2,
+            "maxCount": 4,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

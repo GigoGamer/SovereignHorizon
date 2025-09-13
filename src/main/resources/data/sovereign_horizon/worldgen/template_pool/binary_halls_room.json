@@ -14,7 +14,7 @@
       }
     },
     {
-      "weight": 10,
+      "weight": 8,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "sovereign_horizon:binary_halls_hall",
@@ -73,6 +73,28 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "sovereign_horizon:binary_halls_big_room",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sovereign_horizon:binary_halls_double_layer_hall",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "sovereign_horizon:binary_halls_tall_room",
         "projection": "rigid",
         "processors": {
           "processors": []

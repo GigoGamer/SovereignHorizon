@@ -37,7 +37,7 @@
             "ignoredBlocks": []
           },
           {
-            "weight": 10,
+            "weight": 8,
             "structure": "binary_halls_hall",
             "projection": "rigid",
             "ignoredBlocks": []
@@ -71,6 +71,18 @@
             "structure": "binary_halls_big_room",
             "projection": "rigid",
             "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "binary_halls_double_layer_hall",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "binary_halls_tall_room",
+            "projection": "rigid",
+            "ignoredBlocks": []
           }
         ]
       },
@@ -79,7 +91,7 @@
         "fallbackPool": "",
         "poolParts": [
           {
-            "weight": 5,
+            "weight": 3,
             "structure": "binary_halls_chest",
             "projection": "rigid",
             "ignoredBlocks": []
