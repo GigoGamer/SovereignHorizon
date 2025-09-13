@@ -1,7 +1,7 @@
 {
   "type": "minecraft:jigsaw",
   "start_pool": "sovereign_horizon:binary_halls",
-  "size": 7,
+  "size": 4,
   "max_distance_from_center": 64,
   "spawn_overrides": {},
   "step": "underground_structures",

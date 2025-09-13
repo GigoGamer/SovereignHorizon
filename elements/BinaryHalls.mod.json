@@ -23,7 +23,7 @@
     "startHeightProviderType": "UNIFORM",
     "startHeightMin": -40,
     "startHeightMax": 10,
-    "size": 7,
+    "size": 4,
     "maxDistanceFromCenter": 64,
     "jigsawPools": [
       {

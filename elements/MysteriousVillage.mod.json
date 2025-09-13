@@ -61,7 +61,7 @@
         "fallbackPool": "",
         "poolParts": [
           {
-            "weight": 10,
+            "weight": 5,
             "structure": "mysterious_village_corner",
             "projection": "rigid",
             "ignoredBlocks": []
@@ -79,7 +79,7 @@
             "ignoredBlocks": []
           },
           {
-            "weight": 5,
+            "weight": 4,
             "structure": "mysterious_village_lepidolite_chests",
             "projection": "rigid",
             "ignoredBlocks": []
@@ -87,6 +87,30 @@
           {
             "weight": 3,
             "structure": "mysterious_village_endermen",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 3,
+            "structure": "mysterious_village_liquid_void_room",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 5,
+            "structure": "mysterious_village_creeper_room",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 4,
+            "structure": "mysterious_village_tables",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 4,
+            "structure": "mysterious_village_endermen_loot",
             "projection": "rigid",
             "ignoredBlocks": []
           }

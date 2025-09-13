@@ -30,7 +30,7 @@
             "item": {
               "value": "CUSTOM:RecordSunrise"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -126,20 +126,6 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:TotemofChance"
-            },
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
               "value": "CUSTOM:RawCorruptedFlesh"
             },
             "weight": 10,
@@ -185,6 +171,20 @@
               "value": "CUSTOM:Repulstone"
             },
             "weight": 5,
+            "minCount": 1,
+            "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Creepmine"
+            },
+            "weight": 3,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
