@@ -26,7 +26,7 @@ public class KeystoneOnTickUpdateProcedure {
 			if (world.getLevelData().getGameRules().getBoolean(GameRules.RULE_DOMOBSPAWNING) && Mth.nextInt(RandomSource.create(), 1, 10) > 1
 					&& !(!world.getEntitiesOfClass(SwitchlingEntity.class, AABB.ofSize(new Vec3(x, y, z), 6, 6, 6), e -> true).isEmpty())) {
 				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = SovereignHorizonModEntities.SWITCHLING.get().spawn(_level, BlockPos.containing(x + Mth.nextInt(RandomSource.create(), -2, 2), y, z + Mth.nextInt(RandomSource.create(), -2, 2)), MobSpawnType.MOB_SUMMONED);
+					Entity entityToSpawn = SovereignHorizonModEntities.SWITCHLING.get().spawn(_level, BlockPos.containing(x + Mth.nextInt(RandomSource.create(), -1, 1), y, z + Mth.nextInt(RandomSource.create(), -1, 1)), MobSpawnType.MOB_SUMMONED);
 					if (entityToSpawn != null) {
 						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 					}
