@@ -16,5 +16,6 @@ import net.mcreator.sovereignhorizon.SovereignHorizonMod;
 public class SovereignHorizonModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, SovereignHorizonMod.MODID);
 	public static final RegistryObject<SoundEvent> RECORD_SUNRISE = REGISTRY.register("record.sunrise", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("sovereign_horizon", "record.sunrise")));
-	public static final RegistryObject<SoundEvent> MUSIC_HORIZON = REGISTRY.register("music.horizon", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("sovereign_horizon", "music.horizon")));
+	public static final RegistryObject<SoundEvent> MUSIC_SOVEREIGN_HORIZONS = REGISTRY.register("music.sovereign_horizons", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("sovereign_horizon", "music.sovereign_horizons")));
+	public static final RegistryObject<SoundEvent> MUSIC_KING_OF_HORIZONS = REGISTRY.register("music.king_of_horizons", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("sovereign_horizon", "music.king_of_horizons")));
 }

@@ -3,20 +3,29 @@
     "subtitle": "subtitles.record.sunrise",
     "sounds": [
       {
-        "name": "sovereign_horizon:sunrise",
+        "name": "sovereign_horizon:sunrise_1",
         "stream": true
       }
     ]
   },
-  "music.horizon": {
-    "subtitle": "subtitles.music.horizon",
+  "music.sovereign_horizons": {
+    "subtitle": "subtitles.music.sovereign_horizons",
     "sounds": [
       {
         "name": "sovereign_horizon:reachflowers",
         "stream": true
       },
       {
-        "name": "sovereign_horizon:droplet_-_deep_space_2025-07-28_18_16",
+        "name": "sovereign_horizon:deep_space",
+        "stream": true
+      }
+    ]
+  },
+  "music.king_of_horizons": {
+    "subtitle": "subtitles.music.king_of_horizons",
+    "sounds": [
+      {
+        "name": "sovereign_horizon:king_of_horizons-timestrech",
         "stream": true
       }
     ]

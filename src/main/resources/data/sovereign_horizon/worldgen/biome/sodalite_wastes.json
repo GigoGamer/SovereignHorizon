@@ -4,7 +4,7 @@
   "downfall": 0,
   "effects": {
     "music": {
-      "sound": "sovereign_horizon:music.horizon",
+      "sound": "sovereign_horizon:music.sovereign_horizons",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": true

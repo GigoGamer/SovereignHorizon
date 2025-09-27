@@ -9263,19 +9263,27 @@
     {
       "name": "record.sunrise",
       "files": [
-        "sunrise"
+        "sunrise_1"
       ],
-      "category": "record",
+      "category": "music",
       "subtitle": "Hopeful Music"
     },
     {
-      "name": "music.horizon",
+      "name": "music.sovereign_horizons",
       "files": [
         "reachflowers",
-        "droplet_-_deep_space_2025-07-28_18_16"
+        "deep_space"
       ],
       "category": "music",
       "subtitle": "Music"
+    },
+    {
+      "name": "music.king_of_horizons",
+      "files": [
+        "king_of_horizons-timestrech"
+      ],
+      "category": "music",
+      "subtitle": "Suspenseful Music"
     }
   ],
   "tag_elements": {
@@ -9789,6 +9797,7 @@
       "block.sovereign_horizon.sodaliteand_thulite_tile_stairs": "Sodalite and Thulite Tile Stairs",
       "block.sovereign_horizon.marbleand_sodalite_tile_slab": "Marble and Sodalite Tile Slab",
       "block.sovereign_horizon.sodalite_pressure_plate": "Sodalite Pressure Plate",
+      "subtitles.music.king_of_horizons": "Suspenseful Music",
       "block.sovereign_horizon.marble_tile_wall": "Marble Tile Wall",
       "block.sovereign_horizon.polished_larimar": "Polished Larimar",
       "advancements.sh_enter.descr": "Enter the Sovereign Horizon",
@@ -9911,6 +9920,7 @@
       "block.sovereign_horizon.thulite": "Thulite",
       "advancements.cheat_code.descr": "Use a Corrupted Pearl to phase in and out of reality",
       "item.sovereign_horizon.error_pearl": "Error Pearl",
+      "subtitles.music.sovereign_horizons": "Music",
       "block.sovereign_horizon.marble_wall": "Marble Wall",
       "block.sovereign_horizon.marbleand_thulite_tile_slab": "Marble and Thulite Tile Slab",
       "block.sovereign_horizon.polished_marble_stairs": "Polished Marble Stairs",
