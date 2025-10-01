@@ -23,6 +23,7 @@ import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
@@ -32,6 +33,7 @@ import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.sovereignhorizon.procedures.NewEntityDiesProcedure;
 import net.mcreator.sovereignhorizon.procedures.ElixisCorruptedEndermanOnEntityTickUpdateProcedure;
+import net.mcreator.sovereignhorizon.procedures.ElixisCorruptedEndermanEntityIsHurtProcedure;
 import net.mcreator.sovereignhorizon.init.SovereignHorizonModEntities;
 
 public class ElixisCorruptedEndermanEntity extends Monster {
@@ -95,6 +97,15 @@ public class ElixisCorruptedEndermanEntity extends Monster {
 
 	@Override
 	public boolean hurt(DamageSource damagesource, float amount) {
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level();
+		Entity entity = this;
+		Entity sourceentity = damagesource.getEntity();
+		Entity immediatesourceentity = damagesource.getDirectEntity();
+
+		ElixisCorruptedEndermanEntityIsHurtProcedure.execute(world, x, y, z, entity, sourceentity);
 		if (damagesource.getDirectEntity() instanceof AbstractArrow)
 			return false;
 		return super.hurt(damagesource, amount);

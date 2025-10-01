@@ -130,6 +130,9 @@
     "whenMobDies": {
       "name": "NewEntityDies"
     },
+    "whenMobIsHurt": {
+      "name": "ElixisCorruptedEndermanEntityIsHurt"
+    },
     "onMobTickUpdate": {
       "name": "ElixisCorruptedEndermanOnEntityTickUpdate"
     },
